@@ -1,0 +1,11 @@
+sat
+(model 
+  (define-fun arg1_1 () Binding
+    bind_dog)
+  (define-fun n1 () IfNeg
+    no)
+  (define-fun r1 () Rels
+    eqCount)
+  (define-fun arg1_2 () Binding
+    bind_cat)
+)

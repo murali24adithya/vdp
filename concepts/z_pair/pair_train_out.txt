@@ -1,0 +1,25 @@
+Enter Image Path: data/pair/train/pair_train_1.jpg: Predicted in 91.771406 seconds.
+dog: 100%
+Bounding Box: Left=93, Top=18, Right=239, Bottom=249
+dog: 91%
+Bounding Box: Left=10, Top=7, Right=132, Bottom=222
+Enter Image Path: data/pair/train/pair_train_2.jpg: Predicted in 55.918050 seconds.
+person: 100%
+Bounding Box: Left=464, Top=15, Right=925, Bottom=406
+person: 100%
+Bounding Box: Left=96, Top=0, Right=530, Bottom=406
+Enter Image Path: data/pair/train/pair_train_3.jpg: Predicted in 47.522485 seconds.
+bicycle: 100%
+Bounding Box: Left=121, Top=262, Right=419, Bottom=425
+bicycle: 100%
+Bounding Box: Left=401, Top=246, Right=713, Bottom=427
+Enter Image Path: data/pair/train/pair_train_4.jpg: Predicted in 52.522325 seconds.
+dog: 100%
+Bounding Box: Left=318, Top=196, Right=530, Bottom=837
+dog: 100%
+Bounding Box: Left=475, Top=233, Right=722, Bottom=824
+person: 99%
+Bounding Box: Left=481, Top=44, Right=906, Bottom=830
+person: 99%
+Bounding Box: Left=124, Top=77, Right=445, Bottom=803
+Enter Image Path: 

@@ -1,0 +1,11 @@
+Enter Image Path: data/catdog1.jpg: Predicted in 46.407154 seconds.
+cat: 100%
+Bounding Box: Left=360, Top=45, Right=820, Bottom=484
+Enter Image Path: data/catdog2.jpg: Predicted in 45.805261 seconds.
+bed: 63%
+Bounding Box: Left=11, Top=284, Right=613, Bottom=494
+dog: 100%
+Bounding Box: Left=23, Top=129, Right=285, Bottom=447
+cat: 100%
+Bounding Box: Left=280, Top=92, Right=600, Bottom=411
+Enter Image Path: 

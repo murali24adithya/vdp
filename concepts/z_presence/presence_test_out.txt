@@ -1,0 +1,23 @@
+Enter Image Path: data/presence/test/presence_test_1.jpg: Predicted in 52.044665 seconds.
+chair: 100%
+Bounding Box: Left=31, Top=364, Right=275, Bottom=669
+chair: 100%
+Bounding Box: Left=732, Top=350, Right=967, Bottom=672
+chair: 61%
+Bounding Box: Left=579, Top=451, Right=732, Bottom=605
+Enter Image Path: data/presence/test/presence_test_2.jpg: Predicted in 48.599596 seconds.
+vase: 99%
+Bounding Box: Left=700, Top=518, Right=788, Bottom=646
+diningtable: 93%
+Bounding Box: Left=449, Top=571, Right=1034, Bottom=999
+pottedplant: 100%
+Bounding Box: Left=185, Top=415, Right=319, Bottom=796
+pottedplant: 88%
+Bounding Box: Left=647, Top=381, Right=844, Bottom=619
+chair: 94%
+Bounding Box: Left=427, Top=571, Right=550, Bottom=937
+chair: 93%
+Bounding Box: Left=506, Top=565, Right=550, Bottom=642
+chair: 93%
+Bounding Box: Left=925, Top=562, Right=976, Bottom=649
+Enter Image Path: 

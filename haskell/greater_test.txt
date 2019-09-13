@@ -1,0 +1,30 @@
+Enter Image Path: data/catdog3.jpg: Predicted in 27.450330 seconds.
+dog: 100%
+Bounding Box: Left=0, Top=59, Right=94, Bottom=199
+dog: 99%
+Bounding Box: Left=163, Top=12, Right=237, Bottom=203
+dog: 90%
+Bounding Box: Left=280, Top=66, Right=336, Bottom=208
+cat: 100%
+Bounding Box: Left=338, Top=133, Right=399, Bottom=203
+cat: 100%
+Bounding Box: Left=97, Top=103, Right=163, Bottom=190
+cat: 98%
+Bounding Box: Left=226, Top=89, Right=283, Bottom=192
+Enter Image Path: data/catdog4.jpg: Predicted in 28.424978 seconds.
+dog: 98%
+Bounding Box: Left=151, Top=30, Right=210, Bottom=132
+dog: 97%
+Bounding Box: Left=34, Top=27, Right=110, Bottom=143
+dog: 91%
+Bounding Box: Left=95, Top=50, Right=165, Bottom=160
+cat: 99%
+Bounding Box: Left=212, Top=35, Right=263, Bottom=120
+Enter Image Path: data/catdog5.jpg: Predicted in 30.272974 seconds.
+dog: 56%
+Bounding Box: Left=238, Top=176, Right=567, Bottom=556
+cat: 97%
+Bounding Box: Left=16, Top=191, Right=268, Bottom=545
+cat: 66%
+Bounding Box: Left=239, Top=47, Right=430, Bottom=245
+Enter Image Path: 

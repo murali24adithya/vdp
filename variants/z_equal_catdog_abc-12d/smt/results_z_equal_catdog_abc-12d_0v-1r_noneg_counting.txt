@@ -1,0 +1,18 @@
+Candidate 1:
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 2:
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 3:
+
+Solution number 1
+
+[eqCount(dog,cat)]
+++++++++++++++
+
+-----------------------------
+
+!!!Solved in 0.0580551624298 seconds.

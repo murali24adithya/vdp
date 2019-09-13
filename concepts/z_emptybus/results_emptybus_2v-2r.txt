@@ -1,0 +1,12 @@
+Results for test image 2
+Forall x1. Forall x2. 
+(impl
+[labelOf(x1,suitcase)]
+[toLeft(x2,car)])
+++++++++++++++
+Results for test image 1
+Exists x1. Forall x2. 
+(impl
+[Not labelOf(x1,suitcase)]
+[Not labelOf(x2,person)])
+++++++++++++++

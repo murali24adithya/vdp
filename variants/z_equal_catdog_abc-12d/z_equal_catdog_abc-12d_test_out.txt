@@ -1,0 +1,24 @@
+Enter Image Path: /home/adithya/Synthesis/variants/z_equal_catdog_abc-12d/test_1.jpg: Predicted in 21.227096 seconds.
+dog: 56%
+Bounding Box: Left=238, Top=176, Right=567, Bottom=556
+cat: 97%
+Bounding Box: Left=16, Top=191, Right=268, Bottom=545
+cat: 66%
+Bounding Box: Left=239, Top=47, Right=430, Bottom=245
+Enter Image Path: /home/adithya/Synthesis/variants/z_equal_catdog_abc-12d/test_2.jpg: Predicted in 20.807920 seconds.
+dog: 100%
+Bounding Box: Left=46, Top=90, Right=184, Bottom=304
+dog: 100%
+Bounding Box: Left=311, Top=119, Right=405, Bottom=309
+dog: 99%
+Bounding Box: Left=207, Top=74, Right=320, Bottom=306
+cat: 100%
+Bounding Box: Left=396, Top=152, Right=480, Bottom=309
+cat: 100%
+Bounding Box: Left=170, Top=180, Right=237, Bottom=304
+Enter Image Path: /home/adithya/Synthesis/variants/z_equal_catdog_abc-12d/test_d.jpg: Predicted in 20.693052 seconds.
+dog: 100%
+Bounding Box: Left=263, Top=0, Right=429, Bottom=288
+cat: 100%
+Bounding Box: Left=30, Top=106, Right=293, Bottom=275
+Enter Image Path: 

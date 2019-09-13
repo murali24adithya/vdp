@@ -1,0 +1,46 @@
+Enter Image Path: data/pair/test/pair_test_1.jpg: Predicted in 68.409991 seconds.
+car: 100%
+Bounding Box: Left=13, Top=168, Right=337, Bottom=286
+car: 99%
+Bounding Box: Left=350, Top=170, Right=651, Bottom=288
+Enter Image Path: data/pair/test/pair_test_2.jpg: Predicted in 63.380518 seconds.
+car: 99%
+Bounding Box: Left=0, Top=239, Right=937, Bottom=622
+Enter Image Path: data/pair/test/pair_test_3.jpg: Predicted in 36.371906 seconds.
+car: 100%
+Bounding Box: Left=155, Top=161, Right=441, Bottom=303
+car: 100%
+Bounding Box: Left=293, Top=184, Right=570, Bottom=323
+car: 99%
+Bounding Box: Left=427, Top=195, Right=619, Bottom=329
+car: 99%
+Bounding Box: Left=492, Top=61, Right=619, Bottom=156
+car: 98%
+Bounding Box: Left=385, Top=47, Right=572, Bottom=140
+car: 98%
+Bounding Box: Left=23, Top=8, Right=214, Bottom=101
+car: 98%
+Bounding Box: Left=217, Top=19, Right=395, Bottom=117
+car: 98%
+Bounding Box: Left=23, Top=135, Right=290, Bottom=275
+car: 96%
+Bounding Box: Left=287, Top=32, Right=470, Bottom=126
+car: 94%
+Bounding Box: Left=0, Top=93, Right=190, Bottom=256
+car: 94%
+Bounding Box: Left=103, Top=19, Right=266, Bottom=108
+car: 87%
+Bounding Box: Left=0, Top=3, Right=126, Bottom=88
+car: 83%
+Bounding Box: Left=537, Top=0, Right=619, Bottom=48
+car: 78%
+Bounding Box: Left=379, Top=133, Right=561, Bottom=196
+car: 64%
+Bounding Box: Left=459, Top=0, Right=561, Bottom=30
+car: 62%
+Bounding Box: Left=0, Top=86, Right=86, Bottom=130
+car: 55%
+Bounding Box: Left=6, Top=304, Right=167, Bottom=327
+car: 52%
+Bounding Box: Left=461, Top=33, Right=568, Bottom=60
+Enter Image Path: 

@@ -1,0 +1,18 @@
+Enter Image Path: /home/adithya/Synthesis/concepts/emptybus/emptybus_train_1.jpg: Predicted in 21.214530 seconds.
+bus: 100%
+Bounding Box: Left=96, Top=43, Right=556, Bottom=374
+bus: 99%
+Bounding Box: Left=509, Top=116, Right=639, Bottom=353
+Enter Image Path: /home/adithya/Synthesis/concepts/emptybus/emptybus_train_2.jpg: Predicted in 20.941556 seconds.
+bus: 100%
+Bounding Box: Left=76, Top=63, Right=383, Bottom=313
+bus: 100%
+Bounding Box: Left=382, Top=48, Right=689, Bottom=336
+bus: 97%
+Bounding Box: Left=0, Top=46, Right=85, Bottom=340
+Enter Image Path: /home/adithya/Synthesis/concepts/emptybus/emptybus_train_3.jpg: Predicted in 20.931729 seconds.
+bus: 100%
+Bounding Box: Left=26, Top=16, Right=705, Bottom=536
+car: 100%
+Bounding Box: Left=722, Top=335, Right=932, Bottom=427
+Enter Image Path: 

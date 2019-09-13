@@ -1,0 +1,36 @@
+Enter Image Path: data/Synthesis/concepts/tvoff/tvoff_train_1.jpg: Predicted in 50.804059 seconds.
+tvmonitor: 100%
+Bounding Box: Left=522, Top=205, Right=2342, Bottom=1790
+Enter Image Path: data/Synthesis/concepts/tvoff/tvoff_train_2.jpg: Predicted in 54.180235 seconds.
+book: 69%
+Bounding Box: Left=612, Top=332, Right=625, Bottom=383
+book: 68%
+Bounding Box: Left=621, Top=333, Right=634, Bottom=383
+book: 65%
+Bounding Box: Left=605, Top=333, Right=617, Bottom=384
+book: 56%
+Bounding Box: Left=79, Top=293, Right=95, Bottom=333
+book: 53%
+Bounding Box: Left=115, Top=250, Right=128, Bottom=281
+book: 52%
+Bounding Box: Left=116, Top=293, Right=126, Bottom=333
+book: 52%
+Bounding Box: Left=123, Top=345, Right=136, Bottom=385
+book: 50%
+Bounding Box: Left=100, Top=297, Right=110, Bottom=333
+tvmonitor: 90%
+Bounding Box: Left=202, Top=125, Right=455, Bottom=264
+chair: 94%
+Bounding Box: Left=0, Top=363, Right=222, Bottom=553
+Enter Image Path: data/Synthesis/concepts/tvoff/tvoff_train_3.jpg: Predicted in 32.357964 seconds.
+book: 57%
+Bounding Box: Left=630, Top=750, Right=713, Bottom=773
+book: 57%
+Bounding Box: Left=630, Top=737, Right=712, Bottom=761
+book: 51%
+Bounding Box: Left=631, Top=769, Right=715, Bottom=789
+tvmonitor: 100%
+Bounding Box: Left=761, Top=451, Right=1107, Bottom=686
+pottedplant: 88%
+Bounding Box: Left=1084, Top=600, Right=1141, Bottom=699
+Enter Image Path: 

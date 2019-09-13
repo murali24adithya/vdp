@@ -1,0 +1,52 @@
+Enter Image Path: data/presence/train/presence_train_1.jpg: Predicted in 55.558182 seconds.
+vase: 99%
+Bounding Box: Left=0, Top=696, Right=167, Bottom=947
+vase: 97%
+Bounding Box: Left=1513, Top=592, Right=1619, Bottom=782
+vase: 81%
+Bounding Box: Left=851, Top=628, Right=910, Bottom=723
+diningtable: 73%
+Bounding Box: Left=588, Top=649, Right=1150, Bottom=879
+pottedplant: 95%
+Bounding Box: Left=0, Top=0, Right=651, Bottom=948
+pottedplant: 76%
+Bounding Box: Left=775, Top=393, Right=978, Bottom=729
+sofa: 61%
+Bounding Box: Left=954, Top=618, Right=1478, Bottom=1031
+sofa: 61%
+Bounding Box: Left=983, Top=535, Right=1371, Bottom=716
+chair: 100%
+Bounding Box: Left=418, Top=829, Right=959, Bottom=1079
+chair: 89%
+Bounding Box: Left=1052, Top=543, Right=1367, Bottom=720
+chair: 89%
+Bounding Box: Left=966, Top=651, Right=1471, Bottom=1055
+chair: 75%
+Bounding Box: Left=214, Top=670, Right=570, Bottom=1057
+cat: 94%
+Bounding Box: Left=1197, Top=647, Right=1345, Bottom=739
+Enter Image Path: data/presence/train/presence_train_2.jpg: Predicted in 44.527971 seconds.
+vase: 91%
+Bounding Box: Left=103, Top=192, Right=165, Bottom=343
+sofa: 98%
+Bounding Box: Left=226, Top=164, Right=580, Bottom=377
+Enter Image Path: data/presence/train/presence_train_3.jpg: Predicted in 26.544584 seconds.
+vase: 78%
+Bounding Box: Left=242, Top=263, Right=260, Bottom=297
+vase: 74%
+Bounding Box: Left=274, Top=282, Right=298, Bottom=352
+book: 64%
+Bounding Box: Left=172, Top=288, Right=212, Bottom=309
+sofa: 100%
+Bounding Box: Left=109, Top=200, Right=373, Bottom=319
+sofa: 86%
+Bounding Box: Left=4, Top=256, Right=259, Bottom=394
+chair: 55%
+Bounding Box: Left=0, Top=251, Right=243, Bottom=395
+sofa: 68%
+Bounding Box: Left=331, Top=228, Right=530, Bottom=381
+chair: 81%
+Bounding Box: Left=336, Top=241, Right=528, Bottom=387
+wine glass: 77%
+Bounding Box: Left=311, Top=310, Right=337, Bottom=360
+Enter Image Path: 

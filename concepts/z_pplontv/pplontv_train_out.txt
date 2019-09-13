@@ -1,0 +1,26 @@
+Enter Image Path: data/Synthesis/concepts/pplontv/pplontv_train_1.jpg: Predicted in 111.246895 seconds.
+tvmonitor: 98%
+Bounding Box: Left=124, Top=67, Right=1430, Bottom=1129
+person: 93%
+Bounding Box: Left=479, Top=254, Right=965, Bottom=946
+Enter Image Path: data/Synthesis/concepts/pplontv/pplontv_train_2.jpg: Predicted in 111.354228 seconds.
+tvmonitor: 65%
+Bounding Box: Left=217, Top=152, Right=1391, Bottom=1056
+person: 99%
+Bounding Box: Left=425, Top=264, Right=970, Bottom=958
+person: 98%
+Bounding Box: Left=61, Top=244, Right=149, Bottom=655
+Enter Image Path: data/Synthesis/concepts/pplontv/pplontv_train_3.jpg: Predicted in 60.686015 seconds.
+tvmonitor: 58%
+Bounding Box: Left=249, Top=18, Right=563, Bottom=190
+sofa: 71%
+Bounding Box: Left=0, Top=353, Right=641, Bottom=524
+person: 97%
+Bounding Box: Left=331, Top=41, Right=478, Bottom=154
+person: 83%
+Bounding Box: Left=9, Top=190, Right=521, Bottom=422
+person: 73%
+Bounding Box: Left=287, Top=18, Right=369, Bottom=160
+person: 60%
+Bounding Box: Left=521, Top=123, Right=796, Bottom=392
+Enter Image Path: 

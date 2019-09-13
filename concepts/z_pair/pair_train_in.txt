@@ -1,0 +1,4 @@
+data/Synthesis/pair/pair_train_1.jpg
+data/Synthesis/pair/pair_train_2.jpg
+data/Synthesis/pair/pair_train_3.jpg
+data/Synthesis/pair/pair_train_4.jpg

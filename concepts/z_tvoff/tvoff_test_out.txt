@@ -1,0 +1,16 @@
+Enter Image Path: data/Synthesis/concepts/tvoff/tvoff_test_1.jpg: Predicted in 61.256862 seconds.
+tvmonitor: 65%
+Bounding Box: Left=217, Top=152, Right=1391, Bottom=1056
+person: 99%
+Bounding Box: Left=425, Top=264, Right=970, Bottom=958
+person: 98%
+Bounding Box: Left=61, Top=244, Right=149, Bottom=655
+Enter Image Path: data/Synthesis/concepts/tvoff/tvoff_test_2.jpg: Predicted in 60.693918 seconds.
+tvmonitor: 100%
+Bounding Box: Left=522, Top=205, Right=2342, Bottom=1790
+Enter Image Path: data/Synthesis/concepts/tvoff/tvoff_test_3.jpg: Predicted in 29.405964 seconds.
+tvmonitor: 99%
+Bounding Box: Left=233, Top=107, Right=1662, Bottom=1146
+person: 92%
+Bounding Box: Left=646, Top=202, Right=1428, Bottom=1031
+Enter Image Path: 

@@ -1,0 +1,43 @@
+Enter Image Path: /home/adithya/Synthesis/concepts/emptybus/emptybus_test_1.jpg: Predicted in 20.855800 seconds.
+suitcase: 93%
+Bounding Box: Left=302, Top=497, Right=333, Bottom=568
+suitcase: 82%
+Bounding Box: Left=478, Top=495, Right=507, Bottom=581
+suitcase: 75%
+Bounding Box: Left=508, Top=523, Right=541, Bottom=577
+suitcase: 71%
+Bounding Box: Left=520, Top=498, Right=568, Bottom=522
+suitcase: 64%
+Bounding Box: Left=351, Top=474, Right=377, Bottom=539
+suitcase: 55%
+Bounding Box: Left=224, Top=481, Right=285, Bottom=520
+suitcase: 55%
+Bounding Box: Left=327, Top=492, Right=353, Bottom=537
+suitcase: 54%
+Bounding Box: Left=211, Top=511, Right=284, Bottom=552
+truck: 62%
+Bounding Box: Left=945, Top=358, Right=999, Bottom=537
+bus: 99%
+Bounding Box: Left=480, Top=225, Right=954, Bottom=537
+car: 91%
+Bounding Box: Left=367, Top=445, Right=435, Bottom=474
+person: 100%
+Bounding Box: Left=16, Top=406, Right=67, Bottom=554
+person: 100%
+Bounding Box: Left=92, Top=410, Right=146, Bottom=557
+person: 100%
+Bounding Box: Left=170, Top=409, Right=221, Bottom=558
+person: 99%
+Bounding Box: Left=267, Top=403, Right=316, Bottom=512
+person: 95%
+Bounding Box: Left=215, Top=407, Right=254, Bottom=485
+person: 92%
+Bounding Box: Left=417, Top=433, Right=491, Bottom=602
+person: 55%
+Bounding Box: Left=61, Top=409, Right=100, Bottom=546
+Enter Image Path: /home/adithya/Synthesis/concepts/emptybus/emptybus_test_2.jpg: Predicted in 20.587671 seconds.
+bus: 100%
+Bounding Box: Left=0, Top=31, Right=344, Bottom=344
+person: 64%
+Bounding Box: Left=215, Top=130, Right=257, Bottom=189
+Enter Image Path: 

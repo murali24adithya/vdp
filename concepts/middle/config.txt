@@ -1,0 +1,1 @@
+3 3 existential=yes conjuncts=yes num_solutions=8
