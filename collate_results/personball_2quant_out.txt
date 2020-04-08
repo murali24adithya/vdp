@@ -1,0 +1,200 @@
+Processing personball_abc-1.12.1d
+
+real	0m7.051s
+user	0m6.914s
+sys	0m0.136s
+Exists x1: sports_ball. Exists x2: person. (AND )
+Candidate 3
+
+Finished processing personball_abc-1.12.1d
+
+Processing personball_abc-1.12.1e
+
+real	0m5.189s
+user	0m5.096s
+sys	0m0.092s
+Exists x1: sports_ball. Exists x2: person. (AND )
+Candidate 3
+
+Finished processing personball_abc-1.12.1e
+
+Processing personball_abc-1.12.2d
+
+real	0m7.059s
+user	0m6.918s
+sys	0m0.140s
+Exists x1: sports_ball. Exists x2: person. (AND )
+Candidate 3
+
+Finished processing personball_abc-1.12.2d
+
+Processing personball_abc-1.12.2e
+
+real	0m5.373s
+user	0m5.293s
+sys	0m0.080s
+Exists x1: person. Exists x2: sports_ball. (AND )
+Candidate 3
+
+Finished processing personball_abc-1.12.2e
+
+Processing personball_abc-1.22.1d
+
+real	0m7.556s
+user	0m7.415s
+sys	0m0.140s
+Exists x1: person. Exists x2: sports_ball. (AND )
+Candidate 3
+
+Finished processing personball_abc-1.22.1d
+
+Processing personball_abc-1.22.1e
+
+real	0m5.735s
+user	0m5.646s
+sys	0m0.088s
+Exists x1: person. Exists x2: sports_ball. (AND )
+Candidate 3
+
+Finished processing personball_abc-1.22.1e
+
+Processing personball_abc-1.22.2d
+
+real	0m7.116s
+user	0m6.995s
+sys	0m0.120s
+Exists x1: person. Exists x2: sports_ball. (AND )
+Candidate 3
+
+Finished processing personball_abc-1.22.2d
+
+Processing personball_abc-1.22.2e
+
+real	0m5.384s
+user	0m5.264s
+sys	0m0.120s
+Exists x1: sports_ball. Exists x2: person. (AND )
+Candidate 3
+
+Finished processing personball_abc-1.22.2e
+
+Processing personball_abc-1.32.1d
+
+real	0m7.428s
+user	0m7.316s
+sys	0m0.112s
+Exists x1: sports_ball. Exists x2: person. (AND )
+Candidate 3
+
+Finished processing personball_abc-1.32.1d
+
+Processing personball_abc-1.32.1e
+
+real	0m5.879s
+user	0m5.767s
+sys	0m0.112s
+Exists x1: person. Exists x2: sports_ball. (AND )
+Candidate 3
+
+Finished processing personball_abc-1.32.1e
+
+Processing personball_abc-1.32.2d
+
+real	0m7.465s
+user	0m7.345s
+sys	0m0.120s
+Exists x1: person. Exists x2: sports_ball. (AND )
+Candidate 3
+
+Finished processing personball_abc-1.32.2d
+
+Processing personball_abc-1.32.2e
+
+real	0m5.321s
+user	0m5.205s
+sys	0m0.116s
+Exists x1: sports_ball. Exists x2: person. (AND )
+Candidate 3
+
+Finished processing personball_abc-1.32.2e
+
+Processing personball_abd-1.12.1c
+
+real	0m7.304s
+user	0m7.183s
+sys	0m0.120s
+Exists x1: person. Exists x2: sports_ball. (AND )
+Candidate 3
+
+Finished processing personball_abd-1.12.1c
+
+Processing personball_abd-1.12.1e
+
+real	0m1.024s
+user	0m1.000s
+sys	0m0.024s
+Exists x1: person. Exists x2: sports_ball. (AND )
+Candidate 3
+
+Finished processing personball_abd-1.12.1e
+
+Processing personball_abd-1.12.2c
+
+real	0m6.756s
+user	0m6.672s
+sys	0m0.084s
+Exists x1: sports_ball. Exists x2: person. (AND )
+Candidate 3
+
+Finished processing personball_abd-1.12.2c
+
+Processing personball_abd-1.12.2e
+
+real	0m0.899s
+user	0m0.859s
+sys	0m0.040s
+Exists x1: person. Exists x2: sports_ball. (AND )
+Candidate 3
+
+Finished processing personball_abd-1.12.2e
+
+Processing personball_abd-1.22.1c
+
+real	0m7.087s
+user	0m6.959s
+sys	0m0.128s
+Exists x1: person. Exists x2: sports_ball. (AND )
+Candidate 3
+
+Finished processing personball_abd-1.22.1c
+
+Processing personball_abd-1.22.2c
+
+real	0m6.684s
+user	0m6.579s
+sys	0m0.104s
+Exists x1: person. Exists x2: sports_ball. (AND )
+Candidate 3
+
+Finished processing personball_abd-1.22.2c
+
+Processing personball_abd-1.32.1c
+
+real	0m7.074s
+user	0m6.974s
+sys	0m0.100s
+Exists x1: sports_ball. Exists x2: person. (AND )
+Candidate 3
+
+Finished processing personball_abd-1.32.1c
+
+Processing personball_abd-1.32.2c
+
+real	0m6.655s
+user	0m6.511s
+sys	0m0.144s
+Exists x1: person. Exists x2: sports_ball. (AND )
+Candidate 3
+
+Finished processing personball_abd-1.32.2c
+

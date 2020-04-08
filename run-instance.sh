@@ -10,8 +10,10 @@
 
 #####TO DO:
 #Consider adding support for running the python file and the generated sygus file with multiple configurations.
-scriptpath="/home/umang/Documents/synthesis/VDPFormulation"
-cvc4call="/home/umang/Documents/synthesis/cvc4recent"
+
+parent_path=$( cd "$(dirname "${BASH_SOURCE[0]}")" ; pwd -P )
+scriptpath="${parent_path}/VDPFormulation"
+cvc4call="/home/umang/Documents/cvc4recent"
 
 instance=$1
 numquants=$2
