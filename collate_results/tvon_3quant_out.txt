@@ -1,0 +1,180 @@
+Processing tvon_abc-12d
+
+real	0m0.089s
+user	0m0.085s
+sys	0m0.004s
+Unsat. No model available.
+
+Finished processing tvon_abc-12d
+
+Processing tvon_abc-12e
+
+real	0m0.048s
+user	0m0.048s
+sys	0m0.000s
+Unsat. No model available.
+
+Finished processing tvon_abc-12e
+
+Processing tvon_abc-13d
+
+real	0m0.227s
+user	0m0.223s
+sys	0m0.004s
+Unsat. No model available.
+
+Finished processing tvon_abc-13d
+
+Processing tvon_abc-13e
+
+real	0m0.179s
+user	0m0.179s
+sys	0m0.000s
+Unsat. No model available.
+
+Finished processing tvon_abc-13e
+
+Processing tvon_abc-14d
+
+real	0m0.100s
+user	0m0.096s
+sys	0m0.004s
+Unsat. No model available.
+
+Finished processing tvon_abc-14d
+
+Processing tvon_abc-14e
+
+real	0m0.072s
+user	0m0.068s
+sys	0m0.004s
+Unsat. No model available.
+
+Finished processing tvon_abc-14e
+
+Processing tvon_abc-15d
+
+real	0m0.071s
+user	0m0.063s
+sys	0m0.008s
+Unsat. No model available.
+
+Finished processing tvon_abc-15d
+
+Processing tvon_abc-15e
+
+real	0m0.051s
+user	0m0.046s
+sys	0m0.004s
+Unsat. No model available.
+
+Finished processing tvon_abc-15e
+
+Processing tvon_abc-23d
+
+real	0m0.157s
+user	0m0.149s
+sys	0m0.008s
+Unsat. No model available.
+
+Finished processing tvon_abc-23d
+
+Processing tvon_abc-23e
+
+real	0m0.123s
+user	0m0.123s
+sys	0m0.000s
+Unsat. No model available.
+
+Finished processing tvon_abc-23e
+
+Processing tvon_abc-24d
+
+real	0m0.072s
+user	0m0.068s
+sys	0m0.004s
+Unsat. No model available.
+
+Finished processing tvon_abc-24d
+
+Processing tvon_abc-24e
+
+real	0m0.050s
+user	0m0.050s
+sys	0m0.000s
+Unsat. No model available.
+
+Finished processing tvon_abc-24e
+
+Processing tvon_abc-25d
+
+real	0m0.050s
+user	0m0.050s
+sys	0m0.000s
+Unsat. No model available.
+
+Finished processing tvon_abc-25d
+
+Processing tvon_abc-25e
+
+real	0m0.037s
+user	0m0.037s
+sys	0m0.000s
+Unsat. No model available.
+
+Finished processing tvon_abc-25e
+
+Processing tvon_abc-34d
+
+real	0m0.218s
+user	0m0.218s
+sys	0m0.000s
+Unsat. No model available.
+
+Finished processing tvon_abc-34d
+
+Processing tvon_abc-34e
+
+real	0m0.165s
+user	0m0.165s
+sys	0m0.000s
+Unsat. No model available.
+
+Finished processing tvon_abc-34e
+
+Processing tvon_abc-35d
+
+real	0m0.183s
+user	0m0.179s
+sys	0m0.004s
+Unsat. No model available.
+
+Finished processing tvon_abc-35d
+
+Processing tvon_abc-35e
+
+real	0m0.127s
+user	0m0.115s
+sys	0m0.012s
+Unsat. No model available.
+
+Finished processing tvon_abc-35e
+
+Processing tvon_abc-45d
+
+real	0m0.085s
+user	0m0.081s
+sys	0m0.004s
+Unsat. No model available.
+
+Finished processing tvon_abc-45d
+
+Processing tvon_abc-45e
+
+real	0m0.058s
+user	0m0.054s
+sys	0m0.004s
+Unsat. No model available.
+
+Finished processing tvon_abc-45e
+
