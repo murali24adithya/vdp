@@ -1,0 +1,180 @@
+Processing personball_abc-1.12.1d
+
+real	0m0.503s
+user	0m0.471s
+sys	0m0.032s
+Unsat. No model available.
+
+Finished processing personball_abc-1.12.1d
+
+Processing personball_abc-1.12.1e
+
+real	0m0.452s
+user	0m0.432s
+sys	0m0.020s
+Unsat. No model available.
+
+Finished processing personball_abc-1.12.1e
+
+Processing personball_abc-1.12.2d
+
+real	0m0.555s
+user	0m0.543s
+sys	0m0.012s
+Unsat. No model available.
+
+Finished processing personball_abc-1.12.2d
+
+Processing personball_abc-1.12.2e
+
+real	0m0.391s
+user	0m0.379s
+sys	0m0.012s
+Unsat. No model available.
+
+Finished processing personball_abc-1.12.2e
+
+Processing personball_abc-1.22.1d
+
+real	0m0.563s
+user	0m0.543s
+sys	0m0.020s
+Unsat. No model available.
+
+Finished processing personball_abc-1.22.1d
+
+Processing personball_abc-1.22.1e
+
+real	0m0.398s
+user	0m0.378s
+sys	0m0.020s
+Unsat. No model available.
+
+Finished processing personball_abc-1.22.1e
+
+Processing personball_abc-1.22.2d
+
+real	0m0.528s
+user	0m0.520s
+sys	0m0.008s
+Unsat. No model available.
+
+Finished processing personball_abc-1.22.2d
+
+Processing personball_abc-1.22.2e
+
+real	0m0.380s
+user	0m0.352s
+sys	0m0.028s
+Unsat. No model available.
+
+Finished processing personball_abc-1.22.2e
+
+Processing personball_abc-1.32.1d
+
+real	0m0.606s
+user	0m0.591s
+sys	0m0.016s
+Unsat. No model available.
+
+Finished processing personball_abc-1.32.1d
+
+Processing personball_abc-1.32.1e
+
+real	0m0.397s
+user	0m0.385s
+sys	0m0.012s
+Unsat. No model available.
+
+Finished processing personball_abc-1.32.1e
+
+Processing personball_abc-1.32.2d
+
+real	0m0.540s
+user	0m0.520s
+sys	0m0.020s
+Unsat. No model available.
+
+Finished processing personball_abc-1.32.2d
+
+Processing personball_abc-1.32.2e
+
+real	0m0.352s
+user	0m0.343s
+sys	0m0.008s
+Unsat. No model available.
+
+Finished processing personball_abc-1.32.2e
+
+Processing personball_abd-1.12.1c
+
+real	0m0.596s
+user	0m0.591s
+sys	0m0.004s
+Unsat. No model available.
+
+Finished processing personball_abd-1.12.1c
+
+Processing personball_abd-1.12.1e
+
+real	0m0.181s
+user	0m0.173s
+sys	0m0.008s
+Unsat. No model available.
+
+Finished processing personball_abd-1.12.1e
+
+Processing personball_abd-1.12.2c
+
+real	0m0.499s
+user	0m0.475s
+sys	0m0.024s
+Unsat. No model available.
+
+Finished processing personball_abd-1.12.2c
+
+Processing personball_abd-1.12.2e
+
+real	0m0.135s
+user	0m0.127s
+sys	0m0.008s
+Unsat. No model available.
+
+Finished processing personball_abd-1.12.2e
+
+Processing personball_abd-1.22.1c
+
+real	0m0.575s
+user	0m0.555s
+sys	0m0.020s
+Unsat. No model available.
+
+Finished processing personball_abd-1.22.1c
+
+Processing personball_abd-1.22.2c
+
+real	0m0.467s
+user	0m0.455s
+sys	0m0.012s
+Unsat. No model available.
+
+Finished processing personball_abd-1.22.2c
+
+Processing personball_abd-1.32.1c
+
+real	0m0.556s
+user	0m0.544s
+sys	0m0.012s
+Unsat. No model available.
+
+Finished processing personball_abd-1.32.1c
+
+Processing personball_abd-1.32.2c
+
+real	0m0.475s
+user	0m0.471s
+sys	0m0.004s
+Unsat. No model available.
+
+Finished processing personball_abd-1.32.2c
+
