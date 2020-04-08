@@ -1,0 +1,59 @@
+Enter Image Path: /home/adithya/Synthesis/variants/desktop_abc-1.12.23.1d/test_1.1.jpg: Predicted in 21.213329 seconds.
+book: 61%
+Bounding Box: Left=163, Top=109, Right=179, Bottom=133
+book: 51%
+Bounding Box: Left=149, Top=109, Right=163, Bottom=135
+tvmonitor: 60%
+Bounding Box: Left=461, Top=116, Right=529, Bottom=168
+sofa: 94%
+Bounding Box: Left=306, Top=190, Right=623, Bottom=425
+sofa: 81%
+Bounding Box: Left=50, Top=143, Right=254, Bottom=291
+sofa: 74%
+Bounding Box: Left=1, Top=208, Right=105, Bottom=425
+sofa: 62%
+Bounding Box: Left=408, Top=175, Right=548, Bottom=293
+chair: 88%
+Bounding Box: Left=410, Top=154, Right=526, Bottom=291
+Enter Image Path: /home/adithya/Synthesis/variants/desktop_abc-1.12.23.1d/test_2.2.jpg: Predicted in 20.891299 seconds.
+vase: 59%
+Bounding Box: Left=503, Top=36, Right=530, Bottom=66
+remote: 61%
+Bounding Box: Left=179, Top=35, Right=199, Bottom=57
+tvmonitor: 100%
+Bounding Box: Left=293, Top=123, Right=405, Bottom=238
+person: 100%
+Bounding Box: Left=180, Top=26, Right=313, Bottom=393
+Enter Image Path: /home/adithya/Synthesis/variants/desktop_abc-1.12.23.1d/test_3.1.jpg: Predicted in 20.869287 seconds.
+keyboard: 79%
+Bounding Box: Left=9, Top=57, Right=515, Bottom=239
+mouse: 96%
+Bounding Box: Left=517, Top=154, Right=614, Bottom=275
+diningtable: 69%
+Bounding Box: Left=36, Top=49, Right=639, Bottom=286
+Enter Image Path: /home/adithya/Synthesis/variants/desktop_abc-1.12.23.1d/test_d.jpg: Predicted in 20.978437 seconds.
+book: 69%
+Bounding Box: Left=63, Top=64, Right=118, Bottom=80
+book: 55%
+Bounding Box: Left=27, Top=65, Right=65, Bottom=82
+book: 52%
+Bounding Box: Left=65, Top=58, Right=116, Bottom=72
+keyboard: 86%
+Bounding Box: Left=277, Top=238, Right=449, Bottom=314
+mouse: 100%
+Bounding Box: Left=365, Top=331, Right=406, Bottom=368
+mouse: 100%
+Bounding Box: Left=256, Top=224, Right=292, Bottom=242
+mouse: 100%
+Bounding Box: Left=462, Top=373, Right=527, Bottom=412
+tvmonitor: 99%
+Bounding Box: Left=341, Top=82, Right=486, Bottom=252
+tvmonitor: 99%
+Bounding Box: Left=234, Top=71, Right=345, Bottom=193
+tvmonitor: 93%
+Bounding Box: Left=160, Top=79, Right=233, Bottom=166
+chair: 62%
+Bounding Box: Left=36, Top=289, Right=265, Bottom=425
+backpack: 76%
+Bounding Box: Left=85, Top=322, Right=234, Bottom=422
+Enter Image Path: 

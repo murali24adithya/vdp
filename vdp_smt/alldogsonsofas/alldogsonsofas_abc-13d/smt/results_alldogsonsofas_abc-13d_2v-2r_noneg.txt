@@ -1,0 +1,20 @@
+Candidate 1:
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 2:
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 3:
+
+Solution number 1
+Forall x1. Exists x2. 
+(impl
+[labelOf(x1,dog)]
+[within(x1,x2)])
+++++++++++++++
+
+-----------------------------
+
+!!!Solved in 345.554772854 seconds.

@@ -1,0 +1,41 @@
+Candidate 1:
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 2:
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 3:
+
+Solution number 1
+Exists x1. 
+(impl
+[neq(bench,cat)]
+[labelOf(x1,person)])
+++++++++++++++
+
+Solution number 2
+Exists x1. 
+(or
+[above(x1,x1)]
+[labelOf(x1,person)])
+++++++++++++++
+
+Solution number 3
+Exists x1. 
+(or
+[toLeft(x1,x1)]
+[labelOf(x1,person)])
+++++++++++++++
+
+Solution number 4
+Exists x1. 
+(impl
+[sameLabel(x1,x1)]
+[labelOf(x1,person)])
+++++++++++++++
+
+-----------------------------
+
+!!!Solved in 3.94260787964 seconds.

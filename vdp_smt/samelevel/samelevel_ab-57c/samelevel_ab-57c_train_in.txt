@@ -1,0 +1,2 @@
+/home/adithya/Synthesis/variants/samelevel_ab-57c/train_a.jpg
+/home/adithya/Synthesis/variants/samelevel_ab-57c/train_b.jpg

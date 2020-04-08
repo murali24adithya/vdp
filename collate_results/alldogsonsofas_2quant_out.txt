@@ -1,0 +1,184 @@
+Processing alldogsonsofas_abc-12d
+
+real	0m0.245s
+user	0m0.233s
+sys	0m0.012s
+Unsat. No model available.
+
+Finished processing alldogsonsofas_abc-12d
+
+Processing alldogsonsofas_abc-12e
+
+real	0m0.312s
+user	0m0.308s
+sys	0m0.004s
+Unsat. No model available.
+
+Finished processing alldogsonsofas_abc-12e
+
+Processing alldogsonsofas_abc-13d
+
+real	0m1.130s
+user	0m1.106s
+sys	0m0.024s
+Unsat. No model available.
+
+Finished processing alldogsonsofas_abc-13d
+
+Processing alldogsonsofas_abc-13e
+
+real	0m1.614s
+user	0m1.554s
+sys	0m0.060s
+Unsat. No model available.
+
+Finished processing alldogsonsofas_abc-13e
+
+Processing alldogsonsofas_abc-23d
+
+real	0m1.268s
+user	0m1.244s
+sys	0m0.024s
+Unsat. No model available.
+
+Finished processing alldogsonsofas_abc-23d
+
+Processing alldogsonsofas_abc-23e
+
+real	0m1.029s
+user	0m1.009s
+sys	0m0.020s
+Unsat. No model available.
+
+Finished processing alldogsonsofas_abc-23e
+
+Processing alldogsonsofas_abd-12c
+
+real	0m0.344s
+user	0m0.336s
+sys	0m0.008s
+Unsat. No model available.
+
+Finished processing alldogsonsofas_abd-12c
+
+Processing alldogsonsofas_abd-12e
+
+real	0m0.302s
+user	0m0.302s
+sys	0m0.000s
+Unsat. No model available.
+
+Finished processing alldogsonsofas_abd-12e
+
+Processing alldogsonsofas_abd-13c
+
+real	0m1.088s
+user	0m1.068s
+sys	0m0.020s
+Exists x1: sofa. Forall x2: sofa. (AND eq_x1_x2)
+Candidate 1
+
+Finished processing alldogsonsofas_abd-13c
+
+Processing alldogsonsofas_abd-13e
+
+real	0m1.123s
+user	0m1.103s
+sys	0m0.020s
+Exists x1: sofa. Forall x2: sofa. (AND eq_x1_x2)
+Candidate 1
+
+Finished processing alldogsonsofas_abd-13e
+
+Processing alldogsonsofas_abd-23c
+
+real	0m1.053s
+user	0m1.033s
+sys	0m0.020s
+Exists x1: sofa. Forall x2: sofa. (AND eq_x1_x2)
+Candidate 1
+
+Finished processing alldogsonsofas_abd-23c
+
+Processing alldogsonsofas_abd-23e
+
+real	0m0.890s
+user	0m0.866s
+sys	0m0.024s
+Exists x1: sofa. Forall x2: sofa. (AND eq_x1_x2)
+Candidate 1
+
+Finished processing alldogsonsofas_abd-23e
+
+Processing alldogsonsofas_abe-12c
+
+real	0m0.297s
+user	0m0.289s
+sys	0m0.008s
+Unsat. No model available.
+
+Finished processing alldogsonsofas_abe-12c
+
+Processing alldogsonsofas_abe-12d
+
+real	0m0.199s
+user	0m0.195s
+sys	0m0.004s
+Unsat. No model available.
+
+Finished processing alldogsonsofas_abe-12d
+
+Processing alldogsonsofas_abe-13c
+
+real	0m1.124s
+user	0m1.084s
+sys	0m0.040s
+Unsat. No model available.
+
+Finished processing alldogsonsofas_abe-13c
+
+Processing alldogsonsofas_abe-13d
+
+real	0m0.914s
+user	0m0.897s
+sys	0m0.016s
+Unsat. No model available.
+
+Finished processing alldogsonsofas_abe-13d
+
+Processing alldogsonsofas_abe-23c
+
+real	0m1.177s
+user	0m1.116s
+sys	0m0.060s
+Unsat. No model available.
+
+Finished processing alldogsonsofas_abe-23c
+
+Processing alldogsonsofas_abe-23d
+
+real	0m0.964s
+user	0m0.944s
+sys	0m0.020s
+Unsat. No model available.
+
+Finished processing alldogsonsofas_abe-23d
+
+Processing alldogsonsofas_acd-12b
+
+real	0m0.272s
+user	0m0.272s
+sys	0m0.000s
+Unsat. No model available.
+
+Finished processing alldogsonsofas_acd-12b
+
+Processing alldogsonsofas_acd-13b
+
+real	0m1.020s
+user	0m0.992s
+sys	0m0.028s
+Unsat. No model available.
+
+Finished processing alldogsonsofas_acd-13b
+

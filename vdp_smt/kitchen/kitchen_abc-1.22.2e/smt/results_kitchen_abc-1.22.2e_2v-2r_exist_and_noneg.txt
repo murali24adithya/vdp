@@ -1,0 +1,69 @@
+Candidate 1:
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 2:
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 3:
+
+Solution number 1
+Exists x1. Exists x2. 
+(and
+[labelOf(x2,refrigerator)]
+[neq(diningtable,x2)])
+++++++++++++++
+
+Solution number 2
+Exists x1. Exists x2. 
+(and
+[Not within(diningtable,x1)]
+[labelOf(x1,refrigerator)])
+++++++++++++++
+
+Solution number 3
+Exists x1. Exists x2. 
+(and
+[labelOf(x2,oven)]
+[Not within(diningtable,x1)])
+++++++++++++++
+
+Solution number 4
+Exists x1. Exists x2. 
+(and
+[labelOf(x1,refrigerator)]
+[Not within(diningtable,diningtable)])
+++++++++++++++
+
+Solution number 5
+Exists x1. Exists x2. 
+(and
+[neq(diningtable,nullobj)]
+[labelOf(x2,oven)])
+++++++++++++++
+
+Solution number 6
+Exists x1. Exists x2. 
+(and
+[neq(diningtable,spoon)]
+[labelOf(x2,oven)])
+++++++++++++++
+
+Solution number 7
+Exists x1. Exists x2. 
+(and
+[labelOf(x1,oven)]
+[sameLabel(x1,x1)])
+++++++++++++++
+
+Solution number 8
+Exists x1. Exists x2. 
+(and
+[sameLabel(x2,x2)]
+[labelOf(x1,refrigerator)])
+++++++++++++++
+
+-----------------------------
+
+!!!Solved in 21.4877860546 seconds.

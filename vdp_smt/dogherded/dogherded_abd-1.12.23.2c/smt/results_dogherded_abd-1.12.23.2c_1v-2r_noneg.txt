@@ -1,0 +1,31 @@
+Candidate 1:
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 2:
+
+Solution number 1
+Exists x1. 
+(or
+[labelOf(x1,car)]
+[labelOf(x1,person)])
+++++++++++++++
+
+Solution number 2
+Exists x1. 
+(or
+[labelOf(x1,person)]
+[labelOf(x1,car)])
+++++++++++++++
+
+-----------------------------
+Candidate 3:
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 4:
+
+Unsat:No more formulae.
+-----------------------------
+
+!!!Solved in 231.596607924 seconds.

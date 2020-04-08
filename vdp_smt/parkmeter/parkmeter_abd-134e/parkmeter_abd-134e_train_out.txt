@@ -1,0 +1,42 @@
+Enter Image Path: /home/adithya/Synthesis/variants/parkmeter_abd-134e/train_a.jpg: Predicted in 21.083999 seconds.
+parking meter: 97%
+Bounding Box: Left=237, Top=318, Right=253, Bottom=356
+car: 100%
+Bounding Box: Left=250, Top=327, Right=392, Bottom=419
+car: 100%
+Bounding Box: Left=335, Top=350, Right=619, Bottom=424
+car: 100%
+Bounding Box: Left=289, Top=293, Right=340, Bottom=322
+car: 99%
+Bounding Box: Left=244, Top=288, Right=279, Bottom=312
+car: 98%
+Bounding Box: Left=345, Top=291, Right=402, Bottom=323
+car: 95%
+Bounding Box: Left=272, Top=284, Right=302, Bottom=306
+car: 85%
+Bounding Box: Left=228, Top=278, Right=256, Bottom=298
+car: 70%
+Bounding Box: Left=159, Top=290, Right=219, Bottom=333
+person: 100%
+Bounding Box: Left=90, Top=290, Right=106, Bottom=333
+Enter Image Path: /home/adithya/Synthesis/variants/parkmeter_abd-134e/train_b.jpg: Predicted in 20.799209 seconds.
+parking meter: 100%
+Bounding Box: Left=174, Top=163, Right=354, Bottom=479
+parking meter: 99%
+Bounding Box: Left=343, Top=163, Right=518, Bottom=479
+parking meter: 50%
+Bounding Box: Left=576, Top=69, Right=590, Bottom=95
+truck: 88%
+Bounding Box: Left=308, Top=63, Right=528, Bottom=156
+car: 100%
+Bounding Box: Left=7, Top=91, Right=241, Bottom=170
+car: 98%
+Bounding Box: Left=4, Top=223, Right=182, Bottom=473
+Enter Image Path: /home/adithya/Synthesis/variants/parkmeter_abd-134e/train_d.jpg: Predicted in 20.804693 seconds.
+parking meter: 95%
+Bounding Box: Left=210, Top=106, Right=231, Bottom=150
+car: 100%
+Bounding Box: Left=165, Top=113, Right=600, Bottom=425
+car: 51%
+Bounding Box: Left=518, Top=106, Right=537, Bottom=127
+Enter Image Path: 

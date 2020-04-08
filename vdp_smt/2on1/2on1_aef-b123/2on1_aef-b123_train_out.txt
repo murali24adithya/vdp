@@ -1,0 +1,24 @@
+Enter Image Path: /home/adithya/Synthesis/variants/2on1_aef-b123/train_a.jpg: Predicted in 22.189290 seconds.
+sofa: 100%
+Bounding Box: Left=0, Top=107, Right=3717, Bottom=2091
+cat: 100%
+Bounding Box: Left=1946, Top=485, Right=3002, Bottom=1354
+cat: 100%
+Bounding Box: Left=555, Top=381, Right=1701, Bottom=1395
+Enter Image Path: /home/adithya/Synthesis/variants/2on1_aef-b123/train_e.jpg: Predicted in 21.860654 seconds.
+bed: 92%
+Bounding Box: Left=19, Top=58, Right=639, Bottom=558
+sofa: 83%
+Bounding Box: Left=0, Top=0, Right=639, Bottom=558
+cat: 100%
+Bounding Box: Left=412, Top=143, Right=588, Bottom=321
+cat: 100%
+Bounding Box: Left=33, Top=157, Right=267, Bottom=330
+Enter Image Path: /home/adithya/Synthesis/variants/2on1_aef-b123/train_f.jpg: Predicted in 22.009376 seconds.
+sofa: 99%
+Bounding Box: Left=0, Top=21, Right=299, Bottom=165
+cat: 94%
+Bounding Box: Left=166, Top=48, Right=248, Bottom=120
+cat: 94%
+Bounding Box: Left=50, Top=50, Right=148, Bottom=125
+Enter Image Path: 

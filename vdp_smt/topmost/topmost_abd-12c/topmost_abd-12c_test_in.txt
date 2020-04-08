@@ -1,0 +1,3 @@
+/home/adithya/Synthesis/variants/topmost_abd-12c/test_1.jpg
+/home/adithya/Synthesis/variants/topmost_abd-12c/test_2.jpg
+/home/adithya/Synthesis/variants/topmost_abd-12c/test_c.jpg

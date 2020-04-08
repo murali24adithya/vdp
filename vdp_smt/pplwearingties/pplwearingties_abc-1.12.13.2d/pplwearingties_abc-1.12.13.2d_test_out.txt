@@ -1,0 +1,51 @@
+Enter Image Path: /home/adithya/Synthesis/variants/pplwearingties_abc-1.12.13.2d/test_1.1.jpg: Predicted in 21.548006 seconds.
+handbag: 98%
+Bounding Box: Left=2271, Top=651, Right=2745, Bottom=1217
+handbag: 93%
+Bounding Box: Left=62, Top=435, Right=785, Bottom=1863
+handbag: 64%
+Bounding Box: Left=667, Top=408, Right=894, Bottom=1111
+person: 100%
+Bounding Box: Left=644, Top=50, Right=1096, Bottom=2083
+person: 99%
+Bounding Box: Left=1371, Top=0, Right=1792, Bottom=2083
+person: 99%
+Bounding Box: Left=1704, Top=86, Right=2186, Bottom=2060
+person: 99%
+Bounding Box: Left=1051, Top=100, Right=1452, Bottom=2066
+person: 99%
+Bounding Box: Left=2125, Top=212, Right=2651, Bottom=2063
+person: 87%
+Bounding Box: Left=0, Top=151, Right=198, Bottom=512
+person: 77%
+Bounding Box: Left=0, Top=0, Right=896, Bottom=2083
+Enter Image Path: /home/adithya/Synthesis/variants/pplwearingties_abc-1.12.13.2d/test_2.1.jpg: Predicted in 21.157321 seconds.
+tie: 94%
+Bounding Box: Left=83, Top=123, Right=148, Bottom=265
+dog: 98%
+Bounding Box: Left=64, Top=50, Right=210, Bottom=272
+Enter Image Path: /home/adithya/Synthesis/variants/pplwearingties_abc-1.12.13.2d/test_3.2.jpg: Predicted in 21.150281 seconds.
+tie: 76%
+Bounding Box: Left=482, Top=130, Right=843, Bottom=836
+person: 99%
+Bounding Box: Left=538, Top=5, Right=1688, Bottom=954
+Enter Image Path: /home/adithya/Synthesis/variants/pplwearingties_abc-1.12.13.2d/test_d.jpg: Predicted in 21.153201 seconds.
+tie: 100%
+Bounding Box: Left=94, Top=105, Right=106, Bottom=189
+tie: 96%
+Bounding Box: Left=212, Top=108, Right=223, Bottom=152
+tie: 95%
+Bounding Box: Left=310, Top=106, Right=322, Bottom=171
+person: 100%
+Bounding Box: Left=292, Top=57, Right=364, Bottom=266
+person: 100%
+Bounding Box: Left=63, Top=58, Right=133, Bottom=265
+person: 100%
+Bounding Box: Left=175, Top=66, Right=252, Bottom=260
+person: 100%
+Bounding Box: Left=228, Top=73, Right=304, Bottom=264
+person: 99%
+Bounding Box: Left=121, Top=59, Right=183, Bottom=266
+person: 99%
+Bounding Box: Left=15, Top=68, Right=79, Bottom=257
+Enter Image Path: 

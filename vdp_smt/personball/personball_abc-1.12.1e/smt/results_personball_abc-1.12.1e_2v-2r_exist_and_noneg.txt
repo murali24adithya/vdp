@@ -1,0 +1,124 @@
+Candidate 1:
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 2:
+
+Solution number 1
+Exists x1. Exists x2. 
+(and
+[Not toLeft(x2,x2)]
+[within(x1,x2)])
+++++++++++++++
+
+Solution number 2
+Exists x1. Exists x2. 
+(and
+[Not neq(dog,dog)]
+[within(x2,x1)])
+++++++++++++++
+
+Solution number 3
+Exists x1. Exists x2. 
+(and
+[Not within(bowl,dog)]
+[within(x2,x1)])
+++++++++++++++
+
+Solution number 4
+Exists x1. Exists x2. 
+(and
+[Not within(person,dog)]
+[within(x2,x1)])
+++++++++++++++
+
+Solution number 5
+Exists x1. Exists x2. 
+(and
+[Not within(tennis_racket,dog)]
+[within(x2,x1)])
+++++++++++++++
+
+Solution number 6
+Exists x1. Exists x2. 
+(and
+[neq(bowl,dog)]
+[within(x2,x1)])
+++++++++++++++
+
+Solution number 7
+Exists x1. Exists x2. 
+(and
+[neq(tennis_racket,dog)]
+[within(x2,x1)])
+++++++++++++++
+
+Solution number 8
+Exists x1. Exists x2. 
+(and
+[neq(person,dog)]
+[within(x2,x1)])
+++++++++++++++
+
+-----------------------------
+Candidate 3:
+
+Solution number 1
+Exists x1. Exists x2. 
+(and
+[labelOf(x1,sports_ball)]
+[toLeft(x1,x2)])
+++++++++++++++
+
+Solution number 2
+Exists x1. Exists x2. 
+(and
+[labelOf(x1,person)]
+[labelOf(x2,sports_ball)])
+++++++++++++++
+
+Solution number 3
+Exists x1. Exists x2. 
+(and
+[toRight(x2,x1)]
+[labelOf(x1,sports_ball)])
+++++++++++++++
+
+Solution number 4
+Exists x1. Exists x2. 
+(and
+[labelOf(x1,sports_ball)]
+[labelOf(x2,person)])
+++++++++++++++
+
+Solution number 5
+Exists x1. Exists x2. 
+(and
+[labelOf(x1,sports_ball)]
+[toRight(x2,x1)])
+++++++++++++++
+
+Solution number 6
+Exists x1. Exists x2. 
+(and
+[labelOf(x2,person)]
+[labelOf(x1,sports_ball)])
+++++++++++++++
+
+Solution number 7
+Exists x1. Exists x2. 
+(and
+[labelOf(x2,sports_ball)]
+[labelOf(x1,person)])
+++++++++++++++
+
+Solution number 8
+Exists x1. Exists x2. 
+(and
+[toLeft(x1,x2)]
+[labelOf(x1,sports_ball)])
+++++++++++++++
+
+-----------------------------
+
+!!!Solved in 193.515588045 seconds.

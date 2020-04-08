@@ -1,0 +1,54 @@
+Enter Image Path: /home/adithya/Synthesis/variants/personball_abc-1.32.1d/test_1.3.jpg: Predicted in 22.757187 seconds.
+sports ball: 100%
+Bounding Box: Left=254, Top=204, Right=327, Bottom=274
+dog: 100%
+Bounding Box: Left=237, Top=5, Right=609, Bottom=278
+Enter Image Path: /home/adithya/Synthesis/variants/personball_abc-1.32.1d/test_2.1.jpg: Predicted in 22.097746 seconds.
+bowl: 100%
+Bounding Box: Left=366, Top=339, Right=496, Bottom=399
+bowl: 58%
+Bounding Box: Left=0, Top=360, Right=52, Bottom=426
+person: 100%
+Bounding Box: Left=463, Top=6, Right=658, Bottom=289
+person: 100%
+Bounding Box: Left=307, Top=34, Right=472, Bottom=313
+person: 100%
+Bounding Box: Left=629, Top=90, Right=991, Bottom=426
+person: 100%
+Bounding Box: Left=82, Top=64, Right=370, Bottom=431
+person: 100%
+Bounding Box: Left=613, Top=82, Right=829, Bottom=374
+person: 96%
+Bounding Box: Left=203, Top=10, Right=302, Bottom=113
+person: 78%
+Bounding Box: Left=195, Top=87, Right=365, Bottom=322
+Enter Image Path: /home/adithya/Synthesis/variants/personball_abc-1.32.1d/test_d.jpg: Predicted in 22.491972 seconds.
+sports ball: 100%
+Bounding Box: Left=188, Top=74, Right=274, Bottom=160
+person: 100%
+Bounding Box: Left=591, Top=144, Right=761, Bottom=462
+person: 100%
+Bounding Box: Left=373, Top=79, Right=639, Bottom=724
+person: 100%
+Bounding Box: Left=811, Top=159, Right=994, Bottom=657
+person: 100%
+Bounding Box: Left=67, Top=56, Right=435, Bottom=692
+person: 93%
+Bounding Box: Left=822, Top=64, Right=857, Bottom=116
+person: 91%
+Bounding Box: Left=60, Top=92, Right=142, Bottom=185
+person: 90%
+Bounding Box: Left=784, Top=61, Right=814, Bottom=117
+person: 71%
+Bounding Box: Left=625, Top=66, Right=659, Bottom=119
+person: 67%
+Bounding Box: Left=870, Top=98, Right=959, Bottom=235
+person: 65%
+Bounding Box: Left=852, Top=84, Right=897, Bottom=124
+person: 63%
+Bounding Box: Left=883, Top=67, Right=915, Bottom=117
+person: 62%
+Bounding Box: Left=581, Top=128, Right=664, Bottom=357
+person: 55%
+Bounding Box: Left=910, Top=66, Right=943, Bottom=100
+Enter Image Path: 

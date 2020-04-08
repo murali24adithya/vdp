@@ -1,0 +1,41 @@
+Candidate 1:
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 2:
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 3:
+
+Solution number 1
+Exists x1. 
+(or
+[labelOf(x1,cat)]
+[labelOf(x1,person)])
+++++++++++++++
+
+Solution number 2
+Forall x1. 
+(impl
+[labelOf(x1,book)]
+[Not neq(chair,tvmonitor)])
+++++++++++++++
+
+Solution number 3
+Forall x1. 
+(impl
+[labelOf(x1,book)]
+[Not neq(chair,cat)])
+++++++++++++++
+
+Solution number 4
+Forall x1. 
+(impl
+[labelOf(x1,book)]
+[Not neq(nullobj,cat)])
+++++++++++++++
+
+-----------------------------
+
+!!!Solved in 4.47739887238 seconds.

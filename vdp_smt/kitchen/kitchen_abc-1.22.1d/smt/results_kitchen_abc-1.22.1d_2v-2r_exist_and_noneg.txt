@@ -1,0 +1,124 @@
+Candidate 1:
+
+Solution number 1
+Exists x1. Exists x2. 
+(and
+[Not below(x1,x2)]
+[toRight(x1,x2)])
+++++++++++++++
+
+Solution number 2
+Exists x1. Exists x2. 
+(and
+[Not above(x2,x1)]
+[toLeft(x2,x1)])
+++++++++++++++
+
+Solution number 3
+Exists x1. Exists x2. 
+(and
+[Not above(x2,x1)]
+[toRight(x1,x2)])
+++++++++++++++
+
+Solution number 4
+Exists x1. Exists x2. 
+(and
+[toLeft(x1,x2)]
+[Not below(x2,x1)])
+++++++++++++++
+
+Solution number 5
+Exists x1. Exists x2. 
+(and
+[Not above(x1,x2)]
+[toRight(x2,x1)])
+++++++++++++++
+
+Solution number 6
+Exists x1. Exists x2. 
+(and
+[toRight(x1,x2)]
+[Not above(x2,x1)])
+++++++++++++++
+
+Solution number 7
+Exists x1. Exists x2. 
+(and
+[Not above(x1,x2)]
+[toLeft(x1,x2)])
+++++++++++++++
+
+Solution number 8
+Exists x1. Exists x2. 
+(and
+[Not below(x1,x2)]
+[toLeft(x2,x1)])
+++++++++++++++
+
+-----------------------------
+Candidate 2:
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 3:
+
+Solution number 1
+Exists x1. Exists x2. 
+(and
+[sameLabel(x2,x2)]
+[labelOf(x2,refrigerator)])
+++++++++++++++
+
+Solution number 2
+Exists x1. Exists x2. 
+(and
+[labelOf(x2,refrigerator)]
+[neq(oven,x2)])
+++++++++++++++
+
+Solution number 3
+Exists x1. Exists x2. 
+(and
+[labelOf(x1,refrigerator)]
+[neq(laptop,toilet)])
+++++++++++++++
+
+Solution number 4
+Exists x1. Exists x2. 
+(and
+[labelOf(x1,refrigerator)]
+[neq(nullobj,x2)])
+++++++++++++++
+
+Solution number 5
+Exists x1. Exists x2. 
+(and
+[labelOf(x1,refrigerator)]
+[neq(chair,x2)])
+++++++++++++++
+
+Solution number 6
+Exists x1. Exists x2. 
+(and
+[labelOf(x1,refrigerator)]
+[neq(refrigerator,x2)])
+++++++++++++++
+
+Solution number 7
+Exists x1. Exists x2. 
+(and
+[labelOf(x1,refrigerator)]
+[Not within(refrigerator,x2)])
+++++++++++++++
+
+Solution number 8
+Exists x1. Exists x2. 
+(and
+[labelOf(x1,refrigerator)]
+[Not toLeft(refrigerator,x2)])
+++++++++++++++
+
+-----------------------------
+
+!!!Solved in 48.2129311562 seconds.

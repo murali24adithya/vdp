@@ -1,0 +1,38 @@
+Enter Image Path: /home/adithya/Synthesis/variants/dogherded_acd-1.22.13.1b/train_a.jpg: Predicted in 23.781542 seconds.
+sheep: 100%
+Bounding Box: Left=444, Top=403, Right=725, Bottom=620
+sheep: 99%
+Bounding Box: Left=736, Top=412, Right=1015, Bottom=603
+sheep: 97%
+Bounding Box: Left=646, Top=385, Right=771, Bottom=587
+sheep: 74%
+Bounding Box: Left=977, Top=376, Right=1197, Bottom=590
+sheep: 51%
+Bounding Box: Left=286, Top=429, Right=507, Bottom=605
+dog: 100%
+Bounding Box: Left=226, Top=593, Right=467, Bottom=743
+car: 98%
+Bounding Box: Left=907, Top=236, Right=996, Bottom=267
+car: 84%
+Bounding Box: Left=1020, Top=230, Right=1106, Bottom=266
+Enter Image Path: /home/adithya/Synthesis/variants/dogherded_acd-1.22.13.1b/train_c.jpg: Predicted in 23.451965 seconds.
+sheep: 92%
+Bounding Box: Left=138, Top=62, Right=286, Bottom=255
+sheep: 91%
+Bounding Box: Left=283, Top=39, Right=452, Bottom=233
+sheep: 91%
+Bounding Box: Left=2, Top=88, Right=118, Bottom=255
+dog: 99%
+Bounding Box: Left=491, Top=109, Right=577, Bottom=208
+Enter Image Path: /home/adithya/Synthesis/variants/dogherded_acd-1.22.13.1b/train_d.jpg: Predicted in 23.532450 seconds.
+sheep: 99%
+Bounding Box: Left=789, Top=585, Right=1333, Bottom=1036
+sheep: 99%
+Bounding Box: Left=1064, Top=560, Right=1535, Bottom=1028
+sheep: 89%
+Bounding Box: Left=176, Top=584, Right=655, Bottom=1087
+dog: 56%
+Bounding Box: Left=1815, Top=780, Right=2140, Bottom=956
+person: 100%
+Bounding Box: Left=113, Top=87, Right=689, Bottom=1087
+Enter Image Path: 

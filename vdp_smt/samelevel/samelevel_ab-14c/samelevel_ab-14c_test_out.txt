@@ -1,0 +1,22 @@
+Enter Image Path: /home/adithya/Synthesis/variants/samelevel_ab-14c/test_1.jpg: Predicted in 28.185201 seconds.
+orange: 100%
+Bounding Box: Left=612, Top=641, Right=1226, Bottom=1241
+orange: 100%
+Bounding Box: Left=1504, Top=1508, Right=2141, Bottom=2155
+Enter Image Path: /home/adithya/Synthesis/variants/samelevel_ab-14c/test_4.jpg: Predicted in 29.450076 seconds.
+orange: 100%
+Bounding Box: Left=2644, Top=404, Right=3284, Bottom=1035
+orange: 100%
+Bounding Box: Left=374, Top=1219, Right=1038, Bottom=1849
+orange: 100%
+Bounding Box: Left=330, Top=2216, Right=1040, Bottom=2894
+orange: 100%
+Bounding Box: Left=1569, Top=341, Right=2251, Bottom=1020
+orange: 100%
+Bounding Box: Left=430, Top=324, Right=1086, Bottom=950
+Enter Image Path: /home/adithya/Synthesis/variants/samelevel_ab-14c/test_c.jpg: Predicted in 30.080166 seconds.
+orange: 100%
+Bounding Box: Left=92, Top=270, Right=930, Bottom=1016
+orange: 99%
+Bounding Box: Left=1197, Top=287, Right=2025, Bottom=1001
+Enter Image Path: 

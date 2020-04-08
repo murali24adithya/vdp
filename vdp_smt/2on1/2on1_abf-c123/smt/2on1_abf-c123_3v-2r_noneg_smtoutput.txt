@@ -1,0 +1,27 @@
+sat
+(model 
+  (define-fun q1 () Quantifier
+    one)
+  (define-fun arg2_2 () Binding
+    bind_x3)
+  (define-fun r2 () Rels
+    neq)
+  (define-fun q3 () Quantifier
+    one)
+  (define-fun n2 () IfNeg
+    no)
+  (define-fun arg1_2 () Binding
+    bind_x1)
+  (define-fun arg1_1 () Binding
+    bind_x3)
+  (define-fun n1 () IfNeg
+    no)
+  (define-fun op1 () Ops
+    opand)
+  (define-fun q2 () Quantifier
+    all)
+  (define-fun arg2_1 () Binding
+    bind_x2)
+  (define-fun r1 () Rels
+    within)
+)

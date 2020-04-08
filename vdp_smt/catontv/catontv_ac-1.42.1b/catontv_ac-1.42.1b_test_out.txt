@@ -1,0 +1,30 @@
+Enter Image Path: /home/adithya/Synthesis/variants/catontv_ac-1.42.1b/test_1.4.jpg: Predicted in 27.948261 seconds.
+tvmonitor: 58%
+Bounding Box: Left=249, Top=18, Right=563, Bottom=190
+sofa: 71%
+Bounding Box: Left=0, Top=353, Right=641, Bottom=524
+person: 97%
+Bounding Box: Left=331, Top=41, Right=478, Bottom=154
+person: 83%
+Bounding Box: Left=9, Top=190, Right=521, Bottom=422
+person: 73%
+Bounding Box: Left=287, Top=18, Right=369, Bottom=160
+person: 60%
+Bounding Box: Left=521, Top=123, Right=796, Bottom=392
+Enter Image Path: /home/adithya/Synthesis/variants/catontv_ac-1.42.1b/test_2.1.jpg: Predicted in 29.195638 seconds.
+teddy bear: 98%
+Bounding Box: Left=250, Top=167, Right=521, Bottom=530
+keyboard: 61%
+Bounding Box: Left=44, Top=325, Right=284, Bottom=470
+tvmonitor: 51%
+Bounding Box: Left=19, Top=145, Right=240, Bottom=321
+pottedplant: 63%
+Bounding Box: Left=279, Top=246, Right=352, Bottom=341
+dog: 59%
+Bounding Box: Left=17, Top=152, Right=244, Bottom=326
+Enter Image Path: /home/adithya/Synthesis/variants/catontv_ac-1.42.1b/test_b.jpg: Predicted in 29.459678 seconds.
+tvmonitor: 90%
+Bounding Box: Left=23, Top=50, Right=427, Bottom=479
+cat: 59%
+Bounding Box: Left=181, Top=133, Right=337, Bottom=397
+Enter Image Path: 

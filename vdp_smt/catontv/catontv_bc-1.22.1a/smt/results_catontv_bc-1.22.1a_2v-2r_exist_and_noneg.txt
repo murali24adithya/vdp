@@ -1,0 +1,55 @@
+Candidate 1:
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 2:
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 3:
+
+Solution number 1
+Exists x1. Exists x2. 
+(and
+[labelOf(x2,cat)]
+[neq(pottedplant,keyboard)])
+++++++++++++++
+
+Solution number 2
+Exists x1. Exists x2. 
+(and
+[labelOf(x2,cat)]
+[neq(person,keyboard)])
+++++++++++++++
+
+Solution number 3
+Exists x1. Exists x2. 
+(and
+[labelOf(x2,cat)]
+[neq(pottedplant,cat)])
+++++++++++++++
+
+Solution number 4
+Exists x1. Exists x2. 
+(and
+[labelOf(x2,cat)]
+[neq(person,cat)])
+++++++++++++++
+
+Solution number 5
+Exists x1. Exists x2. 
+(and
+[sameLabel(x2,x2)]
+[labelOf(x2,cat)])
+++++++++++++++
+
+Solution number 6
+Exists x1. Exists x2. 
+(and
+[Not neq(x2,x2)]
+[labelOf(x1,cat)])
+++++++++++++++
+
+-----------------------------
+
+!!!Solved in 1.41734194756 seconds.

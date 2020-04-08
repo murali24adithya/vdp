@@ -1,0 +1,76 @@
+Enter Image Path: /home/adithya/Synthesis/variants/personball_abd-1.22.1c/test_1.2.jpg: Predicted in 22.492409 seconds.
+sports ball: 86%
+Bounding Box: Left=306, Top=260, Right=334, Bottom=287
+elephant: 75%
+Bounding Box: Left=12, Top=195, Right=355, Bottom=527
+Enter Image Path: /home/adithya/Synthesis/variants/personball_abd-1.22.1c/test_2.1.jpg: Predicted in 22.018745 seconds.
+bowl: 100%
+Bounding Box: Left=366, Top=339, Right=496, Bottom=399
+bowl: 58%
+Bounding Box: Left=0, Top=360, Right=52, Bottom=426
+person: 100%
+Bounding Box: Left=463, Top=6, Right=658, Bottom=289
+person: 100%
+Bounding Box: Left=307, Top=34, Right=472, Bottom=313
+person: 100%
+Bounding Box: Left=629, Top=90, Right=991, Bottom=426
+person: 100%
+Bounding Box: Left=82, Top=64, Right=370, Bottom=431
+person: 100%
+Bounding Box: Left=613, Top=82, Right=829, Bottom=374
+person: 96%
+Bounding Box: Left=203, Top=10, Right=302, Bottom=113
+person: 78%
+Bounding Box: Left=195, Top=87, Right=365, Bottom=322
+Enter Image Path: /home/adithya/Synthesis/variants/personball_abd-1.22.1c/test_c.jpg: Predicted in 22.368343 seconds.
+baseball bat: 87%
+Bounding Box: Left=263, Top=287, Right=291, Bottom=362
+sports ball: 95%
+Bounding Box: Left=554, Top=265, Right=563, Bottom=272
+sports ball: 95%
+Bounding Box: Left=351, Top=294, Right=361, Bottom=302
+sports ball: 88%
+Bounding Box: Left=568, Top=265, Right=577, Bottom=273
+sports ball: 82%
+Bounding Box: Left=380, Top=271, Right=390, Bottom=278
+sports ball: 72%
+Bounding Box: Left=364, Top=225, Right=372, Bottom=231
+sports ball: 66%
+Bounding Box: Left=398, Top=226, Right=406, Bottom=230
+person: 100%
+Bounding Box: Left=88, Top=229, Right=255, Bottom=424
+person: 100%
+Bounding Box: Left=233, Top=83, Right=337, Bottom=351
+person: 100%
+Bounding Box: Left=245, Top=327, Right=380, Bottom=419
+person: 99%
+Bounding Box: Left=86, Top=88, Right=196, Bottom=327
+person: 92%
+Bounding Box: Left=41, Top=5, Right=638, Bottom=98
+person: 87%
+Bounding Box: Left=394, Top=330, Right=519, Bottom=419
+person: 80%
+Bounding Box: Left=1, Top=53, Right=18, Bottom=92
+person: 75%
+Bounding Box: Left=56, Top=54, Right=80, Bottom=92
+person: 72%
+Bounding Box: Left=87, Top=56, Right=103, Bottom=89
+person: 71%
+Bounding Box: Left=135, Top=57, Right=153, Bottom=88
+person: 68%
+Bounding Box: Left=541, Top=56, Right=561, Bottom=87
+person: 65%
+Bounding Box: Left=154, Top=58, Right=171, Bottom=90
+person: 63%
+Bounding Box: Left=258, Top=57, Right=275, Bottom=88
+person: 63%
+Bounding Box: Left=13, Top=54, Right=29, Bottom=90
+person: 61%
+Bounding Box: Left=230, Top=58, Right=250, Bottom=90
+person: 60%
+Bounding Box: Left=75, Top=57, Right=90, Bottom=89
+person: 55%
+Bounding Box: Left=187, Top=71, Right=208, Bottom=104
+person: 52%
+Bounding Box: Left=200, Top=75, Right=229, Bottom=103
+Enter Image Path: 

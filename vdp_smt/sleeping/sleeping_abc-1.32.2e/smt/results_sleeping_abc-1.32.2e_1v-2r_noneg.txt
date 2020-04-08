@@ -1,0 +1,41 @@
+Candidate 1:
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 2:
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 3:
+
+Solution number 1
+Exists x1. 
+(impl
+[Not within(x1,cat)]
+[labelOf(x1,person)])
+++++++++++++++
+
+Solution number 2
+Exists x1. 
+(or
+[labelOf(x1,person)]
+[within(x1,x1)])
+++++++++++++++
+
+Solution number 3
+Exists x1. 
+(impl
+[neq(bench,cat)]
+[labelOf(x1,person)])
+++++++++++++++
+
+Solution number 4
+Exists x1. 
+(or
+[toRight(nullobj,cat)]
+[labelOf(x1,person)])
+++++++++++++++
+
+-----------------------------
+
+!!!Solved in 4.97311902046 seconds.

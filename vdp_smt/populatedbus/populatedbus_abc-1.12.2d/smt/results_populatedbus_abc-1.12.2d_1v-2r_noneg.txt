@@ -1,0 +1,28 @@
+Candidate 1:
+
+Solution number 1
+Exists x1. 
+(or
+[labelOf(x1,car)]
+[labelOf(x1,handbag)])
+++++++++++++++
+
+Solution number 2
+Exists x1. 
+(or
+[labelOf(x1,handbag)]
+[labelOf(x1,car)])
+++++++++++++++
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 2:
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 3:
+
+Unsat:No more formulae.
+-----------------------------
+
+!!!Solved in 45.1344721317 seconds.

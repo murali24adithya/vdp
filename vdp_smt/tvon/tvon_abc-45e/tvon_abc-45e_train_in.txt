@@ -1,0 +1,3 @@
+/home/adithya/Synthesis/variants/tvon_abc-45e/train_a.jpg
+/home/adithya/Synthesis/variants/tvon_abc-45e/train_b.jpg
+/home/adithya/Synthesis/variants/tvon_abc-45e/train_c.jpg

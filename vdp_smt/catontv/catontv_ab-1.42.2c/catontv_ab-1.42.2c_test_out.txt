@@ -1,0 +1,28 @@
+Enter Image Path: /home/adithya/Synthesis/variants/catontv_ab-1.42.2c/test_1.4.jpg: Predicted in 29.059849 seconds.
+tvmonitor: 58%
+Bounding Box: Left=249, Top=18, Right=563, Bottom=190
+sofa: 71%
+Bounding Box: Left=0, Top=353, Right=641, Bottom=524
+person: 97%
+Bounding Box: Left=331, Top=41, Right=478, Bottom=154
+person: 83%
+Bounding Box: Left=9, Top=190, Right=521, Bottom=422
+person: 73%
+Bounding Box: Left=287, Top=18, Right=369, Bottom=160
+person: 60%
+Bounding Box: Left=521, Top=123, Right=796, Bottom=392
+Enter Image Path: /home/adithya/Synthesis/variants/catontv_ab-1.42.2c/test_2.2.jpg: Predicted in 30.301845 seconds.
+remote: 81%
+Bounding Box: Left=315, Top=324, Right=432, Bottom=344
+tvmonitor: 95%
+Bounding Box: Left=73, Top=0, Right=570, Bottom=368
+cat: 99%
+Bounding Box: Left=265, Top=226, Right=639, Bottom=354
+Enter Image Path: /home/adithya/Synthesis/variants/catontv_ab-1.42.2c/test_c.jpg: Predicted in 29.468474 seconds.
+tvmonitor: 90%
+Bounding Box: Left=202, Top=186, Right=413, Bottom=385
+cat: 100%
+Bounding Box: Left=153, Top=466, Right=451, Bottom=622
+cat: 85%
+Bounding Box: Left=221, Top=190, Right=384, Bottom=335
+Enter Image Path: 

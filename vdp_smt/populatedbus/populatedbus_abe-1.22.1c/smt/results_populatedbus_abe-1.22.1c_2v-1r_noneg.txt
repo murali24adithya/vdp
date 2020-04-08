@@ -1,0 +1,33 @@
+Candidate 1:
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 2:
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 3:
+
+Solution number 1
+Exists x1. Exists x2. 
+[below(x2,x1)]
+++++++++++++++
+
+Solution number 2
+Exists x1. Exists x2. 
+[above(x2,x1)]
+++++++++++++++
+
+Solution number 3
+Exists x1. Exists x2. 
+[within(x2,x1)]
+++++++++++++++
+
+Solution number 4
+Exists x1. Exists x2. 
+[below(x1,x2)]
+++++++++++++++
+
+-----------------------------
+
+!!!Solved in 161.766562939 seconds.

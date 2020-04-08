@@ -1,0 +1,28 @@
+Enter Image Path: /home/adithya/Synthesis/variants/populatedbus_abe-1.22.2c/test_1.2.jpg: Predicted in 25.156391 seconds.
+bus: 100%
+Bounding Box: Left=494, Top=250, Right=639, Bottom=355
+bus: 98%
+Bounding Box: Left=403, Top=267, Right=456, Bottom=328
+person: 98%
+Bounding Box: Left=455, Top=286, Right=479, Bottom=343
+person: 95%
+Bounding Box: Left=479, Top=292, Right=491, Bottom=334
+person: 67%
+Bounding Box: Left=488, Top=293, Right=497, Bottom=333
+Enter Image Path: /home/adithya/Synthesis/variants/populatedbus_abe-1.22.2c/test_2.2.jpg: Predicted in 25.742973 seconds.
+bus: 100%
+Bounding Box: Left=216, Top=116, Right=481, Bottom=271
+bus: 100%
+Bounding Box: Left=475, Top=133, Right=595, Bottom=244
+bus: 52%
+Bounding Box: Left=6, Top=130, Right=216, Bottom=258
+Enter Image Path: /home/adithya/Synthesis/variants/populatedbus_abe-1.22.2c/test_c.jpg: Predicted in 26.111814 seconds.
+bus: 100%
+Bounding Box: Left=143, Top=152, Right=1185, Bottom=587
+car: 59%
+Bounding Box: Left=91, Top=466, Right=238, Bottom=565
+car: 52%
+Bounding Box: Left=0, Top=500, Right=20, Bottom=528
+person: 75%
+Bounding Box: Left=345, Top=281, Right=442, Bottom=373
+Enter Image Path: 

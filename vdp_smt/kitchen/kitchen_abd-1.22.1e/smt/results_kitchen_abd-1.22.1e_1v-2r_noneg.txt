@@ -1,0 +1,41 @@
+Candidate 1:
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 2:
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 3:
+
+Solution number 1
+Exists x1. 
+(or
+[above(refrigerator,cup)]
+[labelOf(x1,refrigerator)])
+++++++++++++++
+
+Solution number 2
+Exists x1. 
+(impl
+[neq(refrigerator,oven)]
+[labelOf(x1,refrigerator)])
+++++++++++++++
+
+Solution number 3
+Exists x1. 
+(impl
+[neq(x1,refrigerator)]
+[labelOf(x1,refrigerator)])
+++++++++++++++
+
+Solution number 4
+Exists x1. 
+(or
+[labelOf(x1,refrigerator)]
+[sameLabel(refrigerator,x1)])
+++++++++++++++
+
+-----------------------------
+
+!!!Solved in 19.7187371254 seconds.

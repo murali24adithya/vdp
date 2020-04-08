@@ -1,0 +1,22 @@
+Enter Image Path: /home/adithya/Synthesis/variants/2on1_abf-d123/train_a.jpg: Predicted in 21.760703 seconds.
+sofa: 100%
+Bounding Box: Left=0, Top=107, Right=3717, Bottom=2091
+cat: 100%
+Bounding Box: Left=1946, Top=485, Right=3002, Bottom=1354
+cat: 100%
+Bounding Box: Left=555, Top=381, Right=1701, Bottom=1395
+Enter Image Path: /home/adithya/Synthesis/variants/2on1_abf-d123/train_b.jpg: Predicted in 21.372809 seconds.
+sofa: 98%
+Bounding Box: Left=0, Top=40, Right=3301, Bottom=2193
+cat: 95%
+Bounding Box: Left=1676, Top=938, Right=2639, Bottom=1675
+cat: 64%
+Bounding Box: Left=516, Top=695, Right=1805, Bottom=1877
+Enter Image Path: /home/adithya/Synthesis/variants/2on1_abf-d123/train_f.jpg: Predicted in 21.348641 seconds.
+sofa: 99%
+Bounding Box: Left=0, Top=21, Right=299, Bottom=165
+cat: 94%
+Bounding Box: Left=166, Top=48, Right=248, Bottom=120
+cat: 94%
+Bounding Box: Left=50, Top=50, Right=148, Bottom=125
+Enter Image Path: 

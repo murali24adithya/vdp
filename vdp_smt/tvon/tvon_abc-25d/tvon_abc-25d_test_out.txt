@@ -1,0 +1,22 @@
+Enter Image Path: /home/adithya/Synthesis/variants/tvon_abc-25d/test_2.jpg: Predicted in 23.601340 seconds.
+tvmonitor: 100%
+Bounding Box: Left=522, Top=205, Right=2342, Bottom=1790
+Enter Image Path: /home/adithya/Synthesis/variants/tvon_abc-25d/test_5.jpg: Predicted in 23.429824 seconds.
+tvmonitor: 99%
+Bounding Box: Left=563, Top=101, Right=940, Bottom=443
+person: 100%
+Bounding Box: Left=174, Top=211, Right=921, Bottom=888
+Enter Image Path: /home/adithya/Synthesis/variants/tvon_abc-25d/test_d.jpg: Predicted in 23.442102 seconds.
+tvmonitor: 58%
+Bounding Box: Left=249, Top=18, Right=563, Bottom=190
+sofa: 71%
+Bounding Box: Left=0, Top=353, Right=641, Bottom=524
+person: 97%
+Bounding Box: Left=331, Top=41, Right=478, Bottom=154
+person: 83%
+Bounding Box: Left=9, Top=190, Right=521, Bottom=422
+person: 73%
+Bounding Box: Left=287, Top=18, Right=369, Bottom=160
+person: 60%
+Bounding Box: Left=521, Top=123, Right=796, Bottom=392
+Enter Image Path: 

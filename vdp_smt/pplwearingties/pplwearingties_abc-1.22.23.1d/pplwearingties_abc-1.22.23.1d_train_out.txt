@@ -1,0 +1,22 @@
+Enter Image Path: /home/adithya/Synthesis/variants/pplwearingties_abc-1.22.23.1d/train_a.jpg: Predicted in 21.239524 seconds.
+tie: 82%
+Bounding Box: Left=359, Top=451, Right=374, Bottom=518
+person: 97%
+Bounding Box: Left=253, Top=411, Right=417, Bottom=639
+person: 96%
+Bounding Box: Left=377, Top=410, Right=478, Bottom=637
+Enter Image Path: /home/adithya/Synthesis/variants/pplwearingties_abc-1.22.23.1d/train_b.jpg: Predicted in 20.927642 seconds.
+tie: 99%
+Bounding Box: Left=837, Top=1593, Right=1126, Bottom=2108
+person: 100%
+Bounding Box: Left=46, Top=469, Right=1658, Bottom=2461
+Enter Image Path: /home/adithya/Synthesis/variants/pplwearingties_abc-1.22.23.1d/train_c.jpg: Predicted in 20.909359 seconds.
+tie: 99%
+Bounding Box: Left=861, Top=481, Right=970, Bottom=829
+person: 100%
+Bounding Box: Left=1074, Top=139, Right=1699, Bottom=890
+person: 100%
+Bounding Box: Left=0, Top=153, Right=953, Bottom=1065
+person: 100%
+Bounding Box: Left=566, Top=99, Right=1388, Bottom=923
+Enter Image Path: 

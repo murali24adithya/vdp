@@ -1,0 +1,41 @@
+Candidate 1:
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 2:
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 3:
+
+Solution number 1
+Exists x1. 
+(impl
+[Not toRight(sofa,dog)]
+[labelOf(x1,cat)])
+++++++++++++++
+
+Solution number 2
+Exists x1. 
+(impl
+[neq(sofa,person)]
+[labelOf(x1,cat)])
+++++++++++++++
+
+Solution number 3
+Exists x1. 
+(impl
+[neq(keyboard,sofa)]
+[labelOf(x1,cat)])
+++++++++++++++
+
+Solution number 4
+Exists x1. 
+(or
+[labelOf(x1,cat)]
+[labelOf(tvmonitor,sofa)])
+++++++++++++++
+
+-----------------------------
+
+!!!Solved in 2.84975409508 seconds.

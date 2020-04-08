@@ -1,0 +1,13 @@
+unsat
+(define-fun q1 () Bool false)
+(define-fun q2 () Bool true)
+(define-fun g1 ((x Obj)) Bool (labelOf x tie))
+(define-fun g2 ((x Obj)) Bool (labelOf x tie))
+(define-fun f ((x1 Obj) (x2 Obj)) Bool (= x1 x2))
+(define-fun c1 () Bool false)
+(define-fun c2 () Bool true)
+(define-fun c3 () Bool false)
+(define-fun c4 () Bool false)
+142.60user 1.56system 2:24.18elapsed 99%CPU (0avgtext+0avgdata 359100maxresident)k
+0inputs+0outputs (0major+86798minor)pagefaults 0swaps
+pplwearingties_abc-1.32.13.1d

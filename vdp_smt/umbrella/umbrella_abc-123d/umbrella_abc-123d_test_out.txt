@@ -1,0 +1,57 @@
+Enter Image Path: /home/adithya/Synthesis/variants/umbrella_abc-123d/test_1.jpg: Predicted in 21.262597 seconds.
+sports ball: 91%
+Bounding Box: Left=378, Top=532, Right=390, Bottom=544
+bench: 81%
+Bounding Box: Left=425, Top=397, Right=479, Bottom=449
+person: 100%
+Bounding Box: Left=111, Top=61, Right=379, Bottom=516
+Enter Image Path: /home/adithya/Synthesis/variants/umbrella_abc-123d/test_2.jpg: Predicted in 20.835134 seconds.
+baseball glove: 100%
+Bounding Box: Left=106, Top=203, Right=136, Bottom=231
+baseball bat: 84%
+Bounding Box: Left=4, Top=77, Right=57, Bottom=138
+sports ball: 95%
+Bounding Box: Left=261, Top=133, Right=279, Bottom=146
+person: 99%
+Bounding Box: Left=0, Top=124, Right=73, Bottom=310
+person: 98%
+Bounding Box: Left=502, Top=3, Right=613, Bottom=116
+person: 97%
+Bounding Box: Left=294, Top=0, Right=326, Bottom=48
+person: 96%
+Bounding Box: Left=20, Top=185, Right=133, Bottom=309
+person: 88%
+Bounding Box: Left=47, Top=92, Right=108, Bottom=195
+Enter Image Path: /home/adithya/Synthesis/variants/umbrella_abc-123d/test_3.jpg: Predicted in 20.789066 seconds.
+cake: 95%
+Bounding Box: Left=300, Top=380, Right=468, Bottom=423
+car: 63%
+Bounding Box: Left=220, Top=32, Right=254, Bottom=43
+person: 100%
+Bounding Box: Left=241, Top=157, Right=397, Bottom=395
+person: 100%
+Bounding Box: Left=417, Top=106, Right=548, Bottom=380
+person: 100%
+Bounding Box: Left=60, Top=0, Right=242, Bottom=377
+person: 97%
+Bounding Box: Left=478, Top=295, Right=639, Bottom=409
+person: 95%
+Bounding Box: Left=535, Top=92, Right=639, Bottom=215
+person: 95%
+Bounding Box: Left=339, Top=102, Right=406, Bottom=208
+person: 88%
+Bounding Box: Left=48, Top=56, Right=61, Bottom=95
+person: 83%
+Bounding Box: Left=321, Top=160, Right=444, Bottom=398
+person: 73%
+Bounding Box: Left=36, Top=53, Right=50, Bottom=92
+Enter Image Path: /home/adithya/Synthesis/variants/umbrella_abc-123d/test_d.jpg: Predicted in 20.771748 seconds.
+chair: 83%
+Bounding Box: Left=1, Top=357, Right=97, Bottom=425
+umbrella: 96%
+Bounding Box: Left=28, Top=70, Right=554, Bottom=283
+person: 100%
+Bounding Box: Left=151, Top=144, Right=338, Bottom=417
+person: 100%
+Bounding Box: Left=315, Top=119, Right=502, Bottom=425
+Enter Image Path: 

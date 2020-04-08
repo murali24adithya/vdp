@@ -1,0 +1,41 @@
+Candidate 1:
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 2:
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 3:
+
+Solution number 1
+Exists x1. 
+(impl
+[Not toLeft(x1,bench)]
+[labelOf(x1,person)])
+++++++++++++++
+
+Solution number 2
+Exists x1. 
+(or
+[labelOf(x1,person)]
+[toRight(x1,bench)])
+++++++++++++++
+
+Solution number 3
+Exists x1. 
+(and
+[labelOf(x1,person)]
+[neq(dog,person)])
+++++++++++++++
+
+Solution number 4
+Forall x1. 
+(impl
+[labelOf(x1,dog)]
+[Not neq(x1,bench)])
+++++++++++++++
+
+-----------------------------
+
+!!!Solved in 1.3788228035 seconds.

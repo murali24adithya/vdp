@@ -1,0 +1,125 @@
+Candidate 1:
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 2:
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 3:
+
+Solution number 1
+Exists x1. Exists x2. 
+(impl
+[labelOf(x1,orange)]
+[above(x2,x1)])
+++++++++++++++
+
+Solution number 2
+Exists x1. Exists x2. 
+(impl
+[neq(x2,nullobj)]
+[below(x1,x2)])
+++++++++++++++
+
+Solution number 3
+Exists x1. Exists x2. 
+(impl
+[neq(orange,x2)]
+[below(x2,x1)])
+++++++++++++++
+
+Solution number 4
+Exists x1. Exists x2. 
+(impl
+[neq(orange,nullobj)]
+[below(x2,x1)])
+++++++++++++++
+
+Solution number 5
+Exists x1. Exists x2. 
+(impl
+[labelOf(x2,orange)]
+[below(x2,x1)])
+++++++++++++++
+
+Solution number 6
+Exists x1. Exists x2. 
+(impl
+[neq(orange,nullobj)]
+[above(x2,x1)])
+++++++++++++++
+
+Solution number 7
+Exists x1. Exists x2. 
+(impl
+[sameLabel(x2,x2)]
+[below(x2,x1)])
+++++++++++++++
+
+Solution number 8
+Exists x1. Exists x2. 
+(impl
+[sameLabel(x2,x2)]
+[above(x2,x1)])
+++++++++++++++
+
+Solution number 9
+Exists x1. Exists x2. 
+(impl
+[sameLabel(x2,x1)]
+[above(x2,x1)])
+++++++++++++++
+
+Solution number 10
+Forall x1. Forall x2. 
+(impl
+[toLeft(x2,x1)]
+[above(x2,x1)])
+++++++++++++++
+
+Solution number 11
+Exists x1. Exists x2. 
+(or
+[below(x1,x2)]
+[within(x2,orange)])
+++++++++++++++
+
+Solution number 12
+Exists x1. Exists x2. 
+(impl
+[labelOf(x2,orange)]
+[above(x2,x1)])
+++++++++++++++
+
+Solution number 13
+Exists x1. Exists x2. 
+(and
+[labelOf(x2,orange)]
+[below(x2,x1)])
+++++++++++++++
+
+Solution number 14
+Exists x1. Exists x2. 
+(and
+[labelOf(x2,orange)]
+[above(x2,x1)])
+++++++++++++++
+
+Solution number 15
+Exists x1. Exists x2. 
+(impl
+[labelOf(x2,orange)]
+[below(x1,x2)])
+++++++++++++++
+
+Solution number 16
+Exists x1. Exists x2. 
+(impl
+[labelOf(x2,orange)]
+[above(x1,x2)])
+++++++++++++++
+
+-----------------------------
+
+!!!Solved in 34.0138368607 seconds.

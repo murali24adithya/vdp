@@ -1,0 +1,65 @@
+Enter Image Path: /home/adithya/Synthesis/variants/dogherded_abc-1.22.23.1d/test_1.2.jpg: Predicted in 21.159986 seconds.
+dog: 100%
+Bounding Box: Left=139, Top=112, Right=280, Bottom=283
+dog: 100%
+Bounding Box: Left=508, Top=99, Right=599, Bottom=260
+dog: 90%
+Bounding Box: Left=386, Top=170, Right=442, Bottom=245
+person: 100%
+Bounding Box: Left=334, Top=131, Right=403, Bottom=246
+Enter Image Path: /home/adithya/Synthesis/variants/dogherded_abc-1.22.23.1d/test_2.2.jpg: Predicted in 20.999874 seconds.
+sheep: 98%
+Bounding Box: Left=445, Top=228, Right=524, Bottom=293
+sheep: 98%
+Bounding Box: Left=276, Top=251, Right=357, Bottom=314
+sheep: 98%
+Bounding Box: Left=349, Top=227, Right=475, Bottom=312
+sheep: 92%
+Bounding Box: Left=532, Top=237, Right=595, Bottom=306
+sheep: 82%
+Bounding Box: Left=580, Top=247, Right=639, Bottom=315
+sheep: 81%
+Bounding Box: Left=116, Top=242, Right=200, Bottom=304
+sheep: 71%
+Bounding Box: Left=516, Top=155, Right=578, Bottom=248
+sheep: 70%
+Bounding Box: Left=426, Top=199, Right=461, Bottom=232
+sheep: 64%
+Bounding Box: Left=349, Top=192, Right=400, Bottom=230
+sheep: 53%
+Bounding Box: Left=390, Top=198, Right=429, Bottom=236
+person: 100%
+Bounding Box: Left=385, Top=123, Right=425, Bottom=200
+Enter Image Path: /home/adithya/Synthesis/variants/dogherded_abc-1.22.23.1d/test_3.1.jpg: Predicted in 21.004576 seconds.
+sheep: 97%
+Bounding Box: Left=375, Top=218, Right=460, Bottom=328
+sheep: 97%
+Bounding Box: Left=184, Top=233, Right=298, Bottom=279
+sheep: 96%
+Bounding Box: Left=474, Top=206, Right=510, Bottom=241
+sheep: 92%
+Bounding Box: Left=125, Top=256, Right=390, Bottom=425
+sheep: 91%
+Bounding Box: Left=262, Top=221, Right=333, Bottom=264
+sheep: 79%
+Bounding Box: Left=507, Top=207, Right=524, Bottom=236
+sheep: 61%
+Bounding Box: Left=374, Top=215, Right=405, Bottom=232
+sheep: 60%
+Bounding Box: Left=287, Top=230, Right=341, Bottom=277
+sheep: 58%
+Bounding Box: Left=417, Top=210, Right=473, Bottom=269
+sheep: 52%
+Bounding Box: Left=346, Top=237, Right=420, Bottom=347
+Enter Image Path: /home/adithya/Synthesis/variants/dogherded_abc-1.22.23.1d/test_d.jpg: Predicted in 21.324855 seconds.
+sheep: 99%
+Bounding Box: Left=789, Top=585, Right=1333, Bottom=1036
+sheep: 99%
+Bounding Box: Left=1064, Top=560, Right=1535, Bottom=1028
+sheep: 89%
+Bounding Box: Left=176, Top=584, Right=655, Bottom=1087
+dog: 56%
+Bounding Box: Left=1815, Top=780, Right=2140, Bottom=956
+person: 100%
+Bounding Box: Left=113, Top=87, Right=689, Bottom=1087
+Enter Image Path: 

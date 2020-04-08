@@ -1,0 +1,55 @@
+Enter Image Path: /home/adithya/Synthesis/variants/desktop_abc-1.12.13.3d/test_1.1.jpg: Predicted in 21.359357 seconds.
+book: 61%
+Bounding Box: Left=163, Top=109, Right=179, Bottom=133
+book: 51%
+Bounding Box: Left=149, Top=109, Right=163, Bottom=135
+tvmonitor: 60%
+Bounding Box: Left=461, Top=116, Right=529, Bottom=168
+sofa: 94%
+Bounding Box: Left=306, Top=190, Right=623, Bottom=425
+sofa: 81%
+Bounding Box: Left=50, Top=143, Right=254, Bottom=291
+sofa: 74%
+Bounding Box: Left=1, Top=208, Right=105, Bottom=425
+sofa: 62%
+Bounding Box: Left=408, Top=175, Right=548, Bottom=293
+chair: 88%
+Bounding Box: Left=410, Top=154, Right=526, Bottom=291
+Enter Image Path: /home/adithya/Synthesis/variants/desktop_abc-1.12.13.3d/test_2.1.jpg: Predicted in 20.953377 seconds.
+tvmonitor: 94%
+Bounding Box: Left=534, Top=168, Right=639, Bottom=456
+person: 100%
+Bounding Box: Left=0, Top=82, Right=252, Bottom=471
+Enter Image Path: /home/adithya/Synthesis/variants/desktop_abc-1.12.13.3d/test_3.3.jpg: Predicted in 21.012374 seconds.
+keyboard: 99%
+Bounding Box: Left=117, Top=267, Right=428, Bottom=381
+mouse: 98%
+Bounding Box: Left=238, Top=211, Right=288, Bottom=252
+mouse: 92%
+Bounding Box: Left=331, Top=189, Right=364, Bottom=241
+Enter Image Path: /home/adithya/Synthesis/variants/desktop_abc-1.12.13.3d/test_d.jpg: Predicted in 21.044894 seconds.
+book: 69%
+Bounding Box: Left=63, Top=64, Right=118, Bottom=80
+book: 55%
+Bounding Box: Left=27, Top=65, Right=65, Bottom=82
+book: 52%
+Bounding Box: Left=65, Top=58, Right=116, Bottom=72
+keyboard: 86%
+Bounding Box: Left=277, Top=238, Right=449, Bottom=314
+mouse: 100%
+Bounding Box: Left=365, Top=331, Right=406, Bottom=368
+mouse: 100%
+Bounding Box: Left=256, Top=224, Right=292, Bottom=242
+mouse: 100%
+Bounding Box: Left=462, Top=373, Right=527, Bottom=412
+tvmonitor: 99%
+Bounding Box: Left=341, Top=82, Right=486, Bottom=252
+tvmonitor: 99%
+Bounding Box: Left=234, Top=71, Right=345, Bottom=193
+tvmonitor: 93%
+Bounding Box: Left=160, Top=79, Right=233, Bottom=166
+chair: 62%
+Bounding Box: Left=36, Top=289, Right=265, Bottom=425
+backpack: 76%
+Bounding Box: Left=85, Top=322, Right=234, Bottom=422
+Enter Image Path: 

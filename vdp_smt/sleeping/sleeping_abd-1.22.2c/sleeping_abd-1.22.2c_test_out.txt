@@ -1,0 +1,35 @@
+Enter Image Path: /home/adithya/Synthesis/variants/sleeping_abd-1.22.2c/test_1.2.jpg: Predicted in 25.671493 seconds.
+bench: 96%
+chair: 68%
+Bounding Box: Left=181, Top=106, Right=962, Bottom=622
+cat: 100%
+Bounding Box: Left=244, Top=198, Right=886, Bottom=516
+Enter Image Path: /home/adithya/Synthesis/variants/sleeping_abd-1.22.2c/test_2.2.jpg: Predicted in 279.821962 seconds.
+cup: 84%
+Bounding Box: Left=457, Top=113, Right=489, Bottom=141
+dog: 100%
+Bounding Box: Left=82, Top=209, Right=566, Bottom=419
+bench: 85%
+Bounding Box: Left=56, Top=27, Right=630, Bottom=277
+Enter Image Path: /home/adithya/Synthesis/variants/sleeping_abd-1.22.2c/test_c.jpg: Predicted in 25.701556 seconds.
+pottedplant: 59%
+Bounding Box: Left=435, Top=86, Right=618, Bottom=229
+bench: 100%
+Bounding Box: Left=124, Top=238, Right=901, Bottom=652
+bicycle: 91%
+Bounding Box: Left=793, Top=127, Right=984, Bottom=341
+person: 100%
+Bounding Box: Left=370, Top=0, Right=467, Bottom=232
+person: 93%
+Bounding Box: Left=264, Top=47, Right=318, Bottom=133
+person: 90%
+Bounding Box: Left=778, Top=31, Right=815, Bottom=190
+person: 88%
+Bounding Box: Left=0, Top=6, Right=26, Bottom=212
+person: 72%
+Bounding Box: Left=283, Top=295, Right=740, Bottom=500
+person: 69%
+Bounding Box: Left=788, Top=12, Right=960, Bottom=350
+person: 58%
+Bounding Box: Left=444, Top=7, Right=483, Bottom=106
+Enter Image Path: 

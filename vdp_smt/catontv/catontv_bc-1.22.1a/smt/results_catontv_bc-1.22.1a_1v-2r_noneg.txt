@@ -1,0 +1,41 @@
+Candidate 1:
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 2:
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 3:
+
+Solution number 1
+Exists x1. 
+(or
+[labelOf(x1,cat)]
+[toLeft(x1,x1)])
+++++++++++++++
+
+Solution number 2
+Exists x1. 
+(or
+[toRight(keyboard,tvmonitor)]
+[labelOf(x1,cat)])
+++++++++++++++
+
+Solution number 3
+Exists x1. 
+(or
+[labelOf(x1,cat)]
+[labelOf(nullobj,x1)])
+++++++++++++++
+
+Solution number 4
+Exists x1. 
+(or
+[labelOf(x1,cat)]
+[below(tvmonitor,pottedplant)])
+++++++++++++++
+
+-----------------------------
+
+!!!Solved in 1.82262396812 seconds.

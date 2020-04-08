@@ -1,0 +1,2 @@
+CVC4 interrupted by SIGTERM.
+kitchen_abc-1.22.2e

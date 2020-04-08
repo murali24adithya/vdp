@@ -1,0 +1,125 @@
+Candidate 1:
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 2:
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 3:
+
+Solution number 1
+Exists x1. Exists x2. 
+(and
+[neq(chair,x2)]
+[labelOf(x1,person)])
+++++++++++++++
+
+Solution number 2
+Exists x1. Exists x2. 
+(and
+[neq(bench,x2)]
+[labelOf(x1,person)])
+++++++++++++++
+
+Solution number 3
+Exists x1. Exists x2. 
+(and
+[neq(dog,x2)]
+[labelOf(x1,person)])
+++++++++++++++
+
+Solution number 4
+Exists x1. Exists x2. 
+(and
+[neq(person,x2)]
+[labelOf(x1,person)])
+++++++++++++++
+
+Solution number 5
+Exists x1. Exists x2. 
+(and
+[labelOf(x1,person)]
+[neq(bench,x2)])
+++++++++++++++
+
+Solution number 6
+Exists x1. Exists x2. 
+(and
+[labelOf(x1,person)]
+[neq(dog,x2)])
+++++++++++++++
+
+Solution number 7
+Exists x1. Exists x2. 
+(and
+[labelOf(x1,person)]
+[neq(cat,x2)])
+++++++++++++++
+
+Solution number 8
+Exists x1. Exists x2. 
+(and
+[labelOf(x1,person)]
+[neq(chair,x2)])
+++++++++++++++
+
+Solution number 9
+Exists x1. Exists x2. 
+(and
+[labelOf(x1,person)]
+[neq(pottedplant,x2)])
+++++++++++++++
+
+Solution number 10
+Exists x1. Exists x2. 
+(and
+[labelOf(x1,person)]
+[neq(bicycle,x2)])
+++++++++++++++
+
+Solution number 11
+Exists x1. Exists x2. 
+(and
+[labelOf(x1,person)]
+[neq(cup,x2)])
+++++++++++++++
+
+Solution number 12
+Exists x1. Exists x2. 
+(and
+[labelOf(x1,person)]
+[neq(person,x2)])
+++++++++++++++
+
+Solution number 13
+Exists x1. Exists x2. 
+(and
+[labelOf(x2,person)]
+[neq(cat,x1)])
+++++++++++++++
+
+Solution number 14
+Exists x1. Exists x2. 
+(and
+[labelOf(x2,person)]
+[neq(chair,cup)])
+++++++++++++++
+
+Solution number 15
+Exists x1. Exists x2. 
+(and
+[labelOf(x2,person)]
+[neq(chair,bench)])
+++++++++++++++
+
+Solution number 16
+Exists x1. Exists x2. 
+(and
+[labelOf(x2,person)]
+[neq(chair,person)])
+++++++++++++++
+
+-----------------------------
+
+!!!Solved in 8.92625808716 seconds.

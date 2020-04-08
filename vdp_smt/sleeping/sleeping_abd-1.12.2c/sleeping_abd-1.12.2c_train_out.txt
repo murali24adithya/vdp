@@ -1,0 +1,20 @@
+Enter Image Path: /home/adithya/Synthesis/variants/sleeping_abd-1.12.2c/train_a.jpg: Predicted in 29.998497 seconds.
+bench: 96%
+Bounding Box: Left=172, Top=165, Right=512, Bottom=318
+bench: 74%
+Bounding Box: Left=97, Top=28, Right=455, Bottom=175
+bench: 52%
+Bounding Box: Left=97, Top=0, Right=252, Bottom=83
+person: 99%
+Bounding Box: Left=101, Top=35, Right=407, Bottom=162
+Enter Image Path: /home/adithya/Synthesis/variants/sleeping_abd-1.12.2c/train_b.jpg: Predicted in 29.493352 seconds.
+bench: 100%
+Bounding Box: Left=0, Top=256, Right=584, Bottom=420
+person: 100%
+Bounding Box: Left=31, Top=90, Right=414, Bottom=424
+Enter Image Path: /home/adithya/Synthesis/variants/sleeping_abd-1.12.2c/train_d.jpg: Predicted in 30.225709 seconds.
+bench: 99%
+Bounding Box: Left=32, Top=194, Right=834, Bottom=538
+person: 68%
+Bounding Box: Left=195, Top=204, Right=820, Bottom=359
+Enter Image Path: 

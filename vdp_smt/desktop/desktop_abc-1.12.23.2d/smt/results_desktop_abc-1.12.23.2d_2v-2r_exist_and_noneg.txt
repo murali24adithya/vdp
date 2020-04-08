@@ -1,0 +1,45 @@
+Candidate 1:
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 2:
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 3:
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 4:
+
+Solution number 1
+Exists x1. Exists x2. 
+(and
+[labelOf(x1,mouse)]
+[neq(bed,book)])
+++++++++++++++
+
+Solution number 2
+Exists x1. Exists x2. 
+(and
+[sameLabel(x2,x2)]
+[labelOf(x1,mouse)])
+++++++++++++++
+
+Solution number 3
+Exists x1. Exists x2. 
+(and
+[labelOf(x1,mouse)]
+[neq(tvmonitor,bottle)])
+++++++++++++++
+
+Solution number 4
+Exists x1. Exists x2. 
+(and
+[labelOf(x1,mouse)]
+[neq(vase,bottle)])
+++++++++++++++
+
+-----------------------------
+
+!!!Solved in 23.7590718269 seconds.

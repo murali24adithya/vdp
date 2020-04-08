@@ -1,0 +1,52 @@
+Enter Image Path: /home/adithya/Synthesis/variants/alldogsonsofas_abc-23d/test_2.jpg: Predicted in 25.439596 seconds.
+book: 97%
+Bounding Box: Left=259, Top=234, Right=337, Bottom=266
+book: 84%
+Bounding Box: Left=203, Top=231, Right=253, Bottom=252
+sofa: 99%
+Bounding Box: Left=120, Top=124, Right=475, Bottom=248
+bowl: 78%
+Bounding Box: Left=215, Top=211, Right=300, Bottom=239
+dog: 98%
+Bounding Box: Left=428, Top=265, Right=525, Bottom=327
+Enter Image Path: /home/adithya/Synthesis/variants/alldogsonsofas_abc-23d/test_3.jpg: Predicted in 25.616086 seconds.
+vase: 76%
+Bounding Box: Left=516, Top=149, Right=533, Bottom=180
+book: 75%
+Bounding Box: Left=430, Top=183, Right=437, Bottom=203
+book: 70%
+Bounding Box: Left=439, Top=159, Right=444, Bottom=179
+book: 66%
+Bounding Box: Left=431, Top=160, Right=436, Bottom=177
+book: 60%
+Bounding Box: Left=447, Top=132, Right=454, Bottom=156
+book: 60%
+Bounding Box: Left=439, Top=132, Right=446, Bottom=158
+book: 56%
+Bounding Box: Left=416, Top=159, Right=420, Bottom=180
+book: 52%
+Bounding Box: Left=416, Top=190, Right=422, Bottom=205
+book: 51%
+Bounding Box: Left=437, Top=181, Right=443, Bottom=201
+tvmonitor: 100%
+Bounding Box: Left=287, Top=97, Right=396, Bottom=170
+sofa: 99%
+Bounding Box: Left=0, Top=209, Right=391, Bottom=425
+sofa: 93%
+Bounding Box: Left=102, Top=169, Right=324, Bottom=266
+bowl: 97%
+Bounding Box: Left=316, Top=254, Right=381, Bottom=280
+cup: 56%
+Bounding Box: Left=332, Top=228, Right=356, Bottom=258
+dog: 99%
+Bounding Box: Left=420, Top=243, Right=528, Bottom=316
+cat: 65%
+Bounding Box: Left=9, Top=180, Right=109, Bottom=221
+Enter Image Path: /home/adithya/Synthesis/variants/alldogsonsofas_abc-23d/test_d.jpg: Predicted in 25.883357 seconds.
+sofa: 98%
+Bounding Box: Left=49, Top=190, Right=559, Bottom=399
+dog: 100%
+Bounding Box: Left=362, Top=254, Right=417, Bottom=350
+dog: 97%
+Bounding Box: Left=246, Top=210, Right=374, Bottom=356
+Enter Image Path: 

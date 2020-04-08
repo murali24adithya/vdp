@@ -1,0 +1,35 @@
+Candidate 1:
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 2:
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 3:
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 4:
+
+Solution number 1
+Exists x1. Exists x2. Exists x3. 
+(and
+[neq(x1,x3)]
+(and
+[within(x3,x2)]
+[within(x1,x2)]))
+++++++++++++++
+
+Solution number 2
+Exists x1. Exists x2. Exists x3. 
+(and
+[neq(x1,x3)]
+(and
+[within(x1,x2)]
+[within(x3,x2)]))
+++++++++++++++
+
+-----------------------------
+
+!!!Solved in 33.3163230419 seconds.

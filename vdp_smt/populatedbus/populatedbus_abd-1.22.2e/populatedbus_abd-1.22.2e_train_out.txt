@@ -1,0 +1,70 @@
+Enter Image Path: /home/adithya/Synthesis/variants/populatedbus_abd-1.22.2e/train_a.jpg: Predicted in 25.292411 seconds.
+backpack: 79%
+Bounding Box: Left=215, Top=277, Right=259, Bottom=356
+bus: 90%
+Bounding Box: Left=374, Top=87, Right=754, Bottom=437
+car: 85%
+Bounding Box: Left=755, Top=236, Right=779, Bottom=258
+person: 100%
+Bounding Box: Left=30, Top=237, Right=111, Bottom=435
+person: 99%
+Bounding Box: Left=176, Top=242, Right=255, Bottom=437
+person: 99%
+Bounding Box: Left=345, Top=254, Right=415, Bottom=439
+person: 98%
+Bounding Box: Left=609, Top=217, Right=683, Bottom=288
+person: 98%
+Bounding Box: Left=89, Top=244, Right=131, Bottom=417
+person: 98%
+Bounding Box: Left=145, Top=231, Right=196, Bottom=426
+person: 97%
+Bounding Box: Left=265, Top=238, Right=321, Bottom=434
+person: 96%
+Bounding Box: Left=317, Top=247, Right=363, Bottom=432
+person: 84%
+Bounding Box: Left=447, Top=210, Right=520, Bottom=294
+person: 80%
+Bounding Box: Left=116, Top=250, Right=152, Bottom=377
+person: 62%
+Bounding Box: Left=260, Top=225, Right=293, Bottom=317
+person: 60%
+Bounding Box: Left=305, Top=241, Right=325, Bottom=294
+person: 53%
+Bounding Box: Left=222, Top=233, Right=245, Bottom=280
+Enter Image Path: /home/adithya/Synthesis/variants/populatedbus_abd-1.22.2e/train_b.jpg: Predicted in 24.929089 seconds.
+handbag: 53%
+Bounding Box: Left=143, Top=307, Right=170, Bottom=370
+bus: 99%
+Bounding Box: Left=0, Top=170, Right=45, Bottom=240
+bus: 97%
+Bounding Box: Left=133, Top=8, Right=559, Bottom=381
+person: 100%
+Bounding Box: Left=217, Top=250, Right=281, Bottom=390
+person: 100%
+Bounding Box: Left=171, Top=224, Right=229, Bottom=384
+person: 100%
+Bounding Box: Left=64, Top=231, Right=112, Bottom=377
+person: 100%
+Bounding Box: Left=107, Top=228, Right=149, Bottom=379
+person: 99%
+Bounding Box: Left=272, Top=229, Right=304, Bottom=381
+person: 99%
+Bounding Box: Left=300, Top=227, Right=338, Bottom=379
+person: 99%
+Bounding Box: Left=372, Top=218, Right=432, Bottom=288
+person: 98%
+Bounding Box: Left=46, Top=218, Right=80, Bottom=360
+person: 97%
+Bounding Box: Left=217, Top=234, Right=247, Bottom=299
+person: 95%
+Bounding Box: Left=444, Top=94, Right=481, Bottom=145
+person: 80%
+Bounding Box: Left=481, Top=111, Right=501, Bottom=144
+person: 68%
+Bounding Box: Left=137, Top=233, Right=162, Bottom=311
+Enter Image Path: /home/adithya/Synthesis/variants/populatedbus_abd-1.22.2e/train_d.jpg: Predicted in 25.113698 seconds.
+bus: 100%
+Bounding Box: Left=0, Top=31, Right=344, Bottom=344
+person: 64%
+Bounding Box: Left=215, Top=130, Right=257, Bottom=189
+Enter Image Path: 

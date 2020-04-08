@@ -1,0 +1,3 @@
+/home/adithya/Synthesis/variants/tvon_abc-25d/test_2.jpg
+/home/adithya/Synthesis/variants/tvon_abc-25d/test_5.jpg
+/home/adithya/Synthesis/variants/tvon_abc-25d/test_d.jpg

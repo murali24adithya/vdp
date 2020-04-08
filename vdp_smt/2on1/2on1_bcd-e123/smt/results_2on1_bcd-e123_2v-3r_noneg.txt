@@ -1,0 +1,26 @@
+Candidate 1:
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 2:
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 3:
+
+Solution number 1
+Exists x1. Forall x2. 
+(impl
+[Not within(x2,x1)]
+(or
+[above(cat,nullobj)]
+[sameLabel(x1,x2)]))
+++++++++++++++
+
+-----------------------------
+Candidate 4:
+
+Unsat:No more formulae.
+-----------------------------
+
+!!!Solved in 184.547074795 seconds.

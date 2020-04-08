@@ -1,0 +1,33 @@
+Candidate 1:
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 2:
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 3:
+
+Solution number 1
+Forall x1. Forall x2. 
+[Not toRight(x1,x2)]
+++++++++++++++
+
+Solution number 2
+Forall x1. Forall x2. 
+[Not toLeft(x1,x2)]
+++++++++++++++
+
+Solution number 3
+Forall x1. Forall x2. 
+[Not toRight(x2,x1)]
+++++++++++++++
+
+Solution number 4
+Forall x1. Forall x2. 
+[Not toLeft(x2,x1)]
+++++++++++++++
+
+-----------------------------
+
+!!!Solved in 5.00003504753 seconds.

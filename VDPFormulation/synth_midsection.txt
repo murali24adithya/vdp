@@ -1,0 +1,89 @@
+;;Number of variables: 2. Call them x1 and x2
+
+;;Boolean variables to indicate quantifiers. Call them q1 and q2. 'True' corresponds to universal quantifier.
+(synth-fun q1 () Bool
+    ((Start Bool))
+    ((Start Bool 
+        	(true false))
+    )
+)
+
+(synth-fun q2 () Bool
+((Start Bool))
+((Start Bool (true false))
+))
+
+
+;;Guards to synthesize for each quantifier. Call them g1 (for x1) and g2 (for x2).
+(synth-fun g1 ((x Obj)) Bool
+	((Start Bool) (Lb Label) (Ob Obj))
+	((Start Bool
+			((labelOf Ob Lb)))
+	 (Lb Label
+	 		(sofa cat book fork tvmonitor chair dog bed laptop bowl))
+	 (Ob Obj
+	 		(x))
+	)
+)
+
+(synth-fun g2 ((x Obj)) Bool
+	((Start Bool) (Lb Label) (Ob Obj))
+	((Start Bool
+			((labelOf Ob Lb)))
+	 (Lb Label
+	 		(sofa cat book fork tvmonitor chair dog bed laptop bowl))
+	 (Ob Obj
+	 		(x))
+	)
+)
+
+;;Inner formula to synthesize.
+(synth-fun f ((x1 Obj)(x2 Obj)) Bool
+	((B Bool) (Lb Label) (Ob Obj))
+	((B Bool
+			(true
+			 false
+			 (= Ob Ob)
+			 (=> B B)
+			 (and B B)
+			 (or B B)
+			 (not B)
+			 (labelOf Ob Lb)
+			 (leftOf Ob Ob) (rightOf Ob Ob) (above Ob Ob) (below Ob Ob) (within Ob Ob)))
+	 (Lb Label
+	 		(sofa cat book fork tvmonitor chair dog bed laptop bowl))
+	 (Ob Obj
+	 		(x1 x2))
+	)
+)
+
+
+;;Boolean variables to indicate candidate. Call them c1, c2, c3. 'True' corresponds to correct candidate.
+(synth-fun c1 () Bool
+    ((Start Bool))
+    ((Start Bool 
+        	(true false))
+    )
+)
+
+(synth-fun c2 () Bool
+    ((Start Bool))
+    ((Start Bool 
+        	(true false))
+    )
+)
+
+(synth-fun c3 () Bool
+    ((Start Bool))
+    ((Start Bool 
+        	(true false))
+    )
+)
+
+
+;;Constraints to express that only one candidate can be chosen
+(constraint (=> c1 (and (not c2) (not c3))))
+(constraint (=> c2 (and (not c1) (not c3))))
+(constraint (=> c3 (and (not c1) (not c2))))
+
+;;Constraints for truth/falsehood of formula on each model. Including vacuity.

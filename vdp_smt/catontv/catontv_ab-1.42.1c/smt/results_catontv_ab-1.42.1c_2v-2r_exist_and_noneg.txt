@@ -1,0 +1,55 @@
+Candidate 1:
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 2:
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 3:
+
+Solution number 1
+Exists x1. Exists x2. 
+(and
+[neq(nullobj,sofa)]
+[labelOf(x2,cat)])
+++++++++++++++
+
+Solution number 2
+Exists x1. Exists x2. 
+(and
+[sameLabel(x2,x2)]
+[labelOf(x2,cat)])
+++++++++++++++
+
+Solution number 3
+Exists x1. Exists x2. 
+(and
+[Not toRight(x2,x2)]
+[labelOf(x2,cat)])
+++++++++++++++
+
+Solution number 4
+Exists x1. Exists x2. 
+(and
+[Not below(x2,x2)]
+[labelOf(x2,cat)])
+++++++++++++++
+
+Solution number 5
+Exists x1. Exists x2. 
+(and
+[Not within(x2,x2)]
+[labelOf(x2,cat)])
+++++++++++++++
+
+Solution number 6
+Exists x1. Exists x2. 
+(and
+[Not toLeft(x2,x2)]
+[labelOf(x2,cat)])
+++++++++++++++
+
+-----------------------------
+
+!!!Solved in 2.40720891953 seconds.

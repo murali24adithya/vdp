@@ -1,0 +1,33 @@
+Candidate 1:
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 2:
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 3:
+
+Solution number 1
+Exists x1. Exists x2. 
+[labelOf(x1,cat)]
+++++++++++++++
+
+Solution number 2
+Exists x1. Exists x2. 
+[labelOf(x2,cat)]
+++++++++++++++
+
+Solution number 3
+Exists x1. Forall x2. 
+[labelOf(x1,cat)]
+++++++++++++++
+
+Solution number 4
+Forall x1. Exists x2. 
+[labelOf(x2,cat)]
+++++++++++++++
+
+-----------------------------
+
+!!!Solved in 4.0354180336 seconds.
