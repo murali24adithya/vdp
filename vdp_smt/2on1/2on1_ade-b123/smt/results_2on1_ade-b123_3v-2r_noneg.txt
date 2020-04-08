@@ -1,0 +1,30 @@
+Candidate 1:
+
+Solution number 1
+Exists x1. Exists x2. Exists x3. 
+(and
+[toRight(x3,x1)]
+[within(x1,x2)])
+++++++++++++++
+
+-----------------------------
+Candidate 2:
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 3:
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 4:
+
+Solution number 1
+Exists x1. Forall x2. Exists x3. 
+(and
+[neq(x2,x3)]
+[within(x3,x1)])
+++++++++++++++
+
+-----------------------------
+
+!!!Solved in 466.305936098 seconds.

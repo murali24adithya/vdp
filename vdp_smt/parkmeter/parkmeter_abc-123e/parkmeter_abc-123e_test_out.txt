@@ -1,0 +1,65 @@
+Enter Image Path: /home/adithya/Synthesis/variants/parkmeter_abc-123e/test_1.jpg: Predicted in 21.004237 seconds.
+truck: 100%
+Bounding Box: Left=15, Top=0, Right=639, Bottom=320
+Enter Image Path: /home/adithya/Synthesis/variants/parkmeter_abc-123e/test_2.jpg: Predicted in 20.714334 seconds.
+backpack: 90%
+Bounding Box: Left=448, Top=205, Right=483, Bottom=251
+dog: 98%
+Bounding Box: Left=507, Top=250, Right=539, Bottom=306
+car: 100%
+Bounding Box: Left=192, Top=173, Right=399, Bottom=398
+car: 100%
+Bounding Box: Left=194, Top=162, Right=272, Bottom=216
+car: 99%
+Bounding Box: Left=308, Top=143, Right=350, Bottom=177
+car: 99%
+Bounding Box: Left=0, Top=235, Right=348, Bottom=612
+car: 99%
+Bounding Box: Left=336, Top=164, Right=430, Bottom=279
+car: 99%
+Bounding Box: Left=261, Top=154, Right=301, Bottom=188
+car: 97%
+Bounding Box: Left=3, Top=175, Right=117, Bottom=254
+car: 97%
+Bounding Box: Left=396, Top=121, Right=417, Bottom=138
+car: 96%
+Bounding Box: Left=409, Top=153, Right=446, Bottom=191
+car: 96%
+Bounding Box: Left=354, Top=130, Right=380, Bottom=152
+car: 95%
+Bounding Box: Left=438, Top=129, Right=460, Bottom=147
+car: 93%
+Bounding Box: Left=351, Top=158, Right=433, Bottom=221
+car: 90%
+Bounding Box: Left=424, Top=139, Right=454, Bottom=158
+car: 77%
+Bounding Box: Left=197, Top=149, Right=234, Bottom=168
+car: 72%
+Bounding Box: Left=143, Top=151, Right=203, Bottom=171
+car: 67%
+Bounding Box: Left=370, Top=121, Right=391, Bottom=143
+car: 65%
+Bounding Box: Left=41, Top=165, Right=88, Bottom=184
+person: 100%
+Bounding Box: Left=428, Top=178, Right=498, Bottom=319
+Enter Image Path: /home/adithya/Synthesis/variants/parkmeter_abc-123e/test_3.jpg: Predicted in 20.734787 seconds.
+stop sign: 100%
+Bounding Box: Left=237, Top=30, Right=392, Bottom=201
+stop sign: 55%
+Bounding Box: Left=280, Top=249, Right=393, Bottom=370
+car: 92%
+Bounding Box: Left=263, Top=520, Right=331, Bottom=582
+car: 86%
+Bounding Box: Left=107, Top=515, Right=256, Bottom=592
+Enter Image Path: /home/adithya/Synthesis/variants/parkmeter_abc-123e/test_e.jpg: Predicted in 20.694965 seconds.
+parking meter: 98%
+Bounding Box: Left=303, Top=35, Right=472, Bottom=360
+truck: 84%
+Bounding Box: Left=334, Top=3, Right=575, Bottom=100
+car: 99%
+Bounding Box: Left=8, Top=5, Right=364, Bottom=289
+car: 98%
+Bounding Box: Left=0, Top=4, Right=52, Bottom=105
+car: 72%
+Bounding Box: Left=258, Top=57, Right=525, Bottom=322
+Enter Image Path: 

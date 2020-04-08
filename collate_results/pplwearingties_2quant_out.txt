@@ -1,0 +1,200 @@
+Processing pplwearingties_abc-1.12.13.1d
+
+real	0m0.421s
+user	0m0.401s
+sys	0m0.020s
+Exists x1: tie. Forall x2: tie. (AND eq_x1_x2)
+Candidate 2
+
+Finished processing pplwearingties_abc-1.12.13.1d
+
+Processing pplwearingties_abc-1.12.13.1e
+
+real	0m12.634s
+user	0m12.346s
+sys	0m0.288s
+Exists x1: tie. Forall x2: tie. (AND eq_x1_x2)
+Candidate 2
+
+Finished processing pplwearingties_abc-1.12.13.1e
+
+Processing pplwearingties_abc-1.12.13.2d
+
+real	0m0.234s
+user	0m0.230s
+sys	0m0.004s
+Exists x1: tie. Exists x2: person. (AND within_x1_x2)
+Candidate 4
+
+Finished processing pplwearingties_abc-1.12.13.2d
+
+Processing pplwearingties_abc-1.12.13.2e
+
+real	0m11.233s
+user	0m11.060s
+sys	0m0.172s
+Exists x1: person. Exists x2: tie. (AND within_x2_x1)
+Candidate 4
+
+Finished processing pplwearingties_abc-1.12.13.2e
+
+Processing pplwearingties_abc-1.12.23.1d
+
+real	0m0.417s
+user	0m0.401s
+sys	0m0.016s
+Exists x1: person. Exists x2: tie. (AND within_x2_x1)
+Candidate 4
+
+Finished processing pplwearingties_abc-1.12.23.1d
+
+Processing pplwearingties_abc-1.12.23.1e
+
+real	0m12.552s
+user	0m12.364s
+sys	0m0.188s
+Exists x1: person. Exists x2: tie. (AND within_x2_x1)
+Candidate 4
+
+Finished processing pplwearingties_abc-1.12.23.1e
+
+Processing pplwearingties_abc-1.12.23.2d
+
+real	0m0.245s
+user	0m0.237s
+sys	0m0.008s
+Exists x1: person. Exists x2: tie. (AND within_x2_x1)
+Candidate 4
+
+Finished processing pplwearingties_abc-1.12.23.2d
+
+Processing pplwearingties_abc-1.12.23.2e
+
+real	0m11.271s
+user	0m11.044s
+sys	0m0.224s
+Exists x1: person. Exists x2: tie. (AND within_x2_x1)
+Candidate 4
+
+Finished processing pplwearingties_abc-1.12.23.2e
+
+Processing pplwearingties_abc-1.22.13.1d
+
+real	0m0.355s
+user	0m0.343s
+sys	0m0.012s
+Exists x1: person. Exists x2: tie. (AND within_x2_x1)
+Candidate 4
+
+Finished processing pplwearingties_abc-1.22.13.1d
+
+Processing pplwearingties_abc-1.22.13.1e
+
+real	0m11.984s
+user	0m11.736s
+sys	0m0.248s
+Exists x1: tie. Forall x2: tie. (AND eq_x1_x2)
+Candidate 2
+
+Finished processing pplwearingties_abc-1.22.13.1e
+
+Processing pplwearingties_abc-1.22.13.2d
+
+real	0m0.187s
+user	0m0.180s
+sys	0m0.008s
+Exists x1: person. Exists x2: tie. (AND within_x2_x1)
+Candidate 4
+
+Finished processing pplwearingties_abc-1.22.13.2d
+
+Processing pplwearingties_abc-1.22.13.2e
+
+real	0m11.047s
+user	0m10.867s
+sys	0m0.180s
+Exists x1: tie. Exists x2: person. (AND within_x1_x2)
+Candidate 4
+
+Finished processing pplwearingties_abc-1.22.13.2e
+
+Processing pplwearingties_abc-1.22.23.1d
+
+real	0m0.352s
+user	0m0.340s
+sys	0m0.012s
+Exists x1: person. Exists x2: tie. (AND within_x2_x1)
+Candidate 4
+
+Finished processing pplwearingties_abc-1.22.23.1d
+
+Processing pplwearingties_abc-1.22.23.2d
+
+real	0m0.189s
+user	0m0.181s
+sys	0m0.008s
+Exists x1: tie. Exists x2: person. (AND within_x1_x2)
+Candidate 4
+
+Finished processing pplwearingties_abc-1.22.23.2d
+
+Processing pplwearingties_abc-1.32.13.1d
+
+real	0m0.384s
+user	0m0.368s
+sys	0m0.016s
+Exists x1: person. Exists x2: tie. (AND within_x2_x1)
+Candidate 4
+
+Finished processing pplwearingties_abc-1.32.13.1d
+
+Processing pplwearingties_abc-1.32.13.1e
+
+real	0m13.064s
+user	0m12.799s
+sys	0m0.264s
+Exists x1: person. Exists x2: tie. (AND within_x2_x1)
+Candidate 4
+
+Finished processing pplwearingties_abc-1.32.13.1e
+
+Processing pplwearingties_abc-1.32.13.2d
+
+real	0m0.258s
+user	0m0.246s
+sys	0m0.012s
+Exists x1: person. Exists x2: tie. (AND within_x2_x1)
+Candidate 4
+
+Finished processing pplwearingties_abc-1.32.13.2d
+
+Processing pplwearingties_abc-1.32.13.2e
+
+real	0m13.366s
+user	0m13.096s
+sys	0m0.260s
+Exists x1: tie. Exists x2: person. (AND within_x1_x2)
+Candidate 4
+
+Finished processing pplwearingties_abc-1.32.13.2e
+
+Processing pplwearingties_abc-1.32.23.1d
+
+real	0m0.472s
+user	0m0.460s
+sys	0m0.008s
+Exists x1: tie. Forall x2: tie. (AND eq_x1_x2)
+Candidate 2
+
+Finished processing pplwearingties_abc-1.32.23.1d
+
+Processing pplwearingties_abc-1.32.23.2d
+
+real	0m0.269s
+user	0m0.265s
+sys	0m0.004s
+Exists x1: person. Exists x2: tie. (AND within_x2_x1)
+Candidate 4
+
+Finished processing pplwearingties_abc-1.32.23.2d
+

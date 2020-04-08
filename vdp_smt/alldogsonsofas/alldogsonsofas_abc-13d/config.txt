@@ -1,0 +1,6 @@
+1 2 num_solutions=4
+2 1 num_solutions=4
+2 2 existential=yes conjuncts=yes num_solutions=8
+2 2 existential=yes num_solutions=8
+2 2 conjuncts=yes num_solutions=8
+2 2 num_solutions=1

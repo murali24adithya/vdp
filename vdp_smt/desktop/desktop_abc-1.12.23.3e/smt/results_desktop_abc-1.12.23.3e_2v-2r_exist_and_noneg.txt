@@ -1,0 +1,45 @@
+Candidate 1:
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 2:
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 3:
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 4:
+
+Solution number 1
+Exists x1. Exists x2. 
+(and
+[labelOf(x1,tvmonitor)]
+[labelOf(x2,keyboard)])
+++++++++++++++
+
+Solution number 2
+Exists x1. Exists x2. 
+(and
+[labelOf(x2,tvmonitor)]
+[labelOf(x1,keyboard)])
+++++++++++++++
+
+Solution number 3
+Exists x1. Exists x2. 
+(and
+[labelOf(x2,keyboard)]
+[labelOf(x1,tvmonitor)])
+++++++++++++++
+
+Solution number 4
+Exists x1. Exists x2. 
+(and
+[labelOf(x2,mouse)]
+[labelOf(x1,tvmonitor)])
+++++++++++++++
+
+-----------------------------
+
+!!!Solved in 83.51197505 seconds.

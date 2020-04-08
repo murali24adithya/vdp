@@ -1,0 +1,41 @@
+Candidate 1:
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 2:
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 3:
+
+Solution number 1
+Exists x1. 
+(impl
+[Not below(refrigerator,x1)]
+[labelOf(x1,oven)])
+++++++++++++++
+
+Solution number 2
+Exists x1. 
+(impl
+[neq(refrigerator,x1)]
+[labelOf(x1,oven)])
+++++++++++++++
+
+Solution number 3
+Exists x1. 
+(and
+[labelOf(x1,oven)]
+[sameLabel(x1,x1)])
+++++++++++++++
+
+Solution number 4
+Exists x1. 
+(and
+[labelOf(x1,oven)]
+[Not neq(x1,x1)])
+++++++++++++++
+
+-----------------------------
+
+!!!Solved in 9.95916104317 seconds.

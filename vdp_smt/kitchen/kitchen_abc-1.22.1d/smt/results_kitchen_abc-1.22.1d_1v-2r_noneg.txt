@@ -1,0 +1,95 @@
+Candidate 1:
+
+Solution number 1
+Exists x1. 
+(or
+[labelOf(x1,diningtable)]
+[labelOf(x1,oven)])
+++++++++++++++
+
+Solution number 2
+Exists x1. 
+(or
+[labelOf(x1,oven)]
+[labelOf(x1,diningtable)])
+++++++++++++++
+
+Solution number 3
+Exists x1. 
+(or
+[labelOf(x1,chair)]
+[labelOf(x1,oven)])
+++++++++++++++
+
+Solution number 4
+Exists x1. 
+(or
+[labelOf(x1,pottedplant)]
+[labelOf(x1,oven)])
+++++++++++++++
+
+-----------------------------
+Candidate 2:
+
+Solution number 1
+Exists x1. 
+(or
+[labelOf(x1,oven)]
+[labelOf(x1,bowl)])
+++++++++++++++
+
+Solution number 2
+Exists x1. 
+(or
+[labelOf(x1,toilet)]
+[labelOf(x1,oven)])
+++++++++++++++
+
+Solution number 3
+Exists x1. 
+(or
+[labelOf(x1,bowl)]
+[labelOf(x1,oven)])
+++++++++++++++
+
+Solution number 4
+Exists x1. 
+(or
+[labelOf(x1,oven)]
+[labelOf(x1,toilet)])
+++++++++++++++
+
+-----------------------------
+Candidate 3:
+
+Solution number 1
+Exists x1. 
+(and
+[labelOf(x1,refrigerator)]
+[neq(refrigerator,diningtable)])
+++++++++++++++
+
+Solution number 2
+Exists x1. 
+(impl
+[neq(refrigerator,diningtable)]
+[labelOf(x1,refrigerator)])
+++++++++++++++
+
+Solution number 3
+Exists x1. 
+(or
+[labelOf(x1,refrigerator)]
+[below(x1,x1)])
+++++++++++++++
+
+Solution number 4
+Exists x1. 
+(and
+[labelOf(x1,refrigerator)]
+[sameLabel(x1,x1)])
+++++++++++++++
+
+-----------------------------
+
+!!!Solved in 49.4526531696 seconds.

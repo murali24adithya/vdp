@@ -1,2 +1,0 @@
-data/Synthesis/presence/presence_test_1.jpg
-data/Synthesis/presence/presence_test_2.jpg

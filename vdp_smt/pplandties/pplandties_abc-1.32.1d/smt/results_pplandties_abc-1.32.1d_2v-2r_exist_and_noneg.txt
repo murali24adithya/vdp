@@ -1,0 +1,42 @@
+Candidate 1:
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 2:
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 3:
+
+Solution number 1
+Exists x1. Exists x2. 
+(and
+[labelOf(x1,tie)]
+[labelOf(x2,person)])
+++++++++++++++
+
+Solution number 2
+Exists x1. Exists x2. 
+(and
+[labelOf(x1,person)]
+[labelOf(x2,tie)])
+++++++++++++++
+
+Solution number 3
+Exists x1. Exists x2. 
+(and
+[labelOf(x2,person)]
+[labelOf(x1,tie)])
+++++++++++++++
+
+Solution number 4
+Exists x1. Exists x2. 
+(and
+[labelOf(x2,tie)]
+[labelOf(x1,person)])
+++++++++++++++
+
+Unsat:No more formulae.
+-----------------------------
+
+!!!Solved in 6.92115020752 seconds.

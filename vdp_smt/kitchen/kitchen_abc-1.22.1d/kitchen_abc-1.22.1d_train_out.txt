@@ -1,0 +1,40 @@
+Enter Image Path: /home/adithya/Synthesis/variants/kitchen_abc-1.22.1d/train_a.jpg: Predicted in 21.445881 seconds.
+refrigerator: 57%
+Bounding Box: Left=371, Top=241, Right=550, Bottom=479
+sink: 73%
+Bounding Box: Left=0, Top=187, Right=80, Bottom=238
+oven: 97%
+Bounding Box: Left=231, Top=174, Right=390, Bottom=426
+bowl: 87%
+Bounding Box: Left=90, Top=164, Right=133, Bottom=188
+bowl: 79%
+Bounding Box: Left=140, Top=153, Right=177, Bottom=181
+bowl: 72%
+Bounding Box: Left=518, Top=218, Right=562, Bottom=248
+cup: 59%
+Bounding Box: Left=143, Top=154, Right=180, Bottom=180
+spoon: 56%
+Bounding Box: Left=97, Top=100, Right=110, Bottom=132
+cup: 87%
+Bounding Box: Left=196, Top=157, Right=220, Bottom=183
+bottle: 79%
+Bounding Box: Left=199, Top=118, Right=217, Bottom=152
+Enter Image Path: /home/adithya/Synthesis/variants/kitchen_abc-1.22.1d/train_b.jpg: Predicted in 21.199169 seconds.
+refrigerator: 100%
+Bounding Box: Left=456, Top=60, Right=639, Bottom=471
+sink: 73%
+Bounding Box: Left=149, Top=203, Right=311, Bottom=231
+oven: 76%
+Bounding Box: Left=2, Top=231, Right=232, Bottom=468
+Enter Image Path: /home/adithya/Synthesis/variants/kitchen_abc-1.22.1d/train_c.jpg: Predicted in 21.166175 seconds.
+refrigerator: 100%
+Bounding Box: Left=0, Top=73, Right=250, Bottom=427
+sink: 92%
+Bounding Box: Left=485, Top=233, Right=618, Bottom=340
+oven: 55%
+Bounding Box: Left=203, Top=188, Right=244, Bottom=359
+diningtable: 64%
+Bounding Box: Left=300, Top=140, Right=379, Bottom=224
+chair: 88%
+Bounding Box: Left=340, Top=139, Right=393, Bottom=225
+Enter Image Path: 

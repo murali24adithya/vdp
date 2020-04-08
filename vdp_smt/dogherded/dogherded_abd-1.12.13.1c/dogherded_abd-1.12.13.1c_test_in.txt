@@ -1,0 +1,4 @@
+/home/adithya/Synthesis/variants/dogherded_abd-1.12.13.1c/test_1.1.jpg
+/home/adithya/Synthesis/variants/dogherded_abd-1.12.13.1c/test_2.1.jpg
+/home/adithya/Synthesis/variants/dogherded_abd-1.12.13.1c/test_3.1.jpg
+/home/adithya/Synthesis/variants/dogherded_abd-1.12.13.1c/test_c.jpg

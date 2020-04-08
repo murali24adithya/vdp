@@ -1,0 +1,101 @@
+Enter Image Path: /home/adithya/Synthesis/variants/desktop_abc-1.22.13.1e/test_1.2.jpg: Predicted in 21.370209 seconds.
+tvmonitor: 72%
+Bounding Box: Left=68, Top=108, Right=96, Bottom=144
+chair: 100%
+Bounding Box: Left=264, Top=277, Right=385, Bottom=457
+chair: 100%
+Bounding Box: Left=176, Top=276, Right=284, Bottom=427
+chair: 98%
+Bounding Box: Left=463, Top=285, Right=604, Bottom=469
+cup: 95%
+Bounding Box: Left=380, Top=254, Right=394, Bottom=280
+cup: 86%
+Bounding Box: Left=478, Top=249, Right=492, Bottom=277
+cup: 63%
+Bounding Box: Left=342, Top=235, Right=353, Bottom=251
+cup: 57%
+Bounding Box: Left=432, Top=223, Right=445, Bottom=252
+bottle: 51%
+Bounding Box: Left=435, Top=239, Right=449, Bottom=282
+person: 100%
+Bounding Box: Left=431, Top=185, Right=588, Bottom=435
+person: 100%
+Bounding Box: Left=328, Top=182, Right=382, Bottom=245
+person: 100%
+Bounding Box: Left=74, Top=131, Right=151, Bottom=258
+person: 100%
+Bounding Box: Left=269, Top=183, Right=397, Bottom=432
+person: 99%
+Bounding Box: Left=203, Top=184, Right=280, Bottom=350
+person: 99%
+Bounding Box: Left=371, Top=175, Right=431, Bottom=256
+person: 99%
+Bounding Box: Left=426, Top=184, Right=493, Bottom=271
+person: 98%
+Bounding Box: Left=182, Top=181, Right=242, Bottom=273
+person: 97%
+Bounding Box: Left=145, Top=172, Right=208, Bottom=253
+person: 51%
+Bounding Box: Left=142, Top=177, Right=176, Bottom=226
+Enter Image Path: /home/adithya/Synthesis/variants/desktop_abc-1.22.13.1e/test_2.1.jpg: Predicted in 21.094272 seconds.
+tvmonitor: 94%
+Bounding Box: Left=534, Top=168, Right=639, Bottom=456
+person: 100%
+Bounding Box: Left=0, Top=82, Right=252, Bottom=471
+Enter Image Path: /home/adithya/Synthesis/variants/desktop_abc-1.22.13.1e/test_3.1.jpg: Predicted in 21.100248 seconds.
+keyboard: 79%
+Bounding Box: Left=9, Top=57, Right=515, Bottom=239
+mouse: 96%
+Bounding Box: Left=517, Top=154, Right=614, Bottom=275
+diningtable: 69%
+Bounding Box: Left=36, Top=49, Right=639, Bottom=286
+Enter Image Path: /home/adithya/Synthesis/variants/desktop_abc-1.22.13.1e/test_e.jpg: Predicted in 21.088754 seconds.
+book: 68%
+Bounding Box: Left=64, Top=127, Right=90, Bottom=180
+book: 67%
+Bounding Box: Left=89, Top=124, Right=105, Bottom=180
+book: 65%
+Bounding Box: Left=83, Top=62, Right=93, Bottom=105
+book: 64%
+Bounding Box: Left=284, Top=15, Right=296, Bottom=67
+book: 62%
+Bounding Box: Left=583, Top=283, Right=638, Bottom=306
+book: 62%
+Bounding Box: Left=108, Top=63, Right=117, Bottom=105
+book: 60%
+Bounding Box: Left=151, Top=5, Right=160, Bottom=57
+book: 60%
+Bounding Box: Left=252, Top=17, Right=261, Bottom=64
+book: 57%
+Bounding Box: Left=591, Top=319, Right=639, Bottom=335
+book: 55%
+Bounding Box: Left=594, Top=302, Right=638, Bottom=319
+book: 52%
+Bounding Box: Left=345, Top=26, Right=353, Bottom=70
+book: 52%
+Bounding Box: Left=592, Top=310, Right=639, Bottom=328
+book: 51%
+Bounding Box: Left=276, Top=18, Right=288, Bottom=65
+book: 50%
+Bounding Box: Left=165, Top=8, Right=176, Bottom=60
+keyboard: 100%
+Bounding Box: Left=237, Top=286, Right=327, Bottom=312
+keyboard: 100%
+Bounding Box: Left=373, Top=312, Right=458, Bottom=346
+mouse: 99%
+Bounding Box: Left=430, Top=343, Right=460, Bottom=359
+mouse: 70%
+Bounding Box: Left=353, Top=300, Right=378, Bottom=309
+tvmonitor: 100%
+Bounding Box: Left=277, Top=193, Right=389, Bottom=281
+tvmonitor: 98%
+Bounding Box: Left=182, Top=199, Right=279, Bottom=278
+tvmonitor: 97%
+Bounding Box: Left=449, Top=199, Right=546, Bottom=342
+chair: 97%
+Bounding Box: Left=175, Top=298, Right=327, Bottom=413
+chair: 65%
+Bounding Box: Left=13, Top=292, Right=146, Bottom=425
+cup: 66%
+Bounding Box: Left=409, Top=281, Right=426, Bottom=319
+Enter Image Path: 

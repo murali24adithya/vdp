@@ -1,0 +1,22 @@
+Enter Image Path: /home/adithya/Synthesis/variants/pplandties_abc-1.12.1e/train_a.jpg: Predicted in 21.521948 seconds.
+tie: 99%
+Bounding Box: Left=861, Top=481, Right=970, Bottom=829
+person: 100%
+Bounding Box: Left=1074, Top=139, Right=1699, Bottom=890
+person: 100%
+Bounding Box: Left=0, Top=153, Right=953, Bottom=1065
+person: 100%
+Bounding Box: Left=566, Top=99, Right=1388, Bottom=923
+Enter Image Path: /home/adithya/Synthesis/variants/pplandties_abc-1.12.1e/train_b.jpg: Predicted in 21.295562 seconds.
+tie: 99%
+Bounding Box: Left=837, Top=1593, Right=1126, Bottom=2108
+person: 100%
+Bounding Box: Left=46, Top=469, Right=1658, Bottom=2461
+Enter Image Path: /home/adithya/Synthesis/variants/pplandties_abc-1.12.1e/train_c.jpg: Predicted in 21.456978 seconds.
+tie: 99%
+Bounding Box: Left=616, Top=1668, Right=937, Bottom=2938
+person: 100%
+Bounding Box: Left=1595, Top=0, Right=3977, Bottom=2980
+person: 100%
+Bounding Box: Left=85, Top=198, Right=2152, Bottom=2917
+Enter Image Path: 

@@ -1,0 +1,14 @@
+Enter Image Path: /home/adithya/Synthesis/variants/sleeping_abc-1.32.1e/test_1.3.jpg: Predicted in 30.228944 seconds.
+cat: 98%
+Bounding Box: Left=55, Top=62, Right=211, Bottom=140
+bench: 89%
+Bounding Box: Left=20, Top=25, Right=299, Bottom=175
+Enter Image Path: /home/adithya/Synthesis/variants/sleeping_abc-1.32.1e/test_2.1.jpg: Predicted in 29.229860 seconds.
+bench: 100%
+Bounding Box: Left=343, Top=236, Right=638, Bottom=379
+Enter Image Path: /home/adithya/Synthesis/variants/sleeping_abc-1.32.1e/test_e.jpg: Predicted in 29.819710 seconds.
+bench: 100%
+Bounding Box: Left=14, Top=78, Right=253, Bottom=167
+person: 57%
+Bounding Box: Left=33, Top=83, Right=218, Bottom=119
+Enter Image Path: 

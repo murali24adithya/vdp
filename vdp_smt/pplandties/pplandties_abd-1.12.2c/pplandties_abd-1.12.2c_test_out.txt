@@ -1,0 +1,32 @@
+Enter Image Path: /home/adithya/Synthesis/variants/pplandties_abd-1.12.2c/test_1.1.jpg: Predicted in 21.604692 seconds.
+cell phone: 57%
+Bounding Box: Left=77, Top=177, Right=95, Bottom=188
+chair: 69%
+Bounding Box: Left=297, Top=177, Right=396, Bottom=266
+person: 100%
+Bounding Box: Left=8, Top=124, Right=149, Bottom=266
+person: 100%
+Bounding Box: Left=167, Top=28, Right=286, Bottom=263
+person: 100%
+Bounding Box: Left=8, Top=44, Right=81, Bottom=251
+person: 99%
+Bounding Box: Left=268, Top=110, Right=385, Bottom=266
+person: 99%
+Bounding Box: Left=58, Top=34, Right=132, Bottom=181
+person: 98%
+Bounding Box: Left=272, Top=60, Right=382, Bottom=199
+person: 97%
+Bounding Box: Left=122, Top=63, Right=182, Bottom=174
+Enter Image Path: /home/adithya/Synthesis/variants/pplandties_abd-1.12.2c/test_2.2.jpg: Predicted in 21.288082 seconds.
+teddy bear: 53%
+Bounding Box: Left=5, Top=0, Right=214, Bottom=242
+tie: 100%
+Bounding Box: Left=89, Top=121, Right=133, Bottom=216
+Enter Image Path: /home/adithya/Synthesis/variants/pplandties_abd-1.12.2c/test_c.jpg: Predicted in 21.333219 seconds.
+tie: 99%
+Bounding Box: Left=616, Top=1668, Right=937, Bottom=2938
+person: 100%
+Bounding Box: Left=1595, Top=0, Right=3977, Bottom=2980
+person: 100%
+Bounding Box: Left=85, Top=198, Right=2152, Bottom=2917
+Enter Image Path: 

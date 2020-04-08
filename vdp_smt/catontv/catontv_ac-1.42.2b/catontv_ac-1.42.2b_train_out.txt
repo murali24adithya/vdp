@@ -1,0 +1,15 @@
+Enter Image Path: /home/adithya/Synthesis/variants/catontv_ac-1.42.2b/train_a.jpg: Predicted in 29.622688 seconds.
+tvmonitor: 77%
+Bounding Box: Left=288, Top=75, Right=741, Bottom=388
+cat: 99%
+Bounding Box: Left=543, Top=487, Right=678, Bottom=709
+cat: 95%
+Bounding Box: Left=415, Top=140, Right=703, Bottom=350
+Enter Image Path: /home/adithya/Synthesis/variants/catontv_ac-1.42.2b/train_c.jpg: Predicted in 28.891619 seconds.
+tvmonitor: 90%
+Bounding Box: Left=202, Top=186, Right=413, Bottom=385
+cat: 100%
+Bounding Box: Left=153, Top=466, Right=451, Bottom=622
+cat: 85%
+Bounding Box: Left=221, Top=190, Right=384, Bottom=335
+Enter Image Path: 

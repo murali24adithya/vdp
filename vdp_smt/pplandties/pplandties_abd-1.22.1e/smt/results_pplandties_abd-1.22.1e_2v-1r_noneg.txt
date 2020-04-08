@@ -1,0 +1,23 @@
+Candidate 1:
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 2:
+
+Solution number 1
+Exists x1. Exists x2. 
+[within(x2,x1)]
+++++++++++++++
+
+Solution number 2
+Exists x1. Exists x2. 
+[within(x1,x2)]
+++++++++++++++
+
+-----------------------------
+Candidate 3:
+
+Unsat:No more formulae.
+-----------------------------
+
+!!!Solved in 5.62425518036 seconds.

@@ -1,0 +1,3 @@
+/home/adithya/Synthesis/variants/catontv_ac-1.42.1b/test_1.4.jpg
+/home/adithya/Synthesis/variants/catontv_ac-1.42.1b/test_2.1.jpg
+/home/adithya/Synthesis/variants/catontv_ac-1.42.1b/test_b.jpg

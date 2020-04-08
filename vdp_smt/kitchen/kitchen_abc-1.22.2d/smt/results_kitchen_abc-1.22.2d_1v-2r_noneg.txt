@@ -1,0 +1,68 @@
+Candidate 1:
+
+Solution number 1
+Exists x1. 
+(or
+[labelOf(x1,oven)]
+[labelOf(x1,diningtable)])
+++++++++++++++
+
+Solution number 2
+Exists x1. 
+(or
+[labelOf(x1,oven)]
+[labelOf(x1,chair)])
+++++++++++++++
+
+Solution number 3
+Exists x1. 
+(or
+[labelOf(x1,oven)]
+[labelOf(x1,pottedplant)])
+++++++++++++++
+
+Solution number 4
+Exists x1. 
+(or
+[labelOf(x1,chair)]
+[labelOf(x1,oven)])
+++++++++++++++
+
+-----------------------------
+Candidate 2:
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 3:
+
+Solution number 1
+Exists x1. 
+(or
+[below(x1,refrigerator)]
+[labelOf(x1,refrigerator)])
+++++++++++++++
+
+Solution number 2
+Exists x1. 
+(or
+[within(spoon,refrigerator)]
+[labelOf(x1,refrigerator)])
+++++++++++++++
+
+Solution number 3
+Exists x1. 
+(or
+[within(pottedplant,refrigerator)]
+[labelOf(x1,refrigerator)])
+++++++++++++++
+
+Solution number 4
+Exists x1. 
+(or
+[toRight(chair,refrigerator)]
+[labelOf(x1,refrigerator)])
+++++++++++++++
+
+-----------------------------
+
+!!!Solved in 26.290897131 seconds.

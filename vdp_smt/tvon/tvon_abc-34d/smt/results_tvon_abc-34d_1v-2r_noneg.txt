@@ -1,0 +1,41 @@
+Candidate 1:
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 2:
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 3:
+
+Solution number 1
+Forall x1. 
+(impl
+[labelOf(x1,book)]
+[toLeft(chair,chair)])
+++++++++++++++
+
+Solution number 2
+Forall x1. 
+(impl
+[labelOf(x1,book)]
+[within(chair,nullobj)])
+++++++++++++++
+
+Solution number 3
+Forall x1. 
+(impl
+[labelOf(x1,book)]
+[within(nullobj,chair)])
+++++++++++++++
+
+Solution number 4
+Forall x1. 
+(impl
+[labelOf(x1,book)]
+[Not neq(x1,pottedplant)])
+++++++++++++++
+
+-----------------------------
+
+!!!Solved in 6.16119408607 seconds.

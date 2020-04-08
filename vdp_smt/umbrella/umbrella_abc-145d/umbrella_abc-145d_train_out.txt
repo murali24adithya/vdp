@@ -1,0 +1,76 @@
+Enter Image Path: /home/adithya/Synthesis/variants/umbrella_abc-145d/train_a.jpg: Predicted in 21.499473 seconds.
+handbag: 98%
+Bounding Box: Left=217, Top=177, Right=267, Bottom=271
+handbag: 97%
+Bounding Box: Left=394, Top=156, Right=429, Bottom=227
+umbrella: 100%
+Bounding Box: Left=149, Top=89, Right=298, Bottom=180
+umbrella: 96%
+Bounding Box: Left=336, Top=84, Right=502, Bottom=140
+umbrella: 66%
+Bounding Box: Left=509, Top=72, Right=608, Bottom=110
+bus: 53%
+Bounding Box: Left=562, Top=57, Right=639, Bottom=172
+car: 86%
+Bounding Box: Left=495, Top=103, Right=526, Bottom=153
+person: 100%
+Bounding Box: Left=172, Top=149, Right=254, Bottom=399
+person: 100%
+Bounding Box: Left=512, Top=100, Right=573, Bottom=261
+person: 100%
+Bounding Box: Left=93, Top=127, Right=152, Bottom=275
+person: 100%
+Bounding Box: Left=337, Top=112, Right=424, Bottom=393
+person: 82%
+Bounding Box: Left=516, Top=107, Right=535, Bottom=181
+person: 64%
+Bounding Box: Left=325, Top=90, Right=339, Bottom=129
+Enter Image Path: /home/adithya/Synthesis/variants/umbrella_abc-145d/train_b.jpg: Predicted in 21.273349 seconds.
+handbag: 68%
+Bounding Box: Left=115, Top=295, Right=173, Bottom=433
+umbrella: 96%
+Bounding Box: Left=115, Top=205, Right=256, Bottom=279
+umbrella: 95%
+Bounding Box: Left=109, Top=270, Right=155, Bottom=295
+umbrella: 92%
+Bounding Box: Left=225, Top=240, Right=370, Bottom=312
+umbrella: 90%
+Bounding Box: Left=0, Top=271, Right=25, Bottom=307
+umbrella: 89%
+Bounding Box: Left=349, Top=187, Right=438, Bottom=238
+umbrella: 83%
+Bounding Box: Left=28, Top=265, Right=65, Bottom=280
+umbrella: 75%
+Bounding Box: Left=204, Top=264, Right=233, Bottom=285
+umbrella: 69%
+Bounding Box: Left=222, Top=250, Right=254, Bottom=267
+umbrella: 61%
+Bounding Box: Left=81, Top=271, Right=110, Bottom=289
+umbrella: 59%
+Bounding Box: Left=103, Top=260, Right=140, Bottom=271
+umbrella: 50%
+Bounding Box: Left=81, Top=266, Right=109, Bottom=279
+person: 100%
+Bounding Box: Left=227, Top=251, Right=317, Bottom=542
+person: 100%
+Bounding Box: Left=339, Top=259, Right=429, Bottom=509
+person: 100%
+Bounding Box: Left=46, Top=270, Right=100, Bottom=407
+person: 99%
+Bounding Box: Left=306, Top=282, Right=352, Bottom=437
+person: 98%
+Bounding Box: Left=177, Top=244, Right=233, Bottom=504
+person: 95%
+Bounding Box: Left=110, Top=260, Right=200, Bottom=502
+person: 91%
+Bounding Box: Left=398, Top=241, Right=438, Bottom=488
+person: 54%
+Bounding Box: Left=39, Top=271, Right=59, Bottom=379
+Enter Image Path: /home/adithya/Synthesis/variants/umbrella_abc-145d/train_c.jpg: Predicted in 21.135989 seconds.
+chair: 100%
+Bounding Box: Left=326, Top=254, Right=529, Bottom=449
+chair: 100%
+Bounding Box: Left=191, Top=289, Right=327, Bottom=414
+umbrella: 91%
+Bounding Box: Left=112, Top=0, Right=525, Bottom=430
+Enter Image Path: 

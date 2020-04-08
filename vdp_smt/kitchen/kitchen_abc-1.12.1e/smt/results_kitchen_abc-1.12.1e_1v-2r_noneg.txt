@@ -1,0 +1,41 @@
+Candidate 1:
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 2:
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 3:
+
+Solution number 1
+Exists x1. 
+(impl
+[neq(refrigerator,x1)]
+[labelOf(x1,oven)])
+++++++++++++++
+
+Solution number 2
+Exists x1. 
+(impl
+[Not within(oven,chair)]
+[labelOf(x1,oven)])
+++++++++++++++
+
+Solution number 3
+Exists x1. 
+(impl
+[neq(oven,chair)]
+[labelOf(x1,oven)])
+++++++++++++++
+
+Solution number 4
+Exists x1. 
+(or
+[within(oven,chair)]
+[labelOf(x1,oven)])
+++++++++++++++
+
+-----------------------------
+
+!!!Solved in 8.30991888046 seconds.

@@ -1,0 +1,28 @@
+Candidate 1:
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 2:
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 3:
+
+Solution number 1
+Forall x1. 
+(or
+[labelOf(x1,person)]
+[labelOf(x1,tie)])
+++++++++++++++
+
+Solution number 2
+Forall x1. 
+(or
+[labelOf(x1,tie)]
+[labelOf(x1,person)])
+++++++++++++++
+
+Unsat:No more formulae.
+-----------------------------
+
+!!!Solved in 4.10963821411 seconds.

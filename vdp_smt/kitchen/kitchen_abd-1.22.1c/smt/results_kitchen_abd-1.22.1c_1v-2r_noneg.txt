@@ -1,0 +1,68 @@
+Candidate 1:
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 2:
+
+Solution number 1
+Forall x1. 
+(impl
+[labelOf(x1,diningtable)]
+[labelOf(x1,refrigerator)])
+++++++++++++++
+
+Solution number 2
+Forall x1. 
+(impl
+[labelOf(x1,chair)]
+[Not neq(diningtable,x1)])
+++++++++++++++
+
+Solution number 3
+Forall x1. 
+(impl
+[labelOf(x1,diningtable)]
+[Not neq(bowl,x1)])
+++++++++++++++
+
+Solution number 4
+Forall x1. 
+(impl
+[labelOf(x1,diningtable)]
+[Not neq(laptop,x1)])
+++++++++++++++
+
+-----------------------------
+Candidate 3:
+
+Solution number 1
+Exists x1. 
+(or
+[within(bowl,refrigerator)]
+[labelOf(x1,refrigerator)])
+++++++++++++++
+
+Solution number 2
+Exists x1. 
+(impl
+[Not within(refrigerator,x1)]
+[labelOf(x1,refrigerator)])
+++++++++++++++
+
+Solution number 3
+Exists x1. 
+(impl
+[neq(refrigerator,sink)]
+[labelOf(x1,refrigerator)])
+++++++++++++++
+
+Solution number 4
+Exists x1. 
+(impl
+[neq(refrigerator,chair)]
+[labelOf(x1,refrigerator)])
+++++++++++++++
+
+-----------------------------
+
+!!!Solved in 30.6356129646 seconds.

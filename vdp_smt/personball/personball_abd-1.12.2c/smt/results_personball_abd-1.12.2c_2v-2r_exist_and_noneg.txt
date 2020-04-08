@@ -1,0 +1,69 @@
+Candidate 1:
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 2:
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 3:
+
+Solution number 1
+Exists x1. Exists x2. 
+(and
+[neq(person,x2)]
+[within(x1,x2)])
+++++++++++++++
+
+Solution number 2
+Exists x1. Exists x2. 
+(and
+[toLeft(x1,x2)]
+[labelOf(x2,sports_ball)])
+++++++++++++++
+
+Solution number 3
+Exists x1. Exists x2. 
+(and
+[Not within(x2,dog)]
+[within(x2,x1)])
+++++++++++++++
+
+Solution number 4
+Exists x1. Exists x2. 
+(and
+[Not toLeft(x2,x2)]
+[within(x1,x2)])
+++++++++++++++
+
+Solution number 5
+Exists x1. Exists x2. 
+(and
+[within(x1,x2)]
+[sameLabel(x2,x2)])
+++++++++++++++
+
+Solution number 6
+Exists x1. Exists x2. 
+(and
+[Not within(x2,tennis_racket)]
+[within(x2,x1)])
+++++++++++++++
+
+Solution number 7
+Exists x1. Exists x2. 
+(and
+[within(x1,x2)]
+[Not within(x2,x2)])
+++++++++++++++
+
+Solution number 8
+Exists x1. Exists x2. 
+(and
+[within(x1,x2)]
+[Not toLeft(x2,x2)])
+++++++++++++++
+
+-----------------------------
+
+!!!Solved in 157.689964056 seconds.

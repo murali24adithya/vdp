@@ -1,0 +1,41 @@
+Candidate 1:
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 2:
+
+Solution number 1
+Forall x1. 
+(impl
+[labelOf(x1,chair)]
+[labelOf(diningtable,x1)])
+++++++++++++++
+
+Solution number 2
+Forall x1. 
+(impl
+[labelOf(x1,chair)]
+[toLeft(x1,x1)])
+++++++++++++++
+
+Solution number 3
+Forall x1. 
+(impl
+[labelOf(x1,chair)]
+[neq(x1,x1)])
+++++++++++++++
+
+Solution number 4
+Forall x1. 
+(impl
+[labelOf(x1,chair)]
+[within(x1,x1)])
+++++++++++++++
+
+-----------------------------
+Candidate 3:
+
+Unsat:No more formulae.
+-----------------------------
+
+!!!Solved in 5.22326493263 seconds.

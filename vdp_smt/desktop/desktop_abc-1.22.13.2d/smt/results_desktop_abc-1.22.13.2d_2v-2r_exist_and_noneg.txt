@@ -1,0 +1,45 @@
+Candidate 1:
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 2:
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 3:
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 4:
+
+Solution number 1
+Exists x1. Exists x2. 
+(and
+[labelOf(x1,mouse)]
+[Not within(x2,x2)])
+++++++++++++++
+
+Solution number 2
+Exists x1. Exists x2. 
+(and
+[labelOf(x2,mouse)]
+[Not within(diningtable,x2)])
+++++++++++++++
+
+Solution number 3
+Exists x1. Exists x2. 
+(and
+[labelOf(x1,mouse)]
+[Not within(x2,chair)])
+++++++++++++++
+
+Solution number 4
+Exists x1. Exists x2. 
+(and
+[labelOf(x1,mouse)]
+[Not within(x2,person)])
+++++++++++++++
+
+-----------------------------
+
+!!!Solved in 45.2576990128 seconds.

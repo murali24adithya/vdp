@@ -1,0 +1,63 @@
+Enter Image Path: /home/adithya/Synthesis/variants/pplwearingties_abc-1.22.23.1d/test_1.2.jpg: Predicted in 21.188504 seconds.
+skateboard: 99%
+Bounding Box: Left=267, Top=374, Right=354, Bottom=602
+person: 100%
+Bounding Box: Left=389, Top=72, Right=528, Bottom=380
+person: 100%
+Bounding Box: Left=488, Top=143, Right=634, Bottom=502
+person: 100%
+Bounding Box: Left=688, Top=101, Right=798, Bottom=599
+person: 100%
+Bounding Box: Left=764, Top=38, Right=912, Bottom=625
+person: 99%
+Bounding Box: Left=273, Top=82, Right=405, Bottom=562
+person: 99%
+Bounding Box: Left=555, Top=335, Right=753, Bottom=634
+person: 98%
+Bounding Box: Left=343, Top=301, Right=616, Bottom=673
+person: 89%
+Bounding Box: Left=589, Top=139, Right=717, Bottom=435
+Enter Image Path: /home/adithya/Synthesis/variants/pplwearingties_abc-1.22.23.1d/test_2.2.jpg: Predicted in 20.980345 seconds.
+teddy bear: 53%
+Bounding Box: Left=5, Top=0, Right=214, Bottom=242
+tie: 100%
+Bounding Box: Left=89, Top=121, Right=133, Bottom=216
+Enter Image Path: /home/adithya/Synthesis/variants/pplwearingties_abc-1.22.23.1d/test_3.1.jpg: Predicted in 20.968583 seconds.
+tie: 86%
+Bounding Box: Left=526, Top=77, Right=571, Bottom=382
+tie: 86%
+Bounding Box: Left=834, Top=116, Right=870, Bottom=365
+tie: 84%
+Bounding Box: Left=750, Top=99, Right=805, Bottom=358
+tie: 77%
+Bounding Box: Left=372, Top=80, Right=422, Bottom=340
+tie: 77%
+Bounding Box: Left=678, Top=105, Right=730, Bottom=353
+tie: 77%
+Bounding Box: Left=902, Top=104, Right=955, Bottom=373
+tie: 76%
+Bounding Box: Left=457, Top=109, Right=491, Bottom=352
+tie: 67%
+Bounding Box: Left=599, Top=92, Right=648, Bottom=380
+person: 100%
+Bounding Box: Left=69, Top=85, Right=387, Bottom=757
+Enter Image Path: /home/adithya/Synthesis/variants/pplwearingties_abc-1.22.23.1d/test_d.jpg: Predicted in 20.953658 seconds.
+tie: 100%
+Bounding Box: Left=94, Top=105, Right=106, Bottom=189
+tie: 96%
+Bounding Box: Left=212, Top=108, Right=223, Bottom=152
+tie: 95%
+Bounding Box: Left=310, Top=106, Right=322, Bottom=171
+person: 100%
+Bounding Box: Left=292, Top=57, Right=364, Bottom=266
+person: 100%
+Bounding Box: Left=63, Top=58, Right=133, Bottom=265
+person: 100%
+Bounding Box: Left=175, Top=66, Right=252, Bottom=260
+person: 100%
+Bounding Box: Left=228, Top=73, Right=304, Bottom=264
+person: 99%
+Bounding Box: Left=121, Top=59, Right=183, Bottom=266
+person: 99%
+Bounding Box: Left=15, Top=68, Right=79, Bottom=257
+Enter Image Path: 

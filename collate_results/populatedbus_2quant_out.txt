@@ -1,0 +1,200 @@
+Processing populatedbus_abc-1.12.1d
+
+real	0m4.780s
+user	0m4.699s
+sys	0m0.080s
+Exists x1: bus. Exists x2: person. (AND within_x2_x1)
+Candidate 3
+
+Finished processing populatedbus_abc-1.12.1d
+
+Processing populatedbus_abc-1.12.1e
+
+real	0m5.665s
+user	0m5.533s
+sys	0m0.132s
+Exists x1: person. Exists x2: bus. (AND within_x1_x2)
+Candidate 3
+
+Finished processing populatedbus_abc-1.12.1e
+
+Processing populatedbus_abc-1.12.2d
+
+real	0m4.566s
+user	0m4.454s
+sys	0m0.112s
+Exists x1: person. Exists x2: bus. (AND within_x1_x2)
+Candidate 3
+
+Finished processing populatedbus_abc-1.12.2d
+
+Processing populatedbus_abc-1.12.2e
+
+real	0m5.799s
+user	0m5.662s
+sys	0m0.136s
+Exists x1: bus. Exists x2: person. (AND within_x2_x1)
+Candidate 3
+
+Finished processing populatedbus_abc-1.12.2e
+
+Processing populatedbus_abc-1.22.1d
+
+real	0m1.418s
+user	0m1.366s
+sys	0m0.052s
+Exists x1: person. Exists x2: bus. (AND within_x1_x2)
+Candidate 3
+
+Finished processing populatedbus_abc-1.22.1d
+
+Processing populatedbus_abc-1.22.1e
+
+real	0m2.908s
+user	0m2.856s
+sys	0m0.052s
+Exists x1: bus. Exists x2: person. (AND within_x2_x1)
+Candidate 3
+
+Finished processing populatedbus_abc-1.22.1e
+
+Processing populatedbus_abc-1.22.2d
+
+real	0m1.367s
+user	0m1.343s
+sys	0m0.024s
+Exists x1: person. Exists x2: bus. (AND within_x1_x2)
+Candidate 3
+
+Finished processing populatedbus_abc-1.22.2d
+
+Processing populatedbus_abc-1.22.2e
+
+real	0m2.886s
+user	0m2.820s
+sys	0m0.064s
+Exists x1: bus. Exists x2: person. (AND within_x2_x1)
+Candidate 3
+
+Finished processing populatedbus_abc-1.22.2e
+
+Processing populatedbus_abd-1.12.1c
+
+real	0m4.813s
+user	0m4.717s
+sys	0m0.096s
+Exists x1: person. Exists x2: bus. (AND within_x1_x2)
+Candidate 3
+
+Finished processing populatedbus_abd-1.12.1c
+
+Processing populatedbus_abd-1.12.1e
+
+real	0m6.171s
+user	0m6.051s
+sys	0m0.120s
+Exists x1: person. Exists x2: bus. (AND within_x1_x2)
+Candidate 3
+
+Finished processing populatedbus_abd-1.12.1e
+
+Processing populatedbus_abd-1.12.2c
+
+real	0m5.295s
+user	0m5.204s
+sys	0m0.088s
+Exists x1: bus. Exists x2: person. (AND within_x2_x1)
+Candidate 3
+
+Finished processing populatedbus_abd-1.12.2c
+
+Processing populatedbus_abd-1.12.2e
+
+real	0m6.463s
+user	0m6.307s
+sys	0m0.136s
+Exists x1: bus. Exists x2: person. (AND within_x2_x1)
+Candidate 3
+
+Finished processing populatedbus_abd-1.12.2e
+
+Processing populatedbus_abd-1.22.1c
+
+real	0m1.394s
+user	0m1.350s
+sys	0m0.044s
+Exists x1: person. Exists x2: bus. (AND within_x1_x2)
+Candidate 3
+
+Finished processing populatedbus_abd-1.22.1c
+
+Processing populatedbus_abd-1.22.1e
+
+real	0m3.517s
+user	0m3.461s
+sys	0m0.056s
+Exists x1: bus. Exists x2: person. (AND within_x2_x1)
+Candidate 3
+
+Finished processing populatedbus_abd-1.22.1e
+
+Processing populatedbus_abd-1.22.2c
+
+real	0m2.054s
+user	0m1.989s
+sys	0m0.060s
+Exists x1: bus. Exists x2: person. (AND within_x2_x1)
+Candidate 3
+
+Finished processing populatedbus_abd-1.22.2c
+
+Processing populatedbus_abd-1.22.2e
+
+real	0m3.650s
+user	0m3.534s
+sys	0m0.084s
+Exists x1: person. Exists x2: bus. (AND within_x1_x2)
+Candidate 3
+
+Finished processing populatedbus_abd-1.22.2e
+
+Processing populatedbus_abe-1.12.1c
+
+real	0m8.038s
+user	0m7.871s
+sys	0m0.160s
+Exists x1: bus. Exists x2: person. (AND rightOf_x1_x2)
+Candidate 1
+
+Finished processing populatedbus_abe-1.12.1c
+
+Processing populatedbus_abe-1.12.2c
+
+real	0m6.837s
+user	0m6.709s
+sys	0m0.128s
+Exists x1: bus. Exists x2: person. (AND rightOf_x1_x2)
+Candidate 1
+
+Finished processing populatedbus_abe-1.12.2c
+
+Processing populatedbus_abe-1.22.1c
+
+real	0m2.727s
+user	0m2.663s
+sys	0m0.064s
+Exists x1: bus. Exists x2: person. (AND rightOf_x1_x2)
+Candidate 1
+
+Finished processing populatedbus_abe-1.22.1c
+
+Processing populatedbus_abe-1.22.2c
+
+real	0m2.671s
+user	0m2.595s
+sys	0m0.076s
+Exists x1: bus. Exists x2: person. (AND rightOf_x1_x2)
+Candidate 1
+
+Finished processing populatedbus_abe-1.22.2c
+

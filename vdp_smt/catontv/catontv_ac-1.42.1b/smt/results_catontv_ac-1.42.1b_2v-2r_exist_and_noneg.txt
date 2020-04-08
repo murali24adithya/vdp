@@ -1,0 +1,96 @@
+Candidate 1:
+
+Solution number 1
+Exists x1. Exists x2. 
+(and
+[neq(x2,x1)]
+[sameLabel(x1,x2)])
+++++++++++++++
+
+Solution number 2
+Exists x1. Exists x2. 
+(and
+[sameLabel(x2,x1)]
+[neq(x1,x2)])
+++++++++++++++
+
+Solution number 3
+Exists x1. Exists x2. 
+(and
+[sameLabel(x2,x1)]
+[above(x1,x2)])
+++++++++++++++
+
+Solution number 4
+Exists x1. Exists x2. 
+(and
+[sameLabel(x2,x1)]
+[neq(x2,x1)])
+++++++++++++++
+
+Solution number 5
+Exists x1. Exists x2. 
+(and
+[sameLabel(x1,x2)]
+[neq(x2,x1)])
+++++++++++++++
+
+Solution number 6
+Exists x1. Exists x2. 
+(and
+[sameLabel(x2,x1)]
+[below(x2,x1)])
+++++++++++++++
+
+-----------------------------
+Candidate 2:
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 3:
+
+Solution number 1
+Exists x1. Exists x2. 
+(and
+[neq(sofa,x1)]
+[labelOf(x1,cat)])
+++++++++++++++
+
+Solution number 2
+Exists x1. Exists x2. 
+(and
+[neq(tvmonitor,x1)]
+[labelOf(x1,cat)])
+++++++++++++++
+
+Solution number 3
+Exists x1. Exists x2. 
+(and
+[within(x1,x2)]
+[labelOf(x1,cat)])
+++++++++++++++
+
+Solution number 4
+Exists x1. Exists x2. 
+(and
+[labelOf(x2,cat)]
+[Not neq(x1,x2)])
+++++++++++++++
+
+Solution number 5
+Exists x1. Exists x2. 
+(and
+[labelOf(x1,cat)]
+[Not neq(x1,x2)])
+++++++++++++++
+
+Solution number 6
+Exists x1. Exists x2. 
+(and
+[labelOf(x2,cat)]
+[neq(pottedplant,x2)])
+++++++++++++++
+
+-----------------------------
+
+!!!Solved in 4.08531188965 seconds.

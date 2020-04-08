@@ -1,0 +1,125 @@
+Candidate 1:
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 2:
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 3:
+
+Solution number 1
+Forall x1. Exists x2. 
+(or
+[below(x2,x1)]
+[toLeft(x2,x1)])
+++++++++++++++
+
+Solution number 2
+Forall x1. Exists x2. 
+(or
+[toLeft(x1,x2)]
+[below(x1,x2)])
+++++++++++++++
+
+Solution number 3
+Forall x1. Exists x2. 
+(or
+[toRight(x1,x2)]
+[below(x2,x1)])
+++++++++++++++
+
+Solution number 4
+Forall x1. Exists x2. 
+(or
+[below(x1,x2)]
+[toRight(x2,x1)])
+++++++++++++++
+
+Solution number 5
+Forall x1. Exists x2. 
+(or
+[toLeft(x1,x2)]
+[above(x2,x1)])
+++++++++++++++
+
+Solution number 6
+Forall x1. Exists x2. 
+(or
+[above(x1,x2)]
+[toLeft(x2,x1)])
+++++++++++++++
+
+Solution number 7
+Forall x1. Exists x2. 
+(or
+[below(x1,x2)]
+[toLeft(x1,x2)])
+++++++++++++++
+
+Solution number 8
+Forall x1. Exists x2. 
+(or
+[toRight(x1,x2)]
+[above(x1,x2)])
+++++++++++++++
+
+Solution number 9
+Forall x1. Exists x2. 
+(or
+[above(x1,x2)]
+[toRight(x1,x2)])
+++++++++++++++
+
+Solution number 10
+Forall x1. Exists x2. 
+(or
+[toRight(x2,x1)]
+[above(x2,x1)])
+++++++++++++++
+
+Solution number 11
+Forall x1. Exists x2. 
+(or
+[above(x2,x1)]
+[toRight(x2,x1)])
+++++++++++++++
+
+Solution number 12
+Forall x1. Exists x2. 
+(or
+[toLeft(x2,x1)]
+[below(x2,x1)])
+++++++++++++++
+
+Solution number 13
+Forall x1. Forall x2. 
+(impl
+[toRight(x2,x1)]
+[below(x2,x1)])
+++++++++++++++
+
+Solution number 14
+Forall x1. Forall x2. 
+(impl
+[toRight(x1,x2)]
+[below(x1,x2)])
+++++++++++++++
+
+Solution number 15
+Forall x1. Forall x2. 
+(impl
+[toLeft(x1,x2)]
+[above(x1,x2)])
+++++++++++++++
+
+Solution number 16
+Forall x1. Forall x2. 
+(or
+[Not toRight(x1,x2)]
+[below(x1,x2)])
+++++++++++++++
+
+-----------------------------
+
+!!!Solved in 77.4112169743 seconds.

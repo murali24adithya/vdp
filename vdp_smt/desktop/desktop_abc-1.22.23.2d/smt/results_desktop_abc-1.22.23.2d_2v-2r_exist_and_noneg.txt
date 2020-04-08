@@ -1,0 +1,45 @@
+Candidate 1:
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 2:
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 3:
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 4:
+
+Solution number 1
+Exists x1. Exists x2. 
+(and
+[labelOf(x1,mouse)]
+[Not neq(x2,x2)])
+++++++++++++++
+
+Solution number 2
+Exists x1. Exists x2. 
+(and
+[labelOf(x1,mouse)]
+[Not within(x2,x2)])
+++++++++++++++
+
+Solution number 3
+Exists x1. Exists x2. 
+(and
+[Not within(x2,x2)]
+[labelOf(x1,mouse)])
+++++++++++++++
+
+Solution number 4
+Exists x1. Exists x2. 
+(and
+[labelOf(x2,mouse)]
+[sameLabel(x2,x2)])
+++++++++++++++
+
+-----------------------------
+
+!!!Solved in 48.4634079933 seconds.

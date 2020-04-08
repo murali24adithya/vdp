@@ -1,0 +1,36 @@
+Enter Image Path: /home/adithya/Synthesis/variants/alldogsonsofas_abe-23c/train_a.jpg: Predicted in 25.099863 seconds.
+book: 63%
+Bounding Box: Left=220, Top=124, Right=225, Bottom=140
+book: 58%
+Bounding Box: Left=262, Top=111, Right=267, Bottom=127
+book: 54%
+Bounding Box: Left=262, Top=148, Right=267, Bottom=163
+book: 51%
+Bounding Box: Left=93, Top=230, Right=115, Bottom=238
+laptop: 67%
+Bounding Box: Left=183, Top=180, Right=261, Bottom=252
+tvmonitor: 100%
+Bounding Box: Left=1, Top=105, Right=100, Bottom=197
+sofa: 100%
+Bounding Box: Left=251, Top=108, Right=545, Bottom=376
+cat: 100%
+Bounding Box: Left=480, Top=313, Right=614, Bottom=405
+Enter Image Path: /home/adithya/Synthesis/variants/alldogsonsofas_abe-23c/train_b.jpg: Predicted in 25.377271 seconds.
+sofa: 100%
+Bounding Box: Left=0, Top=120, Right=489, Bottom=327
+dog: 97%
+Bounding Box: Left=158, Top=167, Right=290, Bottom=222
+dog: 93%
+Bounding Box: Left=283, Top=177, Right=422, Bottom=232
+Enter Image Path: /home/adithya/Synthesis/variants/alldogsonsofas_abe-23c/train_e.jpg: Predicted in 24.812609 seconds.
+book: 75%
+Bounding Box: Left=0, Top=309, Right=64, Bottom=347
+bed: 61%
+Bounding Box: Left=195, Top=233, Right=683, Bottom=486
+sofa: 100%
+Bounding Box: Left=39, Top=174, Right=458, Bottom=442
+sofa: 76%
+Bounding Box: Left=266, Top=232, Right=718, Bottom=482
+dog: 97%
+Bounding Box: Left=42, Top=195, Right=219, Bottom=285
+Enter Image Path: 

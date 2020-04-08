@@ -1,0 +1,41 @@
+Candidate 1:
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 2:
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 3:
+
+Solution number 1
+Exists x1. 
+(or
+[labelOf(x1,refrigerator)]
+[Not neq(chair,diningtable)])
+++++++++++++++
+
+Solution number 2
+Exists x1. 
+(impl
+[sameLabel(x1,x1)]
+[labelOf(x1,oven)])
+++++++++++++++
+
+Solution number 3
+Exists x1. 
+(or
+[labelOf(x1,refrigerator)]
+[within(chair,diningtable)])
+++++++++++++++
+
+Solution number 4
+Exists x1. 
+(or
+[labelOf(x1,oven)]
+[within(bowl,diningtable)])
+++++++++++++++
+
+-----------------------------
+
+!!!Solved in 19.9996049404 seconds.

@@ -1,0 +1,68 @@
+Candidate 1:
+
+Solution number 1
+Exists x1. 
+(or
+[labelOf(x1,remote)]
+[labelOf(x1,oven)])
+++++++++++++++
+
+Solution number 2
+Exists x1. 
+(or
+[labelOf(x1,oven)]
+[labelOf(x1,sofa)])
+++++++++++++++
+
+Solution number 3
+Exists x1. 
+(or
+[labelOf(x1,oven)]
+[labelOf(x1,tvmonitor)])
+++++++++++++++
+
+Solution number 4
+Exists x1. 
+(or
+[labelOf(x1,oven)]
+[labelOf(x1,remote)])
+++++++++++++++
+
+-----------------------------
+Candidate 2:
+
+Solution number 1
+Exists x1. 
+(or
+[labelOf(x1,oven)]
+[labelOf(x1,toilet)])
+++++++++++++++
+
+Solution number 2
+Exists x1. 
+(or
+[labelOf(x1,oven)]
+[labelOf(x1,bowl)])
+++++++++++++++
+
+Solution number 3
+Exists x1. 
+(or
+[labelOf(x1,bowl)]
+[labelOf(x1,oven)])
+++++++++++++++
+
+Solution number 4
+Exists x1. 
+(or
+[labelOf(x1,toilet)]
+[labelOf(x1,oven)])
+++++++++++++++
+
+-----------------------------
+Candidate 3:
+
+Unsat:No more formulae.
+-----------------------------
+
+!!!Solved in 19.0972599983 seconds.

@@ -1,0 +1,3 @@
+/home/adithya/Synthesis/variants/allcatsonsofas_abd-1.22c/test_1.2.jpg
+/home/adithya/Synthesis/variants/allcatsonsofas_abd-1.22c/test_2.jpg
+/home/adithya/Synthesis/variants/allcatsonsofas_abd-1.22c/test_c.jpg

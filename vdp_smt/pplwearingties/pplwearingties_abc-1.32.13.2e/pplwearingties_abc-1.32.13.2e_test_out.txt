@@ -1,0 +1,103 @@
+Enter Image Path: /home/adithya/Synthesis/variants/pplwearingties_abc-1.32.13.2e/test_1.3.jpg: Predicted in 21.299451 seconds.
+cell phone: 57%
+Bounding Box: Left=77, Top=177, Right=95, Bottom=188
+chair: 69%
+Bounding Box: Left=297, Top=177, Right=396, Bottom=266
+person: 100%
+Bounding Box: Left=8, Top=124, Right=149, Bottom=266
+person: 100%
+Bounding Box: Left=167, Top=28, Right=286, Bottom=263
+person: 100%
+Bounding Box: Left=8, Top=44, Right=81, Bottom=251
+person: 99%
+Bounding Box: Left=268, Top=110, Right=385, Bottom=266
+person: 99%
+Bounding Box: Left=58, Top=34, Right=132, Bottom=181
+person: 98%
+Bounding Box: Left=272, Top=60, Right=382, Bottom=199
+person: 97%
+Bounding Box: Left=122, Top=63, Right=182, Bottom=174
+Enter Image Path: /home/adithya/Synthesis/variants/pplwearingties_abc-1.32.13.2e/test_2.1.jpg: Predicted in 20.980051 seconds.
+tie: 94%
+Bounding Box: Left=83, Top=123, Right=148, Bottom=265
+dog: 98%
+Bounding Box: Left=64, Top=50, Right=210, Bottom=272
+Enter Image Path: /home/adithya/Synthesis/variants/pplwearingties_abc-1.32.13.2e/test_3.2.jpg: Predicted in 21.031587 seconds.
+tie: 76%
+Bounding Box: Left=482, Top=130, Right=843, Bottom=836
+person: 99%
+Bounding Box: Left=538, Top=5, Right=1688, Bottom=954
+Enter Image Path: /home/adithya/Synthesis/variants/pplwearingties_abc-1.32.13.2e/test_e.jpg: Predicted in 21.011896 seconds.
+tie: 99%
+Bounding Box: Left=192, Top=230, Right=248, Bottom=464
+tie: 89%
+Bounding Box: Left=275, Top=130, Right=288, Bottom=184
+tie: 60%
+Bounding Box: Left=384, Top=10, Right=389, Bottom=26
+tie: 60%
+Bounding Box: Left=247, Top=10, Right=252, Bottom=39
+person: 100%
+Bounding Box: Left=18, Top=34, Right=375, Bottom=468
+person: 100%
+Bounding Box: Left=320, Top=133, Right=424, Bottom=472
+person: 100%
+Bounding Box: Left=496, Top=94, Right=595, Bottom=475
+person: 100%
+Bounding Box: Left=229, Top=78, Right=336, Bottom=234
+person: 100%
+Bounding Box: Left=36, Top=74, Right=135, Bottom=221
+person: 100%
+Bounding Box: Left=411, Top=133, Right=532, Bottom=476
+person: 100%
+Bounding Box: Left=403, Top=76, Right=476, Bottom=204
+person: 99%
+Bounding Box: Left=576, Top=81, Right=720, Bottom=479
+person: 97%
+Bounding Box: Left=322, Top=79, Right=379, Bottom=182
+person: 97%
+Bounding Box: Left=517, Top=35, Right=580, Bottom=154
+person: 96%
+Bounding Box: Left=565, Top=97, Right=623, Bottom=178
+person: 96%
+Bounding Box: Left=294, Top=49, Right=336, Bottom=133
+person: 94%
+Bounding Box: Left=0, Top=33, Right=28, Bottom=94
+person: 94%
+Bounding Box: Left=471, Top=70, Right=530, Bottom=173
+person: 94%
+Bounding Box: Left=16, Top=58, Right=56, Bottom=131
+person: 93%
+Bounding Box: Left=626, Top=4, Right=687, Bottom=107
+person: 91%
+Bounding Box: Left=236, Top=49, Right=275, Bottom=132
+person: 89%
+Bounding Box: Left=579, Top=6, Right=626, Bottom=65
+person: 89%
+Bounding Box: Left=455, Top=66, Right=500, Bottom=133
+person: 84%
+Bounding Box: Left=83, Top=32, Right=123, Bottom=127
+person: 83%
+Bounding Box: Left=592, Top=48, Right=635, Bottom=106
+person: 73%
+Bounding Box: Left=256, Top=1, Right=307, Bottom=50
+person: 71%
+Bounding Box: Left=322, Top=36, Right=355, Bottom=87
+person: 70%
+Bounding Box: Left=543, Top=9, Right=585, Bottom=70
+person: 68%
+Bounding Box: Left=21, Top=27, Right=62, Bottom=83
+person: 62%
+Bounding Box: Left=370, Top=73, Right=415, Bottom=150
+person: 61%
+Bounding Box: Left=0, Top=117, Right=68, Bottom=262
+person: 60%
+Bounding Box: Left=100, Top=21, Right=132, Bottom=129
+person: 58%
+Bounding Box: Left=193, Top=2, Right=231, Bottom=52
+person: 52%
+Bounding Box: Left=272, Top=42, Right=305, Bottom=80
+person: 51%
+Bounding Box: Left=1, Top=122, Right=27, Bottom=479
+person: 51%
+Bounding Box: Left=39, Top=1, Right=80, Bottom=66
+Enter Image Path: 

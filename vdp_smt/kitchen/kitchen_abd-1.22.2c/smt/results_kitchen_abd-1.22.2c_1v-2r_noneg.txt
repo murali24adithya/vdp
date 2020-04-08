@@ -1,0 +1,68 @@
+Candidate 1:
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 2:
+
+Solution number 1
+Forall x1. 
+(impl
+[labelOf(x1,diningtable)]
+[within(refrigerator,refrigerator)])
+++++++++++++++
+
+Solution number 2
+Forall x1. 
+(impl
+[labelOf(x1,diningtable)]
+[within(chair,chair)])
+++++++++++++++
+
+Solution number 3
+Forall x1. 
+(impl
+[labelOf(x1,diningtable)]
+[above(chair,chair)])
+++++++++++++++
+
+Solution number 4
+Forall x1. 
+(impl
+[labelOf(x1,diningtable)]
+[neq(chair,chair)])
+++++++++++++++
+
+-----------------------------
+Candidate 3:
+
+Solution number 1
+Exists x1. 
+(and
+[labelOf(x1,refrigerator)]
+[neq(refrigerator,x1)])
+++++++++++++++
+
+Solution number 2
+Exists x1. 
+(impl
+[Not above(x1,x1)]
+[labelOf(x1,refrigerator)])
+++++++++++++++
+
+Solution number 3
+Exists x1. 
+(or
+[labelOf(x1,refrigerator)]
+[within(refrigerator,refrigerator)])
+++++++++++++++
+
+Solution number 4
+Exists x1. 
+(or
+[labelOf(x1,refrigerator)]
+[above(refrigerator,refrigerator)])
+++++++++++++++
+
+-----------------------------
+
+!!!Solved in 25.7880139351 seconds.

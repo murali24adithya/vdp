@@ -1,0 +1,87 @@
+Enter Image Path: /home/adithya/Synthesis/variants/dogherded_acd-1.12.13.1b/test_1.1.jpg: Predicted in 23.373312 seconds.
+dog: 100%
+Bounding Box: Left=355, Top=169, Right=436, Bottom=259
+dog: 100%
+Bounding Box: Left=154, Top=83, Right=245, Bottom=244
+Enter Image Path: /home/adithya/Synthesis/variants/dogherded_acd-1.12.13.1b/test_2.1.jpg: Predicted in 23.331005 seconds.
+sheep: 100%
+Bounding Box: Left=308, Top=241, Right=407, Bottom=328
+sheep: 100%
+Bounding Box: Left=212, Top=219, Right=328, Bottom=324
+sheep: 99%
+Bounding Box: Left=396, Top=255, Right=587, Bottom=340
+sheep: 86%
+Bounding Box: Left=382, Top=242, Right=423, Bottom=297
+sheep: 84%
+Bounding Box: Left=407, Top=239, Right=439, Bottom=274
+person: 100%
+Bounding Box: Left=99, Top=94, Right=231, Bottom=326
+Enter Image Path: /home/adithya/Synthesis/variants/dogherded_acd-1.12.13.1b/test_3.1.jpg: Predicted in 23.299604 seconds.
+sheep: 97%
+Bounding Box: Left=375, Top=218, Right=460, Bottom=328
+sheep: 97%
+Bounding Box: Left=184, Top=233, Right=298, Bottom=279
+sheep: 96%
+Bounding Box: Left=474, Top=206, Right=510, Bottom=241
+sheep: 92%
+Bounding Box: Left=125, Top=256, Right=390, Bottom=425
+sheep: 91%
+Bounding Box: Left=262, Top=221, Right=333, Bottom=264
+sheep: 79%
+Bounding Box: Left=507, Top=207, Right=524, Bottom=236
+sheep: 61%
+Bounding Box: Left=374, Top=215, Right=405, Bottom=232
+sheep: 60%
+Bounding Box: Left=287, Top=230, Right=341, Bottom=277
+sheep: 58%
+Bounding Box: Left=417, Top=210, Right=473, Bottom=269
+sheep: 52%
+Bounding Box: Left=346, Top=237, Right=420, Bottom=347
+Enter Image Path: /home/adithya/Synthesis/variants/dogherded_acd-1.12.13.1b/test_b.jpg: Predicted in 23.296370 seconds.
+umbrella: 65%
+Bounding Box: Left=420, Top=46, Right=469, Bottom=63
+sheep: 99%
+Bounding Box: Left=401, Top=100, Right=447, Bottom=155
+sheep: 97%
+Bounding Box: Left=215, Top=96, Right=269, Bottom=154
+sheep: 96%
+Bounding Box: Left=258, Top=102, Right=336, Bottom=160
+sheep: 96%
+Bounding Box: Left=319, Top=101, Right=380, Bottom=155
+sheep: 95%
+Bounding Box: Left=154, Top=96, Right=217, Bottom=153
+sheep: 78%
+Bounding Box: Left=383, Top=96, Right=416, Bottom=153
+sheep: 51%
+Bounding Box: Left=348, Top=98, Right=401, Bottom=153
+dog: 99%
+Bounding Box: Left=57, Top=111, Right=98, Bottom=149
+person: 85%
+Bounding Box: Left=327, Top=76, Right=336, Bottom=100
+person: 85%
+Bounding Box: Left=409, Top=72, Right=421, Bottom=96
+person: 82%
+Bounding Box: Left=340, Top=74, Right=350, Bottom=102
+person: 78%
+Bounding Box: Left=105, Top=90, Right=116, Bottom=110
+person: 74%
+Bounding Box: Left=423, Top=69, Right=434, Bottom=88
+person: 71%
+Bounding Box: Left=266, Top=80, Right=275, Bottom=104
+person: 70%
+Bounding Box: Left=370, Top=76, Right=381, Bottom=99
+person: 69%
+Bounding Box: Left=94, Top=89, Right=106, Bottom=110
+person: 67%
+Bounding Box: Left=460, Top=75, Right=476, Bottom=108
+person: 61%
+Bounding Box: Left=283, Top=79, Right=292, Bottom=104
+person: 58%
+Bounding Box: Left=345, Top=74, Right=354, Bottom=100
+person: 58%
+Bounding Box: Left=185, Top=80, Right=201, Bottom=106
+person: 56%
+Bounding Box: Left=303, Top=78, Right=312, Bottom=103
+person: 55%
+Bounding Box: Left=239, Top=83, Right=251, Bottom=104
+Enter Image Path: 

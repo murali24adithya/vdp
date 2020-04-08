@@ -1,0 +1,200 @@
+Processing 2on1_abc-d123
+
+real	0m0.217s
+user	0m0.213s
+sys	0m0.004s
+Exists x1: sofa. Exists x2: cat. Exists x3: cat. (AND neq_x3_x2 within_x2_x1 within_x3_x1)
+Candidate 4
+
+Finished processing 2on1_abc-d123
+
+Processing 2on1_abd-c123
+
+real	0m0.206s
+user	0m0.202s
+sys	0m0.004s
+Exists x1: sofa. Exists x2: cat. Exists x3: cat. (AND neq_x3_x2 within_x2_x1 within_x3_x1)
+Candidate 4
+
+Finished processing 2on1_abd-c123
+
+Processing 2on1_abe-c123
+
+real	0m0.239s
+user	0m0.227s
+sys	0m0.012s
+Exists x1: sofa. Exists x2: cat. Exists x3: cat. (AND neq_x3_x2 within_x2_x1 within_x3_x1)
+Candidate 4
+
+Finished processing 2on1_abe-c123
+
+Processing 2on1_abe-d123
+
+real	0m0.278s
+user	0m0.270s
+sys	0m0.008s
+Exists x1: cat. Exists x2: cat. Exists x3: sofa. (AND neq_x2_x1 within_x1_x3 within_x2_x3)
+Candidate 4
+
+Finished processing 2on1_abe-d123
+
+Processing 2on1_abf-c123
+
+real	0m0.203s
+user	0m0.203s
+sys	0m0.000s
+Exists x1: sofa. Exists x2: cat. Exists x3: cat. (AND neq_x3_x2 within_x2_x1 within_x3_x1)
+Candidate 4
+
+Finished processing 2on1_abf-c123
+
+Processing 2on1_abf-d123
+
+real	0m0.256s
+user	0m0.244s
+sys	0m0.012s
+Exists x1: cat. Exists x2: cat. Exists x3: sofa. (AND neq_x2_x1 within_x1_x3 within_x2_x3)
+Candidate 4
+
+Finished processing 2on1_abf-d123
+
+Processing 2on1_acd-b123
+
+real	0m0.219s
+user	0m0.211s
+sys	0m0.008s
+Exists x1: sofa. Exists x2: cat. Exists x3: cat. (AND neq_x3_x2 within_x2_x1 within_x3_x1)
+Candidate 4
+
+Finished processing 2on1_acd-b123
+
+Processing 2on1_ace-b123
+
+real	0m0.266s
+user	0m0.262s
+sys	0m0.004s
+Exists x1: sofa. Exists x2: cat. Exists x3: cat. (AND neq_x3_x2 within_x2_x1 within_x3_x1)
+Candidate 4
+
+Finished processing 2on1_ace-b123
+
+Processing 2on1_ace-d123
+
+real	0m0.316s
+user	0m0.304s
+sys	0m0.012s
+Exists x1: cat. Exists x2: cat. Exists x3: sofa. (AND rightOf_x2_x1 within_x1_x3)
+Candidate 4
+
+Finished processing 2on1_ace-d123
+
+Processing 2on1_acf-b123
+
+real	0m0.288s
+user	0m0.280s
+sys	0m0.008s
+Exists x1: cat. Exists x2: cat. Exists x3: sofa. (AND neq_x2_x1 within_x1_x3 within_x2_x3)
+Candidate 4
+
+Finished processing 2on1_acf-b123
+
+Processing 2on1_acf-d123
+
+real	0m0.280s
+user	0m0.268s
+sys	0m0.012s
+Exists x1: cat. Exists x2: cat. Exists x3: sofa. (AND rightOf_x2_x1 within_x1_x3)
+Candidate 4
+
+Finished processing 2on1_acf-d123
+
+Processing 2on1_ade-b123
+
+real	0m0.334s
+user	0m0.322s
+sys	0m0.012s
+Exists x1: cat. Exists x2: cat. Exists x3: sofa. (AND neq_x2_x1 within_x1_x3 within_x2_x3)
+Candidate 4
+
+Finished processing 2on1_ade-b123
+
+Processing 2on1_ade-c123
+
+real	0m0.364s
+user	0m0.355s
+sys	0m0.008s
+Exists x1: cat. Exists x2: cat. Exists x3: sofa. (AND rightOf_x2_x1 within_x1_x3)
+Candidate 4
+
+Finished processing 2on1_ade-c123
+
+Processing 2on1_adf-b123
+
+real	0m0.271s
+user	0m0.258s
+sys	0m0.012s
+Exists x1: cat. Exists x2: cat. Exists x3: sofa. (AND neq_x2_x1 within_x1_x3 within_x2_x3)
+Candidate 4
+
+Finished processing 2on1_adf-b123
+
+Processing 2on1_adf-c123
+
+real	0m0.226s
+user	0m0.222s
+sys	0m0.004s
+Exists x1: sofa. Exists x2: cat. Exists x3: cat. (AND rightOf_x3_x2 within_x2_x1)
+Candidate 4
+
+Finished processing 2on1_adf-c123
+
+Processing 2on1_aef-b123
+
+real	0m0.274s
+user	0m0.262s
+sys	0m0.012s
+Exists x1: sofa. Exists x2: cat. Exists x3: cat. (AND neq_x3_x2 within_x2_x1 within_x3_x1)
+Candidate 4
+
+Finished processing 2on1_aef-b123
+
+Processing 2on1_aef-c123
+
+real	0m0.240s
+user	0m0.236s
+sys	0m0.004s
+Exists x1: sofa. Exists x2: cat. Exists x3: cat. (AND rightOf_x3_x2 within_x2_x1)
+Candidate 4
+
+Finished processing 2on1_aef-c123
+
+Processing 2on1_aef-d123
+
+real	0m0.333s
+user	0m0.321s
+sys	0m0.012s
+Exists x1: cat. Exists x2: cat. Exists x3: sofa. (AND rightOf_x2_x1 within_x1_x3)
+Candidate 4
+
+Finished processing 2on1_aef-d123
+
+Processing 2on1_bcd-a123
+
+real	0m0.203s
+user	0m0.203s
+sys	0m0.000s
+Exists x1: sofa. Exists x2: cat. Exists x3: cat. (AND neq_x3_x2 within_x2_x1 within_x3_x1)
+Candidate 4
+
+Finished processing 2on1_bcd-a123
+
+Processing 2on1_bcd-e123
+
+real	0m0.295s
+user	0m0.283s
+sys	0m0.012s
+Exists x1: cat. Exists x2: cat. Exists x3: sofa. (AND neq_x2_x1 within_x1_x3 within_x2_x3)
+Candidate 4
+
+Finished processing 2on1_bcd-e123
+

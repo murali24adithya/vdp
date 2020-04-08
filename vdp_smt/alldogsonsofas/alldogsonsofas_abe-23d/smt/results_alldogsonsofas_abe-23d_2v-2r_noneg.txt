@@ -1,0 +1,153 @@
+Candidate 1:
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 2:
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 3:
+
+Solution number 1
+Forall x1. Exists x2. 
+(impl
+[labelOf(x1,bowl)]
+[Not neq(tvmonitor,x1)])
+++++++++++++++
+
+Solution number 2
+Forall x1. Forall x2. 
+(impl
+[labelOf(x1,bowl)]
+[Not sameLabel(x1,x1)])
+++++++++++++++
+
+Solution number 3
+Forall x1. Forall x2. 
+(impl
+[labelOf(x1,bowl)]
+[Not neq(nullobj,bowl)])
+++++++++++++++
+
+Solution number 4
+Forall x1. Exists x2. 
+(impl
+[labelOf(x1,bowl)]
+[above(vase,vase)])
+++++++++++++++
+
+Solution number 5
+Forall x1. Exists x2. 
+(impl
+[labelOf(x1,bowl)]
+[labelOf(vase,x1)])
+++++++++++++++
+
+Solution number 6
+Forall x1. Forall x2. 
+(impl
+[labelOf(x1,bowl)]
+[above(vase,x2)])
+++++++++++++++
+
+Solution number 7
+Forall x1. Forall x2. 
+(impl
+[labelOf(x1,bowl)]
+[toRight(x2,x1)])
+++++++++++++++
+
+Solution number 8
+Forall x1. Forall x2. 
+(impl
+[labelOf(x1,bowl)]
+[Not neq(bed,book)])
+++++++++++++++
+
+Solution number 9
+Forall x1. Forall x2. 
+(impl
+[labelOf(x1,bowl)]
+[Not neq(cup,book)])
+++++++++++++++
+
+Solution number 10
+Forall x1. Forall x2. 
+(impl
+[labelOf(x1,bowl)]
+[Not neq(bowl,book)])
+++++++++++++++
+
+Solution number 11
+Forall x1. Forall x2. 
+(impl
+[labelOf(x1,bowl)]
+[Not neq(bed,vase)])
+++++++++++++++
+
+Solution number 12
+Forall x1. Forall x2. 
+(impl
+[labelOf(x1,bowl)]
+[Not neq(cup,vase)])
+++++++++++++++
+
+Solution number 13
+Forall x1. Forall x2. 
+(impl
+[labelOf(x1,bowl)]
+[Not neq(bowl,vase)])
+++++++++++++++
+
+Solution number 14
+Forall x1. Forall x2. 
+(impl
+[labelOf(x1,bowl)]
+[Not neq(laptop,vase)])
+++++++++++++++
+
+Solution number 15
+Forall x1. Exists x2. 
+(impl
+[labelOf(x1,bowl)]
+[toRight(vase,vase)])
+++++++++++++++
+
+Solution number 16
+Forall x1. Forall x2. 
+(impl
+[labelOf(x2,bowl)]
+[Not neq(dog,vase)])
+++++++++++++++
+
+Solution number 17
+Forall x1. Exists x2. 
+(impl
+[labelOf(x1,bowl)]
+[above(bowl,vase)])
+++++++++++++++
+
+Solution number 18
+Forall x1. Exists x2. 
+(impl
+[labelOf(x1,bowl)]
+[above(nullobj,vase)])
+++++++++++++++
+
+Solution number 19
+Forall x1. Exists x2. 
+(impl
+[labelOf(x1,bowl)]
+[toLeft(vase,dog)])
+++++++++++++++
+
+Solution number 20
+Forall x1. Exists x2. 
+(impl
+[labelOf(x1,bowl)]
+[below(sofa,dog)])
+++++++++++++++
+
+-----------------------------
+
+!!!Solved in 1054.60152721 seconds.

@@ -1,0 +1,3 @@
+/home/adithya/Synthesis/variants/diagonal_ab-47c/test_4.jpg
+/home/adithya/Synthesis/variants/diagonal_ab-47c/test_7.jpg
+/home/adithya/Synthesis/variants/diagonal_ab-47c/test_c.jpg

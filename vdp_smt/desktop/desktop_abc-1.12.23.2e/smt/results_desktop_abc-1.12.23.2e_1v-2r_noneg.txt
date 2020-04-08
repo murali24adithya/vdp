@@ -1,0 +1,45 @@
+Candidate 1:
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 2:
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 3:
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 4:
+
+Solution number 1
+Exists x1. 
+(and
+[labelOf(x1,mouse)]
+[neq(diningtable,mouse)])
+++++++++++++++
+
+Solution number 2
+Exists x1. 
+(or
+[labelOf(x1,mouse)]
+[Not neq(x1,diningtable)])
+++++++++++++++
+
+Solution number 3
+Exists x1. 
+(or
+[labelOf(x1,mouse)]
+[within(book,diningtable)])
+++++++++++++++
+
+Solution number 4
+Exists x1. 
+(or
+[labelOf(x1,mouse)]
+[sameLabel(x1,diningtable)])
+++++++++++++++
+
+-----------------------------
+
+!!!Solved in 92.2631101608 seconds.

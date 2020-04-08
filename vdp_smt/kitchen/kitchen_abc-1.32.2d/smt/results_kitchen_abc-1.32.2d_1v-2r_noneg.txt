@@ -1,0 +1,41 @@
+Candidate 1:
+
+Solution number 1
+Exists x1. 
+(or
+[labelOf(x1,oven)]
+[labelOf(x1,tvmonitor)])
+++++++++++++++
+
+Solution number 2
+Exists x1. 
+(or
+[labelOf(x1,remote)]
+[labelOf(x1,oven)])
+++++++++++++++
+
+Solution number 3
+Exists x1. 
+(or
+[labelOf(x1,tvmonitor)]
+[labelOf(x1,oven)])
+++++++++++++++
+
+Solution number 4
+Exists x1. 
+(or
+[labelOf(x1,sofa)]
+[labelOf(x1,oven)])
+++++++++++++++
+
+-----------------------------
+Candidate 2:
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 3:
+
+Unsat:No more formulae.
+-----------------------------
+
+!!!Solved in 9.24001002312 seconds.

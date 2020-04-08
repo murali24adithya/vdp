@@ -1,0 +1,51 @@
+Enter Image Path: /home/adithya/Synthesis/variants/umbrella_abc-145d/test_1.jpg: Predicted in 21.273963 seconds.
+sports ball: 91%
+Bounding Box: Left=378, Top=532, Right=390, Bottom=544
+bench: 81%
+Bounding Box: Left=425, Top=397, Right=479, Bottom=449
+person: 100%
+Bounding Box: Left=111, Top=61, Right=379, Bottom=516
+Enter Image Path: /home/adithya/Synthesis/variants/umbrella_abc-145d/test_4.jpg: Predicted in 21.218991 seconds.
+skateboard: 99%
+Bounding Box: Left=170, Top=249, Right=245, Bottom=291
+car: 97%
+Bounding Box: Left=0, Top=213, Right=57, Bottom=230
+car: 74%
+Bounding Box: Left=57, Top=216, Right=138, Bottom=234
+person: 100%
+Bounding Box: Left=381, Top=103, Right=444, Bottom=283
+person: 100%
+Bounding Box: Left=245, Top=176, Right=383, Bottom=365
+person: 100%
+Bounding Box: Left=230, Top=111, Right=286, Bottom=290
+person: 99%
+Bounding Box: Left=108, Top=181, Right=180, Bottom=342
+person: 87%
+Bounding Box: Left=386, Top=199, Right=511, Bottom=301
+person: 65%
+Bounding Box: Left=426, Top=204, Right=557, Bottom=322
+Enter Image Path: /home/adithya/Synthesis/variants/umbrella_abc-145d/test_5.jpg: Predicted in 20.972571 seconds.
+handbag: 78%
+Bounding Box: Left=288, Top=89, Right=332, Bottom=208
+traffic light: 96%
+Bounding Box: Left=59, Top=12, Right=79, Bottom=52
+car: 98%
+Bounding Box: Left=31, Top=116, Right=59, Bottom=142
+person: 100%
+Bounding Box: Left=304, Top=28, Right=399, Bottom=303
+person: 100%
+Bounding Box: Left=225, Top=41, Right=324, Bottom=393
+person: 100%
+Bounding Box: Left=426, Top=44, Right=507, Bottom=236
+person: 99%
+Bounding Box: Left=171, Top=107, Right=187, Bottom=159
+Enter Image Path: /home/adithya/Synthesis/variants/umbrella_abc-145d/test_d.jpg: Predicted in 20.948481 seconds.
+chair: 83%
+Bounding Box: Left=1, Top=357, Right=97, Bottom=425
+umbrella: 96%
+Bounding Box: Left=28, Top=70, Right=554, Bottom=283
+person: 100%
+Bounding Box: Left=151, Top=144, Right=338, Bottom=417
+person: 100%
+Bounding Box: Left=315, Top=119, Right=502, Bottom=425
+Enter Image Path: 

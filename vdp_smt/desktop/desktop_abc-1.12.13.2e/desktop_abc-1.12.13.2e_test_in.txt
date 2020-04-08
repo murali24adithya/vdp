@@ -1,0 +1,4 @@
+/home/adithya/Synthesis/variants/desktop_abc-1.12.13.2e/test_1.1.jpg
+/home/adithya/Synthesis/variants/desktop_abc-1.12.13.2e/test_2.1.jpg
+/home/adithya/Synthesis/variants/desktop_abc-1.12.13.2e/test_3.2.jpg
+/home/adithya/Synthesis/variants/desktop_abc-1.12.13.2e/test_e.jpg

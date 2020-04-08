@@ -1,0 +1,26 @@
+Enter Image Path: /home/adithya/Synthesis/variants/diagonal_ab-16c/test_1.jpg: Predicted in 29.679600 seconds.
+orange: 100%
+Bounding Box: Left=1850, Top=962, Right=2488, Bottom=1571
+orange: 100%
+Bounding Box: Left=2670, Top=159, Right=3311, Bottom=742
+orange: 100%
+Bounding Box: Left=240, Top=2418, Right=894, Bottom=3060
+orange: 100%
+Bounding Box: Left=1038, Top=1687, Right=1676, Bottom=2297
+Enter Image Path: /home/adithya/Synthesis/variants/diagonal_ab-16c/test_6.jpg: Predicted in 29.486244 seconds.
+orange: 100%
+Bounding Box: Left=124, Top=282, Right=905, Bottom=1007
+orange: 100%
+Bounding Box: Left=1205, Top=287, Right=1996, Bottom=1030
+orange: 100%
+Bounding Box: Left=2390, Top=316, Right=3168, Bottom=1020
+Enter Image Path: /home/adithya/Synthesis/variants/diagonal_ab-16c/test_c.jpg: Predicted in 27.593708 seconds.
+orange: 100%
+Bounding Box: Left=365, Top=307, Right=1031, Bottom=920
+orange: 100%
+Bounding Box: Left=2929, Top=2768, Right=3588, Bottom=3333
+orange: 99%
+Bounding Box: Left=1237, Top=1093, Right=1846, Bottom=1705
+orange: 99%
+Bounding Box: Left=2110, Top=1925, Right=2720, Bottom=2501
+Enter Image Path: 

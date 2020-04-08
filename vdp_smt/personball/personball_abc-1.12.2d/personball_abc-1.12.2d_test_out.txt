@@ -1,0 +1,50 @@
+Enter Image Path: /home/adithya/Synthesis/variants/personball_abc-1.12.2d/test_1.1.jpg: Predicted in 24.241624 seconds.
+sports ball: 99%
+Bounding Box: Left=327, Top=278, Right=469, Bottom=437
+dog: 100%
+Bounding Box: Left=123, Top=98, Right=394, Bottom=395
+Enter Image Path: /home/adithya/Synthesis/variants/personball_abc-1.12.2d/test_2.2.jpg: Predicted in 23.731499 seconds.
+wine glass: 97%
+Bounding Box: Left=1076, Top=704, Right=1222, Bottom=867
+wine glass: 94%
+Bounding Box: Left=446, Top=744, Right=589, Bottom=912
+wine glass: 69%
+Bounding Box: Left=1435, Top=724, Right=1497, Bottom=857
+person: 100%
+Bounding Box: Left=1082, Top=69, Right=1491, Bottom=770
+person: 100%
+Bounding Box: Left=363, Top=112, Right=816, Bottom=886
+person: 100%
+Bounding Box: Left=0, Top=105, Right=501, Bottom=999
+person: 100%
+Bounding Box: Left=713, Top=73, Right=1112, Bottom=798
+Enter Image Path: /home/adithya/Synthesis/variants/personball_abc-1.12.2d/test_d.jpg: Predicted in 23.878671 seconds.
+sports ball: 100%
+Bounding Box: Left=188, Top=74, Right=274, Bottom=160
+person: 100%
+Bounding Box: Left=591, Top=144, Right=761, Bottom=462
+person: 100%
+Bounding Box: Left=373, Top=79, Right=639, Bottom=724
+person: 100%
+Bounding Box: Left=811, Top=159, Right=994, Bottom=657
+person: 100%
+Bounding Box: Left=67, Top=56, Right=435, Bottom=692
+person: 93%
+Bounding Box: Left=822, Top=64, Right=857, Bottom=116
+person: 91%
+Bounding Box: Left=60, Top=92, Right=142, Bottom=185
+person: 90%
+Bounding Box: Left=784, Top=61, Right=814, Bottom=117
+person: 71%
+Bounding Box: Left=625, Top=66, Right=659, Bottom=119
+person: 67%
+Bounding Box: Left=870, Top=98, Right=959, Bottom=235
+person: 65%
+Bounding Box: Left=852, Top=84, Right=897, Bottom=124
+person: 63%
+Bounding Box: Left=883, Top=67, Right=915, Bottom=117
+person: 62%
+Bounding Box: Left=581, Top=128, Right=664, Bottom=357
+person: 55%
+Bounding Box: Left=910, Top=66, Right=943, Bottom=100
+Enter Image Path: 

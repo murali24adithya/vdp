@@ -1,0 +1,30 @@
+Enter Image Path: /home/adithya/Synthesis/variants/2on1_abe-c123/test_1.jpg: Predicted in 21.265314 seconds.
+chair: 86%
+sofa: 56%
+Bounding Box: Left=975, Top=209, Right=1682, Bottom=577
+chair: 87%
+Bounding Box: Left=123, Top=200, Right=801, Bottom=581
+cat: 98%
+Bounding Box: Left=255, Top=268, Right=737, Bottom=519
+cat: 98%
+Bounding Box: Left=1134, Top=269, Right=1594, Bottom=521
+Enter Image Path: /home/adithya/Synthesis/variants/2on1_abe-c123/test_2.jpg: Predicted in 20.775883 seconds.
+sofa: 64%
+Bounding Box: Left=136, Top=109, Right=295, Bottom=245
+cat: 99%
+Bounding Box: Left=62, Top=192, Right=132, Bottom=248
+cat: 91%
+Bounding Box: Left=181, Top=164, Right=230, Bottom=232
+Enter Image Path: /home/adithya/Synthesis/variants/2on1_abe-c123/test_3.jpg: Predicted in 20.833458 seconds.
+sofa: 99%
+Bounding Box: Left=0, Top=87, Right=799, Bottom=531
+cat: 100%
+Bounding Box: Left=38, Top=135, Right=397, Bottom=429
+Enter Image Path: /home/adithya/Synthesis/variants/2on1_abe-c123/test_c.jpg: Predicted in 20.808357 seconds.
+sofa: 100%
+Bounding Box: Left=0, Top=71, Right=1023, Bottom=714
+cat: 99%
+Bounding Box: Left=189, Top=218, Right=436, Bottom=323
+cat: 92%
+Bounding Box: Left=498, Top=252, Right=679, Bottom=415
+Enter Image Path: 

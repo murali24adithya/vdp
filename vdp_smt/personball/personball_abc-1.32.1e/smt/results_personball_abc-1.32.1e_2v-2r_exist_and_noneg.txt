@@ -1,0 +1,97 @@
+Candidate 1:
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 2:
+
+Solution number 1
+Exists x1. Exists x2. 
+(and
+[labelOf(x2,person)]
+[within(x1,x2)])
+++++++++++++++
+
+Solution number 2
+Exists x1. Exists x2. 
+(and
+[within(x1,x2)]
+[labelOf(x2,person)])
+++++++++++++++
+
+Solution number 3
+Exists x1. Exists x2. 
+(and
+[within(x2,x1)]
+[labelOf(x1,person)])
+++++++++++++++
+
+Solution number 4
+Exists x1. Exists x2. 
+(and
+[labelOf(x1,person)]
+[within(x2,x1)])
+++++++++++++++
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 3:
+
+Solution number 1
+Exists x1. Exists x2. 
+(and
+[labelOf(x1,sports_ball)]
+[toRight(x2,x1)])
+++++++++++++++
+
+Solution number 2
+Exists x1. Exists x2. 
+(and
+[toRight(x1,x2)]
+[labelOf(x2,sports_ball)])
+++++++++++++++
+
+Solution number 3
+Exists x1. Exists x2. 
+(and
+[labelOf(x1,sports_ball)]
+[toLeft(x1,x2)])
+++++++++++++++
+
+Solution number 4
+Exists x1. Exists x2. 
+(and
+[labelOf(x2,person)]
+[labelOf(x1,sports_ball)])
+++++++++++++++
+
+Solution number 5
+Exists x1. Exists x2. 
+(and
+[labelOf(x2,sports_ball)]
+[labelOf(x1,person)])
+++++++++++++++
+
+Solution number 6
+Exists x1. Exists x2. 
+(and
+[labelOf(x1,sports_ball)]
+[labelOf(x2,person)])
+++++++++++++++
+
+Solution number 7
+Exists x1. Exists x2. 
+(and
+[labelOf(x1,person)]
+[labelOf(x2,sports_ball)])
+++++++++++++++
+
+Solution number 8
+Exists x1. Exists x2. 
+(and
+[toRight(x2,x1)]
+[labelOf(x1,sports_ball)])
+++++++++++++++
+
+-----------------------------
+
+!!!Solved in 158.612058163 seconds.

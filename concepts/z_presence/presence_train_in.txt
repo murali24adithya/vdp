@@ -1,3 +1,0 @@
-data/Synthesis/presence/presence_train_1.jpg
-data/Synthesis/presence/presence_train_2.jpg
-data/Synthesis/presence/presence_train_3.jpg

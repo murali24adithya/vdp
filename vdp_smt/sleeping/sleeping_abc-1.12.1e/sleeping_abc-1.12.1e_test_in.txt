@@ -1,0 +1,3 @@
+/home/adithya/Synthesis/variants/sleeping_abc-1.12.1e/test_1.1.jpg
+/home/adithya/Synthesis/variants/sleeping_abc-1.12.1e/test_2.1.jpg
+/home/adithya/Synthesis/variants/sleeping_abc-1.12.1e/test_e.jpg

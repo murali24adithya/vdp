@@ -1,0 +1,6 @@
+CVC4 Error:
+Parse Error: kitchen_abd-1.12.1e_sygus_file.sy:233.1: Sequence terminated early by token: ')'.
+Command exited with non-zero status 1
+0.01user 0.00system 0:00.01elapsed 94%CPU (0avgtext+0avgdata 10196maxresident)k
+0inputs+0outputs (0major+430minor)pagefaults 0swaps
+kitchen_abd-1.12.1e

@@ -1,0 +1,2 @@
+CVC4 interrupted by SIGTERM.
+pplwearingties_abc-1.32.13.1e

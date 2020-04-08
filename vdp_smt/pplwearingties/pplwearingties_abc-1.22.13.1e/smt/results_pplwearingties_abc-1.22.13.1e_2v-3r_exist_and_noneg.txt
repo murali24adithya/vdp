@@ -1,0 +1,71 @@
+Candidate 1:
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 2:
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 3:
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 4:
+
+Solution number 1
+Exists x1. Exists x2. 
+(and
+[labelOf(x1,person)]
+(and
+[neq(x1,x2)]
+[within(x2,x1)]))
+++++++++++++++
+
+Solution number 2
+Exists x1. Exists x2. 
+(and
+[labelOf(x2,person)]
+(and
+[neq(dog,x2)]
+[within(x1,x2)]))
+++++++++++++++
+
+Solution number 3
+Exists x1. Exists x2. 
+(and
+[neq(tie,dog)]
+(and
+[labelOf(x2,person)]
+[within(x1,x2)]))
+++++++++++++++
+
+Solution number 4
+Exists x1. Exists x2. 
+(and
+[labelOf(x1,person)]
+(and
+[neq(skateboard,dog)]
+[within(x2,x1)]))
+++++++++++++++
+
+Solution number 5
+Exists x1. Exists x2. 
+(and
+[neq(dog,skateboard)]
+(and
+[labelOf(x2,person)]
+[within(x1,x2)]))
+++++++++++++++
+
+Solution number 6
+Exists x1. Exists x2. 
+(and
+[within(x1,x2)]
+(and
+[labelOf(x2,person)]
+[sameLabel(x2,x2)]))
+++++++++++++++
+
+-----------------------------
+
+!!!Solved in 304.895262003 seconds.

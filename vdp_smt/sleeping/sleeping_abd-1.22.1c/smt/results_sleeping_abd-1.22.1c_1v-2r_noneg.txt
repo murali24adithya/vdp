@@ -1,0 +1,55 @@
+Candidate 1:
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 2:
+
+Solution number 1
+Forall x1. 
+(or
+[labelOf(x1,person)]
+[labelOf(x1,bench)])
+++++++++++++++
+
+Solution number 2
+Forall x1. 
+(or
+[labelOf(x1,bench)]
+[labelOf(x1,person)])
+++++++++++++++
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 3:
+
+Solution number 1
+Exists x1. 
+(or
+[labelOf(x1,person)]
+[above(x1,x1)])
+++++++++++++++
+
+Solution number 2
+Exists x1. 
+(or
+[above(x1,x1)]
+[labelOf(x1,person)])
+++++++++++++++
+
+Solution number 3
+Exists x1. 
+(impl
+[Not above(x1,x1)]
+[labelOf(x1,person)])
+++++++++++++++
+
+Solution number 4
+Exists x1. 
+(and
+[neq(person,bench)]
+[labelOf(x1,person)])
+++++++++++++++
+
+-----------------------------
+
+!!!Solved in 4.49160885811 seconds.
