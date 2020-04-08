@@ -1,0 +1,2 @@
+/home/adithya/Synthesis/variants/diagonal_ab-34c/train_a.jpg
+/home/adithya/Synthesis/variants/diagonal_ab-34c/train_b.jpg

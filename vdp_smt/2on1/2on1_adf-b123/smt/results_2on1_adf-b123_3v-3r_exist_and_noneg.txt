@@ -1,0 +1,52 @@
+Candidate 1:
+
+Solution number 1
+Exists x1. Exists x2. Exists x3. 
+(and
+[toLeft(x2,x1)]
+(and
+[Not toRight(x3,x2)]
+[neq(x3,x2)]))
+++++++++++++++
+
+Solution number 2
+Exists x1. Exists x2. Exists x3. 
+(and
+[Not toRight(x2,x1)]
+(and
+[neq(x2,x1)]
+[toLeft(x1,x3)]))
+++++++++++++++
+
+-----------------------------
+Candidate 2:
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 3:
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 4:
+
+Solution number 1
+Exists x1. Exists x2. Exists x3. 
+(and
+[neq(x3,x2)]
+(and
+[within(x2,x1)]
+[within(x3,x1)]))
+++++++++++++++
+
+Solution number 2
+Exists x1. Exists x2. Exists x3. 
+(and
+[neq(x3,x1)]
+(and
+[within(x1,x2)]
+[within(x3,x2)]))
+++++++++++++++
+
+-----------------------------
+
+!!!Solved in 17.2977099419 seconds.

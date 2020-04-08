@@ -1,0 +1,41 @@
+Candidate 1:
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 2:
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 3:
+
+Solution number 1
+Forall x1. 
+(impl
+[labelOf(x1,bowl)]
+[toLeft(x1,x1)])
+++++++++++++++
+
+Solution number 2
+Forall x1. 
+(impl
+[labelOf(x1,bowl)]
+[toRight(x1,vase)])
+++++++++++++++
+
+Solution number 3
+Forall x1. 
+(impl
+[labelOf(x1,bowl)]
+[above(x1,vase)])
+++++++++++++++
+
+Solution number 4
+Forall x1. 
+(impl
+[labelOf(x1,bowl)]
+[sameLabel(x1,vase)])
+++++++++++++++
+
+-----------------------------
+
+!!!Solved in 19.5024869442 seconds.

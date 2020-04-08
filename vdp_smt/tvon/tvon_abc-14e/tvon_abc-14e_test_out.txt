@@ -1,0 +1,28 @@
+Enter Image Path: /home/adithya/Synthesis/variants/tvon_abc-14e/test_1.jpg: Predicted in 24.575098 seconds.
+vase: 98%
+Bounding Box: Left=965, Top=663, Right=1040, Bottom=776
+clock: 66%
+Bounding Box: Left=817, Top=0, Right=933, Bottom=31
+remote: 74%
+Bounding Box: Left=1012, Top=779, Right=1064, Bottom=817
+tvmonitor: 100%
+Bounding Box: Left=444, Top=215, Right=877, Bottom=498
+Enter Image Path: /home/adithya/Synthesis/variants/tvon_abc-14e/test_4.jpg: Predicted in 24.291546 seconds.
+book: 57%
+Bounding Box: Left=630, Top=750, Right=713, Bottom=773
+book: 57%
+Bounding Box: Left=630, Top=737, Right=712, Bottom=761
+book: 51%
+Bounding Box: Left=631, Top=769, Right=715, Bottom=789
+tvmonitor: 100%
+Bounding Box: Left=761, Top=451, Right=1107, Bottom=686
+pottedplant: 88%
+Bounding Box: Left=1084, Top=600, Right=1141, Bottom=699
+Enter Image Path: /home/adithya/Synthesis/variants/tvon_abc-14e/test_e.jpg: Predicted in 24.028032 seconds.
+tvmonitor: 90%
+Bounding Box: Left=202, Top=186, Right=413, Bottom=385
+cat: 100%
+Bounding Box: Left=153, Top=466, Right=451, Bottom=622
+cat: 85%
+Bounding Box: Left=221, Top=190, Right=384, Bottom=335
+Enter Image Path: 

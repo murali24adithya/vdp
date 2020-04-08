@@ -1,0 +1,41 @@
+Candidate 1:
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 2:
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 3:
+
+Solution number 1
+Exists x1. 
+(or
+[sameLabel(bench,nullobj)]
+[labelOf(x1,person)])
+++++++++++++++
+
+Solution number 2
+Forall x1. 
+(impl
+[labelOf(x1,dog)]
+[above(nullobj,bench)])
+++++++++++++++
+
+Solution number 3
+Exists x1. 
+(impl
+[neq(bench,x1)]
+[labelOf(x1,person)])
+++++++++++++++
+
+Solution number 4
+Exists x1. 
+(impl
+[Not sameLabel(nullobj,bench)]
+[labelOf(x1,person)])
+++++++++++++++
+
+-----------------------------
+
+!!!Solved in 3.61289787292 seconds.

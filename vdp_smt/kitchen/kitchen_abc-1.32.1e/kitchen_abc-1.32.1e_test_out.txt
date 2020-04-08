@@ -1,0 +1,28 @@
+Enter Image Path: /home/adithya/Synthesis/variants/kitchen_abc-1.32.1e/test_1.3.jpg: Predicted in 21.430003 seconds.
+refrigerator: 99%
+Bounding Box: Left=170, Top=149, Right=285, Bottom=289
+remote: 53%
+Bounding Box: Left=151, Top=310, Right=178, Bottom=324
+tvmonitor: 97%
+Bounding Box: Left=354, Top=182, Right=444, Bottom=269
+sofa: 99%
+Bounding Box: Left=219, Top=337, Right=626, Bottom=479
+sofa: 62%
+Bounding Box: Left=0, Top=241, Right=152, Bottom=436
+Enter Image Path: /home/adithya/Synthesis/variants/kitchen_abc-1.32.1e/test_2.1.jpg: Predicted in 21.189490 seconds.
+sink: 86%
+Bounding Box: Left=175, Top=295, Right=269, Bottom=321
+toilet: 97%
+Bounding Box: Left=359, Top=425, Right=426, Bottom=541
+bowl: 78%
+Bounding Box: Left=179, Top=63, Right=258, Bottom=109
+bowl: 59%
+Bounding Box: Left=260, Top=295, Right=310, Bottom=322
+Enter Image Path: /home/adithya/Synthesis/variants/kitchen_abc-1.32.1e/test_e.jpg: Predicted in 21.088618 seconds.
+refrigerator: 100%
+Bounding Box: Left=176, Top=90, Right=279, Bottom=264
+sink: 86%
+Bounding Box: Left=68, Top=216, Right=189, Bottom=283
+oven: 98%
+Bounding Box: Left=365, Top=152, Right=504, Bottom=347
+Enter Image Path: 

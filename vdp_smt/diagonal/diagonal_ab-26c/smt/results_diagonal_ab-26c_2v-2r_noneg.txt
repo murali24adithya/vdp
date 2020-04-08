@@ -1,0 +1,125 @@
+Candidate 1:
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 2:
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 3:
+
+Solution number 1
+Exists x1. Exists x2. 
+(impl
+[neq(x2,orange)]
+[below(x1,x2)])
+++++++++++++++
+
+Solution number 2
+Exists x1. Exists x2. 
+(and
+[below(x1,x2)]
+[sameLabel(x1,x1)])
+++++++++++++++
+
+Solution number 3
+Exists x1. Exists x2. 
+(and
+[above(x1,x2)]
+[sameLabel(x1,x1)])
+++++++++++++++
+
+Solution number 4
+Exists x1. Exists x2. 
+(impl
+[labelOf(x1,orange)]
+[below(x2,x1)])
+++++++++++++++
+
+Solution number 5
+Exists x1. Exists x2. 
+(impl
+[neq(nullobj,x1)]
+[above(x2,x1)])
+++++++++++++++
+
+Solution number 6
+Exists x1. Exists x2. 
+(impl
+[neq(nullobj,x1)]
+[below(x2,x1)])
+++++++++++++++
+
+Solution number 7
+Exists x1. Exists x2. 
+(and
+[neq(nullobj,x1)]
+[above(x2,x1)])
+++++++++++++++
+
+Solution number 8
+Exists x1. Exists x2. 
+(and
+[neq(nullobj,x1)]
+[below(x2,x1)])
+++++++++++++++
+
+Solution number 9
+Exists x1. Exists x2. 
+(or
+[within(nullobj,nullobj)]
+[below(x1,x2)])
+++++++++++++++
+
+Solution number 10
+Exists x1. Exists x2. 
+(impl
+[neq(orange,x1)]
+[below(x2,x1)])
+++++++++++++++
+
+Solution number 11
+Exists x1. Exists x2. 
+(impl
+[neq(orange,x1)]
+[above(x2,x1)])
+++++++++++++++
+
+Solution number 12
+Exists x1. Exists x2. 
+(impl
+[Not within(nullobj,x1)]
+[below(x2,x1)])
+++++++++++++++
+
+Solution number 13
+Exists x1. Exists x2. 
+(impl
+[Not toLeft(nullobj,x1)]
+[below(x2,x1)])
+++++++++++++++
+
+Solution number 14
+Exists x1. Exists x2. 
+(impl
+[Not sameLabel(nullobj,x1)]
+[below(x2,x1)])
+++++++++++++++
+
+Solution number 15
+Exists x1. Exists x2. 
+(impl
+[Not toRight(nullobj,x1)]
+[below(x2,x1)])
+++++++++++++++
+
+Solution number 16
+Exists x1. Exists x2. 
+(impl
+[Not above(nullobj,x1)]
+[below(x2,x1)])
+++++++++++++++
+
+-----------------------------
+
+!!!Solved in 34.1383459568 seconds.

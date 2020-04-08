@@ -1,0 +1,41 @@
+Candidate 1:
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 2:
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 3:
+
+Solution number 1
+Exists x1. 
+(and
+[labelOf(x1,person)]
+[neq(person,x1)])
+++++++++++++++
+
+Solution number 2
+Exists x1. 
+(or
+[labelOf(x1,person)]
+[below(nullobj,chair)])
+++++++++++++++
+
+Solution number 3
+Exists x1. 
+(or
+[labelOf(x1,person)]
+[within(person,bench)])
+++++++++++++++
+
+Solution number 4
+Exists x1. 
+(or
+[labelOf(x1,person)]
+[below(person,bench)])
+++++++++++++++
+
+-----------------------------
+
+!!!Solved in 3.8904979229 seconds.

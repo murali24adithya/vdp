@@ -1,0 +1,100 @@
+Candidate 1:
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 2:
+
+Solution number 1
+Exists x1. Forall x2. 
+(or
+[sameLabel(x1,x2)]
+[within(x2,x1)])
+++++++++++++++
+
+Solution number 2
+Exists x1. Forall x2. 
+(impl
+[Not within(x2,x1)]
+[sameLabel(x2,x1)])
+++++++++++++++
+
+Solution number 3
+Exists x1. Forall x2. 
+(or
+[sameLabel(x2,x1)]
+[within(x2,x1)])
+++++++++++++++
+
+Solution number 4
+Exists x1. Forall x2. 
+(or
+[within(x2,x1)]
+[sameLabel(x2,x1)])
+++++++++++++++
+
+Solution number 5
+Exists x1. Forall x2. 
+(impl
+[Not sameLabel(x2,x1)]
+[within(x2,x1)])
+++++++++++++++
+
+Solution number 6
+Exists x1. Forall x2. 
+(impl
+[Not sameLabel(x1,x2)]
+[within(x2,x1)])
+++++++++++++++
+
+-----------------------------
+Candidate 3:
+
+Solution number 1
+Exists x1. Forall x2. 
+(impl
+[neq(x1,x2)]
+[labelOf(x2,person)])
+++++++++++++++
+
+Solution number 2
+Exists x1. Forall x2. 
+(impl
+[neq(x2,x1)]
+[labelOf(x2,person)])
+++++++++++++++
+
+Solution number 3
+Exists x1. Forall x2. 
+(or
+[labelOf(x2,person)]
+[Not neq(x2,x1)])
+++++++++++++++
+
+Solution number 4
+Exists x1. Forall x2. 
+(or
+[Not neq(x2,x1)]
+[labelOf(x2,person)])
+++++++++++++++
+
+Solution number 5
+Exists x1. Forall x2. 
+(or
+[labelOf(x2,person)]
+[Not neq(x1,x2)])
+++++++++++++++
+
+Solution number 6
+Exists x1. Forall x2. 
+(or
+[Not neq(x1,x2)]
+[labelOf(x2,person)])
+++++++++++++++
+
+-----------------------------
+Candidate 4:
+
+Unsat:No more formulae.
+-----------------------------
+
+!!!Solved in 4155.96645308 seconds.

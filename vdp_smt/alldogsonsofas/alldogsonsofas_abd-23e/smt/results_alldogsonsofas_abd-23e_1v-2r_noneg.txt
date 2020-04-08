@@ -1,0 +1,41 @@
+Candidate 1:
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 2:
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 3:
+
+Solution number 1
+Forall x1. 
+(impl
+[labelOf(x1,bowl)]
+[within(vase,vase)])
+++++++++++++++
+
+Solution number 2
+Forall x1. 
+(impl
+[labelOf(x1,bowl)]
+[labelOf(x1,x1)])
+++++++++++++++
+
+Solution number 3
+Forall x1. 
+(impl
+[labelOf(x1,bowl)]
+[within(x1,x1)])
+++++++++++++++
+
+Solution number 4
+Forall x1. 
+(impl
+[labelOf(x1,bowl)]
+[labelOf(vase,x1)])
+++++++++++++++
+
+-----------------------------
+
+!!!Solved in 20.3916840553 seconds.

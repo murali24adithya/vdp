@@ -1,0 +1,41 @@
+Candidate 1:
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 2:
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 3:
+
+Solution number 1
+Exists x1. 
+(or
+[labelOf(x1,person)]
+[sameLabel(bicycle,x1)])
+++++++++++++++
+
+Solution number 2
+Exists x1. 
+(impl
+[neq(chair,bench)]
+[labelOf(x1,person)])
+++++++++++++++
+
+Solution number 3
+Exists x1. 
+(impl
+[neq(bench,chair)]
+[labelOf(x1,person)])
+++++++++++++++
+
+Solution number 4
+Exists x1. 
+(and
+[labelOf(x1,person)]
+[neq(chair,bench)])
+++++++++++++++
+
+-----------------------------
+
+!!!Solved in 5.37368297577 seconds.

@@ -1,0 +1,2 @@
+/home/adithya/Synthesis/variants/catontv_bc-1.12.2a/train_b.jpg
+/home/adithya/Synthesis/variants/catontv_bc-1.12.2a/train_c.jpg

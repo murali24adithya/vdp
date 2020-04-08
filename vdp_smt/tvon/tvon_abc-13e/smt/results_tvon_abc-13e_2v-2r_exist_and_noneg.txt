@@ -1,0 +1,69 @@
+Candidate 1:
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 2:
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 3:
+
+Solution number 1
+Exists x1. Exists x2. 
+(and
+[within(x1,x2)]
+[Not sameLabel(person,vase)])
+++++++++++++++
+
+Solution number 2
+Exists x1. Exists x2. 
+(and
+[neq(chair,nullobj)]
+[within(x1,x2)])
+++++++++++++++
+
+Solution number 3
+Exists x1. Exists x2. 
+(and
+[within(x1,x2)]
+[Not toRight(nullobj,x2)])
+++++++++++++++
+
+Solution number 4
+Exists x1. Exists x2. 
+(and
+[within(x2,x1)]
+[sameLabel(x2,x2)])
+++++++++++++++
+
+Solution number 5
+Exists x1. Exists x2. 
+(and
+[within(x2,x1)]
+[Not within(x2,x2)])
+++++++++++++++
+
+Solution number 6
+Exists x1. Exists x2. 
+(and
+[within(x2,x1)]
+[Not toLeft(x2,x2)])
+++++++++++++++
+
+Solution number 7
+Exists x1. Exists x2. 
+(and
+[within(x2,x1)]
+[Not toRight(x2,x2)])
+++++++++++++++
+
+Solution number 8
+Exists x1. Exists x2. 
+(and
+[within(x2,x1)]
+[Not below(x2,x2)])
+++++++++++++++
+
+-----------------------------
+
+!!!Solved in 5.78172111511 seconds.

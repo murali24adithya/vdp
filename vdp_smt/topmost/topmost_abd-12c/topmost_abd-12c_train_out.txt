@@ -1,0 +1,30 @@
+Enter Image Path: /home/adithya/Synthesis/variants/topmost_abd-12c/train_a.jpg: Predicted in 24.404863 seconds.
+orange: 100%
+Bounding Box: Left=3470, Top=1331, Right=4249, Bottom=2118
+orange: 100%
+Bounding Box: Left=4118, Top=2331, Right=4886, Bottom=3122
+orange: 99%
+Bounding Box: Left=2536, Top=2301, Right=3311, Bottom=3117
+orange: 99%
+Bounding Box: Left=1014, Top=2327, Right=1873, Bottom=3121
+orange: 99%
+Bounding Box: Left=2635, Top=276, Right=3498, Bottom=1068
+orange: 98%
+Bounding Box: Left=1839, Top=1280, Right=2565, Bottom=2026
+Enter Image Path: /home/adithya/Synthesis/variants/topmost_abd-12c/train_b.jpg: Predicted in 23.298637 seconds.
+orange: 100%
+Bounding Box: Left=1188, Top=537, Right=1506, Bottom=881
+orange: 100%
+Bounding Box: Left=617, Top=540, Right=960, Bottom=883
+orange: 100%
+Bounding Box: Left=652, Top=76, Right=980, Bottom=393
+orange: 99%
+Bounding Box: Left=65, Top=530, Right=389, Bottom=875
+Enter Image Path: /home/adithya/Synthesis/variants/topmost_abd-12c/train_d.jpg: Predicted in 23.326771 seconds.
+orange: 100%
+Bounding Box: Left=95, Top=2057, Right=810, Bottom=2768
+orange: 100%
+Bounding Box: Left=1199, Top=221, Right=1916, Bottom=924
+orange: 99%
+Bounding Box: Left=2412, Top=1265, Right=3122, Bottom=1984
+Enter Image Path: 

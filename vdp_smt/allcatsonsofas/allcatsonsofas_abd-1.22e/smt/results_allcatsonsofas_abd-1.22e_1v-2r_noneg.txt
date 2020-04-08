@@ -1,0 +1,20 @@
+Candidate 1:
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 2:
+
+Solution number 1
+Forall x1. 
+(or
+[labelOf(x1,cat)]
+[labelOf(x1,sofa)])
+++++++++++++++
+
+-----------------------------
+Candidate 3:
+
+Unsat:No more formulae.
+-----------------------------
+
+!!!Solved in 1.11250782013 seconds.

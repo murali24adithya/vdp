@@ -1,0 +1,2 @@
+unsat
+(error "line 368 column 10: model is not available")

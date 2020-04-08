@@ -1,0 +1,3 @@
+/home/adithya/Synthesis/variants/topmost_abc-24f/test_2.jpg
+/home/adithya/Synthesis/variants/topmost_abc-24f/test_4.jpg
+/home/adithya/Synthesis/variants/topmost_abc-24f/test_f.jpg

@@ -1,3 +1,0 @@
-/home/adithya/Synthesis/variants/z_equal_catdog_abc-12d/train_a.jpg
-/home/adithya/Synthesis/variants/z_equal_catdog_abc-12d/train_b.jpg
-/home/adithya/Synthesis/variants/z_equal_catdog_abc-12d/train_c.jpg

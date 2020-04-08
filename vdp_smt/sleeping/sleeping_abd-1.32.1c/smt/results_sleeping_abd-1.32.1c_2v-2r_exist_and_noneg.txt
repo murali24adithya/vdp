@@ -1,0 +1,125 @@
+Candidate 1:
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 2:
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 3:
+
+Solution number 1
+Exists x1. Exists x2. 
+(and
+[labelOf(x2,person)]
+[sameLabel(x2,x2)])
+++++++++++++++
+
+Solution number 2
+Exists x1. Exists x2. 
+(and
+[neq(person,bench)]
+[labelOf(x1,person)])
+++++++++++++++
+
+Solution number 3
+Exists x1. Exists x2. 
+(and
+[sameLabel(x2,x2)]
+[labelOf(x2,person)])
+++++++++++++++
+
+Solution number 4
+Exists x1. Exists x2. 
+(and
+[Not below(x2,x2)]
+[labelOf(x2,person)])
+++++++++++++++
+
+Solution number 5
+Exists x1. Exists x2. 
+(and
+[Not within(x2,x2)]
+[labelOf(x2,person)])
+++++++++++++++
+
+Solution number 6
+Exists x1. Exists x2. 
+(and
+[Not toLeft(x2,x2)]
+[labelOf(x2,person)])
+++++++++++++++
+
+Solution number 7
+Exists x1. Exists x2. 
+(and
+[Not toRight(x2,x2)]
+[labelOf(x2,person)])
+++++++++++++++
+
+Solution number 8
+Exists x1. Exists x2. 
+(and
+[Not neq(x2,x2)]
+[labelOf(x2,person)])
+++++++++++++++
+
+Solution number 9
+Exists x1. Exists x2. 
+(and
+[Not below(x2,x2)]
+[labelOf(x1,person)])
+++++++++++++++
+
+Solution number 10
+Exists x1. Exists x2. 
+(and
+[labelOf(x1,person)]
+[neq(x2,cat)])
+++++++++++++++
+
+Solution number 11
+Exists x1. Exists x2. 
+(and
+[labelOf(x1,person)]
+[Not toRight(cat,x1)])
+++++++++++++++
+
+Solution number 12
+Exists x1. Exists x2. 
+(and
+[Not above(x2,x2)]
+[labelOf(x2,person)])
+++++++++++++++
+
+Solution number 13
+Exists x1. Exists x2. 
+(and
+[sameLabel(x2,x2)]
+[labelOf(x1,person)])
+++++++++++++++
+
+Solution number 14
+Exists x1. Exists x2. 
+(and
+[Not toLeft(x2,x2)]
+[labelOf(x1,person)])
+++++++++++++++
+
+Solution number 15
+Exists x1. Exists x2. 
+(and
+[Not neq(x2,x2)]
+[labelOf(x1,person)])
+++++++++++++++
+
+Solution number 16
+Exists x1. Exists x2. 
+(and
+[Not above(x2,x2)]
+[labelOf(x1,person)])
+++++++++++++++
+
+-----------------------------
+
+!!!Solved in 6.5302670002 seconds.

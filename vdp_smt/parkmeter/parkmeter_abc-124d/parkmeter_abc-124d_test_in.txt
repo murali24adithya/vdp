@@ -1,0 +1,4 @@
+/home/adithya/Synthesis/variants/parkmeter_abc-124d/test_1.jpg
+/home/adithya/Synthesis/variants/parkmeter_abc-124d/test_2.jpg
+/home/adithya/Synthesis/variants/parkmeter_abc-124d/test_4.jpg
+/home/adithya/Synthesis/variants/parkmeter_abc-124d/test_d.jpg

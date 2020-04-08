@@ -1,0 +1,38 @@
+Enter Image Path: /home/adithya/Synthesis/variants/tvon_abc-13e/test_1.jpg: Predicted in 24.203511 seconds.
+vase: 98%
+Bounding Box: Left=965, Top=663, Right=1040, Bottom=776
+clock: 66%
+Bounding Box: Left=817, Top=0, Right=933, Bottom=31
+remote: 74%
+Bounding Box: Left=1012, Top=779, Right=1064, Bottom=817
+tvmonitor: 100%
+Bounding Box: Left=444, Top=215, Right=877, Bottom=498
+Enter Image Path: /home/adithya/Synthesis/variants/tvon_abc-13e/test_3.jpg: Predicted in 23.772169 seconds.
+book: 69%
+Bounding Box: Left=612, Top=332, Right=625, Bottom=383
+book: 68%
+Bounding Box: Left=621, Top=333, Right=634, Bottom=383
+book: 65%
+Bounding Box: Left=605, Top=333, Right=617, Bottom=384
+book: 56%
+Bounding Box: Left=79, Top=293, Right=95, Bottom=333
+book: 53%
+Bounding Box: Left=115, Top=250, Right=128, Bottom=281
+book: 52%
+Bounding Box: Left=116, Top=293, Right=126, Bottom=333
+book: 52%
+Bounding Box: Left=123, Top=345, Right=136, Bottom=385
+book: 50%
+Bounding Box: Left=100, Top=297, Right=110, Bottom=333
+tvmonitor: 90%
+Bounding Box: Left=202, Top=125, Right=455, Bottom=264
+chair: 94%
+Bounding Box: Left=0, Top=363, Right=222, Bottom=553
+Enter Image Path: /home/adithya/Synthesis/variants/tvon_abc-13e/test_e.jpg: Predicted in 23.739603 seconds.
+tvmonitor: 90%
+Bounding Box: Left=202, Top=186, Right=413, Bottom=385
+cat: 100%
+Bounding Box: Left=153, Top=466, Right=451, Bottom=622
+cat: 85%
+Bounding Box: Left=221, Top=190, Right=384, Bottom=335
+Enter Image Path: 

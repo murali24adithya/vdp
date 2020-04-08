@@ -1,0 +1,124 @@
+Candidate 1:
+
+Solution number 1
+Exists x1. Exists x2. 
+(and
+[Not within(refrigerator,x2)]
+[toLeft(x2,x1)])
+++++++++++++++
+
+Solution number 2
+Exists x1. Exists x2. 
+(and
+[Not within(bottle,x2)]
+[toRight(x2,x1)])
+++++++++++++++
+
+Solution number 3
+Exists x1. Exists x2. 
+(and
+[Not toRight(bottle,x2)]
+[toRight(x2,x1)])
+++++++++++++++
+
+Solution number 4
+Exists x1. Exists x2. 
+(and
+[Not toLeft(pottedplant,x2)]
+[toRight(x2,x1)])
+++++++++++++++
+
+Solution number 5
+Exists x1. Exists x2. 
+(and
+[Not within(diningtable,x2)]
+[toLeft(x2,x1)])
+++++++++++++++
+
+Solution number 6
+Exists x1. Exists x2. 
+(and
+[Not toRight(diningtable,x2)]
+[toLeft(x2,x1)])
+++++++++++++++
+
+Solution number 7
+Exists x1. Exists x2. 
+(and
+[Not toLeft(diningtable,x2)]
+[toLeft(x2,x1)])
+++++++++++++++
+
+Solution number 8
+Exists x1. Exists x2. 
+(and
+[Not above(diningtable,x2)]
+[toLeft(x2,x1)])
+++++++++++++++
+
+-----------------------------
+Candidate 2:
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 3:
+
+Solution number 1
+Exists x1. Exists x2. 
+(and
+[labelOf(x2,refrigerator)]
+[Not within(x2,x2)])
+++++++++++++++
+
+Solution number 2
+Exists x1. Exists x2. 
+(and
+[sameLabel(x2,x2)]
+[labelOf(x2,refrigerator)])
+++++++++++++++
+
+Solution number 3
+Exists x1. Exists x2. 
+(and
+[Not within(x2,x2)]
+[labelOf(x2,refrigerator)])
+++++++++++++++
+
+Solution number 4
+Exists x1. Exists x2. 
+(and
+[Not toLeft(x2,x2)]
+[labelOf(x2,refrigerator)])
+++++++++++++++
+
+Solution number 5
+Exists x1. Exists x2. 
+(and
+[Not neq(x2,x2)]
+[labelOf(x2,refrigerator)])
+++++++++++++++
+
+Solution number 6
+Exists x1. Exists x2. 
+(and
+[Not above(x2,x2)]
+[labelOf(x2,refrigerator)])
+++++++++++++++
+
+Solution number 7
+Exists x1. Exists x2. 
+(and
+[Not toRight(x2,x2)]
+[labelOf(x2,refrigerator)])
+++++++++++++++
+
+Solution number 8
+Exists x1. Exists x2. 
+(and
+[Not below(x2,x2)]
+[labelOf(x2,refrigerator)])
+++++++++++++++
+
+-----------------------------
+
+!!!Solved in 23.8135359287 seconds.

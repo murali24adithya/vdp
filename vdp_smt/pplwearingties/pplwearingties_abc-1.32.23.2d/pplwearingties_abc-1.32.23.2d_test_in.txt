@@ -1,0 +1,4 @@
+/home/adithya/Synthesis/variants/pplwearingties_abc-1.32.23.2d/test_1.3.jpg
+/home/adithya/Synthesis/variants/pplwearingties_abc-1.32.23.2d/test_2.2.jpg
+/home/adithya/Synthesis/variants/pplwearingties_abc-1.32.23.2d/test_3.2.jpg
+/home/adithya/Synthesis/variants/pplwearingties_abc-1.32.23.2d/test_d.jpg

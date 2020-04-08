@@ -1,0 +1,180 @@
+Processing populatedbus_abc-1.12.1d
+
+real	0m0.352s
+user	0m0.327s
+sys	0m0.020s
+Unsat. No model available.
+
+Finished processing populatedbus_abc-1.12.1d
+
+Processing populatedbus_abc-1.12.1e
+
+real	0m0.480s
+user	0m0.464s
+sys	0m0.016s
+Unsat. No model available.
+
+Finished processing populatedbus_abc-1.12.1e
+
+Processing populatedbus_abc-1.12.2d
+
+real	0m0.348s
+user	0m0.344s
+sys	0m0.004s
+Unsat. No model available.
+
+Finished processing populatedbus_abc-1.12.2d
+
+Processing populatedbus_abc-1.12.2e
+
+real	0m0.473s
+user	0m0.457s
+sys	0m0.016s
+Unsat. No model available.
+
+Finished processing populatedbus_abc-1.12.2e
+
+Processing populatedbus_abc-1.22.1d
+
+real	0m0.152s
+user	0m0.144s
+sys	0m0.008s
+Unsat. No model available.
+
+Finished processing populatedbus_abc-1.22.1d
+
+Processing populatedbus_abc-1.22.1e
+
+real	0m0.240s
+user	0m0.236s
+sys	0m0.004s
+Unsat. No model available.
+
+Finished processing populatedbus_abc-1.22.1e
+
+Processing populatedbus_abc-1.22.2d
+
+real	0m0.149s
+user	0m0.145s
+sys	0m0.004s
+Unsat. No model available.
+
+Finished processing populatedbus_abc-1.22.2d
+
+Processing populatedbus_abc-1.22.2e
+
+real	0m0.242s
+user	0m0.230s
+sys	0m0.012s
+Unsat. No model available.
+
+Finished processing populatedbus_abc-1.22.2e
+
+Processing populatedbus_abd-1.12.1c
+
+real	0m0.320s
+user	0m0.296s
+sys	0m0.024s
+Unsat. No model available.
+
+Finished processing populatedbus_abd-1.12.1c
+
+Processing populatedbus_abd-1.12.1e
+
+real	0m0.428s
+user	0m0.408s
+sys	0m0.020s
+Unsat. No model available.
+
+Finished processing populatedbus_abd-1.12.1e
+
+Processing populatedbus_abd-1.12.2c
+
+real	0m0.333s
+user	0m0.313s
+sys	0m0.020s
+Unsat. No model available.
+
+Finished processing populatedbus_abd-1.12.2c
+
+Processing populatedbus_abd-1.12.2e
+
+real	0m0.436s
+user	0m0.428s
+sys	0m0.008s
+Unsat. No model available.
+
+Finished processing populatedbus_abd-1.12.2e
+
+Processing populatedbus_abd-1.22.1c
+
+real	0m0.145s
+user	0m0.145s
+sys	0m0.000s
+Unsat. No model available.
+
+Finished processing populatedbus_abd-1.22.1c
+
+Processing populatedbus_abd-1.22.1e
+
+real	0m0.219s
+user	0m0.215s
+sys	0m0.004s
+Unsat. No model available.
+
+Finished processing populatedbus_abd-1.22.1e
+
+Processing populatedbus_abd-1.22.2c
+
+real	0m0.147s
+user	0m0.143s
+sys	0m0.004s
+Unsat. No model available.
+
+Finished processing populatedbus_abd-1.22.2c
+
+Processing populatedbus_abd-1.22.2e
+
+real	0m0.227s
+user	0m0.223s
+sys	0m0.004s
+Unsat. No model available.
+
+Finished processing populatedbus_abd-1.22.2e
+
+Processing populatedbus_abe-1.12.1c
+
+real	0m0.441s
+user	0m0.429s
+sys	0m0.012s
+Unsat. No model available.
+
+Finished processing populatedbus_abe-1.12.1c
+
+Processing populatedbus_abe-1.12.2c
+
+real	0m0.482s
+user	0m0.466s
+sys	0m0.016s
+Unsat. No model available.
+
+Finished processing populatedbus_abe-1.12.2c
+
+Processing populatedbus_abe-1.22.1c
+
+real	0m0.248s
+user	0m0.232s
+sys	0m0.016s
+Unsat. No model available.
+
+Finished processing populatedbus_abe-1.22.1c
+
+Processing populatedbus_abe-1.22.2c
+
+real	0m0.244s
+user	0m0.240s
+sys	0m0.004s
+Unsat. No model available.
+
+Finished processing populatedbus_abe-1.22.2c
+

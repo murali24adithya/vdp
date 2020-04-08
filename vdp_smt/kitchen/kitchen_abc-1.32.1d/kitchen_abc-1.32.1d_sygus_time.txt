@@ -1,0 +1,12 @@
+unsat
+(define-fun q1 () Bool false)
+(define-fun q2 () Bool false)
+(define-fun g1 ((x Obj)) Bool (labelOf x refrigerator))
+(define-fun g2 ((x Obj)) Bool (labelOf x sink))
+(define-fun f ((x1 Obj) (x2 Obj)) Bool (labelOf x2 sink))
+(define-fun c1 () Bool false)
+(define-fun c2 () Bool false)
+(define-fun c3 () Bool true)
+62.29user 1.63system 1:03.93elapsed 99%CPU (0avgtext+0avgdata 195584maxresident)k
+0inputs+0outputs (0major+45793minor)pagefaults 0swaps
+kitchen_abc-1.32.1d

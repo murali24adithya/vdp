@@ -1,0 +1,14 @@
+Enter Image Path: /home/adithya/Synthesis/variants/sleeping_abd-1.12.1e/test_1.1.jpg: Predicted in 30.401980 seconds.
+dog: 71%
+Bounding Box: Left=66, Top=67, Right=176, Bottom=161
+bench: 100%
+Bounding Box: Left=61, Top=23, Right=550, Bottom=269
+Enter Image Path: /home/adithya/Synthesis/variants/sleeping_abd-1.12.1e/test_2.1.jpg: Predicted in 30.024096 seconds.
+bench: 100%
+Bounding Box: Left=343, Top=236, Right=638, Bottom=379
+Enter Image Path: /home/adithya/Synthesis/variants/sleeping_abd-1.12.1e/test_e.jpg: Predicted in 30.276780 seconds.
+bench: 100%
+Bounding Box: Left=14, Top=78, Right=253, Bottom=167
+person: 57%
+Bounding Box: Left=33, Top=83, Right=218, Bottom=119
+Enter Image Path: 

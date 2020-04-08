@@ -1,0 +1,32 @@
+Enter Image Path: /home/adithya/Synthesis/variants/topmost_abc-12d/test_1.jpg: Predicted in 30.207758 seconds.
+orange: 100%
+Bounding Box: Left=1525, Top=823, Right=2164, Bottom=1422
+orange: 99%
+Bounding Box: Left=2933, Top=3144, Right=3602, Bottom=3758
+orange: 99%
+Bounding Box: Left=1025, Top=1813, Right=1689, Bottom=2447
+orange: 99%
+Bounding Box: Left=3872, Top=2413, Right=4553, Bottom=3147
+orange: 99%
+Bounding Box: Left=2694, Top=519, Right=3339, Bottom=1129
+orange: 97%
+Bounding Box: Left=3749, Top=1263, Right=4421, Bottom=1878
+orange: 97%
+Bounding Box: Left=1535, Top=2931, Right=2237, Bottom=3611
+Enter Image Path: /home/adithya/Synthesis/variants/topmost_abc-12d/test_2.jpg: Predicted in 30.064630 seconds.
+orange: 100%
+Bounding Box: Left=1416, Top=144, Right=2102, Bottom=846
+orange: 100%
+Bounding Box: Left=1372, Top=1176, Right=2060, Bottom=1923
+orange: 100%
+Bounding Box: Left=2849, Top=161, Right=3539, Bottom=852
+orange: 99%
+Bounding Box: Left=100, Top=112, Right=794, Bottom=791
+Enter Image Path: /home/adithya/Synthesis/variants/topmost_abc-12d/test_d.jpg: Predicted in 28.067184 seconds.
+orange: 100%
+Bounding Box: Left=95, Top=2057, Right=810, Bottom=2768
+orange: 100%
+Bounding Box: Left=1199, Top=221, Right=1916, Bottom=924
+orange: 99%
+Bounding Box: Left=2412, Top=1265, Right=3122, Bottom=1984
+Enter Image Path: 

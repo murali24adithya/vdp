@@ -1,0 +1,4 @@
+/home/adithya/Synthesis/variants/2on1_aef-d123/test_1.jpg
+/home/adithya/Synthesis/variants/2on1_aef-d123/test_2.jpg
+/home/adithya/Synthesis/variants/2on1_aef-d123/test_3.jpg
+/home/adithya/Synthesis/variants/2on1_aef-d123/test_d.jpg

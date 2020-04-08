@@ -1,3 +1,0 @@
-/home/adithya/Synthesis/variants/z_equal_catdog_abc-12d/test_1.jpg
-/home/adithya/Synthesis/variants/z_equal_catdog_abc-12d/test_2.jpg
-/home/adithya/Synthesis/variants/z_equal_catdog_abc-12d/test_d.jpg

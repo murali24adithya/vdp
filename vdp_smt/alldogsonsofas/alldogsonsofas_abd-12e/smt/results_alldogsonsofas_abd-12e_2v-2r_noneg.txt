@@ -1,0 +1,210 @@
+Candidate 1:
+
+Solution number 1
+Forall x1. Exists x2. 
+(impl
+[labelOf(x1,book)]
+[labelOf(x2,tvmonitor)])
+++++++++++++++
+
+Solution number 2
+Forall x1. Exists x2. 
+(impl
+[labelOf(x1,book)]
+[above(x1,x2)])
+++++++++++++++
+
+Solution number 3
+Forall x1. Exists x2. 
+(impl
+[labelOf(x1,book)]
+[below(x2,x1)])
+++++++++++++++
+
+Solution number 4
+Forall x1. Exists x2. 
+(impl
+[labelOf(x1,book)]
+[labelOf(x2,laptop)])
+++++++++++++++
+
+Solution number 5
+Forall x1. Exists x2. 
+(impl
+[labelOf(x1,book)]
+[labelOf(x2,cat)])
+++++++++++++++
+
+Solution number 6
+Exists x1. Forall x2. 
+(impl
+[labelOf(x2,book)]
+[labelOf(x1,tvmonitor)])
+++++++++++++++
+
+Solution number 7
+Exists x1. Forall x2. 
+(impl
+[labelOf(x2,book)]
+[labelOf(x1,laptop)])
+++++++++++++++
+
+Solution number 8
+Exists x1. Forall x2. 
+(impl
+[labelOf(x2,book)]
+[labelOf(x1,cat)])
+++++++++++++++
+
+Solution number 9
+Exists x1. Forall x2. 
+(impl
+[labelOf(x2,book)]
+[above(x2,x1)])
+++++++++++++++
+
+Solution number 10
+Exists x1. Forall x2. 
+(impl
+[labelOf(x2,book)]
+[below(x1,x2)])
+++++++++++++++
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 2:
+
+Solution number 1
+Forall x1. Forall x2. 
+(impl
+[labelOf(x1,dog)]
+[Not above(x1,x2)])
+++++++++++++++
+
+Solution number 2
+Forall x1. Forall x2. 
+(impl
+[labelOf(x1,dog)]
+[Not toRight(x2,x1)])
+++++++++++++++
+
+Solution number 3
+Forall x1. Forall x2. 
+(impl
+[labelOf(x1,dog)]
+[Not below(x2,x1)])
+++++++++++++++
+
+Solution number 4
+Forall x1. Forall x2. 
+(impl
+[labelOf(x2,dog)]
+[Not toLeft(x2,x1)])
+++++++++++++++
+
+Solution number 5
+Forall x1. Forall x2. 
+(impl
+[labelOf(x2,dog)]
+[Not above(x2,x1)])
+++++++++++++++
+
+Solution number 6
+Forall x1. Forall x2. 
+(impl
+[labelOf(x1,dog)]
+[Not toLeft(x1,x2)])
+++++++++++++++
+
+Solution number 7
+Forall x1. Forall x2. 
+(impl
+[labelOf(x2,dog)]
+[Not toRight(x1,x2)])
+++++++++++++++
+
+Solution number 8
+Forall x1. Forall x2. 
+(impl
+[labelOf(x2,dog)]
+[Not below(x1,x2)])
+++++++++++++++
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 3:
+
+Solution number 1
+Forall x1. Exists x2. 
+(impl
+[labelOf(x1,dog)]
+[within(x1,x2)])
+++++++++++++++
+
+Solution number 2
+Forall x1. Forall x2. 
+(impl
+[labelOf(x1,dog)]
+[Not toLeft(x2,x1)])
+++++++++++++++
+
+Solution number 3
+Forall x1. Forall x2. 
+(impl
+[labelOf(x2,dog)]
+[Not above(x1,x2)])
+++++++++++++++
+
+Solution number 4
+Exists x1. Forall x2. 
+(impl
+[labelOf(x2,dog)]
+[within(x2,x1)])
+++++++++++++++
+
+Solution number 5
+Forall x1. Forall x2. 
+(impl
+[labelOf(x2,dog)]
+[Not below(x2,x1)])
+++++++++++++++
+
+Solution number 6
+Forall x1. Forall x2. 
+(impl
+[labelOf(x2,dog)]
+[Not toRight(x2,x1)])
+++++++++++++++
+
+Solution number 7
+Forall x1. Forall x2. 
+(impl
+[labelOf(x1,dog)]
+[Not above(x2,x1)])
+++++++++++++++
+
+Solution number 8
+Forall x1. Forall x2. 
+(impl
+[labelOf(x1,dog)]
+[Not toRight(x1,x2)])
+++++++++++++++
+
+Solution number 9
+Forall x1. Forall x2. 
+(impl
+[labelOf(x2,dog)]
+[Not toLeft(x1,x2)])
+++++++++++++++
+
+Solution number 10
+Forall x1. Forall x2. 
+(impl
+[labelOf(x1,dog)]
+[Not below(x1,x2)])
+++++++++++++++
+
+Unsat:No more formulae.
+-----------------------------
+
+!!!Solved in 817.198534012 seconds.

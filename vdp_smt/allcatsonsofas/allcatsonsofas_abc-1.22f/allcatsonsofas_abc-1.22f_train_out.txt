@@ -1,0 +1,20 @@
+Enter Image Path: /home/adithya/Synthesis/variants/allcatsonsofas_abc-1.22f/train_a.jpg: Predicted in 29.284252 seconds.
+sofa: 98%
+Bounding Box: Left=0, Top=40, Right=3301, Bottom=2193
+cat: 95%
+Bounding Box: Left=1676, Top=938, Right=2639, Bottom=1675
+cat: 64%
+Bounding Box: Left=516, Top=695, Right=1805, Bottom=1877
+Enter Image Path: /home/adithya/Synthesis/variants/allcatsonsofas_abc-1.22f/train_b.jpg: Predicted in 30.233922 seconds.
+sofa: 99%
+Bounding Box: Left=0, Top=87, Right=799, Bottom=531
+cat: 100%
+Bounding Box: Left=38, Top=135, Right=397, Bottom=429
+Enter Image Path: /home/adithya/Synthesis/variants/allcatsonsofas_abc-1.22f/train_c.jpg: Predicted in 28.444679 seconds.
+sofa: 100%
+Bounding Box: Left=0, Top=71, Right=1023, Bottom=714
+cat: 99%
+Bounding Box: Left=189, Top=218, Right=436, Bottom=323
+cat: 92%
+Bounding Box: Left=498, Top=252, Right=679, Bottom=415
+Enter Image Path: 

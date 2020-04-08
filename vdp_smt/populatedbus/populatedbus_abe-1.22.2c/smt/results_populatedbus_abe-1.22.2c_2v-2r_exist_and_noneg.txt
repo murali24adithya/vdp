@@ -1,0 +1,124 @@
+Candidate 1:
+
+Solution number 1
+Exists x1. Exists x2. 
+(and
+[toLeft(x1,x2)]
+[labelOf(x1,person)])
+++++++++++++++
+
+Solution number 2
+Exists x1. Exists x2. 
+(and
+[labelOf(x1,person)]
+[toLeft(x1,x2)])
+++++++++++++++
+
+Solution number 3
+Exists x1. Exists x2. 
+(and
+[toRight(x2,x1)]
+[labelOf(x1,person)])
+++++++++++++++
+
+Solution number 4
+Exists x1. Exists x2. 
+(and
+[labelOf(x2,person)]
+[toRight(x1,x2)])
+++++++++++++++
+
+Solution number 5
+Exists x1. Exists x2. 
+(and
+[toLeft(x2,x1)]
+[labelOf(x2,person)])
+++++++++++++++
+
+Solution number 6
+Exists x1. Exists x2. 
+(and
+[toRight(x1,x2)]
+[labelOf(x2,person)])
+++++++++++++++
+
+Solution number 7
+Exists x1. Exists x2. 
+(and
+[labelOf(x2,person)]
+[toLeft(x2,x1)])
+++++++++++++++
+
+Solution number 8
+Exists x1. Exists x2. 
+(and
+[labelOf(x1,person)]
+[toRight(x2,x1)])
+++++++++++++++
+
+-----------------------------
+Candidate 2:
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 3:
+
+Solution number 1
+Exists x1. Exists x2. 
+(and
+[below(x2,x1)]
+[neq(truck,handbag)])
+++++++++++++++
+
+Solution number 2
+Exists x1. Exists x2. 
+(and
+[above(x1,x2)]
+[Not within(x2,x2)])
+++++++++++++++
+
+Solution number 3
+Exists x1. Exists x2. 
+(and
+[above(x1,x2)]
+[Not neq(x2,x2)])
+++++++++++++++
+
+Solution number 4
+Exists x1. Exists x2. 
+(and
+[above(x1,x2)]
+[Not toLeft(x2,x2)])
+++++++++++++++
+
+Solution number 5
+Exists x1. Exists x2. 
+(and
+[above(x1,x2)]
+[Not above(x2,x2)])
+++++++++++++++
+
+Solution number 6
+Exists x1. Exists x2. 
+(and
+[above(x1,x2)]
+[Not below(x2,x2)])
+++++++++++++++
+
+Solution number 7
+Exists x1. Exists x2. 
+(and
+[within(x1,x2)]
+[labelOf(x2,bus)])
+++++++++++++++
+
+Solution number 8
+Exists x1. Exists x2. 
+(and
+[neq(x1,x2)]
+[above(x2,x1)])
+++++++++++++++
+
+-----------------------------
+
+!!!Solved in 106.97095108 seconds.

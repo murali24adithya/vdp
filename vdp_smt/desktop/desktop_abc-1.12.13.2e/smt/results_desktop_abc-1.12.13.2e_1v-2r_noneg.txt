@@ -1,0 +1,45 @@
+Candidate 1:
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 2:
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 3:
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 4:
+
+Solution number 1
+Exists x1. 
+(impl
+[neq(book,diningtable)]
+[labelOf(x1,mouse)])
+++++++++++++++
+
+Solution number 2
+Exists x1. 
+(or
+[labelOf(x1,mouse)]
+[Not neq(book,cell_phone)])
+++++++++++++++
+
+Solution number 3
+Exists x1. 
+(and
+[labelOf(x1,mouse)]
+[neq(book,diningtable)])
+++++++++++++++
+
+Solution number 4
+Exists x1. 
+(or
+[labelOf(x1,mouse)]
+[within(bed,diningtable)])
+++++++++++++++
+
+-----------------------------
+
+!!!Solved in 95.8338348866 seconds.

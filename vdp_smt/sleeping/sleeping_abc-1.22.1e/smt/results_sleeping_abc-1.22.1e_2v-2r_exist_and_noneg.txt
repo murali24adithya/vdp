@@ -1,0 +1,125 @@
+Candidate 1:
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 2:
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 3:
+
+Solution number 1
+Exists x1. Exists x2. 
+(and
+[Not toLeft(x2,x2)]
+[labelOf(x2,person)])
+++++++++++++++
+
+Solution number 2
+Exists x1. Exists x2. 
+(and
+[labelOf(x2,person)]
+[Not neq(x2,x2)])
+++++++++++++++
+
+Solution number 3
+Exists x1. Exists x2. 
+(and
+[labelOf(x2,person)]
+[Not within(x2,x2)])
+++++++++++++++
+
+Solution number 4
+Exists x1. Exists x2. 
+(and
+[labelOf(x2,person)]
+[Not toLeft(x2,x2)])
+++++++++++++++
+
+Solution number 5
+Exists x1. Exists x2. 
+(and
+[labelOf(x2,person)]
+[Not toRight(x2,x2)])
+++++++++++++++
+
+Solution number 6
+Exists x1. Exists x2. 
+(and
+[labelOf(x2,person)]
+[Not above(x2,x2)])
+++++++++++++++
+
+Solution number 7
+Exists x1. Exists x2. 
+(and
+[labelOf(x2,person)]
+[Not below(x2,x2)])
+++++++++++++++
+
+Solution number 8
+Exists x1. Exists x2. 
+(and
+[labelOf(x1,person)]
+[Not neq(x2,x2)])
+++++++++++++++
+
+Solution number 9
+Exists x1. Exists x2. 
+(and
+[labelOf(x1,person)]
+[Not toRight(chair,nullobj)])
+++++++++++++++
+
+Solution number 10
+Exists x1. Exists x2. 
+(and
+[neq(pottedplant,x2)]
+[labelOf(x1,person)])
+++++++++++++++
+
+Solution number 11
+Exists x1. Exists x2. 
+(and
+[Not toLeft(bench,x2)]
+[labelOf(x1,person)])
+++++++++++++++
+
+Solution number 12
+Exists x1. Exists x2. 
+(and
+[labelOf(x2,person)]
+[sameLabel(x2,x2)])
+++++++++++++++
+
+Solution number 13
+Exists x1. Exists x2. 
+(and
+[labelOf(x2,person)]
+[neq(bench,x2)])
+++++++++++++++
+
+Solution number 14
+Exists x1. Exists x2. 
+(and
+[labelOf(x2,person)]
+[neq(chair,x2)])
+++++++++++++++
+
+Solution number 15
+Exists x1. Exists x2. 
+(and
+[labelOf(x2,person)]
+[neq(nullobj,x2)])
+++++++++++++++
+
+Solution number 16
+Exists x1. Exists x2. 
+(and
+[labelOf(x1,person)]
+[Not below(x2,x2)])
+++++++++++++++
+
+-----------------------------
+
+!!!Solved in 6.89949512482 seconds.

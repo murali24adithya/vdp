@@ -1,0 +1,4 @@
+/home/adithya/Synthesis/variants/umbrella_abc-134d/test_1.jpg
+/home/adithya/Synthesis/variants/umbrella_abc-134d/test_3.jpg
+/home/adithya/Synthesis/variants/umbrella_abc-134d/test_4.jpg
+/home/adithya/Synthesis/variants/umbrella_abc-134d/test_d.jpg

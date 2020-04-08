@@ -1,0 +1,11548 @@
+(set-logic ALL)
+(declare-datatypes ((Obj 0))
+((
+(t1o1)(t1o2)(t1o3)(t1o4)(t1o5)(t1o6)(t1o7)(t1o8)(t1o9)(t1o10)(t2o1)(t2o2)(t2o3)(t3o1)(t3o2)(t3o3)(t3o4)(t3o5)(c1o1)(c1o2)(c1o3)(c1o4)(c1o5)(c2o1)(c2o2)(c2o3)(c2o4)(c3o1)(c3o2)
+)))
+
+(declare-datatypes ((Label 0))
+((
+(remote)(bottle)(toilet)(refrigerator)(tvmonitor)(oven)(sofa)(spoon)(diningtable)(bowl)(sink)(chair)(cup)
+)))
+
+(define-fun labelOf((obj Obj)(lbl Label)) Bool
+(or
+(and (= obj t1o1) (= lbl refrigerator))
+(and (= obj t1o2) (= lbl sink))
+(and (= obj t1o3) (= lbl oven))
+(and (= obj t1o4) (= lbl bowl))
+(and (= obj t1o5) (= lbl bowl))
+(and (= obj t1o6) (= lbl bowl))
+(and (= obj t1o7) (= lbl cup))
+(and (= obj t1o8) (= lbl spoon))
+(and (= obj t1o9) (= lbl cup))
+(and (= obj t1o10) (= lbl bottle))
+(and (= obj t2o1) (= lbl refrigerator))
+(and (= obj t2o2) (= lbl sink))
+(and (= obj t2o3) (= lbl oven))
+(and (= obj t3o1) (= lbl refrigerator))
+(and (= obj t3o2) (= lbl sink))
+(and (= obj t3o3) (= lbl oven))
+(and (= obj t3o4) (= lbl diningtable))
+(and (= obj t3o5) (= lbl chair))
+(and (= obj c1o1) (= lbl refrigerator))
+(and (= obj c1o2) (= lbl remote))
+(and (= obj c1o3) (= lbl tvmonitor))
+(and (= obj c1o4) (= lbl sofa))
+(and (= obj c1o5) (= lbl sofa))
+(and (= obj c2o1) (= lbl sink))
+(and (= obj c2o2) (= lbl toilet))
+(and (= obj c2o3) (= lbl bowl))
+(and (= obj c2o4) (= lbl bowl))
+(and (= obj c3o1) (= lbl refrigerator))
+(and (= obj c3o2) (= lbl sink))
+
+))
+
+(define-fun leftOf((x Obj)(y Obj)) Bool
+(or
+(and (= x t1o2) (= y t1o1))
+(and (= x t1o2) (= y t1o3))
+(and (= x t1o2) (= y t1o4))
+(and (= x t1o2) (= y t1o5))
+(and (= x t1o2) (= y t1o6))
+(and (= x t1o2) (= y t1o7))
+(and (= x t1o2) (= y t1o8))
+(and (= x t1o2) (= y t1o9))
+(and (= x t1o2) (= y t1o10))
+(and (= x t1o3) (= y t1o6))
+(and (= x t1o4) (= y t1o1))
+(and (= x t1o4) (= y t1o3))
+(and (= x t1o4) (= y t1o5))
+(and (= x t1o4) (= y t1o6))
+(and (= x t1o4) (= y t1o7))
+(and (= x t1o4) (= y t1o9))
+(and (= x t1o4) (= y t1o10))
+(and (= x t1o5) (= y t1o1))
+(and (= x t1o5) (= y t1o3))
+(and (= x t1o5) (= y t1o6))
+(and (= x t1o5) (= y t1o9))
+(and (= x t1o5) (= y t1o10))
+(and (= x t1o7) (= y t1o1))
+(and (= x t1o7) (= y t1o3))
+(and (= x t1o7) (= y t1o6))
+(and (= x t1o7) (= y t1o9))
+(and (= x t1o7) (= y t1o10))
+(and (= x t1o8) (= y t1o1))
+(and (= x t1o8) (= y t1o3))
+(and (= x t1o8) (= y t1o5))
+(and (= x t1o8) (= y t1o6))
+(and (= x t1o8) (= y t1o7))
+(and (= x t1o8) (= y t1o9))
+(and (= x t1o8) (= y t1o10))
+(and (= x t1o9) (= y t1o1))
+(and (= x t1o9) (= y t1o3))
+(and (= x t1o9) (= y t1o6))
+(and (= x t1o10) (= y t1o1))
+(and (= x t1o10) (= y t1o3))
+(and (= x t1o10) (= y t1o6))
+(and (= x t2o2) (= y t2o1))
+(and (= x t2o3) (= y t2o1))
+(and (= x t3o1) (= y t3o2))
+(and (= x t3o1) (= y t3o4))
+(and (= x t3o1) (= y t3o5))
+(and (= x t3o3) (= y t3o2))
+(and (= x t3o3) (= y t3o4))
+(and (= x t3o3) (= y t3o5))
+(and (= x t3o4) (= y t3o2))
+(and (= x t3o5) (= y t3o2))
+(and (= x c1o1) (= y c1o3))
+(and (= x c1o2) (= y c1o3))
+(and (= x c1o2) (= y c1o4))
+(and (= x c1o5) (= y c1o1))
+(and (= x c1o5) (= y c1o3))
+(and (= x c1o5) (= y c1o4))
+(and (= x c2o1) (= y c2o2))
+(and (= x c2o3) (= y c2o2))
+(and (= x c2o3) (= y c2o4))
+(and (= x c2o4) (= y c2o2))
+
+))
+
+(define-fun rightOf((x Obj)(y Obj)) Bool
+(or
+(and (= x t1o1) (= y t1o2))
+(and (= x t1o1) (= y t1o4))
+(and (= x t1o1) (= y t1o5))
+(and (= x t1o1) (= y t1o7))
+(and (= x t1o1) (= y t1o8))
+(and (= x t1o1) (= y t1o9))
+(and (= x t1o1) (= y t1o10))
+(and (= x t1o3) (= y t1o2))
+(and (= x t1o3) (= y t1o4))
+(and (= x t1o3) (= y t1o5))
+(and (= x t1o3) (= y t1o7))
+(and (= x t1o3) (= y t1o8))
+(and (= x t1o3) (= y t1o9))
+(and (= x t1o3) (= y t1o10))
+(and (= x t1o4) (= y t1o2))
+(and (= x t1o5) (= y t1o2))
+(and (= x t1o5) (= y t1o4))
+(and (= x t1o5) (= y t1o8))
+(and (= x t1o6) (= y t1o2))
+(and (= x t1o6) (= y t1o3))
+(and (= x t1o6) (= y t1o4))
+(and (= x t1o6) (= y t1o5))
+(and (= x t1o6) (= y t1o7))
+(and (= x t1o6) (= y t1o8))
+(and (= x t1o6) (= y t1o9))
+(and (= x t1o6) (= y t1o10))
+(and (= x t1o7) (= y t1o2))
+(and (= x t1o7) (= y t1o4))
+(and (= x t1o7) (= y t1o8))
+(and (= x t1o8) (= y t1o2))
+(and (= x t1o9) (= y t1o2))
+(and (= x t1o9) (= y t1o4))
+(and (= x t1o9) (= y t1o5))
+(and (= x t1o9) (= y t1o7))
+(and (= x t1o9) (= y t1o8))
+(and (= x t1o10) (= y t1o2))
+(and (= x t1o10) (= y t1o4))
+(and (= x t1o10) (= y t1o5))
+(and (= x t1o10) (= y t1o7))
+(and (= x t1o10) (= y t1o8))
+(and (= x t2o1) (= y t2o2))
+(and (= x t2o1) (= y t2o3))
+(and (= x t3o2) (= y t3o1))
+(and (= x t3o2) (= y t3o3))
+(and (= x t3o2) (= y t3o4))
+(and (= x t3o2) (= y t3o5))
+(and (= x t3o4) (= y t3o1))
+(and (= x t3o4) (= y t3o3))
+(and (= x t3o5) (= y t3o1))
+(and (= x t3o5) (= y t3o3))
+(and (= x c1o1) (= y c1o5))
+(and (= x c1o3) (= y c1o1))
+(and (= x c1o3) (= y c1o2))
+(and (= x c1o3) (= y c1o5))
+(and (= x c1o4) (= y c1o2))
+(and (= x c1o4) (= y c1o5))
+(and (= x c2o2) (= y c2o1))
+(and (= x c2o2) (= y c2o3))
+(and (= x c2o2) (= y c2o4))
+(and (= x c2o4) (= y c2o3))
+
+))
+
+(define-fun above((x Obj)(y Obj)) Bool
+(or
+(and (= x t1o2) (= y t1o1))
+(and (= x t1o4) (= y t1o1))
+(and (= x t1o4) (= y t1o6))
+(and (= x t1o5) (= y t1o1))
+(and (= x t1o5) (= y t1o2))
+(and (= x t1o5) (= y t1o6))
+(and (= x t1o7) (= y t1o1))
+(and (= x t1o7) (= y t1o2))
+(and (= x t1o7) (= y t1o6))
+(and (= x t1o8) (= y t1o1))
+(and (= x t1o8) (= y t1o2))
+(and (= x t1o8) (= y t1o3))
+(and (= x t1o8) (= y t1o4))
+(and (= x t1o8) (= y t1o5))
+(and (= x t1o8) (= y t1o6))
+(and (= x t1o8) (= y t1o7))
+(and (= x t1o8) (= y t1o9))
+(and (= x t1o9) (= y t1o1))
+(and (= x t1o9) (= y t1o2))
+(and (= x t1o9) (= y t1o6))
+(and (= x t1o10) (= y t1o1))
+(and (= x t1o10) (= y t1o2))
+(and (= x t1o10) (= y t1o3))
+(and (= x t1o10) (= y t1o4))
+(and (= x t1o10) (= y t1o5))
+(and (= x t1o10) (= y t1o6))
+(and (= x t1o10) (= y t1o7))
+(and (= x t1o10) (= y t1o9))
+(and (= x t2o2) (= y t2o3))
+(and (= x t3o4) (= y t3o2))
+(and (= x t3o5) (= y t3o2))
+(and (= x c1o1) (= y c1o2))
+(and (= x c1o1) (= y c1o4))
+(and (= x c1o2) (= y c1o4))
+(and (= x c1o3) (= y c1o2))
+(and (= x c1o3) (= y c1o4))
+(and (= x c2o1) (= y c2o2))
+(and (= x c2o3) (= y c2o1))
+(and (= x c2o3) (= y c2o2))
+(and (= x c2o3) (= y c2o4))
+(and (= x c2o4) (= y c2o2))
+
+))
+
+(define-fun below((x Obj)(y Obj)) Bool
+(or
+(and (= x t1o1) (= y t1o2))
+(and (= x t1o1) (= y t1o4))
+(and (= x t1o1) (= y t1o5))
+(and (= x t1o1) (= y t1o7))
+(and (= x t1o1) (= y t1o8))
+(and (= x t1o1) (= y t1o9))
+(and (= x t1o1) (= y t1o10))
+(and (= x t1o2) (= y t1o5))
+(and (= x t1o2) (= y t1o7))
+(and (= x t1o2) (= y t1o8))
+(and (= x t1o2) (= y t1o9))
+(and (= x t1o2) (= y t1o10))
+(and (= x t1o3) (= y t1o8))
+(and (= x t1o3) (= y t1o10))
+(and (= x t1o4) (= y t1o8))
+(and (= x t1o4) (= y t1o10))
+(and (= x t1o5) (= y t1o8))
+(and (= x t1o5) (= y t1o10))
+(and (= x t1o6) (= y t1o4))
+(and (= x t1o6) (= y t1o5))
+(and (= x t1o6) (= y t1o7))
+(and (= x t1o6) (= y t1o8))
+(and (= x t1o6) (= y t1o9))
+(and (= x t1o6) (= y t1o10))
+(and (= x t1o7) (= y t1o8))
+(and (= x t1o7) (= y t1o10))
+(and (= x t1o9) (= y t1o8))
+(and (= x t1o9) (= y t1o10))
+(and (= x t2o3) (= y t2o2))
+(and (= x t3o2) (= y t3o4))
+(and (= x t3o2) (= y t3o5))
+(and (= x c1o2) (= y c1o1))
+(and (= x c1o2) (= y c1o3))
+(and (= x c1o4) (= y c1o1))
+(and (= x c1o4) (= y c1o2))
+(and (= x c1o4) (= y c1o3))
+(and (= x c2o1) (= y c2o3))
+(and (= x c2o2) (= y c2o1))
+(and (= x c2o2) (= y c2o3))
+(and (= x c2o2) (= y c2o4))
+(and (= x c2o4) (= y c2o3))
+
+))
+
+(define-fun within((x Obj)(y Obj)) Bool
+(or
+(and (= x t3o3) (= y t3o1))
+
+))
+
+
+(synth-fun q1 () Bool
+  ((Start Bool))
+  ((Start Bool 
+      (true false))
+))
+
+(synth-fun q2 () Bool
+  ((Start Bool))
+  ((Start Bool 
+      (true false))
+))
+
+
+(synth-fun g1 ((x Obj)) Bool
+((Start Bool) (Lb Label) (Ob Obj))
+((Start Bool
+		((labelOf Ob Lb)))
+ (Lb Label
+	 	(remote bottle toilet refrigerator tvmonitor oven sofa spoon diningtable bowl sink chair cup))
+ (Ob Obj
+	 	(x))
+))
+
+(synth-fun g2 ((x Obj)) Bool
+((Start Bool) (Lb Label) (Ob Obj))
+((Start Bool
+		((labelOf Ob Lb)))
+ (Lb Label
+	 	(remote bottle toilet refrigerator tvmonitor oven sofa spoon diningtable bowl sink chair cup))
+ (Ob Obj
+	 	(x))
+))
+
+
+(synth-fun f ((x1 Obj)(x2 Obj)) Bool
+((B Bool) (Lb Label) (Ob Obj))
+((B Bool
+		(true
+		 false
+		 (= Ob Ob)
+		 (=> B B)
+		 (and B B)
+		 (or B B)
+		 (not B)
+		 (labelOf Ob Lb)
+		 (leftOf Ob Ob) (rightOf Ob Ob) (above Ob Ob) (below Ob Ob) (within Ob Ob)))
+(Lb Label
+	 	 (remote bottle toilet refrigerator tvmonitor oven sofa spoon diningtable bowl sink chair cup))
+(Ob Obj
+	 	 (x1 x2))
+	))
+
+
+(synth-fun c1 () Bool
+  ((Start Bool))
+  ((Start Bool 
+        (true false))
+))
+(synth-fun c2 () Bool
+  ((Start Bool))
+  ((Start Bool 
+        (true false))
+))
+(synth-fun c3 () Bool
+  ((Start Bool))
+  ((Start Bool 
+        (true false))
+))
+(constraint(or c1 c2 c3))
+(constraint (=> c1 (and (not c2) (not c3))))
+(constraint (=> c2 (and (not c1) (not c3))))
+(constraint (=> c3 (and (not c1) (not c2))))
+
+(constraint
+(and
+(=>
+(and
+(= q1 true)
+(= q2 true)
+)
+(and
+(or
+(g1 t1o1)
+(g1 t1o2)
+(g1 t1o3)
+(g1 t1o4)
+(g1 t1o5)
+(g1 t1o6)
+(g1 t1o7)
+(g1 t1o8)
+(g1 t1o9)
+(g1 t1o10)
+)
+(and
+(=>
+(g1 t1o1)
+(and
+(or
+(g2 t1o1)
+(g2 t1o2)
+(g2 t1o3)
+(g2 t1o4)
+(g2 t1o5)
+(g2 t1o6)
+(g2 t1o7)
+(g2 t1o8)
+(g2 t1o9)
+(g2 t1o10)
+)
+(and
+(=>
+(g2 t1o1)
+(f t1o1 t1o1)
+)
+(=>
+(g2 t1o2)
+(f t1o1 t1o2)
+)
+(=>
+(g2 t1o3)
+(f t1o1 t1o3)
+)
+(=>
+(g2 t1o4)
+(f t1o1 t1o4)
+)
+(=>
+(g2 t1o5)
+(f t1o1 t1o5)
+)
+(=>
+(g2 t1o6)
+(f t1o1 t1o6)
+)
+(=>
+(g2 t1o7)
+(f t1o1 t1o7)
+)
+(=>
+(g2 t1o8)
+(f t1o1 t1o8)
+)
+(=>
+(g2 t1o9)
+(f t1o1 t1o9)
+)
+(=>
+(g2 t1o10)
+(f t1o1 t1o10)
+)
+)
+)
+)
+(=>
+(g1 t1o2)
+(and
+(or
+(g2 t1o1)
+(g2 t1o2)
+(g2 t1o3)
+(g2 t1o4)
+(g2 t1o5)
+(g2 t1o6)
+(g2 t1o7)
+(g2 t1o8)
+(g2 t1o9)
+(g2 t1o10)
+)
+(and
+(=>
+(g2 t1o1)
+(f t1o2 t1o1)
+)
+(=>
+(g2 t1o2)
+(f t1o2 t1o2)
+)
+(=>
+(g2 t1o3)
+(f t1o2 t1o3)
+)
+(=>
+(g2 t1o4)
+(f t1o2 t1o4)
+)
+(=>
+(g2 t1o5)
+(f t1o2 t1o5)
+)
+(=>
+(g2 t1o6)
+(f t1o2 t1o6)
+)
+(=>
+(g2 t1o7)
+(f t1o2 t1o7)
+)
+(=>
+(g2 t1o8)
+(f t1o2 t1o8)
+)
+(=>
+(g2 t1o9)
+(f t1o2 t1o9)
+)
+(=>
+(g2 t1o10)
+(f t1o2 t1o10)
+)
+)
+)
+)
+(=>
+(g1 t1o3)
+(and
+(or
+(g2 t1o1)
+(g2 t1o2)
+(g2 t1o3)
+(g2 t1o4)
+(g2 t1o5)
+(g2 t1o6)
+(g2 t1o7)
+(g2 t1o8)
+(g2 t1o9)
+(g2 t1o10)
+)
+(and
+(=>
+(g2 t1o1)
+(f t1o3 t1o1)
+)
+(=>
+(g2 t1o2)
+(f t1o3 t1o2)
+)
+(=>
+(g2 t1o3)
+(f t1o3 t1o3)
+)
+(=>
+(g2 t1o4)
+(f t1o3 t1o4)
+)
+(=>
+(g2 t1o5)
+(f t1o3 t1o5)
+)
+(=>
+(g2 t1o6)
+(f t1o3 t1o6)
+)
+(=>
+(g2 t1o7)
+(f t1o3 t1o7)
+)
+(=>
+(g2 t1o8)
+(f t1o3 t1o8)
+)
+(=>
+(g2 t1o9)
+(f t1o3 t1o9)
+)
+(=>
+(g2 t1o10)
+(f t1o3 t1o10)
+)
+)
+)
+)
+(=>
+(g1 t1o4)
+(and
+(or
+(g2 t1o1)
+(g2 t1o2)
+(g2 t1o3)
+(g2 t1o4)
+(g2 t1o5)
+(g2 t1o6)
+(g2 t1o7)
+(g2 t1o8)
+(g2 t1o9)
+(g2 t1o10)
+)
+(and
+(=>
+(g2 t1o1)
+(f t1o4 t1o1)
+)
+(=>
+(g2 t1o2)
+(f t1o4 t1o2)
+)
+(=>
+(g2 t1o3)
+(f t1o4 t1o3)
+)
+(=>
+(g2 t1o4)
+(f t1o4 t1o4)
+)
+(=>
+(g2 t1o5)
+(f t1o4 t1o5)
+)
+(=>
+(g2 t1o6)
+(f t1o4 t1o6)
+)
+(=>
+(g2 t1o7)
+(f t1o4 t1o7)
+)
+(=>
+(g2 t1o8)
+(f t1o4 t1o8)
+)
+(=>
+(g2 t1o9)
+(f t1o4 t1o9)
+)
+(=>
+(g2 t1o10)
+(f t1o4 t1o10)
+)
+)
+)
+)
+(=>
+(g1 t1o5)
+(and
+(or
+(g2 t1o1)
+(g2 t1o2)
+(g2 t1o3)
+(g2 t1o4)
+(g2 t1o5)
+(g2 t1o6)
+(g2 t1o7)
+(g2 t1o8)
+(g2 t1o9)
+(g2 t1o10)
+)
+(and
+(=>
+(g2 t1o1)
+(f t1o5 t1o1)
+)
+(=>
+(g2 t1o2)
+(f t1o5 t1o2)
+)
+(=>
+(g2 t1o3)
+(f t1o5 t1o3)
+)
+(=>
+(g2 t1o4)
+(f t1o5 t1o4)
+)
+(=>
+(g2 t1o5)
+(f t1o5 t1o5)
+)
+(=>
+(g2 t1o6)
+(f t1o5 t1o6)
+)
+(=>
+(g2 t1o7)
+(f t1o5 t1o7)
+)
+(=>
+(g2 t1o8)
+(f t1o5 t1o8)
+)
+(=>
+(g2 t1o9)
+(f t1o5 t1o9)
+)
+(=>
+(g2 t1o10)
+(f t1o5 t1o10)
+)
+)
+)
+)
+(=>
+(g1 t1o6)
+(and
+(or
+(g2 t1o1)
+(g2 t1o2)
+(g2 t1o3)
+(g2 t1o4)
+(g2 t1o5)
+(g2 t1o6)
+(g2 t1o7)
+(g2 t1o8)
+(g2 t1o9)
+(g2 t1o10)
+)
+(and
+(=>
+(g2 t1o1)
+(f t1o6 t1o1)
+)
+(=>
+(g2 t1o2)
+(f t1o6 t1o2)
+)
+(=>
+(g2 t1o3)
+(f t1o6 t1o3)
+)
+(=>
+(g2 t1o4)
+(f t1o6 t1o4)
+)
+(=>
+(g2 t1o5)
+(f t1o6 t1o5)
+)
+(=>
+(g2 t1o6)
+(f t1o6 t1o6)
+)
+(=>
+(g2 t1o7)
+(f t1o6 t1o7)
+)
+(=>
+(g2 t1o8)
+(f t1o6 t1o8)
+)
+(=>
+(g2 t1o9)
+(f t1o6 t1o9)
+)
+(=>
+(g2 t1o10)
+(f t1o6 t1o10)
+)
+)
+)
+)
+(=>
+(g1 t1o7)
+(and
+(or
+(g2 t1o1)
+(g2 t1o2)
+(g2 t1o3)
+(g2 t1o4)
+(g2 t1o5)
+(g2 t1o6)
+(g2 t1o7)
+(g2 t1o8)
+(g2 t1o9)
+(g2 t1o10)
+)
+(and
+(=>
+(g2 t1o1)
+(f t1o7 t1o1)
+)
+(=>
+(g2 t1o2)
+(f t1o7 t1o2)
+)
+(=>
+(g2 t1o3)
+(f t1o7 t1o3)
+)
+(=>
+(g2 t1o4)
+(f t1o7 t1o4)
+)
+(=>
+(g2 t1o5)
+(f t1o7 t1o5)
+)
+(=>
+(g2 t1o6)
+(f t1o7 t1o6)
+)
+(=>
+(g2 t1o7)
+(f t1o7 t1o7)
+)
+(=>
+(g2 t1o8)
+(f t1o7 t1o8)
+)
+(=>
+(g2 t1o9)
+(f t1o7 t1o9)
+)
+(=>
+(g2 t1o10)
+(f t1o7 t1o10)
+)
+)
+)
+)
+(=>
+(g1 t1o8)
+(and
+(or
+(g2 t1o1)
+(g2 t1o2)
+(g2 t1o3)
+(g2 t1o4)
+(g2 t1o5)
+(g2 t1o6)
+(g2 t1o7)
+(g2 t1o8)
+(g2 t1o9)
+(g2 t1o10)
+)
+(and
+(=>
+(g2 t1o1)
+(f t1o8 t1o1)
+)
+(=>
+(g2 t1o2)
+(f t1o8 t1o2)
+)
+(=>
+(g2 t1o3)
+(f t1o8 t1o3)
+)
+(=>
+(g2 t1o4)
+(f t1o8 t1o4)
+)
+(=>
+(g2 t1o5)
+(f t1o8 t1o5)
+)
+(=>
+(g2 t1o6)
+(f t1o8 t1o6)
+)
+(=>
+(g2 t1o7)
+(f t1o8 t1o7)
+)
+(=>
+(g2 t1o8)
+(f t1o8 t1o8)
+)
+(=>
+(g2 t1o9)
+(f t1o8 t1o9)
+)
+(=>
+(g2 t1o10)
+(f t1o8 t1o10)
+)
+)
+)
+)
+(=>
+(g1 t1o9)
+(and
+(or
+(g2 t1o1)
+(g2 t1o2)
+(g2 t1o3)
+(g2 t1o4)
+(g2 t1o5)
+(g2 t1o6)
+(g2 t1o7)
+(g2 t1o8)
+(g2 t1o9)
+(g2 t1o10)
+)
+(and
+(=>
+(g2 t1o1)
+(f t1o9 t1o1)
+)
+(=>
+(g2 t1o2)
+(f t1o9 t1o2)
+)
+(=>
+(g2 t1o3)
+(f t1o9 t1o3)
+)
+(=>
+(g2 t1o4)
+(f t1o9 t1o4)
+)
+(=>
+(g2 t1o5)
+(f t1o9 t1o5)
+)
+(=>
+(g2 t1o6)
+(f t1o9 t1o6)
+)
+(=>
+(g2 t1o7)
+(f t1o9 t1o7)
+)
+(=>
+(g2 t1o8)
+(f t1o9 t1o8)
+)
+(=>
+(g2 t1o9)
+(f t1o9 t1o9)
+)
+(=>
+(g2 t1o10)
+(f t1o9 t1o10)
+)
+)
+)
+)
+(=>
+(g1 t1o10)
+(and
+(or
+(g2 t1o1)
+(g2 t1o2)
+(g2 t1o3)
+(g2 t1o4)
+(g2 t1o5)
+(g2 t1o6)
+(g2 t1o7)
+(g2 t1o8)
+(g2 t1o9)
+(g2 t1o10)
+)
+(and
+(=>
+(g2 t1o1)
+(f t1o10 t1o1)
+)
+(=>
+(g2 t1o2)
+(f t1o10 t1o2)
+)
+(=>
+(g2 t1o3)
+(f t1o10 t1o3)
+)
+(=>
+(g2 t1o4)
+(f t1o10 t1o4)
+)
+(=>
+(g2 t1o5)
+(f t1o10 t1o5)
+)
+(=>
+(g2 t1o6)
+(f t1o10 t1o6)
+)
+(=>
+(g2 t1o7)
+(f t1o10 t1o7)
+)
+(=>
+(g2 t1o8)
+(f t1o10 t1o8)
+)
+(=>
+(g2 t1o9)
+(f t1o10 t1o9)
+)
+(=>
+(g2 t1o10)
+(f t1o10 t1o10)
+)
+)
+)
+)
+)
+)
+)
+(=>
+(and
+(= q1 true)
+(= q2 false)
+)
+(and
+(or
+(g1 t1o1)
+(g1 t1o2)
+(g1 t1o3)
+(g1 t1o4)
+(g1 t1o5)
+(g1 t1o6)
+(g1 t1o7)
+(g1 t1o8)
+(g1 t1o9)
+(g1 t1o10)
+)
+(and
+(=>
+(g1 t1o1)
+(or
+(and
+(g2 t1o1)
+(f t1o1 t1o1)
+)
+(and
+(g2 t1o2)
+(f t1o1 t1o2)
+)
+(and
+(g2 t1o3)
+(f t1o1 t1o3)
+)
+(and
+(g2 t1o4)
+(f t1o1 t1o4)
+)
+(and
+(g2 t1o5)
+(f t1o1 t1o5)
+)
+(and
+(g2 t1o6)
+(f t1o1 t1o6)
+)
+(and
+(g2 t1o7)
+(f t1o1 t1o7)
+)
+(and
+(g2 t1o8)
+(f t1o1 t1o8)
+)
+(and
+(g2 t1o9)
+(f t1o1 t1o9)
+)
+(and
+(g2 t1o10)
+(f t1o1 t1o10)
+)
+)
+)
+(=>
+(g1 t1o2)
+(or
+(and
+(g2 t1o1)
+(f t1o2 t1o1)
+)
+(and
+(g2 t1o2)
+(f t1o2 t1o2)
+)
+(and
+(g2 t1o3)
+(f t1o2 t1o3)
+)
+(and
+(g2 t1o4)
+(f t1o2 t1o4)
+)
+(and
+(g2 t1o5)
+(f t1o2 t1o5)
+)
+(and
+(g2 t1o6)
+(f t1o2 t1o6)
+)
+(and
+(g2 t1o7)
+(f t1o2 t1o7)
+)
+(and
+(g2 t1o8)
+(f t1o2 t1o8)
+)
+(and
+(g2 t1o9)
+(f t1o2 t1o9)
+)
+(and
+(g2 t1o10)
+(f t1o2 t1o10)
+)
+)
+)
+(=>
+(g1 t1o3)
+(or
+(and
+(g2 t1o1)
+(f t1o3 t1o1)
+)
+(and
+(g2 t1o2)
+(f t1o3 t1o2)
+)
+(and
+(g2 t1o3)
+(f t1o3 t1o3)
+)
+(and
+(g2 t1o4)
+(f t1o3 t1o4)
+)
+(and
+(g2 t1o5)
+(f t1o3 t1o5)
+)
+(and
+(g2 t1o6)
+(f t1o3 t1o6)
+)
+(and
+(g2 t1o7)
+(f t1o3 t1o7)
+)
+(and
+(g2 t1o8)
+(f t1o3 t1o8)
+)
+(and
+(g2 t1o9)
+(f t1o3 t1o9)
+)
+(and
+(g2 t1o10)
+(f t1o3 t1o10)
+)
+)
+)
+(=>
+(g1 t1o4)
+(or
+(and
+(g2 t1o1)
+(f t1o4 t1o1)
+)
+(and
+(g2 t1o2)
+(f t1o4 t1o2)
+)
+(and
+(g2 t1o3)
+(f t1o4 t1o3)
+)
+(and
+(g2 t1o4)
+(f t1o4 t1o4)
+)
+(and
+(g2 t1o5)
+(f t1o4 t1o5)
+)
+(and
+(g2 t1o6)
+(f t1o4 t1o6)
+)
+(and
+(g2 t1o7)
+(f t1o4 t1o7)
+)
+(and
+(g2 t1o8)
+(f t1o4 t1o8)
+)
+(and
+(g2 t1o9)
+(f t1o4 t1o9)
+)
+(and
+(g2 t1o10)
+(f t1o4 t1o10)
+)
+)
+)
+(=>
+(g1 t1o5)
+(or
+(and
+(g2 t1o1)
+(f t1o5 t1o1)
+)
+(and
+(g2 t1o2)
+(f t1o5 t1o2)
+)
+(and
+(g2 t1o3)
+(f t1o5 t1o3)
+)
+(and
+(g2 t1o4)
+(f t1o5 t1o4)
+)
+(and
+(g2 t1o5)
+(f t1o5 t1o5)
+)
+(and
+(g2 t1o6)
+(f t1o5 t1o6)
+)
+(and
+(g2 t1o7)
+(f t1o5 t1o7)
+)
+(and
+(g2 t1o8)
+(f t1o5 t1o8)
+)
+(and
+(g2 t1o9)
+(f t1o5 t1o9)
+)
+(and
+(g2 t1o10)
+(f t1o5 t1o10)
+)
+)
+)
+(=>
+(g1 t1o6)
+(or
+(and
+(g2 t1o1)
+(f t1o6 t1o1)
+)
+(and
+(g2 t1o2)
+(f t1o6 t1o2)
+)
+(and
+(g2 t1o3)
+(f t1o6 t1o3)
+)
+(and
+(g2 t1o4)
+(f t1o6 t1o4)
+)
+(and
+(g2 t1o5)
+(f t1o6 t1o5)
+)
+(and
+(g2 t1o6)
+(f t1o6 t1o6)
+)
+(and
+(g2 t1o7)
+(f t1o6 t1o7)
+)
+(and
+(g2 t1o8)
+(f t1o6 t1o8)
+)
+(and
+(g2 t1o9)
+(f t1o6 t1o9)
+)
+(and
+(g2 t1o10)
+(f t1o6 t1o10)
+)
+)
+)
+(=>
+(g1 t1o7)
+(or
+(and
+(g2 t1o1)
+(f t1o7 t1o1)
+)
+(and
+(g2 t1o2)
+(f t1o7 t1o2)
+)
+(and
+(g2 t1o3)
+(f t1o7 t1o3)
+)
+(and
+(g2 t1o4)
+(f t1o7 t1o4)
+)
+(and
+(g2 t1o5)
+(f t1o7 t1o5)
+)
+(and
+(g2 t1o6)
+(f t1o7 t1o6)
+)
+(and
+(g2 t1o7)
+(f t1o7 t1o7)
+)
+(and
+(g2 t1o8)
+(f t1o7 t1o8)
+)
+(and
+(g2 t1o9)
+(f t1o7 t1o9)
+)
+(and
+(g2 t1o10)
+(f t1o7 t1o10)
+)
+)
+)
+(=>
+(g1 t1o8)
+(or
+(and
+(g2 t1o1)
+(f t1o8 t1o1)
+)
+(and
+(g2 t1o2)
+(f t1o8 t1o2)
+)
+(and
+(g2 t1o3)
+(f t1o8 t1o3)
+)
+(and
+(g2 t1o4)
+(f t1o8 t1o4)
+)
+(and
+(g2 t1o5)
+(f t1o8 t1o5)
+)
+(and
+(g2 t1o6)
+(f t1o8 t1o6)
+)
+(and
+(g2 t1o7)
+(f t1o8 t1o7)
+)
+(and
+(g2 t1o8)
+(f t1o8 t1o8)
+)
+(and
+(g2 t1o9)
+(f t1o8 t1o9)
+)
+(and
+(g2 t1o10)
+(f t1o8 t1o10)
+)
+)
+)
+(=>
+(g1 t1o9)
+(or
+(and
+(g2 t1o1)
+(f t1o9 t1o1)
+)
+(and
+(g2 t1o2)
+(f t1o9 t1o2)
+)
+(and
+(g2 t1o3)
+(f t1o9 t1o3)
+)
+(and
+(g2 t1o4)
+(f t1o9 t1o4)
+)
+(and
+(g2 t1o5)
+(f t1o9 t1o5)
+)
+(and
+(g2 t1o6)
+(f t1o9 t1o6)
+)
+(and
+(g2 t1o7)
+(f t1o9 t1o7)
+)
+(and
+(g2 t1o8)
+(f t1o9 t1o8)
+)
+(and
+(g2 t1o9)
+(f t1o9 t1o9)
+)
+(and
+(g2 t1o10)
+(f t1o9 t1o10)
+)
+)
+)
+(=>
+(g1 t1o10)
+(or
+(and
+(g2 t1o1)
+(f t1o10 t1o1)
+)
+(and
+(g2 t1o2)
+(f t1o10 t1o2)
+)
+(and
+(g2 t1o3)
+(f t1o10 t1o3)
+)
+(and
+(g2 t1o4)
+(f t1o10 t1o4)
+)
+(and
+(g2 t1o5)
+(f t1o10 t1o5)
+)
+(and
+(g2 t1o6)
+(f t1o10 t1o6)
+)
+(and
+(g2 t1o7)
+(f t1o10 t1o7)
+)
+(and
+(g2 t1o8)
+(f t1o10 t1o8)
+)
+(and
+(g2 t1o9)
+(f t1o10 t1o9)
+)
+(and
+(g2 t1o10)
+(f t1o10 t1o10)
+)
+)
+)
+)
+)
+)
+(=>
+(and
+(= q1 false)
+(= q2 true)
+)
+(or
+(and
+(g1 t1o1)
+(and
+(or
+(g2 t1o1)
+(g2 t1o2)
+(g2 t1o3)
+(g2 t1o4)
+(g2 t1o5)
+(g2 t1o6)
+(g2 t1o7)
+(g2 t1o8)
+(g2 t1o9)
+(g2 t1o10)
+)
+(and
+(=>
+(g2 t1o1)
+(f t1o1 t1o1)
+)
+(=>
+(g2 t1o2)
+(f t1o1 t1o2)
+)
+(=>
+(g2 t1o3)
+(f t1o1 t1o3)
+)
+(=>
+(g2 t1o4)
+(f t1o1 t1o4)
+)
+(=>
+(g2 t1o5)
+(f t1o1 t1o5)
+)
+(=>
+(g2 t1o6)
+(f t1o1 t1o6)
+)
+(=>
+(g2 t1o7)
+(f t1o1 t1o7)
+)
+(=>
+(g2 t1o8)
+(f t1o1 t1o8)
+)
+(=>
+(g2 t1o9)
+(f t1o1 t1o9)
+)
+(=>
+(g2 t1o10)
+(f t1o1 t1o10)
+)
+)
+)
+)
+(and
+(g1 t1o2)
+(and
+(or
+(g2 t1o1)
+(g2 t1o2)
+(g2 t1o3)
+(g2 t1o4)
+(g2 t1o5)
+(g2 t1o6)
+(g2 t1o7)
+(g2 t1o8)
+(g2 t1o9)
+(g2 t1o10)
+)
+(and
+(=>
+(g2 t1o1)
+(f t1o2 t1o1)
+)
+(=>
+(g2 t1o2)
+(f t1o2 t1o2)
+)
+(=>
+(g2 t1o3)
+(f t1o2 t1o3)
+)
+(=>
+(g2 t1o4)
+(f t1o2 t1o4)
+)
+(=>
+(g2 t1o5)
+(f t1o2 t1o5)
+)
+(=>
+(g2 t1o6)
+(f t1o2 t1o6)
+)
+(=>
+(g2 t1o7)
+(f t1o2 t1o7)
+)
+(=>
+(g2 t1o8)
+(f t1o2 t1o8)
+)
+(=>
+(g2 t1o9)
+(f t1o2 t1o9)
+)
+(=>
+(g2 t1o10)
+(f t1o2 t1o10)
+)
+)
+)
+)
+(and
+(g1 t1o3)
+(and
+(or
+(g2 t1o1)
+(g2 t1o2)
+(g2 t1o3)
+(g2 t1o4)
+(g2 t1o5)
+(g2 t1o6)
+(g2 t1o7)
+(g2 t1o8)
+(g2 t1o9)
+(g2 t1o10)
+)
+(and
+(=>
+(g2 t1o1)
+(f t1o3 t1o1)
+)
+(=>
+(g2 t1o2)
+(f t1o3 t1o2)
+)
+(=>
+(g2 t1o3)
+(f t1o3 t1o3)
+)
+(=>
+(g2 t1o4)
+(f t1o3 t1o4)
+)
+(=>
+(g2 t1o5)
+(f t1o3 t1o5)
+)
+(=>
+(g2 t1o6)
+(f t1o3 t1o6)
+)
+(=>
+(g2 t1o7)
+(f t1o3 t1o7)
+)
+(=>
+(g2 t1o8)
+(f t1o3 t1o8)
+)
+(=>
+(g2 t1o9)
+(f t1o3 t1o9)
+)
+(=>
+(g2 t1o10)
+(f t1o3 t1o10)
+)
+)
+)
+)
+(and
+(g1 t1o4)
+(and
+(or
+(g2 t1o1)
+(g2 t1o2)
+(g2 t1o3)
+(g2 t1o4)
+(g2 t1o5)
+(g2 t1o6)
+(g2 t1o7)
+(g2 t1o8)
+(g2 t1o9)
+(g2 t1o10)
+)
+(and
+(=>
+(g2 t1o1)
+(f t1o4 t1o1)
+)
+(=>
+(g2 t1o2)
+(f t1o4 t1o2)
+)
+(=>
+(g2 t1o3)
+(f t1o4 t1o3)
+)
+(=>
+(g2 t1o4)
+(f t1o4 t1o4)
+)
+(=>
+(g2 t1o5)
+(f t1o4 t1o5)
+)
+(=>
+(g2 t1o6)
+(f t1o4 t1o6)
+)
+(=>
+(g2 t1o7)
+(f t1o4 t1o7)
+)
+(=>
+(g2 t1o8)
+(f t1o4 t1o8)
+)
+(=>
+(g2 t1o9)
+(f t1o4 t1o9)
+)
+(=>
+(g2 t1o10)
+(f t1o4 t1o10)
+)
+)
+)
+)
+(and
+(g1 t1o5)
+(and
+(or
+(g2 t1o1)
+(g2 t1o2)
+(g2 t1o3)
+(g2 t1o4)
+(g2 t1o5)
+(g2 t1o6)
+(g2 t1o7)
+(g2 t1o8)
+(g2 t1o9)
+(g2 t1o10)
+)
+(and
+(=>
+(g2 t1o1)
+(f t1o5 t1o1)
+)
+(=>
+(g2 t1o2)
+(f t1o5 t1o2)
+)
+(=>
+(g2 t1o3)
+(f t1o5 t1o3)
+)
+(=>
+(g2 t1o4)
+(f t1o5 t1o4)
+)
+(=>
+(g2 t1o5)
+(f t1o5 t1o5)
+)
+(=>
+(g2 t1o6)
+(f t1o5 t1o6)
+)
+(=>
+(g2 t1o7)
+(f t1o5 t1o7)
+)
+(=>
+(g2 t1o8)
+(f t1o5 t1o8)
+)
+(=>
+(g2 t1o9)
+(f t1o5 t1o9)
+)
+(=>
+(g2 t1o10)
+(f t1o5 t1o10)
+)
+)
+)
+)
+(and
+(g1 t1o6)
+(and
+(or
+(g2 t1o1)
+(g2 t1o2)
+(g2 t1o3)
+(g2 t1o4)
+(g2 t1o5)
+(g2 t1o6)
+(g2 t1o7)
+(g2 t1o8)
+(g2 t1o9)
+(g2 t1o10)
+)
+(and
+(=>
+(g2 t1o1)
+(f t1o6 t1o1)
+)
+(=>
+(g2 t1o2)
+(f t1o6 t1o2)
+)
+(=>
+(g2 t1o3)
+(f t1o6 t1o3)
+)
+(=>
+(g2 t1o4)
+(f t1o6 t1o4)
+)
+(=>
+(g2 t1o5)
+(f t1o6 t1o5)
+)
+(=>
+(g2 t1o6)
+(f t1o6 t1o6)
+)
+(=>
+(g2 t1o7)
+(f t1o6 t1o7)
+)
+(=>
+(g2 t1o8)
+(f t1o6 t1o8)
+)
+(=>
+(g2 t1o9)
+(f t1o6 t1o9)
+)
+(=>
+(g2 t1o10)
+(f t1o6 t1o10)
+)
+)
+)
+)
+(and
+(g1 t1o7)
+(and
+(or
+(g2 t1o1)
+(g2 t1o2)
+(g2 t1o3)
+(g2 t1o4)
+(g2 t1o5)
+(g2 t1o6)
+(g2 t1o7)
+(g2 t1o8)
+(g2 t1o9)
+(g2 t1o10)
+)
+(and
+(=>
+(g2 t1o1)
+(f t1o7 t1o1)
+)
+(=>
+(g2 t1o2)
+(f t1o7 t1o2)
+)
+(=>
+(g2 t1o3)
+(f t1o7 t1o3)
+)
+(=>
+(g2 t1o4)
+(f t1o7 t1o4)
+)
+(=>
+(g2 t1o5)
+(f t1o7 t1o5)
+)
+(=>
+(g2 t1o6)
+(f t1o7 t1o6)
+)
+(=>
+(g2 t1o7)
+(f t1o7 t1o7)
+)
+(=>
+(g2 t1o8)
+(f t1o7 t1o8)
+)
+(=>
+(g2 t1o9)
+(f t1o7 t1o9)
+)
+(=>
+(g2 t1o10)
+(f t1o7 t1o10)
+)
+)
+)
+)
+(and
+(g1 t1o8)
+(and
+(or
+(g2 t1o1)
+(g2 t1o2)
+(g2 t1o3)
+(g2 t1o4)
+(g2 t1o5)
+(g2 t1o6)
+(g2 t1o7)
+(g2 t1o8)
+(g2 t1o9)
+(g2 t1o10)
+)
+(and
+(=>
+(g2 t1o1)
+(f t1o8 t1o1)
+)
+(=>
+(g2 t1o2)
+(f t1o8 t1o2)
+)
+(=>
+(g2 t1o3)
+(f t1o8 t1o3)
+)
+(=>
+(g2 t1o4)
+(f t1o8 t1o4)
+)
+(=>
+(g2 t1o5)
+(f t1o8 t1o5)
+)
+(=>
+(g2 t1o6)
+(f t1o8 t1o6)
+)
+(=>
+(g2 t1o7)
+(f t1o8 t1o7)
+)
+(=>
+(g2 t1o8)
+(f t1o8 t1o8)
+)
+(=>
+(g2 t1o9)
+(f t1o8 t1o9)
+)
+(=>
+(g2 t1o10)
+(f t1o8 t1o10)
+)
+)
+)
+)
+(and
+(g1 t1o9)
+(and
+(or
+(g2 t1o1)
+(g2 t1o2)
+(g2 t1o3)
+(g2 t1o4)
+(g2 t1o5)
+(g2 t1o6)
+(g2 t1o7)
+(g2 t1o8)
+(g2 t1o9)
+(g2 t1o10)
+)
+(and
+(=>
+(g2 t1o1)
+(f t1o9 t1o1)
+)
+(=>
+(g2 t1o2)
+(f t1o9 t1o2)
+)
+(=>
+(g2 t1o3)
+(f t1o9 t1o3)
+)
+(=>
+(g2 t1o4)
+(f t1o9 t1o4)
+)
+(=>
+(g2 t1o5)
+(f t1o9 t1o5)
+)
+(=>
+(g2 t1o6)
+(f t1o9 t1o6)
+)
+(=>
+(g2 t1o7)
+(f t1o9 t1o7)
+)
+(=>
+(g2 t1o8)
+(f t1o9 t1o8)
+)
+(=>
+(g2 t1o9)
+(f t1o9 t1o9)
+)
+(=>
+(g2 t1o10)
+(f t1o9 t1o10)
+)
+)
+)
+)
+(and
+(g1 t1o10)
+(and
+(or
+(g2 t1o1)
+(g2 t1o2)
+(g2 t1o3)
+(g2 t1o4)
+(g2 t1o5)
+(g2 t1o6)
+(g2 t1o7)
+(g2 t1o8)
+(g2 t1o9)
+(g2 t1o10)
+)
+(and
+(=>
+(g2 t1o1)
+(f t1o10 t1o1)
+)
+(=>
+(g2 t1o2)
+(f t1o10 t1o2)
+)
+(=>
+(g2 t1o3)
+(f t1o10 t1o3)
+)
+(=>
+(g2 t1o4)
+(f t1o10 t1o4)
+)
+(=>
+(g2 t1o5)
+(f t1o10 t1o5)
+)
+(=>
+(g2 t1o6)
+(f t1o10 t1o6)
+)
+(=>
+(g2 t1o7)
+(f t1o10 t1o7)
+)
+(=>
+(g2 t1o8)
+(f t1o10 t1o8)
+)
+(=>
+(g2 t1o9)
+(f t1o10 t1o9)
+)
+(=>
+(g2 t1o10)
+(f t1o10 t1o10)
+)
+)
+)
+)
+)
+)
+(=>
+(and
+(= q1 false)
+(= q2 false)
+)
+(or
+(and
+(g1 t1o1)
+(or
+(and
+(g2 t1o1)
+(f t1o1 t1o1)
+)
+(and
+(g2 t1o2)
+(f t1o1 t1o2)
+)
+(and
+(g2 t1o3)
+(f t1o1 t1o3)
+)
+(and
+(g2 t1o4)
+(f t1o1 t1o4)
+)
+(and
+(g2 t1o5)
+(f t1o1 t1o5)
+)
+(and
+(g2 t1o6)
+(f t1o1 t1o6)
+)
+(and
+(g2 t1o7)
+(f t1o1 t1o7)
+)
+(and
+(g2 t1o8)
+(f t1o1 t1o8)
+)
+(and
+(g2 t1o9)
+(f t1o1 t1o9)
+)
+(and
+(g2 t1o10)
+(f t1o1 t1o10)
+)
+)
+)
+(and
+(g1 t1o2)
+(or
+(and
+(g2 t1o1)
+(f t1o2 t1o1)
+)
+(and
+(g2 t1o2)
+(f t1o2 t1o2)
+)
+(and
+(g2 t1o3)
+(f t1o2 t1o3)
+)
+(and
+(g2 t1o4)
+(f t1o2 t1o4)
+)
+(and
+(g2 t1o5)
+(f t1o2 t1o5)
+)
+(and
+(g2 t1o6)
+(f t1o2 t1o6)
+)
+(and
+(g2 t1o7)
+(f t1o2 t1o7)
+)
+(and
+(g2 t1o8)
+(f t1o2 t1o8)
+)
+(and
+(g2 t1o9)
+(f t1o2 t1o9)
+)
+(and
+(g2 t1o10)
+(f t1o2 t1o10)
+)
+)
+)
+(and
+(g1 t1o3)
+(or
+(and
+(g2 t1o1)
+(f t1o3 t1o1)
+)
+(and
+(g2 t1o2)
+(f t1o3 t1o2)
+)
+(and
+(g2 t1o3)
+(f t1o3 t1o3)
+)
+(and
+(g2 t1o4)
+(f t1o3 t1o4)
+)
+(and
+(g2 t1o5)
+(f t1o3 t1o5)
+)
+(and
+(g2 t1o6)
+(f t1o3 t1o6)
+)
+(and
+(g2 t1o7)
+(f t1o3 t1o7)
+)
+(and
+(g2 t1o8)
+(f t1o3 t1o8)
+)
+(and
+(g2 t1o9)
+(f t1o3 t1o9)
+)
+(and
+(g2 t1o10)
+(f t1o3 t1o10)
+)
+)
+)
+(and
+(g1 t1o4)
+(or
+(and
+(g2 t1o1)
+(f t1o4 t1o1)
+)
+(and
+(g2 t1o2)
+(f t1o4 t1o2)
+)
+(and
+(g2 t1o3)
+(f t1o4 t1o3)
+)
+(and
+(g2 t1o4)
+(f t1o4 t1o4)
+)
+(and
+(g2 t1o5)
+(f t1o4 t1o5)
+)
+(and
+(g2 t1o6)
+(f t1o4 t1o6)
+)
+(and
+(g2 t1o7)
+(f t1o4 t1o7)
+)
+(and
+(g2 t1o8)
+(f t1o4 t1o8)
+)
+(and
+(g2 t1o9)
+(f t1o4 t1o9)
+)
+(and
+(g2 t1o10)
+(f t1o4 t1o10)
+)
+)
+)
+(and
+(g1 t1o5)
+(or
+(and
+(g2 t1o1)
+(f t1o5 t1o1)
+)
+(and
+(g2 t1o2)
+(f t1o5 t1o2)
+)
+(and
+(g2 t1o3)
+(f t1o5 t1o3)
+)
+(and
+(g2 t1o4)
+(f t1o5 t1o4)
+)
+(and
+(g2 t1o5)
+(f t1o5 t1o5)
+)
+(and
+(g2 t1o6)
+(f t1o5 t1o6)
+)
+(and
+(g2 t1o7)
+(f t1o5 t1o7)
+)
+(and
+(g2 t1o8)
+(f t1o5 t1o8)
+)
+(and
+(g2 t1o9)
+(f t1o5 t1o9)
+)
+(and
+(g2 t1o10)
+(f t1o5 t1o10)
+)
+)
+)
+(and
+(g1 t1o6)
+(or
+(and
+(g2 t1o1)
+(f t1o6 t1o1)
+)
+(and
+(g2 t1o2)
+(f t1o6 t1o2)
+)
+(and
+(g2 t1o3)
+(f t1o6 t1o3)
+)
+(and
+(g2 t1o4)
+(f t1o6 t1o4)
+)
+(and
+(g2 t1o5)
+(f t1o6 t1o5)
+)
+(and
+(g2 t1o6)
+(f t1o6 t1o6)
+)
+(and
+(g2 t1o7)
+(f t1o6 t1o7)
+)
+(and
+(g2 t1o8)
+(f t1o6 t1o8)
+)
+(and
+(g2 t1o9)
+(f t1o6 t1o9)
+)
+(and
+(g2 t1o10)
+(f t1o6 t1o10)
+)
+)
+)
+(and
+(g1 t1o7)
+(or
+(and
+(g2 t1o1)
+(f t1o7 t1o1)
+)
+(and
+(g2 t1o2)
+(f t1o7 t1o2)
+)
+(and
+(g2 t1o3)
+(f t1o7 t1o3)
+)
+(and
+(g2 t1o4)
+(f t1o7 t1o4)
+)
+(and
+(g2 t1o5)
+(f t1o7 t1o5)
+)
+(and
+(g2 t1o6)
+(f t1o7 t1o6)
+)
+(and
+(g2 t1o7)
+(f t1o7 t1o7)
+)
+(and
+(g2 t1o8)
+(f t1o7 t1o8)
+)
+(and
+(g2 t1o9)
+(f t1o7 t1o9)
+)
+(and
+(g2 t1o10)
+(f t1o7 t1o10)
+)
+)
+)
+(and
+(g1 t1o8)
+(or
+(and
+(g2 t1o1)
+(f t1o8 t1o1)
+)
+(and
+(g2 t1o2)
+(f t1o8 t1o2)
+)
+(and
+(g2 t1o3)
+(f t1o8 t1o3)
+)
+(and
+(g2 t1o4)
+(f t1o8 t1o4)
+)
+(and
+(g2 t1o5)
+(f t1o8 t1o5)
+)
+(and
+(g2 t1o6)
+(f t1o8 t1o6)
+)
+(and
+(g2 t1o7)
+(f t1o8 t1o7)
+)
+(and
+(g2 t1o8)
+(f t1o8 t1o8)
+)
+(and
+(g2 t1o9)
+(f t1o8 t1o9)
+)
+(and
+(g2 t1o10)
+(f t1o8 t1o10)
+)
+)
+)
+(and
+(g1 t1o9)
+(or
+(and
+(g2 t1o1)
+(f t1o9 t1o1)
+)
+(and
+(g2 t1o2)
+(f t1o9 t1o2)
+)
+(and
+(g2 t1o3)
+(f t1o9 t1o3)
+)
+(and
+(g2 t1o4)
+(f t1o9 t1o4)
+)
+(and
+(g2 t1o5)
+(f t1o9 t1o5)
+)
+(and
+(g2 t1o6)
+(f t1o9 t1o6)
+)
+(and
+(g2 t1o7)
+(f t1o9 t1o7)
+)
+(and
+(g2 t1o8)
+(f t1o9 t1o8)
+)
+(and
+(g2 t1o9)
+(f t1o9 t1o9)
+)
+(and
+(g2 t1o10)
+(f t1o9 t1o10)
+)
+)
+)
+(and
+(g1 t1o10)
+(or
+(and
+(g2 t1o1)
+(f t1o10 t1o1)
+)
+(and
+(g2 t1o2)
+(f t1o10 t1o2)
+)
+(and
+(g2 t1o3)
+(f t1o10 t1o3)
+)
+(and
+(g2 t1o4)
+(f t1o10 t1o4)
+)
+(and
+(g2 t1o5)
+(f t1o10 t1o5)
+)
+(and
+(g2 t1o6)
+(f t1o10 t1o6)
+)
+(and
+(g2 t1o7)
+(f t1o10 t1o7)
+)
+(and
+(g2 t1o8)
+(f t1o10 t1o8)
+)
+(and
+(g2 t1o9)
+(f t1o10 t1o9)
+)
+(and
+(g2 t1o10)
+(f t1o10 t1o10)
+)
+)
+)
+)
+)
+)
+)
+
+(constraint
+(=>
+(= c1 true)
+(and
+(=>
+(and
+(= q1 true)
+(= q2 true)
+)
+(and
+(or
+(g1 c1o1)
+(g1 c1o2)
+(g1 c1o3)
+(g1 c1o4)
+(g1 c1o5)
+)
+(and
+(=>
+(g1 c1o1)
+(and
+(or
+(g2 c1o1)
+(g2 c1o2)
+(g2 c1o3)
+(g2 c1o4)
+(g2 c1o5)
+)
+(and
+(=>
+(g2 c1o1)
+(f c1o1 c1o1)
+)
+(=>
+(g2 c1o2)
+(f c1o1 c1o2)
+)
+(=>
+(g2 c1o3)
+(f c1o1 c1o3)
+)
+(=>
+(g2 c1o4)
+(f c1o1 c1o4)
+)
+(=>
+(g2 c1o5)
+(f c1o1 c1o5)
+)
+)
+)
+)
+(=>
+(g1 c1o2)
+(and
+(or
+(g2 c1o1)
+(g2 c1o2)
+(g2 c1o3)
+(g2 c1o4)
+(g2 c1o5)
+)
+(and
+(=>
+(g2 c1o1)
+(f c1o2 c1o1)
+)
+(=>
+(g2 c1o2)
+(f c1o2 c1o2)
+)
+(=>
+(g2 c1o3)
+(f c1o2 c1o3)
+)
+(=>
+(g2 c1o4)
+(f c1o2 c1o4)
+)
+(=>
+(g2 c1o5)
+(f c1o2 c1o5)
+)
+)
+)
+)
+(=>
+(g1 c1o3)
+(and
+(or
+(g2 c1o1)
+(g2 c1o2)
+(g2 c1o3)
+(g2 c1o4)
+(g2 c1o5)
+)
+(and
+(=>
+(g2 c1o1)
+(f c1o3 c1o1)
+)
+(=>
+(g2 c1o2)
+(f c1o3 c1o2)
+)
+(=>
+(g2 c1o3)
+(f c1o3 c1o3)
+)
+(=>
+(g2 c1o4)
+(f c1o3 c1o4)
+)
+(=>
+(g2 c1o5)
+(f c1o3 c1o5)
+)
+)
+)
+)
+(=>
+(g1 c1o4)
+(and
+(or
+(g2 c1o1)
+(g2 c1o2)
+(g2 c1o3)
+(g2 c1o4)
+(g2 c1o5)
+)
+(and
+(=>
+(g2 c1o1)
+(f c1o4 c1o1)
+)
+(=>
+(g2 c1o2)
+(f c1o4 c1o2)
+)
+(=>
+(g2 c1o3)
+(f c1o4 c1o3)
+)
+(=>
+(g2 c1o4)
+(f c1o4 c1o4)
+)
+(=>
+(g2 c1o5)
+(f c1o4 c1o5)
+)
+)
+)
+)
+(=>
+(g1 c1o5)
+(and
+(or
+(g2 c1o1)
+(g2 c1o2)
+(g2 c1o3)
+(g2 c1o4)
+(g2 c1o5)
+)
+(and
+(=>
+(g2 c1o1)
+(f c1o5 c1o1)
+)
+(=>
+(g2 c1o2)
+(f c1o5 c1o2)
+)
+(=>
+(g2 c1o3)
+(f c1o5 c1o3)
+)
+(=>
+(g2 c1o4)
+(f c1o5 c1o4)
+)
+(=>
+(g2 c1o5)
+(f c1o5 c1o5)
+)
+)
+)
+)
+)
+)
+)
+(=>
+(and
+(= q1 true)
+(= q2 false)
+)
+(and
+(or
+(g1 c1o1)
+(g1 c1o2)
+(g1 c1o3)
+(g1 c1o4)
+(g1 c1o5)
+)
+(and
+(=>
+(g1 c1o1)
+(or
+(and
+(g2 c1o1)
+(f c1o1 c1o1)
+)
+(and
+(g2 c1o2)
+(f c1o1 c1o2)
+)
+(and
+(g2 c1o3)
+(f c1o1 c1o3)
+)
+(and
+(g2 c1o4)
+(f c1o1 c1o4)
+)
+(and
+(g2 c1o5)
+(f c1o1 c1o5)
+)
+)
+)
+(=>
+(g1 c1o2)
+(or
+(and
+(g2 c1o1)
+(f c1o2 c1o1)
+)
+(and
+(g2 c1o2)
+(f c1o2 c1o2)
+)
+(and
+(g2 c1o3)
+(f c1o2 c1o3)
+)
+(and
+(g2 c1o4)
+(f c1o2 c1o4)
+)
+(and
+(g2 c1o5)
+(f c1o2 c1o5)
+)
+)
+)
+(=>
+(g1 c1o3)
+(or
+(and
+(g2 c1o1)
+(f c1o3 c1o1)
+)
+(and
+(g2 c1o2)
+(f c1o3 c1o2)
+)
+(and
+(g2 c1o3)
+(f c1o3 c1o3)
+)
+(and
+(g2 c1o4)
+(f c1o3 c1o4)
+)
+(and
+(g2 c1o5)
+(f c1o3 c1o5)
+)
+)
+)
+(=>
+(g1 c1o4)
+(or
+(and
+(g2 c1o1)
+(f c1o4 c1o1)
+)
+(and
+(g2 c1o2)
+(f c1o4 c1o2)
+)
+(and
+(g2 c1o3)
+(f c1o4 c1o3)
+)
+(and
+(g2 c1o4)
+(f c1o4 c1o4)
+)
+(and
+(g2 c1o5)
+(f c1o4 c1o5)
+)
+)
+)
+(=>
+(g1 c1o5)
+(or
+(and
+(g2 c1o1)
+(f c1o5 c1o1)
+)
+(and
+(g2 c1o2)
+(f c1o5 c1o2)
+)
+(and
+(g2 c1o3)
+(f c1o5 c1o3)
+)
+(and
+(g2 c1o4)
+(f c1o5 c1o4)
+)
+(and
+(g2 c1o5)
+(f c1o5 c1o5)
+)
+)
+)
+)
+)
+)
+(=>
+(and
+(= q1 false)
+(= q2 true)
+)
+(or
+(and
+(g1 c1o1)
+(and
+(or
+(g2 c1o1)
+(g2 c1o2)
+(g2 c1o3)
+(g2 c1o4)
+(g2 c1o5)
+)
+(and
+(=>
+(g2 c1o1)
+(f c1o1 c1o1)
+)
+(=>
+(g2 c1o2)
+(f c1o1 c1o2)
+)
+(=>
+(g2 c1o3)
+(f c1o1 c1o3)
+)
+(=>
+(g2 c1o4)
+(f c1o1 c1o4)
+)
+(=>
+(g2 c1o5)
+(f c1o1 c1o5)
+)
+)
+)
+)
+(and
+(g1 c1o2)
+(and
+(or
+(g2 c1o1)
+(g2 c1o2)
+(g2 c1o3)
+(g2 c1o4)
+(g2 c1o5)
+)
+(and
+(=>
+(g2 c1o1)
+(f c1o2 c1o1)
+)
+(=>
+(g2 c1o2)
+(f c1o2 c1o2)
+)
+(=>
+(g2 c1o3)
+(f c1o2 c1o3)
+)
+(=>
+(g2 c1o4)
+(f c1o2 c1o4)
+)
+(=>
+(g2 c1o5)
+(f c1o2 c1o5)
+)
+)
+)
+)
+(and
+(g1 c1o3)
+(and
+(or
+(g2 c1o1)
+(g2 c1o2)
+(g2 c1o3)
+(g2 c1o4)
+(g2 c1o5)
+)
+(and
+(=>
+(g2 c1o1)
+(f c1o3 c1o1)
+)
+(=>
+(g2 c1o2)
+(f c1o3 c1o2)
+)
+(=>
+(g2 c1o3)
+(f c1o3 c1o3)
+)
+(=>
+(g2 c1o4)
+(f c1o3 c1o4)
+)
+(=>
+(g2 c1o5)
+(f c1o3 c1o5)
+)
+)
+)
+)
+(and
+(g1 c1o4)
+(and
+(or
+(g2 c1o1)
+(g2 c1o2)
+(g2 c1o3)
+(g2 c1o4)
+(g2 c1o5)
+)
+(and
+(=>
+(g2 c1o1)
+(f c1o4 c1o1)
+)
+(=>
+(g2 c1o2)
+(f c1o4 c1o2)
+)
+(=>
+(g2 c1o3)
+(f c1o4 c1o3)
+)
+(=>
+(g2 c1o4)
+(f c1o4 c1o4)
+)
+(=>
+(g2 c1o5)
+(f c1o4 c1o5)
+)
+)
+)
+)
+(and
+(g1 c1o5)
+(and
+(or
+(g2 c1o1)
+(g2 c1o2)
+(g2 c1o3)
+(g2 c1o4)
+(g2 c1o5)
+)
+(and
+(=>
+(g2 c1o1)
+(f c1o5 c1o1)
+)
+(=>
+(g2 c1o2)
+(f c1o5 c1o2)
+)
+(=>
+(g2 c1o3)
+(f c1o5 c1o3)
+)
+(=>
+(g2 c1o4)
+(f c1o5 c1o4)
+)
+(=>
+(g2 c1o5)
+(f c1o5 c1o5)
+)
+)
+)
+)
+)
+)
+(=>
+(and
+(= q1 false)
+(= q2 false)
+)
+(or
+(and
+(g1 c1o1)
+(or
+(and
+(g2 c1o1)
+(f c1o1 c1o1)
+)
+(and
+(g2 c1o2)
+(f c1o1 c1o2)
+)
+(and
+(g2 c1o3)
+(f c1o1 c1o3)
+)
+(and
+(g2 c1o4)
+(f c1o1 c1o4)
+)
+(and
+(g2 c1o5)
+(f c1o1 c1o5)
+)
+)
+)
+(and
+(g1 c1o2)
+(or
+(and
+(g2 c1o1)
+(f c1o2 c1o1)
+)
+(and
+(g2 c1o2)
+(f c1o2 c1o2)
+)
+(and
+(g2 c1o3)
+(f c1o2 c1o3)
+)
+(and
+(g2 c1o4)
+(f c1o2 c1o4)
+)
+(and
+(g2 c1o5)
+(f c1o2 c1o5)
+)
+)
+)
+(and
+(g1 c1o3)
+(or
+(and
+(g2 c1o1)
+(f c1o3 c1o1)
+)
+(and
+(g2 c1o2)
+(f c1o3 c1o2)
+)
+(and
+(g2 c1o3)
+(f c1o3 c1o3)
+)
+(and
+(g2 c1o4)
+(f c1o3 c1o4)
+)
+(and
+(g2 c1o5)
+(f c1o3 c1o5)
+)
+)
+)
+(and
+(g1 c1o4)
+(or
+(and
+(g2 c1o1)
+(f c1o4 c1o1)
+)
+(and
+(g2 c1o2)
+(f c1o4 c1o2)
+)
+(and
+(g2 c1o3)
+(f c1o4 c1o3)
+)
+(and
+(g2 c1o4)
+(f c1o4 c1o4)
+)
+(and
+(g2 c1o5)
+(f c1o4 c1o5)
+)
+)
+)
+(and
+(g1 c1o5)
+(or
+(and
+(g2 c1o1)
+(f c1o5 c1o1)
+)
+(and
+(g2 c1o2)
+(f c1o5 c1o2)
+)
+(and
+(g2 c1o3)
+(f c1o5 c1o3)
+)
+(and
+(g2 c1o4)
+(f c1o5 c1o4)
+)
+(and
+(g2 c1o5)
+(f c1o5 c1o5)
+)
+)
+)
+)
+)
+)
+)
+)
+
+(constraint
+(=>
+(= c1 false)
+(and
+(=>
+(and
+(= q1 true)
+(= q2 true)
+)
+(or
+(and
+(g1 c1o1)
+(or
+(and
+(g2 c1o1)
+(not
+(f c1o1 c1o1)
+)
+)
+(and
+(g2 c1o2)
+(not
+(f c1o1 c1o2)
+)
+)
+(and
+(g2 c1o3)
+(not
+(f c1o1 c1o3)
+)
+)
+(and
+(g2 c1o4)
+(not
+(f c1o1 c1o4)
+)
+)
+(and
+(g2 c1o5)
+(not
+(f c1o1 c1o5)
+)
+)
+)
+)
+(and
+(g1 c1o2)
+(or
+(and
+(g2 c1o1)
+(not
+(f c1o2 c1o1)
+)
+)
+(and
+(g2 c1o2)
+(not
+(f c1o2 c1o2)
+)
+)
+(and
+(g2 c1o3)
+(not
+(f c1o2 c1o3)
+)
+)
+(and
+(g2 c1o4)
+(not
+(f c1o2 c1o4)
+)
+)
+(and
+(g2 c1o5)
+(not
+(f c1o2 c1o5)
+)
+)
+)
+)
+(and
+(g1 c1o3)
+(or
+(and
+(g2 c1o1)
+(not
+(f c1o3 c1o1)
+)
+)
+(and
+(g2 c1o2)
+(not
+(f c1o3 c1o2)
+)
+)
+(and
+(g2 c1o3)
+(not
+(f c1o3 c1o3)
+)
+)
+(and
+(g2 c1o4)
+(not
+(f c1o3 c1o4)
+)
+)
+(and
+(g2 c1o5)
+(not
+(f c1o3 c1o5)
+)
+)
+)
+)
+(and
+(g1 c1o4)
+(or
+(and
+(g2 c1o1)
+(not
+(f c1o4 c1o1)
+)
+)
+(and
+(g2 c1o2)
+(not
+(f c1o4 c1o2)
+)
+)
+(and
+(g2 c1o3)
+(not
+(f c1o4 c1o3)
+)
+)
+(and
+(g2 c1o4)
+(not
+(f c1o4 c1o4)
+)
+)
+(and
+(g2 c1o5)
+(not
+(f c1o4 c1o5)
+)
+)
+)
+)
+(and
+(g1 c1o5)
+(or
+(and
+(g2 c1o1)
+(not
+(f c1o5 c1o1)
+)
+)
+(and
+(g2 c1o2)
+(not
+(f c1o5 c1o2)
+)
+)
+(and
+(g2 c1o3)
+(not
+(f c1o5 c1o3)
+)
+)
+(and
+(g2 c1o4)
+(not
+(f c1o5 c1o4)
+)
+)
+(and
+(g2 c1o5)
+(not
+(f c1o5 c1o5)
+)
+)
+)
+)
+)
+)
+(=>
+(and
+(= q1 true)
+(= q2 false)
+)
+(or
+(and
+(g1 c1o1)
+(and
+(=>
+(g2 c1o1)
+(not
+(f c1o1 c1o1)
+)
+)
+(=>
+(g2 c1o2)
+(not
+(f c1o1 c1o2)
+)
+)
+(=>
+(g2 c1o3)
+(not
+(f c1o1 c1o3)
+)
+)
+(=>
+(g2 c1o4)
+(not
+(f c1o1 c1o4)
+)
+)
+(=>
+(g2 c1o5)
+(not
+(f c1o1 c1o5)
+)
+)
+)
+)
+(and
+(g1 c1o2)
+(and
+(=>
+(g2 c1o1)
+(not
+(f c1o2 c1o1)
+)
+)
+(=>
+(g2 c1o2)
+(not
+(f c1o2 c1o2)
+)
+)
+(=>
+(g2 c1o3)
+(not
+(f c1o2 c1o3)
+)
+)
+(=>
+(g2 c1o4)
+(not
+(f c1o2 c1o4)
+)
+)
+(=>
+(g2 c1o5)
+(not
+(f c1o2 c1o5)
+)
+)
+)
+)
+(and
+(g1 c1o3)
+(and
+(=>
+(g2 c1o1)
+(not
+(f c1o3 c1o1)
+)
+)
+(=>
+(g2 c1o2)
+(not
+(f c1o3 c1o2)
+)
+)
+(=>
+(g2 c1o3)
+(not
+(f c1o3 c1o3)
+)
+)
+(=>
+(g2 c1o4)
+(not
+(f c1o3 c1o4)
+)
+)
+(=>
+(g2 c1o5)
+(not
+(f c1o3 c1o5)
+)
+)
+)
+)
+(and
+(g1 c1o4)
+(and
+(=>
+(g2 c1o1)
+(not
+(f c1o4 c1o1)
+)
+)
+(=>
+(g2 c1o2)
+(not
+(f c1o4 c1o2)
+)
+)
+(=>
+(g2 c1o3)
+(not
+(f c1o4 c1o3)
+)
+)
+(=>
+(g2 c1o4)
+(not
+(f c1o4 c1o4)
+)
+)
+(=>
+(g2 c1o5)
+(not
+(f c1o4 c1o5)
+)
+)
+)
+)
+(and
+(g1 c1o5)
+(and
+(=>
+(g2 c1o1)
+(not
+(f c1o5 c1o1)
+)
+)
+(=>
+(g2 c1o2)
+(not
+(f c1o5 c1o2)
+)
+)
+(=>
+(g2 c1o3)
+(not
+(f c1o5 c1o3)
+)
+)
+(=>
+(g2 c1o4)
+(not
+(f c1o5 c1o4)
+)
+)
+(=>
+(g2 c1o5)
+(not
+(f c1o5 c1o5)
+)
+)
+)
+)
+)
+)
+(=>
+(and
+(= q1 false)
+(= q2 true)
+)
+(and
+(=>
+(g1 c1o1)
+(or
+(and
+(g2 c1o1)
+(not
+(f c1o1 c1o1)
+)
+)
+(and
+(g2 c1o2)
+(not
+(f c1o1 c1o2)
+)
+)
+(and
+(g2 c1o3)
+(not
+(f c1o1 c1o3)
+)
+)
+(and
+(g2 c1o4)
+(not
+(f c1o1 c1o4)
+)
+)
+(and
+(g2 c1o5)
+(not
+(f c1o1 c1o5)
+)
+)
+)
+)
+(=>
+(g1 c1o2)
+(or
+(and
+(g2 c1o1)
+(not
+(f c1o2 c1o1)
+)
+)
+(and
+(g2 c1o2)
+(not
+(f c1o2 c1o2)
+)
+)
+(and
+(g2 c1o3)
+(not
+(f c1o2 c1o3)
+)
+)
+(and
+(g2 c1o4)
+(not
+(f c1o2 c1o4)
+)
+)
+(and
+(g2 c1o5)
+(not
+(f c1o2 c1o5)
+)
+)
+)
+)
+(=>
+(g1 c1o3)
+(or
+(and
+(g2 c1o1)
+(not
+(f c1o3 c1o1)
+)
+)
+(and
+(g2 c1o2)
+(not
+(f c1o3 c1o2)
+)
+)
+(and
+(g2 c1o3)
+(not
+(f c1o3 c1o3)
+)
+)
+(and
+(g2 c1o4)
+(not
+(f c1o3 c1o4)
+)
+)
+(and
+(g2 c1o5)
+(not
+(f c1o3 c1o5)
+)
+)
+)
+)
+(=>
+(g1 c1o4)
+(or
+(and
+(g2 c1o1)
+(not
+(f c1o4 c1o1)
+)
+)
+(and
+(g2 c1o2)
+(not
+(f c1o4 c1o2)
+)
+)
+(and
+(g2 c1o3)
+(not
+(f c1o4 c1o3)
+)
+)
+(and
+(g2 c1o4)
+(not
+(f c1o4 c1o4)
+)
+)
+(and
+(g2 c1o5)
+(not
+(f c1o4 c1o5)
+)
+)
+)
+)
+(=>
+(g1 c1o5)
+(or
+(and
+(g2 c1o1)
+(not
+(f c1o5 c1o1)
+)
+)
+(and
+(g2 c1o2)
+(not
+(f c1o5 c1o2)
+)
+)
+(and
+(g2 c1o3)
+(not
+(f c1o5 c1o3)
+)
+)
+(and
+(g2 c1o4)
+(not
+(f c1o5 c1o4)
+)
+)
+(and
+(g2 c1o5)
+(not
+(f c1o5 c1o5)
+)
+)
+)
+)
+)
+)
+(=>
+(and
+(= q1 false)
+(= q2 false)
+)
+(and
+(=>
+(g1 c1o1)
+(and
+(=>
+(g2 c1o1)
+(not
+(f c1o1 c1o1)
+)
+)
+(=>
+(g2 c1o2)
+(not
+(f c1o1 c1o2)
+)
+)
+(=>
+(g2 c1o3)
+(not
+(f c1o1 c1o3)
+)
+)
+(=>
+(g2 c1o4)
+(not
+(f c1o1 c1o4)
+)
+)
+(=>
+(g2 c1o5)
+(not
+(f c1o1 c1o5)
+)
+)
+)
+)
+(=>
+(g1 c1o2)
+(and
+(=>
+(g2 c1o1)
+(not
+(f c1o2 c1o1)
+)
+)
+(=>
+(g2 c1o2)
+(not
+(f c1o2 c1o2)
+)
+)
+(=>
+(g2 c1o3)
+(not
+(f c1o2 c1o3)
+)
+)
+(=>
+(g2 c1o4)
+(not
+(f c1o2 c1o4)
+)
+)
+(=>
+(g2 c1o5)
+(not
+(f c1o2 c1o5)
+)
+)
+)
+)
+(=>
+(g1 c1o3)
+(and
+(=>
+(g2 c1o1)
+(not
+(f c1o3 c1o1)
+)
+)
+(=>
+(g2 c1o2)
+(not
+(f c1o3 c1o2)
+)
+)
+(=>
+(g2 c1o3)
+(not
+(f c1o3 c1o3)
+)
+)
+(=>
+(g2 c1o4)
+(not
+(f c1o3 c1o4)
+)
+)
+(=>
+(g2 c1o5)
+(not
+(f c1o3 c1o5)
+)
+)
+)
+)
+(=>
+(g1 c1o4)
+(and
+(=>
+(g2 c1o1)
+(not
+(f c1o4 c1o1)
+)
+)
+(=>
+(g2 c1o2)
+(not
+(f c1o4 c1o2)
+)
+)
+(=>
+(g2 c1o3)
+(not
+(f c1o4 c1o3)
+)
+)
+(=>
+(g2 c1o4)
+(not
+(f c1o4 c1o4)
+)
+)
+(=>
+(g2 c1o5)
+(not
+(f c1o4 c1o5)
+)
+)
+)
+)
+(=>
+(g1 c1o5)
+(and
+(=>
+(g2 c1o1)
+(not
+(f c1o5 c1o1)
+)
+)
+(=>
+(g2 c1o2)
+(not
+(f c1o5 c1o2)
+)
+)
+(=>
+(g2 c1o3)
+(not
+(f c1o5 c1o3)
+)
+)
+(=>
+(g2 c1o4)
+(not
+(f c1o5 c1o4)
+)
+)
+(=>
+(g2 c1o5)
+(not
+(f c1o5 c1o5)
+)
+)
+)
+)
+)
+)
+)
+)
+)
+
+(constraint
+(=>
+(= c2 true)
+(and
+(=>
+(and
+(= q1 true)
+(= q2 true)
+)
+(and
+(or
+(g1 c2o1)
+(g1 c2o2)
+(g1 c2o3)
+(g1 c2o4)
+)
+(and
+(=>
+(g1 c2o1)
+(and
+(or
+(g2 c2o1)
+(g2 c2o2)
+(g2 c2o3)
+(g2 c2o4)
+)
+(and
+(=>
+(g2 c2o1)
+(f c2o1 c2o1)
+)
+(=>
+(g2 c2o2)
+(f c2o1 c2o2)
+)
+(=>
+(g2 c2o3)
+(f c2o1 c2o3)
+)
+(=>
+(g2 c2o4)
+(f c2o1 c2o4)
+)
+)
+)
+)
+(=>
+(g1 c2o2)
+(and
+(or
+(g2 c2o1)
+(g2 c2o2)
+(g2 c2o3)
+(g2 c2o4)
+)
+(and
+(=>
+(g2 c2o1)
+(f c2o2 c2o1)
+)
+(=>
+(g2 c2o2)
+(f c2o2 c2o2)
+)
+(=>
+(g2 c2o3)
+(f c2o2 c2o3)
+)
+(=>
+(g2 c2o4)
+(f c2o2 c2o4)
+)
+)
+)
+)
+(=>
+(g1 c2o3)
+(and
+(or
+(g2 c2o1)
+(g2 c2o2)
+(g2 c2o3)
+(g2 c2o4)
+)
+(and
+(=>
+(g2 c2o1)
+(f c2o3 c2o1)
+)
+(=>
+(g2 c2o2)
+(f c2o3 c2o2)
+)
+(=>
+(g2 c2o3)
+(f c2o3 c2o3)
+)
+(=>
+(g2 c2o4)
+(f c2o3 c2o4)
+)
+)
+)
+)
+(=>
+(g1 c2o4)
+(and
+(or
+(g2 c2o1)
+(g2 c2o2)
+(g2 c2o3)
+(g2 c2o4)
+)
+(and
+(=>
+(g2 c2o1)
+(f c2o4 c2o1)
+)
+(=>
+(g2 c2o2)
+(f c2o4 c2o2)
+)
+(=>
+(g2 c2o3)
+(f c2o4 c2o3)
+)
+(=>
+(g2 c2o4)
+(f c2o4 c2o4)
+)
+)
+)
+)
+)
+)
+)
+(=>
+(and
+(= q1 true)
+(= q2 false)
+)
+(and
+(or
+(g1 c2o1)
+(g1 c2o2)
+(g1 c2o3)
+(g1 c2o4)
+)
+(and
+(=>
+(g1 c2o1)
+(or
+(and
+(g2 c2o1)
+(f c2o1 c2o1)
+)
+(and
+(g2 c2o2)
+(f c2o1 c2o2)
+)
+(and
+(g2 c2o3)
+(f c2o1 c2o3)
+)
+(and
+(g2 c2o4)
+(f c2o1 c2o4)
+)
+)
+)
+(=>
+(g1 c2o2)
+(or
+(and
+(g2 c2o1)
+(f c2o2 c2o1)
+)
+(and
+(g2 c2o2)
+(f c2o2 c2o2)
+)
+(and
+(g2 c2o3)
+(f c2o2 c2o3)
+)
+(and
+(g2 c2o4)
+(f c2o2 c2o4)
+)
+)
+)
+(=>
+(g1 c2o3)
+(or
+(and
+(g2 c2o1)
+(f c2o3 c2o1)
+)
+(and
+(g2 c2o2)
+(f c2o3 c2o2)
+)
+(and
+(g2 c2o3)
+(f c2o3 c2o3)
+)
+(and
+(g2 c2o4)
+(f c2o3 c2o4)
+)
+)
+)
+(=>
+(g1 c2o4)
+(or
+(and
+(g2 c2o1)
+(f c2o4 c2o1)
+)
+(and
+(g2 c2o2)
+(f c2o4 c2o2)
+)
+(and
+(g2 c2o3)
+(f c2o4 c2o3)
+)
+(and
+(g2 c2o4)
+(f c2o4 c2o4)
+)
+)
+)
+)
+)
+)
+(=>
+(and
+(= q1 false)
+(= q2 true)
+)
+(or
+(and
+(g1 c2o1)
+(and
+(or
+(g2 c2o1)
+(g2 c2o2)
+(g2 c2o3)
+(g2 c2o4)
+)
+(and
+(=>
+(g2 c2o1)
+(f c2o1 c2o1)
+)
+(=>
+(g2 c2o2)
+(f c2o1 c2o2)
+)
+(=>
+(g2 c2o3)
+(f c2o1 c2o3)
+)
+(=>
+(g2 c2o4)
+(f c2o1 c2o4)
+)
+)
+)
+)
+(and
+(g1 c2o2)
+(and
+(or
+(g2 c2o1)
+(g2 c2o2)
+(g2 c2o3)
+(g2 c2o4)
+)
+(and
+(=>
+(g2 c2o1)
+(f c2o2 c2o1)
+)
+(=>
+(g2 c2o2)
+(f c2o2 c2o2)
+)
+(=>
+(g2 c2o3)
+(f c2o2 c2o3)
+)
+(=>
+(g2 c2o4)
+(f c2o2 c2o4)
+)
+)
+)
+)
+(and
+(g1 c2o3)
+(and
+(or
+(g2 c2o1)
+(g2 c2o2)
+(g2 c2o3)
+(g2 c2o4)
+)
+(and
+(=>
+(g2 c2o1)
+(f c2o3 c2o1)
+)
+(=>
+(g2 c2o2)
+(f c2o3 c2o2)
+)
+(=>
+(g2 c2o3)
+(f c2o3 c2o3)
+)
+(=>
+(g2 c2o4)
+(f c2o3 c2o4)
+)
+)
+)
+)
+(and
+(g1 c2o4)
+(and
+(or
+(g2 c2o1)
+(g2 c2o2)
+(g2 c2o3)
+(g2 c2o4)
+)
+(and
+(=>
+(g2 c2o1)
+(f c2o4 c2o1)
+)
+(=>
+(g2 c2o2)
+(f c2o4 c2o2)
+)
+(=>
+(g2 c2o3)
+(f c2o4 c2o3)
+)
+(=>
+(g2 c2o4)
+(f c2o4 c2o4)
+)
+)
+)
+)
+)
+)
+(=>
+(and
+(= q1 false)
+(= q2 false)
+)
+(or
+(and
+(g1 c2o1)
+(or
+(and
+(g2 c2o1)
+(f c2o1 c2o1)
+)
+(and
+(g2 c2o2)
+(f c2o1 c2o2)
+)
+(and
+(g2 c2o3)
+(f c2o1 c2o3)
+)
+(and
+(g2 c2o4)
+(f c2o1 c2o4)
+)
+)
+)
+(and
+(g1 c2o2)
+(or
+(and
+(g2 c2o1)
+(f c2o2 c2o1)
+)
+(and
+(g2 c2o2)
+(f c2o2 c2o2)
+)
+(and
+(g2 c2o3)
+(f c2o2 c2o3)
+)
+(and
+(g2 c2o4)
+(f c2o2 c2o4)
+)
+)
+)
+(and
+(g1 c2o3)
+(or
+(and
+(g2 c2o1)
+(f c2o3 c2o1)
+)
+(and
+(g2 c2o2)
+(f c2o3 c2o2)
+)
+(and
+(g2 c2o3)
+(f c2o3 c2o3)
+)
+(and
+(g2 c2o4)
+(f c2o3 c2o4)
+)
+)
+)
+(and
+(g1 c2o4)
+(or
+(and
+(g2 c2o1)
+(f c2o4 c2o1)
+)
+(and
+(g2 c2o2)
+(f c2o4 c2o2)
+)
+(and
+(g2 c2o3)
+(f c2o4 c2o3)
+)
+(and
+(g2 c2o4)
+(f c2o4 c2o4)
+)
+)
+)
+)
+)
+)
+)
+)
+
+(constraint
+(=>
+(= c2 false)
+(and
+(=>
+(and
+(= q1 true)
+(= q2 true)
+)
+(or
+(and
+(g1 c2o1)
+(or
+(and
+(g2 c2o1)
+(not
+(f c2o1 c2o1)
+)
+)
+(and
+(g2 c2o2)
+(not
+(f c2o1 c2o2)
+)
+)
+(and
+(g2 c2o3)
+(not
+(f c2o1 c2o3)
+)
+)
+(and
+(g2 c2o4)
+(not
+(f c2o1 c2o4)
+)
+)
+)
+)
+(and
+(g1 c2o2)
+(or
+(and
+(g2 c2o1)
+(not
+(f c2o2 c2o1)
+)
+)
+(and
+(g2 c2o2)
+(not
+(f c2o2 c2o2)
+)
+)
+(and
+(g2 c2o3)
+(not
+(f c2o2 c2o3)
+)
+)
+(and
+(g2 c2o4)
+(not
+(f c2o2 c2o4)
+)
+)
+)
+)
+(and
+(g1 c2o3)
+(or
+(and
+(g2 c2o1)
+(not
+(f c2o3 c2o1)
+)
+)
+(and
+(g2 c2o2)
+(not
+(f c2o3 c2o2)
+)
+)
+(and
+(g2 c2o3)
+(not
+(f c2o3 c2o3)
+)
+)
+(and
+(g2 c2o4)
+(not
+(f c2o3 c2o4)
+)
+)
+)
+)
+(and
+(g1 c2o4)
+(or
+(and
+(g2 c2o1)
+(not
+(f c2o4 c2o1)
+)
+)
+(and
+(g2 c2o2)
+(not
+(f c2o4 c2o2)
+)
+)
+(and
+(g2 c2o3)
+(not
+(f c2o4 c2o3)
+)
+)
+(and
+(g2 c2o4)
+(not
+(f c2o4 c2o4)
+)
+)
+)
+)
+)
+)
+(=>
+(and
+(= q1 true)
+(= q2 false)
+)
+(or
+(and
+(g1 c2o1)
+(and
+(=>
+(g2 c2o1)
+(not
+(f c2o1 c2o1)
+)
+)
+(=>
+(g2 c2o2)
+(not
+(f c2o1 c2o2)
+)
+)
+(=>
+(g2 c2o3)
+(not
+(f c2o1 c2o3)
+)
+)
+(=>
+(g2 c2o4)
+(not
+(f c2o1 c2o4)
+)
+)
+)
+)
+(and
+(g1 c2o2)
+(and
+(=>
+(g2 c2o1)
+(not
+(f c2o2 c2o1)
+)
+)
+(=>
+(g2 c2o2)
+(not
+(f c2o2 c2o2)
+)
+)
+(=>
+(g2 c2o3)
+(not
+(f c2o2 c2o3)
+)
+)
+(=>
+(g2 c2o4)
+(not
+(f c2o2 c2o4)
+)
+)
+)
+)
+(and
+(g1 c2o3)
+(and
+(=>
+(g2 c2o1)
+(not
+(f c2o3 c2o1)
+)
+)
+(=>
+(g2 c2o2)
+(not
+(f c2o3 c2o2)
+)
+)
+(=>
+(g2 c2o3)
+(not
+(f c2o3 c2o3)
+)
+)
+(=>
+(g2 c2o4)
+(not
+(f c2o3 c2o4)
+)
+)
+)
+)
+(and
+(g1 c2o4)
+(and
+(=>
+(g2 c2o1)
+(not
+(f c2o4 c2o1)
+)
+)
+(=>
+(g2 c2o2)
+(not
+(f c2o4 c2o2)
+)
+)
+(=>
+(g2 c2o3)
+(not
+(f c2o4 c2o3)
+)
+)
+(=>
+(g2 c2o4)
+(not
+(f c2o4 c2o4)
+)
+)
+)
+)
+)
+)
+(=>
+(and
+(= q1 false)
+(= q2 true)
+)
+(and
+(=>
+(g1 c2o1)
+(or
+(and
+(g2 c2o1)
+(not
+(f c2o1 c2o1)
+)
+)
+(and
+(g2 c2o2)
+(not
+(f c2o1 c2o2)
+)
+)
+(and
+(g2 c2o3)
+(not
+(f c2o1 c2o3)
+)
+)
+(and
+(g2 c2o4)
+(not
+(f c2o1 c2o4)
+)
+)
+)
+)
+(=>
+(g1 c2o2)
+(or
+(and
+(g2 c2o1)
+(not
+(f c2o2 c2o1)
+)
+)
+(and
+(g2 c2o2)
+(not
+(f c2o2 c2o2)
+)
+)
+(and
+(g2 c2o3)
+(not
+(f c2o2 c2o3)
+)
+)
+(and
+(g2 c2o4)
+(not
+(f c2o2 c2o4)
+)
+)
+)
+)
+(=>
+(g1 c2o3)
+(or
+(and
+(g2 c2o1)
+(not
+(f c2o3 c2o1)
+)
+)
+(and
+(g2 c2o2)
+(not
+(f c2o3 c2o2)
+)
+)
+(and
+(g2 c2o3)
+(not
+(f c2o3 c2o3)
+)
+)
+(and
+(g2 c2o4)
+(not
+(f c2o3 c2o4)
+)
+)
+)
+)
+(=>
+(g1 c2o4)
+(or
+(and
+(g2 c2o1)
+(not
+(f c2o4 c2o1)
+)
+)
+(and
+(g2 c2o2)
+(not
+(f c2o4 c2o2)
+)
+)
+(and
+(g2 c2o3)
+(not
+(f c2o4 c2o3)
+)
+)
+(and
+(g2 c2o4)
+(not
+(f c2o4 c2o4)
+)
+)
+)
+)
+)
+)
+(=>
+(and
+(= q1 false)
+(= q2 false)
+)
+(and
+(=>
+(g1 c2o1)
+(and
+(=>
+(g2 c2o1)
+(not
+(f c2o1 c2o1)
+)
+)
+(=>
+(g2 c2o2)
+(not
+(f c2o1 c2o2)
+)
+)
+(=>
+(g2 c2o3)
+(not
+(f c2o1 c2o3)
+)
+)
+(=>
+(g2 c2o4)
+(not
+(f c2o1 c2o4)
+)
+)
+)
+)
+(=>
+(g1 c2o2)
+(and
+(=>
+(g2 c2o1)
+(not
+(f c2o2 c2o1)
+)
+)
+(=>
+(g2 c2o2)
+(not
+(f c2o2 c2o2)
+)
+)
+(=>
+(g2 c2o3)
+(not
+(f c2o2 c2o3)
+)
+)
+(=>
+(g2 c2o4)
+(not
+(f c2o2 c2o4)
+)
+)
+)
+)
+(=>
+(g1 c2o3)
+(and
+(=>
+(g2 c2o1)
+(not
+(f c2o3 c2o1)
+)
+)
+(=>
+(g2 c2o2)
+(not
+(f c2o3 c2o2)
+)
+)
+(=>
+(g2 c2o3)
+(not
+(f c2o3 c2o3)
+)
+)
+(=>
+(g2 c2o4)
+(not
+(f c2o3 c2o4)
+)
+)
+)
+)
+(=>
+(g1 c2o4)
+(and
+(=>
+(g2 c2o1)
+(not
+(f c2o4 c2o1)
+)
+)
+(=>
+(g2 c2o2)
+(not
+(f c2o4 c2o2)
+)
+)
+(=>
+(g2 c2o3)
+(not
+(f c2o4 c2o3)
+)
+)
+(=>
+(g2 c2o4)
+(not
+(f c2o4 c2o4)
+)
+)
+)
+)
+)
+)
+)
+)
+)
+
+(constraint
+(=>
+(= c3 true)
+(and
+(=>
+(and
+(= q1 true)
+(= q2 true)
+)
+(and
+(or
+(g1 c3o1)
+(g1 c3o2)
+)
+(and
+(=>
+(g1 c3o1)
+(and
+(or
+(g2 c3o1)
+(g2 c3o2)
+)
+(and
+(=>
+(g2 c3o1)
+(f c3o1 c3o1)
+)
+(=>
+(g2 c3o2)
+(f c3o1 c3o2)
+)
+)
+)
+)
+(=>
+(g1 c3o2)
+(and
+(or
+(g2 c3o1)
+(g2 c3o2)
+)
+(and
+(=>
+(g2 c3o1)
+(f c3o2 c3o1)
+)
+(=>
+(g2 c3o2)
+(f c3o2 c3o2)
+)
+)
+)
+)
+)
+)
+)
+(=>
+(and
+(= q1 true)
+(= q2 false)
+)
+(and
+(or
+(g1 c3o1)
+(g1 c3o2)
+)
+(and
+(=>
+(g1 c3o1)
+(or
+(and
+(g2 c3o1)
+(f c3o1 c3o1)
+)
+(and
+(g2 c3o2)
+(f c3o1 c3o2)
+)
+)
+)
+(=>
+(g1 c3o2)
+(or
+(and
+(g2 c3o1)
+(f c3o2 c3o1)
+)
+(and
+(g2 c3o2)
+(f c3o2 c3o2)
+)
+)
+)
+)
+)
+)
+(=>
+(and
+(= q1 false)
+(= q2 true)
+)
+(or
+(and
+(g1 c3o1)
+(and
+(or
+(g2 c3o1)
+(g2 c3o2)
+)
+(and
+(=>
+(g2 c3o1)
+(f c3o1 c3o1)
+)
+(=>
+(g2 c3o2)
+(f c3o1 c3o2)
+)
+)
+)
+)
+(and
+(g1 c3o2)
+(and
+(or
+(g2 c3o1)
+(g2 c3o2)
+)
+(and
+(=>
+(g2 c3o1)
+(f c3o2 c3o1)
+)
+(=>
+(g2 c3o2)
+(f c3o2 c3o2)
+)
+)
+)
+)
+)
+)
+(=>
+(and
+(= q1 false)
+(= q2 false)
+)
+(or
+(and
+(g1 c3o1)
+(or
+(and
+(g2 c3o1)
+(f c3o1 c3o1)
+)
+(and
+(g2 c3o2)
+(f c3o1 c3o2)
+)
+)
+)
+(and
+(g1 c3o2)
+(or
+(and
+(g2 c3o1)
+(f c3o2 c3o1)
+)
+(and
+(g2 c3o2)
+(f c3o2 c3o2)
+)
+)
+)
+)
+)
+)
+)
+)
+
+(constraint
+(=>
+(= c3 false)
+(and
+(=>
+(and
+(= q1 true)
+(= q2 true)
+)
+(or
+(and
+(g1 c3o1)
+(or
+(and
+(g2 c3o1)
+(not
+(f c3o1 c3o1)
+)
+)
+(and
+(g2 c3o2)
+(not
+(f c3o1 c3o2)
+)
+)
+)
+)
+(and
+(g1 c3o2)
+(or
+(and
+(g2 c3o1)
+(not
+(f c3o2 c3o1)
+)
+)
+(and
+(g2 c3o2)
+(not
+(f c3o2 c3o2)
+)
+)
+)
+)
+)
+)
+(=>
+(and
+(= q1 true)
+(= q2 false)
+)
+(or
+(and
+(g1 c3o1)
+(and
+(=>
+(g2 c3o1)
+(not
+(f c3o1 c3o1)
+)
+)
+(=>
+(g2 c3o2)
+(not
+(f c3o1 c3o2)
+)
+)
+)
+)
+(and
+(g1 c3o2)
+(and
+(=>
+(g2 c3o1)
+(not
+(f c3o2 c3o1)
+)
+)
+(=>
+(g2 c3o2)
+(not
+(f c3o2 c3o2)
+)
+)
+)
+)
+)
+)
+(=>
+(and
+(= q1 false)
+(= q2 true)
+)
+(and
+(=>
+(g1 c3o1)
+(or
+(and
+(g2 c3o1)
+(not
+(f c3o1 c3o1)
+)
+)
+(and
+(g2 c3o2)
+(not
+(f c3o1 c3o2)
+)
+)
+)
+)
+(=>
+(g1 c3o2)
+(or
+(and
+(g2 c3o1)
+(not
+(f c3o2 c3o1)
+)
+)
+(and
+(g2 c3o2)
+(not
+(f c3o2 c3o2)
+)
+)
+)
+)
+)
+)
+(=>
+(and
+(= q1 false)
+(= q2 false)
+)
+(and
+(=>
+(g1 c3o1)
+(and
+(=>
+(g2 c3o1)
+(not
+(f c3o1 c3o1)
+)
+)
+(=>
+(g2 c3o2)
+(not
+(f c3o1 c3o2)
+)
+)
+)
+)
+(=>
+(g1 c3o2)
+(and
+(=>
+(g2 c3o1)
+(not
+(f c3o2 c3o1)
+)
+)
+(=>
+(g2 c3o2)
+(not
+(f c3o2 c3o2)
+)
+)
+)
+)
+)
+)
+)
+)
+)
+
+(constraint
+(and
+(=>
+(and
+(= q1 true)
+(= q2 true)
+)
+(and
+(or
+(g1 t2o1)
+(g1 t2o2)
+(g1 t2o3)
+)
+(and
+(=>
+(g1 t2o1)
+(and
+(or
+(g2 t2o1)
+(g2 t2o2)
+(g2 t2o3)
+)
+(and
+(=>
+(g2 t2o1)
+(f t2o1 t2o1)
+)
+(=>
+(g2 t2o2)
+(f t2o1 t2o2)
+)
+(=>
+(g2 t2o3)
+(f t2o1 t2o3)
+)
+)
+)
+)
+(=>
+(g1 t2o2)
+(and
+(or
+(g2 t2o1)
+(g2 t2o2)
+(g2 t2o3)
+)
+(and
+(=>
+(g2 t2o1)
+(f t2o2 t2o1)
+)
+(=>
+(g2 t2o2)
+(f t2o2 t2o2)
+)
+(=>
+(g2 t2o3)
+(f t2o2 t2o3)
+)
+)
+)
+)
+(=>
+(g1 t2o3)
+(and
+(or
+(g2 t2o1)
+(g2 t2o2)
+(g2 t2o3)
+)
+(and
+(=>
+(g2 t2o1)
+(f t2o3 t2o1)
+)
+(=>
+(g2 t2o2)
+(f t2o3 t2o2)
+)
+(=>
+(g2 t2o3)
+(f t2o3 t2o3)
+)
+)
+)
+)
+)
+)
+)
+(=>
+(and
+(= q1 true)
+(= q2 false)
+)
+(and
+(or
+(g1 t2o1)
+(g1 t2o2)
+(g1 t2o3)
+)
+(and
+(=>
+(g1 t2o1)
+(or
+(and
+(g2 t2o1)
+(f t2o1 t2o1)
+)
+(and
+(g2 t2o2)
+(f t2o1 t2o2)
+)
+(and
+(g2 t2o3)
+(f t2o1 t2o3)
+)
+)
+)
+(=>
+(g1 t2o2)
+(or
+(and
+(g2 t2o1)
+(f t2o2 t2o1)
+)
+(and
+(g2 t2o2)
+(f t2o2 t2o2)
+)
+(and
+(g2 t2o3)
+(f t2o2 t2o3)
+)
+)
+)
+(=>
+(g1 t2o3)
+(or
+(and
+(g2 t2o1)
+(f t2o3 t2o1)
+)
+(and
+(g2 t2o2)
+(f t2o3 t2o2)
+)
+(and
+(g2 t2o3)
+(f t2o3 t2o3)
+)
+)
+)
+)
+)
+)
+(=>
+(and
+(= q1 false)
+(= q2 true)
+)
+(or
+(and
+(g1 t2o1)
+(and
+(or
+(g2 t2o1)
+(g2 t2o2)
+(g2 t2o3)
+)
+(and
+(=>
+(g2 t2o1)
+(f t2o1 t2o1)
+)
+(=>
+(g2 t2o2)
+(f t2o1 t2o2)
+)
+(=>
+(g2 t2o3)
+(f t2o1 t2o3)
+)
+)
+)
+)
+(and
+(g1 t2o2)
+(and
+(or
+(g2 t2o1)
+(g2 t2o2)
+(g2 t2o3)
+)
+(and
+(=>
+(g2 t2o1)
+(f t2o2 t2o1)
+)
+(=>
+(g2 t2o2)
+(f t2o2 t2o2)
+)
+(=>
+(g2 t2o3)
+(f t2o2 t2o3)
+)
+)
+)
+)
+(and
+(g1 t2o3)
+(and
+(or
+(g2 t2o1)
+(g2 t2o2)
+(g2 t2o3)
+)
+(and
+(=>
+(g2 t2o1)
+(f t2o3 t2o1)
+)
+(=>
+(g2 t2o2)
+(f t2o3 t2o2)
+)
+(=>
+(g2 t2o3)
+(f t2o3 t2o3)
+)
+)
+)
+)
+)
+)
+(=>
+(and
+(= q1 false)
+(= q2 false)
+)
+(or
+(and
+(g1 t2o1)
+(or
+(and
+(g2 t2o1)
+(f t2o1 t2o1)
+)
+(and
+(g2 t2o2)
+(f t2o1 t2o2)
+)
+(and
+(g2 t2o3)
+(f t2o1 t2o3)
+)
+)
+)
+(and
+(g1 t2o2)
+(or
+(and
+(g2 t2o1)
+(f t2o2 t2o1)
+)
+(and
+(g2 t2o2)
+(f t2o2 t2o2)
+)
+(and
+(g2 t2o3)
+(f t2o2 t2o3)
+)
+)
+)
+(and
+(g1 t2o3)
+(or
+(and
+(g2 t2o1)
+(f t2o3 t2o1)
+)
+(and
+(g2 t2o2)
+(f t2o3 t2o2)
+)
+(and
+(g2 t2o3)
+(f t2o3 t2o3)
+)
+)
+)
+)
+)
+)
+)
+
+(constraint
+(=>
+(= c1 true)
+(and
+(=>
+(and
+(= q1 true)
+(= q2 true)
+)
+(and
+(or
+(g1 c1o1)
+(g1 c1o2)
+(g1 c1o3)
+(g1 c1o4)
+(g1 c1o5)
+)
+(and
+(=>
+(g1 c1o1)
+(and
+(or
+(g2 c1o1)
+(g2 c1o2)
+(g2 c1o3)
+(g2 c1o4)
+(g2 c1o5)
+)
+(and
+(=>
+(g2 c1o1)
+(f c1o1 c1o1)
+)
+(=>
+(g2 c1o2)
+(f c1o1 c1o2)
+)
+(=>
+(g2 c1o3)
+(f c1o1 c1o3)
+)
+(=>
+(g2 c1o4)
+(f c1o1 c1o4)
+)
+(=>
+(g2 c1o5)
+(f c1o1 c1o5)
+)
+)
+)
+)
+(=>
+(g1 c1o2)
+(and
+(or
+(g2 c1o1)
+(g2 c1o2)
+(g2 c1o3)
+(g2 c1o4)
+(g2 c1o5)
+)
+(and
+(=>
+(g2 c1o1)
+(f c1o2 c1o1)
+)
+(=>
+(g2 c1o2)
+(f c1o2 c1o2)
+)
+(=>
+(g2 c1o3)
+(f c1o2 c1o3)
+)
+(=>
+(g2 c1o4)
+(f c1o2 c1o4)
+)
+(=>
+(g2 c1o5)
+(f c1o2 c1o5)
+)
+)
+)
+)
+(=>
+(g1 c1o3)
+(and
+(or
+(g2 c1o1)
+(g2 c1o2)
+(g2 c1o3)
+(g2 c1o4)
+(g2 c1o5)
+)
+(and
+(=>
+(g2 c1o1)
+(f c1o3 c1o1)
+)
+(=>
+(g2 c1o2)
+(f c1o3 c1o2)
+)
+(=>
+(g2 c1o3)
+(f c1o3 c1o3)
+)
+(=>
+(g2 c1o4)
+(f c1o3 c1o4)
+)
+(=>
+(g2 c1o5)
+(f c1o3 c1o5)
+)
+)
+)
+)
+(=>
+(g1 c1o4)
+(and
+(or
+(g2 c1o1)
+(g2 c1o2)
+(g2 c1o3)
+(g2 c1o4)
+(g2 c1o5)
+)
+(and
+(=>
+(g2 c1o1)
+(f c1o4 c1o1)
+)
+(=>
+(g2 c1o2)
+(f c1o4 c1o2)
+)
+(=>
+(g2 c1o3)
+(f c1o4 c1o3)
+)
+(=>
+(g2 c1o4)
+(f c1o4 c1o4)
+)
+(=>
+(g2 c1o5)
+(f c1o4 c1o5)
+)
+)
+)
+)
+(=>
+(g1 c1o5)
+(and
+(or
+(g2 c1o1)
+(g2 c1o2)
+(g2 c1o3)
+(g2 c1o4)
+(g2 c1o5)
+)
+(and
+(=>
+(g2 c1o1)
+(f c1o5 c1o1)
+)
+(=>
+(g2 c1o2)
+(f c1o5 c1o2)
+)
+(=>
+(g2 c1o3)
+(f c1o5 c1o3)
+)
+(=>
+(g2 c1o4)
+(f c1o5 c1o4)
+)
+(=>
+(g2 c1o5)
+(f c1o5 c1o5)
+)
+)
+)
+)
+)
+)
+)
+(=>
+(and
+(= q1 true)
+(= q2 false)
+)
+(and
+(or
+(g1 c1o1)
+(g1 c1o2)
+(g1 c1o3)
+(g1 c1o4)
+(g1 c1o5)
+)
+(and
+(=>
+(g1 c1o1)
+(or
+(and
+(g2 c1o1)
+(f c1o1 c1o1)
+)
+(and
+(g2 c1o2)
+(f c1o1 c1o2)
+)
+(and
+(g2 c1o3)
+(f c1o1 c1o3)
+)
+(and
+(g2 c1o4)
+(f c1o1 c1o4)
+)
+(and
+(g2 c1o5)
+(f c1o1 c1o5)
+)
+)
+)
+(=>
+(g1 c1o2)
+(or
+(and
+(g2 c1o1)
+(f c1o2 c1o1)
+)
+(and
+(g2 c1o2)
+(f c1o2 c1o2)
+)
+(and
+(g2 c1o3)
+(f c1o2 c1o3)
+)
+(and
+(g2 c1o4)
+(f c1o2 c1o4)
+)
+(and
+(g2 c1o5)
+(f c1o2 c1o5)
+)
+)
+)
+(=>
+(g1 c1o3)
+(or
+(and
+(g2 c1o1)
+(f c1o3 c1o1)
+)
+(and
+(g2 c1o2)
+(f c1o3 c1o2)
+)
+(and
+(g2 c1o3)
+(f c1o3 c1o3)
+)
+(and
+(g2 c1o4)
+(f c1o3 c1o4)
+)
+(and
+(g2 c1o5)
+(f c1o3 c1o5)
+)
+)
+)
+(=>
+(g1 c1o4)
+(or
+(and
+(g2 c1o1)
+(f c1o4 c1o1)
+)
+(and
+(g2 c1o2)
+(f c1o4 c1o2)
+)
+(and
+(g2 c1o3)
+(f c1o4 c1o3)
+)
+(and
+(g2 c1o4)
+(f c1o4 c1o4)
+)
+(and
+(g2 c1o5)
+(f c1o4 c1o5)
+)
+)
+)
+(=>
+(g1 c1o5)
+(or
+(and
+(g2 c1o1)
+(f c1o5 c1o1)
+)
+(and
+(g2 c1o2)
+(f c1o5 c1o2)
+)
+(and
+(g2 c1o3)
+(f c1o5 c1o3)
+)
+(and
+(g2 c1o4)
+(f c1o5 c1o4)
+)
+(and
+(g2 c1o5)
+(f c1o5 c1o5)
+)
+)
+)
+)
+)
+)
+(=>
+(and
+(= q1 false)
+(= q2 true)
+)
+(or
+(and
+(g1 c1o1)
+(and
+(or
+(g2 c1o1)
+(g2 c1o2)
+(g2 c1o3)
+(g2 c1o4)
+(g2 c1o5)
+)
+(and
+(=>
+(g2 c1o1)
+(f c1o1 c1o1)
+)
+(=>
+(g2 c1o2)
+(f c1o1 c1o2)
+)
+(=>
+(g2 c1o3)
+(f c1o1 c1o3)
+)
+(=>
+(g2 c1o4)
+(f c1o1 c1o4)
+)
+(=>
+(g2 c1o5)
+(f c1o1 c1o5)
+)
+)
+)
+)
+(and
+(g1 c1o2)
+(and
+(or
+(g2 c1o1)
+(g2 c1o2)
+(g2 c1o3)
+(g2 c1o4)
+(g2 c1o5)
+)
+(and
+(=>
+(g2 c1o1)
+(f c1o2 c1o1)
+)
+(=>
+(g2 c1o2)
+(f c1o2 c1o2)
+)
+(=>
+(g2 c1o3)
+(f c1o2 c1o3)
+)
+(=>
+(g2 c1o4)
+(f c1o2 c1o4)
+)
+(=>
+(g2 c1o5)
+(f c1o2 c1o5)
+)
+)
+)
+)
+(and
+(g1 c1o3)
+(and
+(or
+(g2 c1o1)
+(g2 c1o2)
+(g2 c1o3)
+(g2 c1o4)
+(g2 c1o5)
+)
+(and
+(=>
+(g2 c1o1)
+(f c1o3 c1o1)
+)
+(=>
+(g2 c1o2)
+(f c1o3 c1o2)
+)
+(=>
+(g2 c1o3)
+(f c1o3 c1o3)
+)
+(=>
+(g2 c1o4)
+(f c1o3 c1o4)
+)
+(=>
+(g2 c1o5)
+(f c1o3 c1o5)
+)
+)
+)
+)
+(and
+(g1 c1o4)
+(and
+(or
+(g2 c1o1)
+(g2 c1o2)
+(g2 c1o3)
+(g2 c1o4)
+(g2 c1o5)
+)
+(and
+(=>
+(g2 c1o1)
+(f c1o4 c1o1)
+)
+(=>
+(g2 c1o2)
+(f c1o4 c1o2)
+)
+(=>
+(g2 c1o3)
+(f c1o4 c1o3)
+)
+(=>
+(g2 c1o4)
+(f c1o4 c1o4)
+)
+(=>
+(g2 c1o5)
+(f c1o4 c1o5)
+)
+)
+)
+)
+(and
+(g1 c1o5)
+(and
+(or
+(g2 c1o1)
+(g2 c1o2)
+(g2 c1o3)
+(g2 c1o4)
+(g2 c1o5)
+)
+(and
+(=>
+(g2 c1o1)
+(f c1o5 c1o1)
+)
+(=>
+(g2 c1o2)
+(f c1o5 c1o2)
+)
+(=>
+(g2 c1o3)
+(f c1o5 c1o3)
+)
+(=>
+(g2 c1o4)
+(f c1o5 c1o4)
+)
+(=>
+(g2 c1o5)
+(f c1o5 c1o5)
+)
+)
+)
+)
+)
+)
+(=>
+(and
+(= q1 false)
+(= q2 false)
+)
+(or
+(and
+(g1 c1o1)
+(or
+(and
+(g2 c1o1)
+(f c1o1 c1o1)
+)
+(and
+(g2 c1o2)
+(f c1o1 c1o2)
+)
+(and
+(g2 c1o3)
+(f c1o1 c1o3)
+)
+(and
+(g2 c1o4)
+(f c1o1 c1o4)
+)
+(and
+(g2 c1o5)
+(f c1o1 c1o5)
+)
+)
+)
+(and
+(g1 c1o2)
+(or
+(and
+(g2 c1o1)
+(f c1o2 c1o1)
+)
+(and
+(g2 c1o2)
+(f c1o2 c1o2)
+)
+(and
+(g2 c1o3)
+(f c1o2 c1o3)
+)
+(and
+(g2 c1o4)
+(f c1o2 c1o4)
+)
+(and
+(g2 c1o5)
+(f c1o2 c1o5)
+)
+)
+)
+(and
+(g1 c1o3)
+(or
+(and
+(g2 c1o1)
+(f c1o3 c1o1)
+)
+(and
+(g2 c1o2)
+(f c1o3 c1o2)
+)
+(and
+(g2 c1o3)
+(f c1o3 c1o3)
+)
+(and
+(g2 c1o4)
+(f c1o3 c1o4)
+)
+(and
+(g2 c1o5)
+(f c1o3 c1o5)
+)
+)
+)
+(and
+(g1 c1o4)
+(or
+(and
+(g2 c1o1)
+(f c1o4 c1o1)
+)
+(and
+(g2 c1o2)
+(f c1o4 c1o2)
+)
+(and
+(g2 c1o3)
+(f c1o4 c1o3)
+)
+(and
+(g2 c1o4)
+(f c1o4 c1o4)
+)
+(and
+(g2 c1o5)
+(f c1o4 c1o5)
+)
+)
+)
+(and
+(g1 c1o5)
+(or
+(and
+(g2 c1o1)
+(f c1o5 c1o1)
+)
+(and
+(g2 c1o2)
+(f c1o5 c1o2)
+)
+(and
+(g2 c1o3)
+(f c1o5 c1o3)
+)
+(and
+(g2 c1o4)
+(f c1o5 c1o4)
+)
+(and
+(g2 c1o5)
+(f c1o5 c1o5)
+)
+)
+)
+)
+)
+)
+)
+)
+
+(constraint
+(=>
+(= c1 false)
+(and
+(=>
+(and
+(= q1 true)
+(= q2 true)
+)
+(or
+(and
+(g1 c1o1)
+(or
+(and
+(g2 c1o1)
+(not
+(f c1o1 c1o1)
+)
+)
+(and
+(g2 c1o2)
+(not
+(f c1o1 c1o2)
+)
+)
+(and
+(g2 c1o3)
+(not
+(f c1o1 c1o3)
+)
+)
+(and
+(g2 c1o4)
+(not
+(f c1o1 c1o4)
+)
+)
+(and
+(g2 c1o5)
+(not
+(f c1o1 c1o5)
+)
+)
+)
+)
+(and
+(g1 c1o2)
+(or
+(and
+(g2 c1o1)
+(not
+(f c1o2 c1o1)
+)
+)
+(and
+(g2 c1o2)
+(not
+(f c1o2 c1o2)
+)
+)
+(and
+(g2 c1o3)
+(not
+(f c1o2 c1o3)
+)
+)
+(and
+(g2 c1o4)
+(not
+(f c1o2 c1o4)
+)
+)
+(and
+(g2 c1o5)
+(not
+(f c1o2 c1o5)
+)
+)
+)
+)
+(and
+(g1 c1o3)
+(or
+(and
+(g2 c1o1)
+(not
+(f c1o3 c1o1)
+)
+)
+(and
+(g2 c1o2)
+(not
+(f c1o3 c1o2)
+)
+)
+(and
+(g2 c1o3)
+(not
+(f c1o3 c1o3)
+)
+)
+(and
+(g2 c1o4)
+(not
+(f c1o3 c1o4)
+)
+)
+(and
+(g2 c1o5)
+(not
+(f c1o3 c1o5)
+)
+)
+)
+)
+(and
+(g1 c1o4)
+(or
+(and
+(g2 c1o1)
+(not
+(f c1o4 c1o1)
+)
+)
+(and
+(g2 c1o2)
+(not
+(f c1o4 c1o2)
+)
+)
+(and
+(g2 c1o3)
+(not
+(f c1o4 c1o3)
+)
+)
+(and
+(g2 c1o4)
+(not
+(f c1o4 c1o4)
+)
+)
+(and
+(g2 c1o5)
+(not
+(f c1o4 c1o5)
+)
+)
+)
+)
+(and
+(g1 c1o5)
+(or
+(and
+(g2 c1o1)
+(not
+(f c1o5 c1o1)
+)
+)
+(and
+(g2 c1o2)
+(not
+(f c1o5 c1o2)
+)
+)
+(and
+(g2 c1o3)
+(not
+(f c1o5 c1o3)
+)
+)
+(and
+(g2 c1o4)
+(not
+(f c1o5 c1o4)
+)
+)
+(and
+(g2 c1o5)
+(not
+(f c1o5 c1o5)
+)
+)
+)
+)
+)
+)
+(=>
+(and
+(= q1 true)
+(= q2 false)
+)
+(or
+(and
+(g1 c1o1)
+(and
+(=>
+(g2 c1o1)
+(not
+(f c1o1 c1o1)
+)
+)
+(=>
+(g2 c1o2)
+(not
+(f c1o1 c1o2)
+)
+)
+(=>
+(g2 c1o3)
+(not
+(f c1o1 c1o3)
+)
+)
+(=>
+(g2 c1o4)
+(not
+(f c1o1 c1o4)
+)
+)
+(=>
+(g2 c1o5)
+(not
+(f c1o1 c1o5)
+)
+)
+)
+)
+(and
+(g1 c1o2)
+(and
+(=>
+(g2 c1o1)
+(not
+(f c1o2 c1o1)
+)
+)
+(=>
+(g2 c1o2)
+(not
+(f c1o2 c1o2)
+)
+)
+(=>
+(g2 c1o3)
+(not
+(f c1o2 c1o3)
+)
+)
+(=>
+(g2 c1o4)
+(not
+(f c1o2 c1o4)
+)
+)
+(=>
+(g2 c1o5)
+(not
+(f c1o2 c1o5)
+)
+)
+)
+)
+(and
+(g1 c1o3)
+(and
+(=>
+(g2 c1o1)
+(not
+(f c1o3 c1o1)
+)
+)
+(=>
+(g2 c1o2)
+(not
+(f c1o3 c1o2)
+)
+)
+(=>
+(g2 c1o3)
+(not
+(f c1o3 c1o3)
+)
+)
+(=>
+(g2 c1o4)
+(not
+(f c1o3 c1o4)
+)
+)
+(=>
+(g2 c1o5)
+(not
+(f c1o3 c1o5)
+)
+)
+)
+)
+(and
+(g1 c1o4)
+(and
+(=>
+(g2 c1o1)
+(not
+(f c1o4 c1o1)
+)
+)
+(=>
+(g2 c1o2)
+(not
+(f c1o4 c1o2)
+)
+)
+(=>
+(g2 c1o3)
+(not
+(f c1o4 c1o3)
+)
+)
+(=>
+(g2 c1o4)
+(not
+(f c1o4 c1o4)
+)
+)
+(=>
+(g2 c1o5)
+(not
+(f c1o4 c1o5)
+)
+)
+)
+)
+(and
+(g1 c1o5)
+(and
+(=>
+(g2 c1o1)
+(not
+(f c1o5 c1o1)
+)
+)
+(=>
+(g2 c1o2)
+(not
+(f c1o5 c1o2)
+)
+)
+(=>
+(g2 c1o3)
+(not
+(f c1o5 c1o3)
+)
+)
+(=>
+(g2 c1o4)
+(not
+(f c1o5 c1o4)
+)
+)
+(=>
+(g2 c1o5)
+(not
+(f c1o5 c1o5)
+)
+)
+)
+)
+)
+)
+(=>
+(and
+(= q1 false)
+(= q2 true)
+)
+(and
+(=>
+(g1 c1o1)
+(or
+(and
+(g2 c1o1)
+(not
+(f c1o1 c1o1)
+)
+)
+(and
+(g2 c1o2)
+(not
+(f c1o1 c1o2)
+)
+)
+(and
+(g2 c1o3)
+(not
+(f c1o1 c1o3)
+)
+)
+(and
+(g2 c1o4)
+(not
+(f c1o1 c1o4)
+)
+)
+(and
+(g2 c1o5)
+(not
+(f c1o1 c1o5)
+)
+)
+)
+)
+(=>
+(g1 c1o2)
+(or
+(and
+(g2 c1o1)
+(not
+(f c1o2 c1o1)
+)
+)
+(and
+(g2 c1o2)
+(not
+(f c1o2 c1o2)
+)
+)
+(and
+(g2 c1o3)
+(not
+(f c1o2 c1o3)
+)
+)
+(and
+(g2 c1o4)
+(not
+(f c1o2 c1o4)
+)
+)
+(and
+(g2 c1o5)
+(not
+(f c1o2 c1o5)
+)
+)
+)
+)
+(=>
+(g1 c1o3)
+(or
+(and
+(g2 c1o1)
+(not
+(f c1o3 c1o1)
+)
+)
+(and
+(g2 c1o2)
+(not
+(f c1o3 c1o2)
+)
+)
+(and
+(g2 c1o3)
+(not
+(f c1o3 c1o3)
+)
+)
+(and
+(g2 c1o4)
+(not
+(f c1o3 c1o4)
+)
+)
+(and
+(g2 c1o5)
+(not
+(f c1o3 c1o5)
+)
+)
+)
+)
+(=>
+(g1 c1o4)
+(or
+(and
+(g2 c1o1)
+(not
+(f c1o4 c1o1)
+)
+)
+(and
+(g2 c1o2)
+(not
+(f c1o4 c1o2)
+)
+)
+(and
+(g2 c1o3)
+(not
+(f c1o4 c1o3)
+)
+)
+(and
+(g2 c1o4)
+(not
+(f c1o4 c1o4)
+)
+)
+(and
+(g2 c1o5)
+(not
+(f c1o4 c1o5)
+)
+)
+)
+)
+(=>
+(g1 c1o5)
+(or
+(and
+(g2 c1o1)
+(not
+(f c1o5 c1o1)
+)
+)
+(and
+(g2 c1o2)
+(not
+(f c1o5 c1o2)
+)
+)
+(and
+(g2 c1o3)
+(not
+(f c1o5 c1o3)
+)
+)
+(and
+(g2 c1o4)
+(not
+(f c1o5 c1o4)
+)
+)
+(and
+(g2 c1o5)
+(not
+(f c1o5 c1o5)
+)
+)
+)
+)
+)
+)
+(=>
+(and
+(= q1 false)
+(= q2 false)
+)
+(and
+(=>
+(g1 c1o1)
+(and
+(=>
+(g2 c1o1)
+(not
+(f c1o1 c1o1)
+)
+)
+(=>
+(g2 c1o2)
+(not
+(f c1o1 c1o2)
+)
+)
+(=>
+(g2 c1o3)
+(not
+(f c1o1 c1o3)
+)
+)
+(=>
+(g2 c1o4)
+(not
+(f c1o1 c1o4)
+)
+)
+(=>
+(g2 c1o5)
+(not
+(f c1o1 c1o5)
+)
+)
+)
+)
+(=>
+(g1 c1o2)
+(and
+(=>
+(g2 c1o1)
+(not
+(f c1o2 c1o1)
+)
+)
+(=>
+(g2 c1o2)
+(not
+(f c1o2 c1o2)
+)
+)
+(=>
+(g2 c1o3)
+(not
+(f c1o2 c1o3)
+)
+)
+(=>
+(g2 c1o4)
+(not
+(f c1o2 c1o4)
+)
+)
+(=>
+(g2 c1o5)
+(not
+(f c1o2 c1o5)
+)
+)
+)
+)
+(=>
+(g1 c1o3)
+(and
+(=>
+(g2 c1o1)
+(not
+(f c1o3 c1o1)
+)
+)
+(=>
+(g2 c1o2)
+(not
+(f c1o3 c1o2)
+)
+)
+(=>
+(g2 c1o3)
+(not
+(f c1o3 c1o3)
+)
+)
+(=>
+(g2 c1o4)
+(not
+(f c1o3 c1o4)
+)
+)
+(=>
+(g2 c1o5)
+(not
+(f c1o3 c1o5)
+)
+)
+)
+)
+(=>
+(g1 c1o4)
+(and
+(=>
+(g2 c1o1)
+(not
+(f c1o4 c1o1)
+)
+)
+(=>
+(g2 c1o2)
+(not
+(f c1o4 c1o2)
+)
+)
+(=>
+(g2 c1o3)
+(not
+(f c1o4 c1o3)
+)
+)
+(=>
+(g2 c1o4)
+(not
+(f c1o4 c1o4)
+)
+)
+(=>
+(g2 c1o5)
+(not
+(f c1o4 c1o5)
+)
+)
+)
+)
+(=>
+(g1 c1o5)
+(and
+(=>
+(g2 c1o1)
+(not
+(f c1o5 c1o1)
+)
+)
+(=>
+(g2 c1o2)
+(not
+(f c1o5 c1o2)
+)
+)
+(=>
+(g2 c1o3)
+(not
+(f c1o5 c1o3)
+)
+)
+(=>
+(g2 c1o4)
+(not
+(f c1o5 c1o4)
+)
+)
+(=>
+(g2 c1o5)
+(not
+(f c1o5 c1o5)
+)
+)
+)
+)
+)
+)
+)
+)
+)
+
+(constraint
+(=>
+(= c2 true)
+(and
+(=>
+(and
+(= q1 true)
+(= q2 true)
+)
+(and
+(or
+(g1 c2o1)
+(g1 c2o2)
+(g1 c2o3)
+(g1 c2o4)
+)
+(and
+(=>
+(g1 c2o1)
+(and
+(or
+(g2 c2o1)
+(g2 c2o2)
+(g2 c2o3)
+(g2 c2o4)
+)
+(and
+(=>
+(g2 c2o1)
+(f c2o1 c2o1)
+)
+(=>
+(g2 c2o2)
+(f c2o1 c2o2)
+)
+(=>
+(g2 c2o3)
+(f c2o1 c2o3)
+)
+(=>
+(g2 c2o4)
+(f c2o1 c2o4)
+)
+)
+)
+)
+(=>
+(g1 c2o2)
+(and
+(or
+(g2 c2o1)
+(g2 c2o2)
+(g2 c2o3)
+(g2 c2o4)
+)
+(and
+(=>
+(g2 c2o1)
+(f c2o2 c2o1)
+)
+(=>
+(g2 c2o2)
+(f c2o2 c2o2)
+)
+(=>
+(g2 c2o3)
+(f c2o2 c2o3)
+)
+(=>
+(g2 c2o4)
+(f c2o2 c2o4)
+)
+)
+)
+)
+(=>
+(g1 c2o3)
+(and
+(or
+(g2 c2o1)
+(g2 c2o2)
+(g2 c2o3)
+(g2 c2o4)
+)
+(and
+(=>
+(g2 c2o1)
+(f c2o3 c2o1)
+)
+(=>
+(g2 c2o2)
+(f c2o3 c2o2)
+)
+(=>
+(g2 c2o3)
+(f c2o3 c2o3)
+)
+(=>
+(g2 c2o4)
+(f c2o3 c2o4)
+)
+)
+)
+)
+(=>
+(g1 c2o4)
+(and
+(or
+(g2 c2o1)
+(g2 c2o2)
+(g2 c2o3)
+(g2 c2o4)
+)
+(and
+(=>
+(g2 c2o1)
+(f c2o4 c2o1)
+)
+(=>
+(g2 c2o2)
+(f c2o4 c2o2)
+)
+(=>
+(g2 c2o3)
+(f c2o4 c2o3)
+)
+(=>
+(g2 c2o4)
+(f c2o4 c2o4)
+)
+)
+)
+)
+)
+)
+)
+(=>
+(and
+(= q1 true)
+(= q2 false)
+)
+(and
+(or
+(g1 c2o1)
+(g1 c2o2)
+(g1 c2o3)
+(g1 c2o4)
+)
+(and
+(=>
+(g1 c2o1)
+(or
+(and
+(g2 c2o1)
+(f c2o1 c2o1)
+)
+(and
+(g2 c2o2)
+(f c2o1 c2o2)
+)
+(and
+(g2 c2o3)
+(f c2o1 c2o3)
+)
+(and
+(g2 c2o4)
+(f c2o1 c2o4)
+)
+)
+)
+(=>
+(g1 c2o2)
+(or
+(and
+(g2 c2o1)
+(f c2o2 c2o1)
+)
+(and
+(g2 c2o2)
+(f c2o2 c2o2)
+)
+(and
+(g2 c2o3)
+(f c2o2 c2o3)
+)
+(and
+(g2 c2o4)
+(f c2o2 c2o4)
+)
+)
+)
+(=>
+(g1 c2o3)
+(or
+(and
+(g2 c2o1)
+(f c2o3 c2o1)
+)
+(and
+(g2 c2o2)
+(f c2o3 c2o2)
+)
+(and
+(g2 c2o3)
+(f c2o3 c2o3)
+)
+(and
+(g2 c2o4)
+(f c2o3 c2o4)
+)
+)
+)
+(=>
+(g1 c2o4)
+(or
+(and
+(g2 c2o1)
+(f c2o4 c2o1)
+)
+(and
+(g2 c2o2)
+(f c2o4 c2o2)
+)
+(and
+(g2 c2o3)
+(f c2o4 c2o3)
+)
+(and
+(g2 c2o4)
+(f c2o4 c2o4)
+)
+)
+)
+)
+)
+)
+(=>
+(and
+(= q1 false)
+(= q2 true)
+)
+(or
+(and
+(g1 c2o1)
+(and
+(or
+(g2 c2o1)
+(g2 c2o2)
+(g2 c2o3)
+(g2 c2o4)
+)
+(and
+(=>
+(g2 c2o1)
+(f c2o1 c2o1)
+)
+(=>
+(g2 c2o2)
+(f c2o1 c2o2)
+)
+(=>
+(g2 c2o3)
+(f c2o1 c2o3)
+)
+(=>
+(g2 c2o4)
+(f c2o1 c2o4)
+)
+)
+)
+)
+(and
+(g1 c2o2)
+(and
+(or
+(g2 c2o1)
+(g2 c2o2)
+(g2 c2o3)
+(g2 c2o4)
+)
+(and
+(=>
+(g2 c2o1)
+(f c2o2 c2o1)
+)
+(=>
+(g2 c2o2)
+(f c2o2 c2o2)
+)
+(=>
+(g2 c2o3)
+(f c2o2 c2o3)
+)
+(=>
+(g2 c2o4)
+(f c2o2 c2o4)
+)
+)
+)
+)
+(and
+(g1 c2o3)
+(and
+(or
+(g2 c2o1)
+(g2 c2o2)
+(g2 c2o3)
+(g2 c2o4)
+)
+(and
+(=>
+(g2 c2o1)
+(f c2o3 c2o1)
+)
+(=>
+(g2 c2o2)
+(f c2o3 c2o2)
+)
+(=>
+(g2 c2o3)
+(f c2o3 c2o3)
+)
+(=>
+(g2 c2o4)
+(f c2o3 c2o4)
+)
+)
+)
+)
+(and
+(g1 c2o4)
+(and
+(or
+(g2 c2o1)
+(g2 c2o2)
+(g2 c2o3)
+(g2 c2o4)
+)
+(and
+(=>
+(g2 c2o1)
+(f c2o4 c2o1)
+)
+(=>
+(g2 c2o2)
+(f c2o4 c2o2)
+)
+(=>
+(g2 c2o3)
+(f c2o4 c2o3)
+)
+(=>
+(g2 c2o4)
+(f c2o4 c2o4)
+)
+)
+)
+)
+)
+)
+(=>
+(and
+(= q1 false)
+(= q2 false)
+)
+(or
+(and
+(g1 c2o1)
+(or
+(and
+(g2 c2o1)
+(f c2o1 c2o1)
+)
+(and
+(g2 c2o2)
+(f c2o1 c2o2)
+)
+(and
+(g2 c2o3)
+(f c2o1 c2o3)
+)
+(and
+(g2 c2o4)
+(f c2o1 c2o4)
+)
+)
+)
+(and
+(g1 c2o2)
+(or
+(and
+(g2 c2o1)
+(f c2o2 c2o1)
+)
+(and
+(g2 c2o2)
+(f c2o2 c2o2)
+)
+(and
+(g2 c2o3)
+(f c2o2 c2o3)
+)
+(and
+(g2 c2o4)
+(f c2o2 c2o4)
+)
+)
+)
+(and
+(g1 c2o3)
+(or
+(and
+(g2 c2o1)
+(f c2o3 c2o1)
+)
+(and
+(g2 c2o2)
+(f c2o3 c2o2)
+)
+(and
+(g2 c2o3)
+(f c2o3 c2o3)
+)
+(and
+(g2 c2o4)
+(f c2o3 c2o4)
+)
+)
+)
+(and
+(g1 c2o4)
+(or
+(and
+(g2 c2o1)
+(f c2o4 c2o1)
+)
+(and
+(g2 c2o2)
+(f c2o4 c2o2)
+)
+(and
+(g2 c2o3)
+(f c2o4 c2o3)
+)
+(and
+(g2 c2o4)
+(f c2o4 c2o4)
+)
+)
+)
+)
+)
+)
+)
+)
+
+(constraint
+(=>
+(= c2 false)
+(and
+(=>
+(and
+(= q1 true)
+(= q2 true)
+)
+(or
+(and
+(g1 c2o1)
+(or
+(and
+(g2 c2o1)
+(not
+(f c2o1 c2o1)
+)
+)
+(and
+(g2 c2o2)
+(not
+(f c2o1 c2o2)
+)
+)
+(and
+(g2 c2o3)
+(not
+(f c2o1 c2o3)
+)
+)
+(and
+(g2 c2o4)
+(not
+(f c2o1 c2o4)
+)
+)
+)
+)
+(and
+(g1 c2o2)
+(or
+(and
+(g2 c2o1)
+(not
+(f c2o2 c2o1)
+)
+)
+(and
+(g2 c2o2)
+(not
+(f c2o2 c2o2)
+)
+)
+(and
+(g2 c2o3)
+(not
+(f c2o2 c2o3)
+)
+)
+(and
+(g2 c2o4)
+(not
+(f c2o2 c2o4)
+)
+)
+)
+)
+(and
+(g1 c2o3)
+(or
+(and
+(g2 c2o1)
+(not
+(f c2o3 c2o1)
+)
+)
+(and
+(g2 c2o2)
+(not
+(f c2o3 c2o2)
+)
+)
+(and
+(g2 c2o3)
+(not
+(f c2o3 c2o3)
+)
+)
+(and
+(g2 c2o4)
+(not
+(f c2o3 c2o4)
+)
+)
+)
+)
+(and
+(g1 c2o4)
+(or
+(and
+(g2 c2o1)
+(not
+(f c2o4 c2o1)
+)
+)
+(and
+(g2 c2o2)
+(not
+(f c2o4 c2o2)
+)
+)
+(and
+(g2 c2o3)
+(not
+(f c2o4 c2o3)
+)
+)
+(and
+(g2 c2o4)
+(not
+(f c2o4 c2o4)
+)
+)
+)
+)
+)
+)
+(=>
+(and
+(= q1 true)
+(= q2 false)
+)
+(or
+(and
+(g1 c2o1)
+(and
+(=>
+(g2 c2o1)
+(not
+(f c2o1 c2o1)
+)
+)
+(=>
+(g2 c2o2)
+(not
+(f c2o1 c2o2)
+)
+)
+(=>
+(g2 c2o3)
+(not
+(f c2o1 c2o3)
+)
+)
+(=>
+(g2 c2o4)
+(not
+(f c2o1 c2o4)
+)
+)
+)
+)
+(and
+(g1 c2o2)
+(and
+(=>
+(g2 c2o1)
+(not
+(f c2o2 c2o1)
+)
+)
+(=>
+(g2 c2o2)
+(not
+(f c2o2 c2o2)
+)
+)
+(=>
+(g2 c2o3)
+(not
+(f c2o2 c2o3)
+)
+)
+(=>
+(g2 c2o4)
+(not
+(f c2o2 c2o4)
+)
+)
+)
+)
+(and
+(g1 c2o3)
+(and
+(=>
+(g2 c2o1)
+(not
+(f c2o3 c2o1)
+)
+)
+(=>
+(g2 c2o2)
+(not
+(f c2o3 c2o2)
+)
+)
+(=>
+(g2 c2o3)
+(not
+(f c2o3 c2o3)
+)
+)
+(=>
+(g2 c2o4)
+(not
+(f c2o3 c2o4)
+)
+)
+)
+)
+(and
+(g1 c2o4)
+(and
+(=>
+(g2 c2o1)
+(not
+(f c2o4 c2o1)
+)
+)
+(=>
+(g2 c2o2)
+(not
+(f c2o4 c2o2)
+)
+)
+(=>
+(g2 c2o3)
+(not
+(f c2o4 c2o3)
+)
+)
+(=>
+(g2 c2o4)
+(not
+(f c2o4 c2o4)
+)
+)
+)
+)
+)
+)
+(=>
+(and
+(= q1 false)
+(= q2 true)
+)
+(and
+(=>
+(g1 c2o1)
+(or
+(and
+(g2 c2o1)
+(not
+(f c2o1 c2o1)
+)
+)
+(and
+(g2 c2o2)
+(not
+(f c2o1 c2o2)
+)
+)
+(and
+(g2 c2o3)
+(not
+(f c2o1 c2o3)
+)
+)
+(and
+(g2 c2o4)
+(not
+(f c2o1 c2o4)
+)
+)
+)
+)
+(=>
+(g1 c2o2)
+(or
+(and
+(g2 c2o1)
+(not
+(f c2o2 c2o1)
+)
+)
+(and
+(g2 c2o2)
+(not
+(f c2o2 c2o2)
+)
+)
+(and
+(g2 c2o3)
+(not
+(f c2o2 c2o3)
+)
+)
+(and
+(g2 c2o4)
+(not
+(f c2o2 c2o4)
+)
+)
+)
+)
+(=>
+(g1 c2o3)
+(or
+(and
+(g2 c2o1)
+(not
+(f c2o3 c2o1)
+)
+)
+(and
+(g2 c2o2)
+(not
+(f c2o3 c2o2)
+)
+)
+(and
+(g2 c2o3)
+(not
+(f c2o3 c2o3)
+)
+)
+(and
+(g2 c2o4)
+(not
+(f c2o3 c2o4)
+)
+)
+)
+)
+(=>
+(g1 c2o4)
+(or
+(and
+(g2 c2o1)
+(not
+(f c2o4 c2o1)
+)
+)
+(and
+(g2 c2o2)
+(not
+(f c2o4 c2o2)
+)
+)
+(and
+(g2 c2o3)
+(not
+(f c2o4 c2o3)
+)
+)
+(and
+(g2 c2o4)
+(not
+(f c2o4 c2o4)
+)
+)
+)
+)
+)
+)
+(=>
+(and
+(= q1 false)
+(= q2 false)
+)
+(and
+(=>
+(g1 c2o1)
+(and
+(=>
+(g2 c2o1)
+(not
+(f c2o1 c2o1)
+)
+)
+(=>
+(g2 c2o2)
+(not
+(f c2o1 c2o2)
+)
+)
+(=>
+(g2 c2o3)
+(not
+(f c2o1 c2o3)
+)
+)
+(=>
+(g2 c2o4)
+(not
+(f c2o1 c2o4)
+)
+)
+)
+)
+(=>
+(g1 c2o2)
+(and
+(=>
+(g2 c2o1)
+(not
+(f c2o2 c2o1)
+)
+)
+(=>
+(g2 c2o2)
+(not
+(f c2o2 c2o2)
+)
+)
+(=>
+(g2 c2o3)
+(not
+(f c2o2 c2o3)
+)
+)
+(=>
+(g2 c2o4)
+(not
+(f c2o2 c2o4)
+)
+)
+)
+)
+(=>
+(g1 c2o3)
+(and
+(=>
+(g2 c2o1)
+(not
+(f c2o3 c2o1)
+)
+)
+(=>
+(g2 c2o2)
+(not
+(f c2o3 c2o2)
+)
+)
+(=>
+(g2 c2o3)
+(not
+(f c2o3 c2o3)
+)
+)
+(=>
+(g2 c2o4)
+(not
+(f c2o3 c2o4)
+)
+)
+)
+)
+(=>
+(g1 c2o4)
+(and
+(=>
+(g2 c2o1)
+(not
+(f c2o4 c2o1)
+)
+)
+(=>
+(g2 c2o2)
+(not
+(f c2o4 c2o2)
+)
+)
+(=>
+(g2 c2o3)
+(not
+(f c2o4 c2o3)
+)
+)
+(=>
+(g2 c2o4)
+(not
+(f c2o4 c2o4)
+)
+)
+)
+)
+)
+)
+)
+)
+)
+
+(constraint
+(=>
+(= c3 true)
+(and
+(=>
+(and
+(= q1 true)
+(= q2 true)
+)
+(and
+(or
+(g1 c3o1)
+(g1 c3o2)
+)
+(and
+(=>
+(g1 c3o1)
+(and
+(or
+(g2 c3o1)
+(g2 c3o2)
+)
+(and
+(=>
+(g2 c3o1)
+(f c3o1 c3o1)
+)
+(=>
+(g2 c3o2)
+(f c3o1 c3o2)
+)
+)
+)
+)
+(=>
+(g1 c3o2)
+(and
+(or
+(g2 c3o1)
+(g2 c3o2)
+)
+(and
+(=>
+(g2 c3o1)
+(f c3o2 c3o1)
+)
+(=>
+(g2 c3o2)
+(f c3o2 c3o2)
+)
+)
+)
+)
+)
+)
+)
+(=>
+(and
+(= q1 true)
+(= q2 false)
+)
+(and
+(or
+(g1 c3o1)
+(g1 c3o2)
+)
+(and
+(=>
+(g1 c3o1)
+(or
+(and
+(g2 c3o1)
+(f c3o1 c3o1)
+)
+(and
+(g2 c3o2)
+(f c3o1 c3o2)
+)
+)
+)
+(=>
+(g1 c3o2)
+(or
+(and
+(g2 c3o1)
+(f c3o2 c3o1)
+)
+(and
+(g2 c3o2)
+(f c3o2 c3o2)
+)
+)
+)
+)
+)
+)
+(=>
+(and
+(= q1 false)
+(= q2 true)
+)
+(or
+(and
+(g1 c3o1)
+(and
+(or
+(g2 c3o1)
+(g2 c3o2)
+)
+(and
+(=>
+(g2 c3o1)
+(f c3o1 c3o1)
+)
+(=>
+(g2 c3o2)
+(f c3o1 c3o2)
+)
+)
+)
+)
+(and
+(g1 c3o2)
+(and
+(or
+(g2 c3o1)
+(g2 c3o2)
+)
+(and
+(=>
+(g2 c3o1)
+(f c3o2 c3o1)
+)
+(=>
+(g2 c3o2)
+(f c3o2 c3o2)
+)
+)
+)
+)
+)
+)
+(=>
+(and
+(= q1 false)
+(= q2 false)
+)
+(or
+(and
+(g1 c3o1)
+(or
+(and
+(g2 c3o1)
+(f c3o1 c3o1)
+)
+(and
+(g2 c3o2)
+(f c3o1 c3o2)
+)
+)
+)
+(and
+(g1 c3o2)
+(or
+(and
+(g2 c3o1)
+(f c3o2 c3o1)
+)
+(and
+(g2 c3o2)
+(f c3o2 c3o2)
+)
+)
+)
+)
+)
+)
+)
+)
+
+(constraint
+(=>
+(= c3 false)
+(and
+(=>
+(and
+(= q1 true)
+(= q2 true)
+)
+(or
+(and
+(g1 c3o1)
+(or
+(and
+(g2 c3o1)
+(not
+(f c3o1 c3o1)
+)
+)
+(and
+(g2 c3o2)
+(not
+(f c3o1 c3o2)
+)
+)
+)
+)
+(and
+(g1 c3o2)
+(or
+(and
+(g2 c3o1)
+(not
+(f c3o2 c3o1)
+)
+)
+(and
+(g2 c3o2)
+(not
+(f c3o2 c3o2)
+)
+)
+)
+)
+)
+)
+(=>
+(and
+(= q1 true)
+(= q2 false)
+)
+(or
+(and
+(g1 c3o1)
+(and
+(=>
+(g2 c3o1)
+(not
+(f c3o1 c3o1)
+)
+)
+(=>
+(g2 c3o2)
+(not
+(f c3o1 c3o2)
+)
+)
+)
+)
+(and
+(g1 c3o2)
+(and
+(=>
+(g2 c3o1)
+(not
+(f c3o2 c3o1)
+)
+)
+(=>
+(g2 c3o2)
+(not
+(f c3o2 c3o2)
+)
+)
+)
+)
+)
+)
+(=>
+(and
+(= q1 false)
+(= q2 true)
+)
+(and
+(=>
+(g1 c3o1)
+(or
+(and
+(g2 c3o1)
+(not
+(f c3o1 c3o1)
+)
+)
+(and
+(g2 c3o2)
+(not
+(f c3o1 c3o2)
+)
+)
+)
+)
+(=>
+(g1 c3o2)
+(or
+(and
+(g2 c3o1)
+(not
+(f c3o2 c3o1)
+)
+)
+(and
+(g2 c3o2)
+(not
+(f c3o2 c3o2)
+)
+)
+)
+)
+)
+)
+(=>
+(and
+(= q1 false)
+(= q2 false)
+)
+(and
+(=>
+(g1 c3o1)
+(and
+(=>
+(g2 c3o1)
+(not
+(f c3o1 c3o1)
+)
+)
+(=>
+(g2 c3o2)
+(not
+(f c3o1 c3o2)
+)
+)
+)
+)
+(=>
+(g1 c3o2)
+(and
+(=>
+(g2 c3o1)
+(not
+(f c3o2 c3o1)
+)
+)
+(=>
+(g2 c3o2)
+(not
+(f c3o2 c3o2)
+)
+)
+)
+)
+)
+)
+)
+)
+)
+
+(constraint
+(and
+(=>
+(and
+(= q1 true)
+(= q2 true)
+)
+(and
+(or
+(g1 t3o1)
+(g1 t3o2)
+(g1 t3o3)
+(g1 t3o4)
+(g1 t3o5)
+)
+(and
+(=>
+(g1 t3o1)
+(and
+(or
+(g2 t3o1)
+(g2 t3o2)
+(g2 t3o3)
+(g2 t3o4)
+(g2 t3o5)
+)
+(and
+(=>
+(g2 t3o1)
+(f t3o1 t3o1)
+)
+(=>
+(g2 t3o2)
+(f t3o1 t3o2)
+)
+(=>
+(g2 t3o3)
+(f t3o1 t3o3)
+)
+(=>
+(g2 t3o4)
+(f t3o1 t3o4)
+)
+(=>
+(g2 t3o5)
+(f t3o1 t3o5)
+)
+)
+)
+)
+(=>
+(g1 t3o2)
+(and
+(or
+(g2 t3o1)
+(g2 t3o2)
+(g2 t3o3)
+(g2 t3o4)
+(g2 t3o5)
+)
+(and
+(=>
+(g2 t3o1)
+(f t3o2 t3o1)
+)
+(=>
+(g2 t3o2)
+(f t3o2 t3o2)
+)
+(=>
+(g2 t3o3)
+(f t3o2 t3o3)
+)
+(=>
+(g2 t3o4)
+(f t3o2 t3o4)
+)
+(=>
+(g2 t3o5)
+(f t3o2 t3o5)
+)
+)
+)
+)
+(=>
+(g1 t3o3)
+(and
+(or
+(g2 t3o1)
+(g2 t3o2)
+(g2 t3o3)
+(g2 t3o4)
+(g2 t3o5)
+)
+(and
+(=>
+(g2 t3o1)
+(f t3o3 t3o1)
+)
+(=>
+(g2 t3o2)
+(f t3o3 t3o2)
+)
+(=>
+(g2 t3o3)
+(f t3o3 t3o3)
+)
+(=>
+(g2 t3o4)
+(f t3o3 t3o4)
+)
+(=>
+(g2 t3o5)
+(f t3o3 t3o5)
+)
+)
+)
+)
+(=>
+(g1 t3o4)
+(and
+(or
+(g2 t3o1)
+(g2 t3o2)
+(g2 t3o3)
+(g2 t3o4)
+(g2 t3o5)
+)
+(and
+(=>
+(g2 t3o1)
+(f t3o4 t3o1)
+)
+(=>
+(g2 t3o2)
+(f t3o4 t3o2)
+)
+(=>
+(g2 t3o3)
+(f t3o4 t3o3)
+)
+(=>
+(g2 t3o4)
+(f t3o4 t3o4)
+)
+(=>
+(g2 t3o5)
+(f t3o4 t3o5)
+)
+)
+)
+)
+(=>
+(g1 t3o5)
+(and
+(or
+(g2 t3o1)
+(g2 t3o2)
+(g2 t3o3)
+(g2 t3o4)
+(g2 t3o5)
+)
+(and
+(=>
+(g2 t3o1)
+(f t3o5 t3o1)
+)
+(=>
+(g2 t3o2)
+(f t3o5 t3o2)
+)
+(=>
+(g2 t3o3)
+(f t3o5 t3o3)
+)
+(=>
+(g2 t3o4)
+(f t3o5 t3o4)
+)
+(=>
+(g2 t3o5)
+(f t3o5 t3o5)
+)
+)
+)
+)
+)
+)
+)
+(=>
+(and
+(= q1 true)
+(= q2 false)
+)
+(and
+(or
+(g1 t3o1)
+(g1 t3o2)
+(g1 t3o3)
+(g1 t3o4)
+(g1 t3o5)
+)
+(and
+(=>
+(g1 t3o1)
+(or
+(and
+(g2 t3o1)
+(f t3o1 t3o1)
+)
+(and
+(g2 t3o2)
+(f t3o1 t3o2)
+)
+(and
+(g2 t3o3)
+(f t3o1 t3o3)
+)
+(and
+(g2 t3o4)
+(f t3o1 t3o4)
+)
+(and
+(g2 t3o5)
+(f t3o1 t3o5)
+)
+)
+)
+(=>
+(g1 t3o2)
+(or
+(and
+(g2 t3o1)
+(f t3o2 t3o1)
+)
+(and
+(g2 t3o2)
+(f t3o2 t3o2)
+)
+(and
+(g2 t3o3)
+(f t3o2 t3o3)
+)
+(and
+(g2 t3o4)
+(f t3o2 t3o4)
+)
+(and
+(g2 t3o5)
+(f t3o2 t3o5)
+)
+)
+)
+(=>
+(g1 t3o3)
+(or
+(and
+(g2 t3o1)
+(f t3o3 t3o1)
+)
+(and
+(g2 t3o2)
+(f t3o3 t3o2)
+)
+(and
+(g2 t3o3)
+(f t3o3 t3o3)
+)
+(and
+(g2 t3o4)
+(f t3o3 t3o4)
+)
+(and
+(g2 t3o5)
+(f t3o3 t3o5)
+)
+)
+)
+(=>
+(g1 t3o4)
+(or
+(and
+(g2 t3o1)
+(f t3o4 t3o1)
+)
+(and
+(g2 t3o2)
+(f t3o4 t3o2)
+)
+(and
+(g2 t3o3)
+(f t3o4 t3o3)
+)
+(and
+(g2 t3o4)
+(f t3o4 t3o4)
+)
+(and
+(g2 t3o5)
+(f t3o4 t3o5)
+)
+)
+)
+(=>
+(g1 t3o5)
+(or
+(and
+(g2 t3o1)
+(f t3o5 t3o1)
+)
+(and
+(g2 t3o2)
+(f t3o5 t3o2)
+)
+(and
+(g2 t3o3)
+(f t3o5 t3o3)
+)
+(and
+(g2 t3o4)
+(f t3o5 t3o4)
+)
+(and
+(g2 t3o5)
+(f t3o5 t3o5)
+)
+)
+)
+)
+)
+)
+(=>
+(and
+(= q1 false)
+(= q2 true)
+)
+(or
+(and
+(g1 t3o1)
+(and
+(or
+(g2 t3o1)
+(g2 t3o2)
+(g2 t3o3)
+(g2 t3o4)
+(g2 t3o5)
+)
+(and
+(=>
+(g2 t3o1)
+(f t3o1 t3o1)
+)
+(=>
+(g2 t3o2)
+(f t3o1 t3o2)
+)
+(=>
+(g2 t3o3)
+(f t3o1 t3o3)
+)
+(=>
+(g2 t3o4)
+(f t3o1 t3o4)
+)
+(=>
+(g2 t3o5)
+(f t3o1 t3o5)
+)
+)
+)
+)
+(and
+(g1 t3o2)
+(and
+(or
+(g2 t3o1)
+(g2 t3o2)
+(g2 t3o3)
+(g2 t3o4)
+(g2 t3o5)
+)
+(and
+(=>
+(g2 t3o1)
+(f t3o2 t3o1)
+)
+(=>
+(g2 t3o2)
+(f t3o2 t3o2)
+)
+(=>
+(g2 t3o3)
+(f t3o2 t3o3)
+)
+(=>
+(g2 t3o4)
+(f t3o2 t3o4)
+)
+(=>
+(g2 t3o5)
+(f t3o2 t3o5)
+)
+)
+)
+)
+(and
+(g1 t3o3)
+(and
+(or
+(g2 t3o1)
+(g2 t3o2)
+(g2 t3o3)
+(g2 t3o4)
+(g2 t3o5)
+)
+(and
+(=>
+(g2 t3o1)
+(f t3o3 t3o1)
+)
+(=>
+(g2 t3o2)
+(f t3o3 t3o2)
+)
+(=>
+(g2 t3o3)
+(f t3o3 t3o3)
+)
+(=>
+(g2 t3o4)
+(f t3o3 t3o4)
+)
+(=>
+(g2 t3o5)
+(f t3o3 t3o5)
+)
+)
+)
+)
+(and
+(g1 t3o4)
+(and
+(or
+(g2 t3o1)
+(g2 t3o2)
+(g2 t3o3)
+(g2 t3o4)
+(g2 t3o5)
+)
+(and
+(=>
+(g2 t3o1)
+(f t3o4 t3o1)
+)
+(=>
+(g2 t3o2)
+(f t3o4 t3o2)
+)
+(=>
+(g2 t3o3)
+(f t3o4 t3o3)
+)
+(=>
+(g2 t3o4)
+(f t3o4 t3o4)
+)
+(=>
+(g2 t3o5)
+(f t3o4 t3o5)
+)
+)
+)
+)
+(and
+(g1 t3o5)
+(and
+(or
+(g2 t3o1)
+(g2 t3o2)
+(g2 t3o3)
+(g2 t3o4)
+(g2 t3o5)
+)
+(and
+(=>
+(g2 t3o1)
+(f t3o5 t3o1)
+)
+(=>
+(g2 t3o2)
+(f t3o5 t3o2)
+)
+(=>
+(g2 t3o3)
+(f t3o5 t3o3)
+)
+(=>
+(g2 t3o4)
+(f t3o5 t3o4)
+)
+(=>
+(g2 t3o5)
+(f t3o5 t3o5)
+)
+)
+)
+)
+)
+)
+(=>
+(and
+(= q1 false)
+(= q2 false)
+)
+(or
+(and
+(g1 t3o1)
+(or
+(and
+(g2 t3o1)
+(f t3o1 t3o1)
+)
+(and
+(g2 t3o2)
+(f t3o1 t3o2)
+)
+(and
+(g2 t3o3)
+(f t3o1 t3o3)
+)
+(and
+(g2 t3o4)
+(f t3o1 t3o4)
+)
+(and
+(g2 t3o5)
+(f t3o1 t3o5)
+)
+)
+)
+(and
+(g1 t3o2)
+(or
+(and
+(g2 t3o1)
+(f t3o2 t3o1)
+)
+(and
+(g2 t3o2)
+(f t3o2 t3o2)
+)
+(and
+(g2 t3o3)
+(f t3o2 t3o3)
+)
+(and
+(g2 t3o4)
+(f t3o2 t3o4)
+)
+(and
+(g2 t3o5)
+(f t3o2 t3o5)
+)
+)
+)
+(and
+(g1 t3o3)
+(or
+(and
+(g2 t3o1)
+(f t3o3 t3o1)
+)
+(and
+(g2 t3o2)
+(f t3o3 t3o2)
+)
+(and
+(g2 t3o3)
+(f t3o3 t3o3)
+)
+(and
+(g2 t3o4)
+(f t3o3 t3o4)
+)
+(and
+(g2 t3o5)
+(f t3o3 t3o5)
+)
+)
+)
+(and
+(g1 t3o4)
+(or
+(and
+(g2 t3o1)
+(f t3o4 t3o1)
+)
+(and
+(g2 t3o2)
+(f t3o4 t3o2)
+)
+(and
+(g2 t3o3)
+(f t3o4 t3o3)
+)
+(and
+(g2 t3o4)
+(f t3o4 t3o4)
+)
+(and
+(g2 t3o5)
+(f t3o4 t3o5)
+)
+)
+)
+(and
+(g1 t3o5)
+(or
+(and
+(g2 t3o1)
+(f t3o5 t3o1)
+)
+(and
+(g2 t3o2)
+(f t3o5 t3o2)
+)
+(and
+(g2 t3o3)
+(f t3o5 t3o3)
+)
+(and
+(g2 t3o4)
+(f t3o5 t3o4)
+)
+(and
+(g2 t3o5)
+(f t3o5 t3o5)
+)
+)
+)
+)
+)
+)
+)
+
+(constraint
+(=>
+(= c1 true)
+(and
+(=>
+(and
+(= q1 true)
+(= q2 true)
+)
+(and
+(or
+(g1 c1o1)
+(g1 c1o2)
+(g1 c1o3)
+(g1 c1o4)
+(g1 c1o5)
+)
+(and
+(=>
+(g1 c1o1)
+(and
+(or
+(g2 c1o1)
+(g2 c1o2)
+(g2 c1o3)
+(g2 c1o4)
+(g2 c1o5)
+)
+(and
+(=>
+(g2 c1o1)
+(f c1o1 c1o1)
+)
+(=>
+(g2 c1o2)
+(f c1o1 c1o2)
+)
+(=>
+(g2 c1o3)
+(f c1o1 c1o3)
+)
+(=>
+(g2 c1o4)
+(f c1o1 c1o4)
+)
+(=>
+(g2 c1o5)
+(f c1o1 c1o5)
+)
+)
+)
+)
+(=>
+(g1 c1o2)
+(and
+(or
+(g2 c1o1)
+(g2 c1o2)
+(g2 c1o3)
+(g2 c1o4)
+(g2 c1o5)
+)
+(and
+(=>
+(g2 c1o1)
+(f c1o2 c1o1)
+)
+(=>
+(g2 c1o2)
+(f c1o2 c1o2)
+)
+(=>
+(g2 c1o3)
+(f c1o2 c1o3)
+)
+(=>
+(g2 c1o4)
+(f c1o2 c1o4)
+)
+(=>
+(g2 c1o5)
+(f c1o2 c1o5)
+)
+)
+)
+)
+(=>
+(g1 c1o3)
+(and
+(or
+(g2 c1o1)
+(g2 c1o2)
+(g2 c1o3)
+(g2 c1o4)
+(g2 c1o5)
+)
+(and
+(=>
+(g2 c1o1)
+(f c1o3 c1o1)
+)
+(=>
+(g2 c1o2)
+(f c1o3 c1o2)
+)
+(=>
+(g2 c1o3)
+(f c1o3 c1o3)
+)
+(=>
+(g2 c1o4)
+(f c1o3 c1o4)
+)
+(=>
+(g2 c1o5)
+(f c1o3 c1o5)
+)
+)
+)
+)
+(=>
+(g1 c1o4)
+(and
+(or
+(g2 c1o1)
+(g2 c1o2)
+(g2 c1o3)
+(g2 c1o4)
+(g2 c1o5)
+)
+(and
+(=>
+(g2 c1o1)
+(f c1o4 c1o1)
+)
+(=>
+(g2 c1o2)
+(f c1o4 c1o2)
+)
+(=>
+(g2 c1o3)
+(f c1o4 c1o3)
+)
+(=>
+(g2 c1o4)
+(f c1o4 c1o4)
+)
+(=>
+(g2 c1o5)
+(f c1o4 c1o5)
+)
+)
+)
+)
+(=>
+(g1 c1o5)
+(and
+(or
+(g2 c1o1)
+(g2 c1o2)
+(g2 c1o3)
+(g2 c1o4)
+(g2 c1o5)
+)
+(and
+(=>
+(g2 c1o1)
+(f c1o5 c1o1)
+)
+(=>
+(g2 c1o2)
+(f c1o5 c1o2)
+)
+(=>
+(g2 c1o3)
+(f c1o5 c1o3)
+)
+(=>
+(g2 c1o4)
+(f c1o5 c1o4)
+)
+(=>
+(g2 c1o5)
+(f c1o5 c1o5)
+)
+)
+)
+)
+)
+)
+)
+(=>
+(and
+(= q1 true)
+(= q2 false)
+)
+(and
+(or
+(g1 c1o1)
+(g1 c1o2)
+(g1 c1o3)
+(g1 c1o4)
+(g1 c1o5)
+)
+(and
+(=>
+(g1 c1o1)
+(or
+(and
+(g2 c1o1)
+(f c1o1 c1o1)
+)
+(and
+(g2 c1o2)
+(f c1o1 c1o2)
+)
+(and
+(g2 c1o3)
+(f c1o1 c1o3)
+)
+(and
+(g2 c1o4)
+(f c1o1 c1o4)
+)
+(and
+(g2 c1o5)
+(f c1o1 c1o5)
+)
+)
+)
+(=>
+(g1 c1o2)
+(or
+(and
+(g2 c1o1)
+(f c1o2 c1o1)
+)
+(and
+(g2 c1o2)
+(f c1o2 c1o2)
+)
+(and
+(g2 c1o3)
+(f c1o2 c1o3)
+)
+(and
+(g2 c1o4)
+(f c1o2 c1o4)
+)
+(and
+(g2 c1o5)
+(f c1o2 c1o5)
+)
+)
+)
+(=>
+(g1 c1o3)
+(or
+(and
+(g2 c1o1)
+(f c1o3 c1o1)
+)
+(and
+(g2 c1o2)
+(f c1o3 c1o2)
+)
+(and
+(g2 c1o3)
+(f c1o3 c1o3)
+)
+(and
+(g2 c1o4)
+(f c1o3 c1o4)
+)
+(and
+(g2 c1o5)
+(f c1o3 c1o5)
+)
+)
+)
+(=>
+(g1 c1o4)
+(or
+(and
+(g2 c1o1)
+(f c1o4 c1o1)
+)
+(and
+(g2 c1o2)
+(f c1o4 c1o2)
+)
+(and
+(g2 c1o3)
+(f c1o4 c1o3)
+)
+(and
+(g2 c1o4)
+(f c1o4 c1o4)
+)
+(and
+(g2 c1o5)
+(f c1o4 c1o5)
+)
+)
+)
+(=>
+(g1 c1o5)
+(or
+(and
+(g2 c1o1)
+(f c1o5 c1o1)
+)
+(and
+(g2 c1o2)
+(f c1o5 c1o2)
+)
+(and
+(g2 c1o3)
+(f c1o5 c1o3)
+)
+(and
+(g2 c1o4)
+(f c1o5 c1o4)
+)
+(and
+(g2 c1o5)
+(f c1o5 c1o5)
+)
+)
+)
+)
+)
+)
+(=>
+(and
+(= q1 false)
+(= q2 true)
+)
+(or
+(and
+(g1 c1o1)
+(and
+(or
+(g2 c1o1)
+(g2 c1o2)
+(g2 c1o3)
+(g2 c1o4)
+(g2 c1o5)
+)
+(and
+(=>
+(g2 c1o1)
+(f c1o1 c1o1)
+)
+(=>
+(g2 c1o2)
+(f c1o1 c1o2)
+)
+(=>
+(g2 c1o3)
+(f c1o1 c1o3)
+)
+(=>
+(g2 c1o4)
+(f c1o1 c1o4)
+)
+(=>
+(g2 c1o5)
+(f c1o1 c1o5)
+)
+)
+)
+)
+(and
+(g1 c1o2)
+(and
+(or
+(g2 c1o1)
+(g2 c1o2)
+(g2 c1o3)
+(g2 c1o4)
+(g2 c1o5)
+)
+(and
+(=>
+(g2 c1o1)
+(f c1o2 c1o1)
+)
+(=>
+(g2 c1o2)
+(f c1o2 c1o2)
+)
+(=>
+(g2 c1o3)
+(f c1o2 c1o3)
+)
+(=>
+(g2 c1o4)
+(f c1o2 c1o4)
+)
+(=>
+(g2 c1o5)
+(f c1o2 c1o5)
+)
+)
+)
+)
+(and
+(g1 c1o3)
+(and
+(or
+(g2 c1o1)
+(g2 c1o2)
+(g2 c1o3)
+(g2 c1o4)
+(g2 c1o5)
+)
+(and
+(=>
+(g2 c1o1)
+(f c1o3 c1o1)
+)
+(=>
+(g2 c1o2)
+(f c1o3 c1o2)
+)
+(=>
+(g2 c1o3)
+(f c1o3 c1o3)
+)
+(=>
+(g2 c1o4)
+(f c1o3 c1o4)
+)
+(=>
+(g2 c1o5)
+(f c1o3 c1o5)
+)
+)
+)
+)
+(and
+(g1 c1o4)
+(and
+(or
+(g2 c1o1)
+(g2 c1o2)
+(g2 c1o3)
+(g2 c1o4)
+(g2 c1o5)
+)
+(and
+(=>
+(g2 c1o1)
+(f c1o4 c1o1)
+)
+(=>
+(g2 c1o2)
+(f c1o4 c1o2)
+)
+(=>
+(g2 c1o3)
+(f c1o4 c1o3)
+)
+(=>
+(g2 c1o4)
+(f c1o4 c1o4)
+)
+(=>
+(g2 c1o5)
+(f c1o4 c1o5)
+)
+)
+)
+)
+(and
+(g1 c1o5)
+(and
+(or
+(g2 c1o1)
+(g2 c1o2)
+(g2 c1o3)
+(g2 c1o4)
+(g2 c1o5)
+)
+(and
+(=>
+(g2 c1o1)
+(f c1o5 c1o1)
+)
+(=>
+(g2 c1o2)
+(f c1o5 c1o2)
+)
+(=>
+(g2 c1o3)
+(f c1o5 c1o3)
+)
+(=>
+(g2 c1o4)
+(f c1o5 c1o4)
+)
+(=>
+(g2 c1o5)
+(f c1o5 c1o5)
+)
+)
+)
+)
+)
+)
+(=>
+(and
+(= q1 false)
+(= q2 false)
+)
+(or
+(and
+(g1 c1o1)
+(or
+(and
+(g2 c1o1)
+(f c1o1 c1o1)
+)
+(and
+(g2 c1o2)
+(f c1o1 c1o2)
+)
+(and
+(g2 c1o3)
+(f c1o1 c1o3)
+)
+(and
+(g2 c1o4)
+(f c1o1 c1o4)
+)
+(and
+(g2 c1o5)
+(f c1o1 c1o5)
+)
+)
+)
+(and
+(g1 c1o2)
+(or
+(and
+(g2 c1o1)
+(f c1o2 c1o1)
+)
+(and
+(g2 c1o2)
+(f c1o2 c1o2)
+)
+(and
+(g2 c1o3)
+(f c1o2 c1o3)
+)
+(and
+(g2 c1o4)
+(f c1o2 c1o4)
+)
+(and
+(g2 c1o5)
+(f c1o2 c1o5)
+)
+)
+)
+(and
+(g1 c1o3)
+(or
+(and
+(g2 c1o1)
+(f c1o3 c1o1)
+)
+(and
+(g2 c1o2)
+(f c1o3 c1o2)
+)
+(and
+(g2 c1o3)
+(f c1o3 c1o3)
+)
+(and
+(g2 c1o4)
+(f c1o3 c1o4)
+)
+(and
+(g2 c1o5)
+(f c1o3 c1o5)
+)
+)
+)
+(and
+(g1 c1o4)
+(or
+(and
+(g2 c1o1)
+(f c1o4 c1o1)
+)
+(and
+(g2 c1o2)
+(f c1o4 c1o2)
+)
+(and
+(g2 c1o3)
+(f c1o4 c1o3)
+)
+(and
+(g2 c1o4)
+(f c1o4 c1o4)
+)
+(and
+(g2 c1o5)
+(f c1o4 c1o5)
+)
+)
+)
+(and
+(g1 c1o5)
+(or
+(and
+(g2 c1o1)
+(f c1o5 c1o1)
+)
+(and
+(g2 c1o2)
+(f c1o5 c1o2)
+)
+(and
+(g2 c1o3)
+(f c1o5 c1o3)
+)
+(and
+(g2 c1o4)
+(f c1o5 c1o4)
+)
+(and
+(g2 c1o5)
+(f c1o5 c1o5)
+)
+)
+)
+)
+)
+)
+)
+)
+
+(constraint
+(=>
+(= c1 false)
+(and
+(=>
+(and
+(= q1 true)
+(= q2 true)
+)
+(or
+(and
+(g1 c1o1)
+(or
+(and
+(g2 c1o1)
+(not
+(f c1o1 c1o1)
+)
+)
+(and
+(g2 c1o2)
+(not
+(f c1o1 c1o2)
+)
+)
+(and
+(g2 c1o3)
+(not
+(f c1o1 c1o3)
+)
+)
+(and
+(g2 c1o4)
+(not
+(f c1o1 c1o4)
+)
+)
+(and
+(g2 c1o5)
+(not
+(f c1o1 c1o5)
+)
+)
+)
+)
+(and
+(g1 c1o2)
+(or
+(and
+(g2 c1o1)
+(not
+(f c1o2 c1o1)
+)
+)
+(and
+(g2 c1o2)
+(not
+(f c1o2 c1o2)
+)
+)
+(and
+(g2 c1o3)
+(not
+(f c1o2 c1o3)
+)
+)
+(and
+(g2 c1o4)
+(not
+(f c1o2 c1o4)
+)
+)
+(and
+(g2 c1o5)
+(not
+(f c1o2 c1o5)
+)
+)
+)
+)
+(and
+(g1 c1o3)
+(or
+(and
+(g2 c1o1)
+(not
+(f c1o3 c1o1)
+)
+)
+(and
+(g2 c1o2)
+(not
+(f c1o3 c1o2)
+)
+)
+(and
+(g2 c1o3)
+(not
+(f c1o3 c1o3)
+)
+)
+(and
+(g2 c1o4)
+(not
+(f c1o3 c1o4)
+)
+)
+(and
+(g2 c1o5)
+(not
+(f c1o3 c1o5)
+)
+)
+)
+)
+(and
+(g1 c1o4)
+(or
+(and
+(g2 c1o1)
+(not
+(f c1o4 c1o1)
+)
+)
+(and
+(g2 c1o2)
+(not
+(f c1o4 c1o2)
+)
+)
+(and
+(g2 c1o3)
+(not
+(f c1o4 c1o3)
+)
+)
+(and
+(g2 c1o4)
+(not
+(f c1o4 c1o4)
+)
+)
+(and
+(g2 c1o5)
+(not
+(f c1o4 c1o5)
+)
+)
+)
+)
+(and
+(g1 c1o5)
+(or
+(and
+(g2 c1o1)
+(not
+(f c1o5 c1o1)
+)
+)
+(and
+(g2 c1o2)
+(not
+(f c1o5 c1o2)
+)
+)
+(and
+(g2 c1o3)
+(not
+(f c1o5 c1o3)
+)
+)
+(and
+(g2 c1o4)
+(not
+(f c1o5 c1o4)
+)
+)
+(and
+(g2 c1o5)
+(not
+(f c1o5 c1o5)
+)
+)
+)
+)
+)
+)
+(=>
+(and
+(= q1 true)
+(= q2 false)
+)
+(or
+(and
+(g1 c1o1)
+(and
+(=>
+(g2 c1o1)
+(not
+(f c1o1 c1o1)
+)
+)
+(=>
+(g2 c1o2)
+(not
+(f c1o1 c1o2)
+)
+)
+(=>
+(g2 c1o3)
+(not
+(f c1o1 c1o3)
+)
+)
+(=>
+(g2 c1o4)
+(not
+(f c1o1 c1o4)
+)
+)
+(=>
+(g2 c1o5)
+(not
+(f c1o1 c1o5)
+)
+)
+)
+)
+(and
+(g1 c1o2)
+(and
+(=>
+(g2 c1o1)
+(not
+(f c1o2 c1o1)
+)
+)
+(=>
+(g2 c1o2)
+(not
+(f c1o2 c1o2)
+)
+)
+(=>
+(g2 c1o3)
+(not
+(f c1o2 c1o3)
+)
+)
+(=>
+(g2 c1o4)
+(not
+(f c1o2 c1o4)
+)
+)
+(=>
+(g2 c1o5)
+(not
+(f c1o2 c1o5)
+)
+)
+)
+)
+(and
+(g1 c1o3)
+(and
+(=>
+(g2 c1o1)
+(not
+(f c1o3 c1o1)
+)
+)
+(=>
+(g2 c1o2)
+(not
+(f c1o3 c1o2)
+)
+)
+(=>
+(g2 c1o3)
+(not
+(f c1o3 c1o3)
+)
+)
+(=>
+(g2 c1o4)
+(not
+(f c1o3 c1o4)
+)
+)
+(=>
+(g2 c1o5)
+(not
+(f c1o3 c1o5)
+)
+)
+)
+)
+(and
+(g1 c1o4)
+(and
+(=>
+(g2 c1o1)
+(not
+(f c1o4 c1o1)
+)
+)
+(=>
+(g2 c1o2)
+(not
+(f c1o4 c1o2)
+)
+)
+(=>
+(g2 c1o3)
+(not
+(f c1o4 c1o3)
+)
+)
+(=>
+(g2 c1o4)
+(not
+(f c1o4 c1o4)
+)
+)
+(=>
+(g2 c1o5)
+(not
+(f c1o4 c1o5)
+)
+)
+)
+)
+(and
+(g1 c1o5)
+(and
+(=>
+(g2 c1o1)
+(not
+(f c1o5 c1o1)
+)
+)
+(=>
+(g2 c1o2)
+(not
+(f c1o5 c1o2)
+)
+)
+(=>
+(g2 c1o3)
+(not
+(f c1o5 c1o3)
+)
+)
+(=>
+(g2 c1o4)
+(not
+(f c1o5 c1o4)
+)
+)
+(=>
+(g2 c1o5)
+(not
+(f c1o5 c1o5)
+)
+)
+)
+)
+)
+)
+(=>
+(and
+(= q1 false)
+(= q2 true)
+)
+(and
+(=>
+(g1 c1o1)
+(or
+(and
+(g2 c1o1)
+(not
+(f c1o1 c1o1)
+)
+)
+(and
+(g2 c1o2)
+(not
+(f c1o1 c1o2)
+)
+)
+(and
+(g2 c1o3)
+(not
+(f c1o1 c1o3)
+)
+)
+(and
+(g2 c1o4)
+(not
+(f c1o1 c1o4)
+)
+)
+(and
+(g2 c1o5)
+(not
+(f c1o1 c1o5)
+)
+)
+)
+)
+(=>
+(g1 c1o2)
+(or
+(and
+(g2 c1o1)
+(not
+(f c1o2 c1o1)
+)
+)
+(and
+(g2 c1o2)
+(not
+(f c1o2 c1o2)
+)
+)
+(and
+(g2 c1o3)
+(not
+(f c1o2 c1o3)
+)
+)
+(and
+(g2 c1o4)
+(not
+(f c1o2 c1o4)
+)
+)
+(and
+(g2 c1o5)
+(not
+(f c1o2 c1o5)
+)
+)
+)
+)
+(=>
+(g1 c1o3)
+(or
+(and
+(g2 c1o1)
+(not
+(f c1o3 c1o1)
+)
+)
+(and
+(g2 c1o2)
+(not
+(f c1o3 c1o2)
+)
+)
+(and
+(g2 c1o3)
+(not
+(f c1o3 c1o3)
+)
+)
+(and
+(g2 c1o4)
+(not
+(f c1o3 c1o4)
+)
+)
+(and
+(g2 c1o5)
+(not
+(f c1o3 c1o5)
+)
+)
+)
+)
+(=>
+(g1 c1o4)
+(or
+(and
+(g2 c1o1)
+(not
+(f c1o4 c1o1)
+)
+)
+(and
+(g2 c1o2)
+(not
+(f c1o4 c1o2)
+)
+)
+(and
+(g2 c1o3)
+(not
+(f c1o4 c1o3)
+)
+)
+(and
+(g2 c1o4)
+(not
+(f c1o4 c1o4)
+)
+)
+(and
+(g2 c1o5)
+(not
+(f c1o4 c1o5)
+)
+)
+)
+)
+(=>
+(g1 c1o5)
+(or
+(and
+(g2 c1o1)
+(not
+(f c1o5 c1o1)
+)
+)
+(and
+(g2 c1o2)
+(not
+(f c1o5 c1o2)
+)
+)
+(and
+(g2 c1o3)
+(not
+(f c1o5 c1o3)
+)
+)
+(and
+(g2 c1o4)
+(not
+(f c1o5 c1o4)
+)
+)
+(and
+(g2 c1o5)
+(not
+(f c1o5 c1o5)
+)
+)
+)
+)
+)
+)
+(=>
+(and
+(= q1 false)
+(= q2 false)
+)
+(and
+(=>
+(g1 c1o1)
+(and
+(=>
+(g2 c1o1)
+(not
+(f c1o1 c1o1)
+)
+)
+(=>
+(g2 c1o2)
+(not
+(f c1o1 c1o2)
+)
+)
+(=>
+(g2 c1o3)
+(not
+(f c1o1 c1o3)
+)
+)
+(=>
+(g2 c1o4)
+(not
+(f c1o1 c1o4)
+)
+)
+(=>
+(g2 c1o5)
+(not
+(f c1o1 c1o5)
+)
+)
+)
+)
+(=>
+(g1 c1o2)
+(and
+(=>
+(g2 c1o1)
+(not
+(f c1o2 c1o1)
+)
+)
+(=>
+(g2 c1o2)
+(not
+(f c1o2 c1o2)
+)
+)
+(=>
+(g2 c1o3)
+(not
+(f c1o2 c1o3)
+)
+)
+(=>
+(g2 c1o4)
+(not
+(f c1o2 c1o4)
+)
+)
+(=>
+(g2 c1o5)
+(not
+(f c1o2 c1o5)
+)
+)
+)
+)
+(=>
+(g1 c1o3)
+(and
+(=>
+(g2 c1o1)
+(not
+(f c1o3 c1o1)
+)
+)
+(=>
+(g2 c1o2)
+(not
+(f c1o3 c1o2)
+)
+)
+(=>
+(g2 c1o3)
+(not
+(f c1o3 c1o3)
+)
+)
+(=>
+(g2 c1o4)
+(not
+(f c1o3 c1o4)
+)
+)
+(=>
+(g2 c1o5)
+(not
+(f c1o3 c1o5)
+)
+)
+)
+)
+(=>
+(g1 c1o4)
+(and
+(=>
+(g2 c1o1)
+(not
+(f c1o4 c1o1)
+)
+)
+(=>
+(g2 c1o2)
+(not
+(f c1o4 c1o2)
+)
+)
+(=>
+(g2 c1o3)
+(not
+(f c1o4 c1o3)
+)
+)
+(=>
+(g2 c1o4)
+(not
+(f c1o4 c1o4)
+)
+)
+(=>
+(g2 c1o5)
+(not
+(f c1o4 c1o5)
+)
+)
+)
+)
+(=>
+(g1 c1o5)
+(and
+(=>
+(g2 c1o1)
+(not
+(f c1o5 c1o1)
+)
+)
+(=>
+(g2 c1o2)
+(not
+(f c1o5 c1o2)
+)
+)
+(=>
+(g2 c1o3)
+(not
+(f c1o5 c1o3)
+)
+)
+(=>
+(g2 c1o4)
+(not
+(f c1o5 c1o4)
+)
+)
+(=>
+(g2 c1o5)
+(not
+(f c1o5 c1o5)
+)
+)
+)
+)
+)
+)
+)
+)
+)
+
+(constraint
+(=>
+(= c2 true)
+(and
+(=>
+(and
+(= q1 true)
+(= q2 true)
+)
+(and
+(or
+(g1 c2o1)
+(g1 c2o2)
+(g1 c2o3)
+(g1 c2o4)
+)
+(and
+(=>
+(g1 c2o1)
+(and
+(or
+(g2 c2o1)
+(g2 c2o2)
+(g2 c2o3)
+(g2 c2o4)
+)
+(and
+(=>
+(g2 c2o1)
+(f c2o1 c2o1)
+)
+(=>
+(g2 c2o2)
+(f c2o1 c2o2)
+)
+(=>
+(g2 c2o3)
+(f c2o1 c2o3)
+)
+(=>
+(g2 c2o4)
+(f c2o1 c2o4)
+)
+)
+)
+)
+(=>
+(g1 c2o2)
+(and
+(or
+(g2 c2o1)
+(g2 c2o2)
+(g2 c2o3)
+(g2 c2o4)
+)
+(and
+(=>
+(g2 c2o1)
+(f c2o2 c2o1)
+)
+(=>
+(g2 c2o2)
+(f c2o2 c2o2)
+)
+(=>
+(g2 c2o3)
+(f c2o2 c2o3)
+)
+(=>
+(g2 c2o4)
+(f c2o2 c2o4)
+)
+)
+)
+)
+(=>
+(g1 c2o3)
+(and
+(or
+(g2 c2o1)
+(g2 c2o2)
+(g2 c2o3)
+(g2 c2o4)
+)
+(and
+(=>
+(g2 c2o1)
+(f c2o3 c2o1)
+)
+(=>
+(g2 c2o2)
+(f c2o3 c2o2)
+)
+(=>
+(g2 c2o3)
+(f c2o3 c2o3)
+)
+(=>
+(g2 c2o4)
+(f c2o3 c2o4)
+)
+)
+)
+)
+(=>
+(g1 c2o4)
+(and
+(or
+(g2 c2o1)
+(g2 c2o2)
+(g2 c2o3)
+(g2 c2o4)
+)
+(and
+(=>
+(g2 c2o1)
+(f c2o4 c2o1)
+)
+(=>
+(g2 c2o2)
+(f c2o4 c2o2)
+)
+(=>
+(g2 c2o3)
+(f c2o4 c2o3)
+)
+(=>
+(g2 c2o4)
+(f c2o4 c2o4)
+)
+)
+)
+)
+)
+)
+)
+(=>
+(and
+(= q1 true)
+(= q2 false)
+)
+(and
+(or
+(g1 c2o1)
+(g1 c2o2)
+(g1 c2o3)
+(g1 c2o4)
+)
+(and
+(=>
+(g1 c2o1)
+(or
+(and
+(g2 c2o1)
+(f c2o1 c2o1)
+)
+(and
+(g2 c2o2)
+(f c2o1 c2o2)
+)
+(and
+(g2 c2o3)
+(f c2o1 c2o3)
+)
+(and
+(g2 c2o4)
+(f c2o1 c2o4)
+)
+)
+)
+(=>
+(g1 c2o2)
+(or
+(and
+(g2 c2o1)
+(f c2o2 c2o1)
+)
+(and
+(g2 c2o2)
+(f c2o2 c2o2)
+)
+(and
+(g2 c2o3)
+(f c2o2 c2o3)
+)
+(and
+(g2 c2o4)
+(f c2o2 c2o4)
+)
+)
+)
+(=>
+(g1 c2o3)
+(or
+(and
+(g2 c2o1)
+(f c2o3 c2o1)
+)
+(and
+(g2 c2o2)
+(f c2o3 c2o2)
+)
+(and
+(g2 c2o3)
+(f c2o3 c2o3)
+)
+(and
+(g2 c2o4)
+(f c2o3 c2o4)
+)
+)
+)
+(=>
+(g1 c2o4)
+(or
+(and
+(g2 c2o1)
+(f c2o4 c2o1)
+)
+(and
+(g2 c2o2)
+(f c2o4 c2o2)
+)
+(and
+(g2 c2o3)
+(f c2o4 c2o3)
+)
+(and
+(g2 c2o4)
+(f c2o4 c2o4)
+)
+)
+)
+)
+)
+)
+(=>
+(and
+(= q1 false)
+(= q2 true)
+)
+(or
+(and
+(g1 c2o1)
+(and
+(or
+(g2 c2o1)
+(g2 c2o2)
+(g2 c2o3)
+(g2 c2o4)
+)
+(and
+(=>
+(g2 c2o1)
+(f c2o1 c2o1)
+)
+(=>
+(g2 c2o2)
+(f c2o1 c2o2)
+)
+(=>
+(g2 c2o3)
+(f c2o1 c2o3)
+)
+(=>
+(g2 c2o4)
+(f c2o1 c2o4)
+)
+)
+)
+)
+(and
+(g1 c2o2)
+(and
+(or
+(g2 c2o1)
+(g2 c2o2)
+(g2 c2o3)
+(g2 c2o4)
+)
+(and
+(=>
+(g2 c2o1)
+(f c2o2 c2o1)
+)
+(=>
+(g2 c2o2)
+(f c2o2 c2o2)
+)
+(=>
+(g2 c2o3)
+(f c2o2 c2o3)
+)
+(=>
+(g2 c2o4)
+(f c2o2 c2o4)
+)
+)
+)
+)
+(and
+(g1 c2o3)
+(and
+(or
+(g2 c2o1)
+(g2 c2o2)
+(g2 c2o3)
+(g2 c2o4)
+)
+(and
+(=>
+(g2 c2o1)
+(f c2o3 c2o1)
+)
+(=>
+(g2 c2o2)
+(f c2o3 c2o2)
+)
+(=>
+(g2 c2o3)
+(f c2o3 c2o3)
+)
+(=>
+(g2 c2o4)
+(f c2o3 c2o4)
+)
+)
+)
+)
+(and
+(g1 c2o4)
+(and
+(or
+(g2 c2o1)
+(g2 c2o2)
+(g2 c2o3)
+(g2 c2o4)
+)
+(and
+(=>
+(g2 c2o1)
+(f c2o4 c2o1)
+)
+(=>
+(g2 c2o2)
+(f c2o4 c2o2)
+)
+(=>
+(g2 c2o3)
+(f c2o4 c2o3)
+)
+(=>
+(g2 c2o4)
+(f c2o4 c2o4)
+)
+)
+)
+)
+)
+)
+(=>
+(and
+(= q1 false)
+(= q2 false)
+)
+(or
+(and
+(g1 c2o1)
+(or
+(and
+(g2 c2o1)
+(f c2o1 c2o1)
+)
+(and
+(g2 c2o2)
+(f c2o1 c2o2)
+)
+(and
+(g2 c2o3)
+(f c2o1 c2o3)
+)
+(and
+(g2 c2o4)
+(f c2o1 c2o4)
+)
+)
+)
+(and
+(g1 c2o2)
+(or
+(and
+(g2 c2o1)
+(f c2o2 c2o1)
+)
+(and
+(g2 c2o2)
+(f c2o2 c2o2)
+)
+(and
+(g2 c2o3)
+(f c2o2 c2o3)
+)
+(and
+(g2 c2o4)
+(f c2o2 c2o4)
+)
+)
+)
+(and
+(g1 c2o3)
+(or
+(and
+(g2 c2o1)
+(f c2o3 c2o1)
+)
+(and
+(g2 c2o2)
+(f c2o3 c2o2)
+)
+(and
+(g2 c2o3)
+(f c2o3 c2o3)
+)
+(and
+(g2 c2o4)
+(f c2o3 c2o4)
+)
+)
+)
+(and
+(g1 c2o4)
+(or
+(and
+(g2 c2o1)
+(f c2o4 c2o1)
+)
+(and
+(g2 c2o2)
+(f c2o4 c2o2)
+)
+(and
+(g2 c2o3)
+(f c2o4 c2o3)
+)
+(and
+(g2 c2o4)
+(f c2o4 c2o4)
+)
+)
+)
+)
+)
+)
+)
+)
+
+(constraint
+(=>
+(= c2 false)
+(and
+(=>
+(and
+(= q1 true)
+(= q2 true)
+)
+(or
+(and
+(g1 c2o1)
+(or
+(and
+(g2 c2o1)
+(not
+(f c2o1 c2o1)
+)
+)
+(and
+(g2 c2o2)
+(not
+(f c2o1 c2o2)
+)
+)
+(and
+(g2 c2o3)
+(not
+(f c2o1 c2o3)
+)
+)
+(and
+(g2 c2o4)
+(not
+(f c2o1 c2o4)
+)
+)
+)
+)
+(and
+(g1 c2o2)
+(or
+(and
+(g2 c2o1)
+(not
+(f c2o2 c2o1)
+)
+)
+(and
+(g2 c2o2)
+(not
+(f c2o2 c2o2)
+)
+)
+(and
+(g2 c2o3)
+(not
+(f c2o2 c2o3)
+)
+)
+(and
+(g2 c2o4)
+(not
+(f c2o2 c2o4)
+)
+)
+)
+)
+(and
+(g1 c2o3)
+(or
+(and
+(g2 c2o1)
+(not
+(f c2o3 c2o1)
+)
+)
+(and
+(g2 c2o2)
+(not
+(f c2o3 c2o2)
+)
+)
+(and
+(g2 c2o3)
+(not
+(f c2o3 c2o3)
+)
+)
+(and
+(g2 c2o4)
+(not
+(f c2o3 c2o4)
+)
+)
+)
+)
+(and
+(g1 c2o4)
+(or
+(and
+(g2 c2o1)
+(not
+(f c2o4 c2o1)
+)
+)
+(and
+(g2 c2o2)
+(not
+(f c2o4 c2o2)
+)
+)
+(and
+(g2 c2o3)
+(not
+(f c2o4 c2o3)
+)
+)
+(and
+(g2 c2o4)
+(not
+(f c2o4 c2o4)
+)
+)
+)
+)
+)
+)
+(=>
+(and
+(= q1 true)
+(= q2 false)
+)
+(or
+(and
+(g1 c2o1)
+(and
+(=>
+(g2 c2o1)
+(not
+(f c2o1 c2o1)
+)
+)
+(=>
+(g2 c2o2)
+(not
+(f c2o1 c2o2)
+)
+)
+(=>
+(g2 c2o3)
+(not
+(f c2o1 c2o3)
+)
+)
+(=>
+(g2 c2o4)
+(not
+(f c2o1 c2o4)
+)
+)
+)
+)
+(and
+(g1 c2o2)
+(and
+(=>
+(g2 c2o1)
+(not
+(f c2o2 c2o1)
+)
+)
+(=>
+(g2 c2o2)
+(not
+(f c2o2 c2o2)
+)
+)
+(=>
+(g2 c2o3)
+(not
+(f c2o2 c2o3)
+)
+)
+(=>
+(g2 c2o4)
+(not
+(f c2o2 c2o4)
+)
+)
+)
+)
+(and
+(g1 c2o3)
+(and
+(=>
+(g2 c2o1)
+(not
+(f c2o3 c2o1)
+)
+)
+(=>
+(g2 c2o2)
+(not
+(f c2o3 c2o2)
+)
+)
+(=>
+(g2 c2o3)
+(not
+(f c2o3 c2o3)
+)
+)
+(=>
+(g2 c2o4)
+(not
+(f c2o3 c2o4)
+)
+)
+)
+)
+(and
+(g1 c2o4)
+(and
+(=>
+(g2 c2o1)
+(not
+(f c2o4 c2o1)
+)
+)
+(=>
+(g2 c2o2)
+(not
+(f c2o4 c2o2)
+)
+)
+(=>
+(g2 c2o3)
+(not
+(f c2o4 c2o3)
+)
+)
+(=>
+(g2 c2o4)
+(not
+(f c2o4 c2o4)
+)
+)
+)
+)
+)
+)
+(=>
+(and
+(= q1 false)
+(= q2 true)
+)
+(and
+(=>
+(g1 c2o1)
+(or
+(and
+(g2 c2o1)
+(not
+(f c2o1 c2o1)
+)
+)
+(and
+(g2 c2o2)
+(not
+(f c2o1 c2o2)
+)
+)
+(and
+(g2 c2o3)
+(not
+(f c2o1 c2o3)
+)
+)
+(and
+(g2 c2o4)
+(not
+(f c2o1 c2o4)
+)
+)
+)
+)
+(=>
+(g1 c2o2)
+(or
+(and
+(g2 c2o1)
+(not
+(f c2o2 c2o1)
+)
+)
+(and
+(g2 c2o2)
+(not
+(f c2o2 c2o2)
+)
+)
+(and
+(g2 c2o3)
+(not
+(f c2o2 c2o3)
+)
+)
+(and
+(g2 c2o4)
+(not
+(f c2o2 c2o4)
+)
+)
+)
+)
+(=>
+(g1 c2o3)
+(or
+(and
+(g2 c2o1)
+(not
+(f c2o3 c2o1)
+)
+)
+(and
+(g2 c2o2)
+(not
+(f c2o3 c2o2)
+)
+)
+(and
+(g2 c2o3)
+(not
+(f c2o3 c2o3)
+)
+)
+(and
+(g2 c2o4)
+(not
+(f c2o3 c2o4)
+)
+)
+)
+)
+(=>
+(g1 c2o4)
+(or
+(and
+(g2 c2o1)
+(not
+(f c2o4 c2o1)
+)
+)
+(and
+(g2 c2o2)
+(not
+(f c2o4 c2o2)
+)
+)
+(and
+(g2 c2o3)
+(not
+(f c2o4 c2o3)
+)
+)
+(and
+(g2 c2o4)
+(not
+(f c2o4 c2o4)
+)
+)
+)
+)
+)
+)
+(=>
+(and
+(= q1 false)
+(= q2 false)
+)
+(and
+(=>
+(g1 c2o1)
+(and
+(=>
+(g2 c2o1)
+(not
+(f c2o1 c2o1)
+)
+)
+(=>
+(g2 c2o2)
+(not
+(f c2o1 c2o2)
+)
+)
+(=>
+(g2 c2o3)
+(not
+(f c2o1 c2o3)
+)
+)
+(=>
+(g2 c2o4)
+(not
+(f c2o1 c2o4)
+)
+)
+)
+)
+(=>
+(g1 c2o2)
+(and
+(=>
+(g2 c2o1)
+(not
+(f c2o2 c2o1)
+)
+)
+(=>
+(g2 c2o2)
+(not
+(f c2o2 c2o2)
+)
+)
+(=>
+(g2 c2o3)
+(not
+(f c2o2 c2o3)
+)
+)
+(=>
+(g2 c2o4)
+(not
+(f c2o2 c2o4)
+)
+)
+)
+)
+(=>
+(g1 c2o3)
+(and
+(=>
+(g2 c2o1)
+(not
+(f c2o3 c2o1)
+)
+)
+(=>
+(g2 c2o2)
+(not
+(f c2o3 c2o2)
+)
+)
+(=>
+(g2 c2o3)
+(not
+(f c2o3 c2o3)
+)
+)
+(=>
+(g2 c2o4)
+(not
+(f c2o3 c2o4)
+)
+)
+)
+)
+(=>
+(g1 c2o4)
+(and
+(=>
+(g2 c2o1)
+(not
+(f c2o4 c2o1)
+)
+)
+(=>
+(g2 c2o2)
+(not
+(f c2o4 c2o2)
+)
+)
+(=>
+(g2 c2o3)
+(not
+(f c2o4 c2o3)
+)
+)
+(=>
+(g2 c2o4)
+(not
+(f c2o4 c2o4)
+)
+)
+)
+)
+)
+)
+)
+)
+)
+
+(constraint
+(=>
+(= c3 true)
+(and
+(=>
+(and
+(= q1 true)
+(= q2 true)
+)
+(and
+(or
+(g1 c3o1)
+(g1 c3o2)
+)
+(and
+(=>
+(g1 c3o1)
+(and
+(or
+(g2 c3o1)
+(g2 c3o2)
+)
+(and
+(=>
+(g2 c3o1)
+(f c3o1 c3o1)
+)
+(=>
+(g2 c3o2)
+(f c3o1 c3o2)
+)
+)
+)
+)
+(=>
+(g1 c3o2)
+(and
+(or
+(g2 c3o1)
+(g2 c3o2)
+)
+(and
+(=>
+(g2 c3o1)
+(f c3o2 c3o1)
+)
+(=>
+(g2 c3o2)
+(f c3o2 c3o2)
+)
+)
+)
+)
+)
+)
+)
+(=>
+(and
+(= q1 true)
+(= q2 false)
+)
+(and
+(or
+(g1 c3o1)
+(g1 c3o2)
+)
+(and
+(=>
+(g1 c3o1)
+(or
+(and
+(g2 c3o1)
+(f c3o1 c3o1)
+)
+(and
+(g2 c3o2)
+(f c3o1 c3o2)
+)
+)
+)
+(=>
+(g1 c3o2)
+(or
+(and
+(g2 c3o1)
+(f c3o2 c3o1)
+)
+(and
+(g2 c3o2)
+(f c3o2 c3o2)
+)
+)
+)
+)
+)
+)
+(=>
+(and
+(= q1 false)
+(= q2 true)
+)
+(or
+(and
+(g1 c3o1)
+(and
+(or
+(g2 c3o1)
+(g2 c3o2)
+)
+(and
+(=>
+(g2 c3o1)
+(f c3o1 c3o1)
+)
+(=>
+(g2 c3o2)
+(f c3o1 c3o2)
+)
+)
+)
+)
+(and
+(g1 c3o2)
+(and
+(or
+(g2 c3o1)
+(g2 c3o2)
+)
+(and
+(=>
+(g2 c3o1)
+(f c3o2 c3o1)
+)
+(=>
+(g2 c3o2)
+(f c3o2 c3o2)
+)
+)
+)
+)
+)
+)
+(=>
+(and
+(= q1 false)
+(= q2 false)
+)
+(or
+(and
+(g1 c3o1)
+(or
+(and
+(g2 c3o1)
+(f c3o1 c3o1)
+)
+(and
+(g2 c3o2)
+(f c3o1 c3o2)
+)
+)
+)
+(and
+(g1 c3o2)
+(or
+(and
+(g2 c3o1)
+(f c3o2 c3o1)
+)
+(and
+(g2 c3o2)
+(f c3o2 c3o2)
+)
+)
+)
+)
+)
+)
+)
+)
+
+(constraint
+(=>
+(= c3 false)
+(and
+(=>
+(and
+(= q1 true)
+(= q2 true)
+)
+(or
+(and
+(g1 c3o1)
+(or
+(and
+(g2 c3o1)
+(not
+(f c3o1 c3o1)
+)
+)
+(and
+(g2 c3o2)
+(not
+(f c3o1 c3o2)
+)
+)
+)
+)
+(and
+(g1 c3o2)
+(or
+(and
+(g2 c3o1)
+(not
+(f c3o2 c3o1)
+)
+)
+(and
+(g2 c3o2)
+(not
+(f c3o2 c3o2)
+)
+)
+)
+)
+)
+)
+(=>
+(and
+(= q1 true)
+(= q2 false)
+)
+(or
+(and
+(g1 c3o1)
+(and
+(=>
+(g2 c3o1)
+(not
+(f c3o1 c3o1)
+)
+)
+(=>
+(g2 c3o2)
+(not
+(f c3o1 c3o2)
+)
+)
+)
+)
+(and
+(g1 c3o2)
+(and
+(=>
+(g2 c3o1)
+(not
+(f c3o2 c3o1)
+)
+)
+(=>
+(g2 c3o2)
+(not
+(f c3o2 c3o2)
+)
+)
+)
+)
+)
+)
+(=>
+(and
+(= q1 false)
+(= q2 true)
+)
+(and
+(=>
+(g1 c3o1)
+(or
+(and
+(g2 c3o1)
+(not
+(f c3o1 c3o1)
+)
+)
+(and
+(g2 c3o2)
+(not
+(f c3o1 c3o2)
+)
+)
+)
+)
+(=>
+(g1 c3o2)
+(or
+(and
+(g2 c3o1)
+(not
+(f c3o2 c3o1)
+)
+)
+(and
+(g2 c3o2)
+(not
+(f c3o2 c3o2)
+)
+)
+)
+)
+)
+)
+(=>
+(and
+(= q1 false)
+(= q2 false)
+)
+(and
+(=>
+(g1 c3o1)
+(and
+(=>
+(g2 c3o1)
+(not
+(f c3o1 c3o1)
+)
+)
+(=>
+(g2 c3o2)
+(not
+(f c3o1 c3o2)
+)
+)
+)
+)
+(=>
+(g1 c3o2)
+(and
+(=>
+(g2 c3o1)
+(not
+(f c3o2 c3o1)
+)
+)
+(=>
+(g2 c3o2)
+(not
+(f c3o2 c3o2)
+)
+)
+)
+)
+)
+)
+)
+)
+)
+
+
+(check-synth)

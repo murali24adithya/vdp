@@ -1,0 +1,41 @@
+Candidate 1:
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 2:
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 3:
+
+Solution number 1
+Exists x1. 
+(or
+[above(x1,x1)]
+[labelOf(x1,cat)])
+++++++++++++++
+
+Solution number 2
+Exists x1. 
+(impl
+[Not toRight(tvmonitor,pottedplant)]
+[labelOf(x1,cat)])
+++++++++++++++
+
+Solution number 3
+Exists x1. 
+(impl
+[neq(tvmonitor,person)]
+[labelOf(x1,cat)])
+++++++++++++++
+
+Solution number 4
+Exists x1. 
+(or
+[toLeft(sofa,sofa)]
+[labelOf(x1,cat)])
+++++++++++++++
+
+-----------------------------
+
+!!!Solved in 3.04531693459 seconds.

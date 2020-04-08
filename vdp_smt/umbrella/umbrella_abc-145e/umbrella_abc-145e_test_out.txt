@@ -1,0 +1,55 @@
+Enter Image Path: /home/adithya/Synthesis/variants/umbrella_abc-145e/test_1.jpg: Predicted in 21.787933 seconds.
+sports ball: 91%
+Bounding Box: Left=378, Top=532, Right=390, Bottom=544
+bench: 81%
+Bounding Box: Left=425, Top=397, Right=479, Bottom=449
+person: 100%
+Bounding Box: Left=111, Top=61, Right=379, Bottom=516
+Enter Image Path: /home/adithya/Synthesis/variants/umbrella_abc-145e/test_4.jpg: Predicted in 21.078798 seconds.
+skateboard: 99%
+Bounding Box: Left=170, Top=249, Right=245, Bottom=291
+car: 97%
+Bounding Box: Left=0, Top=213, Right=57, Bottom=230
+car: 74%
+Bounding Box: Left=57, Top=216, Right=138, Bottom=234
+person: 100%
+Bounding Box: Left=381, Top=103, Right=444, Bottom=283
+person: 100%
+Bounding Box: Left=245, Top=176, Right=383, Bottom=365
+person: 100%
+Bounding Box: Left=230, Top=111, Right=286, Bottom=290
+person: 99%
+Bounding Box: Left=108, Top=181, Right=180, Bottom=342
+person: 87%
+Bounding Box: Left=386, Top=199, Right=511, Bottom=301
+person: 65%
+Bounding Box: Left=426, Top=204, Right=557, Bottom=322
+Enter Image Path: /home/adithya/Synthesis/variants/umbrella_abc-145e/test_5.jpg: Predicted in 21.037944 seconds.
+handbag: 78%
+Bounding Box: Left=288, Top=89, Right=332, Bottom=208
+traffic light: 96%
+Bounding Box: Left=59, Top=12, Right=79, Bottom=52
+car: 98%
+Bounding Box: Left=31, Top=116, Right=59, Bottom=142
+person: 100%
+Bounding Box: Left=304, Top=28, Right=399, Bottom=303
+person: 100%
+Bounding Box: Left=225, Top=41, Right=324, Bottom=393
+person: 100%
+Bounding Box: Left=426, Top=44, Right=507, Bottom=236
+person: 99%
+Bounding Box: Left=171, Top=107, Right=187, Bottom=159
+Enter Image Path: /home/adithya/Synthesis/variants/umbrella_abc-145e/test_e.jpg: Predicted in 21.057261 seconds.
+laptop: 96%
+Bounding Box: Left=312, Top=189, Right=399, Bottom=248
+tie: 63%
+Bounding Box: Left=332, Top=154, Right=347, Bottom=191
+umbrella: 73%
+Bounding Box: Left=239, Top=64, Right=466, Bottom=145
+backpack: 76%
+Bounding Box: Left=421, Top=231, Right=477, Bottom=310
+person: 100%
+Bounding Box: Left=275, Top=94, Right=427, Bottom=390
+person: 61%
+Bounding Box: Left=487, Top=0, Right=599, Bottom=226
+Enter Image Path: 

@@ -1,0 +1,3 @@
+/home/adithya/Synthesis/variants/populatedbus_abd-1.22.1e/test_1.2.jpg
+/home/adithya/Synthesis/variants/populatedbus_abd-1.22.1e/test_2.1.jpg
+/home/adithya/Synthesis/variants/populatedbus_abd-1.22.1e/test_e.jpg

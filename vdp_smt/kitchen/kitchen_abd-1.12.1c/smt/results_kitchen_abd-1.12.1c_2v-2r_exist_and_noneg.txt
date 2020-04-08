@@ -1,0 +1,42 @@
+Candidate 1:
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 2:
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 3:
+
+Solution number 1
+Exists x1. Exists x2. 
+(and
+[labelOf(x2,refrigerator)]
+[labelOf(x1,sink)])
+++++++++++++++
+
+Solution number 2
+Exists x1. Exists x2. 
+(and
+[labelOf(x2,sink)]
+[labelOf(x1,refrigerator)])
+++++++++++++++
+
+Solution number 3
+Exists x1. Exists x2. 
+(and
+[labelOf(x1,sink)]
+[labelOf(x2,refrigerator)])
+++++++++++++++
+
+Solution number 4
+Exists x1. Exists x2. 
+(and
+[labelOf(x1,refrigerator)]
+[labelOf(x2,sink)])
+++++++++++++++
+
+Unsat:No more formulae.
+-----------------------------
+
+!!!Solved in 7.6056330204 seconds.

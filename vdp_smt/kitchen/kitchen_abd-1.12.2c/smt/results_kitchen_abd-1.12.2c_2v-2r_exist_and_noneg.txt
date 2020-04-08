@@ -1,0 +1,69 @@
+Candidate 1:
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 2:
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 3:
+
+Solution number 1
+Exists x1. Exists x2. 
+(and
+[labelOf(x2,sink)]
+[Not sameLabel(x1,x2)])
+++++++++++++++
+
+Solution number 2
+Exists x1. Exists x2. 
+(and
+[labelOf(x1,sink)]
+[labelOf(x2,refrigerator)])
+++++++++++++++
+
+Solution number 3
+Exists x1. Exists x2. 
+(and
+[labelOf(x2,refrigerator)]
+[labelOf(x1,sink)])
+++++++++++++++
+
+Solution number 4
+Exists x1. Exists x2. 
+(and
+[labelOf(x1,sink)]
+[Not sameLabel(x1,x2)])
+++++++++++++++
+
+Solution number 5
+Exists x1. Exists x2. 
+(and
+[labelOf(x1,sink)]
+[Not sameLabel(x2,x1)])
+++++++++++++++
+
+Solution number 6
+Exists x1. Exists x2. 
+(and
+[labelOf(x1,refrigerator)]
+[labelOf(x2,sink)])
+++++++++++++++
+
+Solution number 7
+Exists x1. Exists x2. 
+(and
+[Not sameLabel(x2,x1)]
+[labelOf(x2,sink)])
+++++++++++++++
+
+Solution number 8
+Exists x1. Exists x2. 
+(and
+[labelOf(x2,sink)]
+[labelOf(x1,refrigerator)])
+++++++++++++++
+
+-----------------------------
+
+!!!Solved in 9.04006505013 seconds.

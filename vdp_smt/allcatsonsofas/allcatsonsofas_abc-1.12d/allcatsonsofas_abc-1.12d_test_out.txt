@@ -1,0 +1,32 @@
+Enter Image Path: /home/adithya/Synthesis/variants/allcatsonsofas_abc-1.12d/test_1.1.jpg: Predicted in 28.394101 seconds.
+book: 63%
+Bounding Box: Left=220, Top=124, Right=225, Bottom=140
+book: 58%
+Bounding Box: Left=262, Top=111, Right=267, Bottom=127
+book: 54%
+Bounding Box: Left=262, Top=148, Right=267, Bottom=163
+book: 51%
+Bounding Box: Left=93, Top=230, Right=115, Bottom=238
+laptop: 67%
+Bounding Box: Left=183, Top=180, Right=261, Bottom=252
+tvmonitor: 100%
+Bounding Box: Left=1, Top=105, Right=100, Bottom=197
+sofa: 100%
+Bounding Box: Left=251, Top=108, Right=545, Bottom=376
+cat: 100%
+Bounding Box: Left=480, Top=313, Right=614, Bottom=405
+Enter Image Path: /home/adithya/Synthesis/variants/allcatsonsofas_abc-1.12d/test_2.jpg: Predicted in 30.423130 seconds.
+sofa: 64%
+Bounding Box: Left=136, Top=109, Right=295, Bottom=245
+cat: 99%
+Bounding Box: Left=62, Top=192, Right=132, Bottom=248
+cat: 91%
+Bounding Box: Left=181, Top=164, Right=230, Bottom=232
+Enter Image Path: /home/adithya/Synthesis/variants/allcatsonsofas_abc-1.12d/test_d.jpg: Predicted in 30.879225 seconds.
+sofa: 99%
+Bounding Box: Left=0, Top=81, Right=1023, Bottom=575
+cat: 99%
+Bounding Box: Left=199, Top=295, Right=491, Bottom=455
+cat: 96%
+Bounding Box: Left=583, Top=301, Right=966, Bottom=454
+Enter Image Path: 

@@ -1,0 +1,18 @@
+Enter Image Path: /home/adithya/Synthesis/variants/sleeping_abc-1.12.2e/test_1.1.jpg: Predicted in 29.336977 seconds.
+dog: 71%
+Bounding Box: Left=66, Top=67, Right=176, Bottom=161
+bench: 100%
+Bounding Box: Left=61, Top=23, Right=550, Bottom=269
+Enter Image Path: /home/adithya/Synthesis/variants/sleeping_abc-1.12.2e/test_2.2.jpg: Predicted in 29.312449 seconds.
+cup: 84%
+Bounding Box: Left=457, Top=113, Right=489, Bottom=141
+dog: 100%
+Bounding Box: Left=82, Top=209, Right=566, Bottom=419
+bench: 85%
+Bounding Box: Left=56, Top=27, Right=630, Bottom=277
+Enter Image Path: /home/adithya/Synthesis/variants/sleeping_abc-1.12.2e/test_e.jpg: Predicted in 27.948540 seconds.
+bench: 100%
+Bounding Box: Left=14, Top=78, Right=253, Bottom=167
+person: 57%
+Bounding Box: Left=33, Top=83, Right=218, Bottom=119
+Enter Image Path: 

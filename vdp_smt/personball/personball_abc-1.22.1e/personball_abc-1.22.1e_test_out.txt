@@ -1,0 +1,36 @@
+Enter Image Path: /home/adithya/Synthesis/variants/personball_abc-1.22.1e/test_1.2.jpg: Predicted in 22.816464 seconds.
+sports ball: 86%
+Bounding Box: Left=306, Top=260, Right=334, Bottom=287
+elephant: 75%
+Bounding Box: Left=12, Top=195, Right=355, Bottom=527
+Enter Image Path: /home/adithya/Synthesis/variants/personball_abc-1.22.1e/test_2.1.jpg: Predicted in 22.397762 seconds.
+bowl: 100%
+Bounding Box: Left=366, Top=339, Right=496, Bottom=399
+bowl: 58%
+Bounding Box: Left=0, Top=360, Right=52, Bottom=426
+person: 100%
+Bounding Box: Left=463, Top=6, Right=658, Bottom=289
+person: 100%
+Bounding Box: Left=307, Top=34, Right=472, Bottom=313
+person: 100%
+Bounding Box: Left=629, Top=90, Right=991, Bottom=426
+person: 100%
+Bounding Box: Left=82, Top=64, Right=370, Bottom=431
+person: 100%
+Bounding Box: Left=613, Top=82, Right=829, Bottom=374
+person: 96%
+Bounding Box: Left=203, Top=10, Right=302, Bottom=113
+person: 78%
+Bounding Box: Left=195, Top=87, Right=365, Bottom=322
+Enter Image Path: /home/adithya/Synthesis/variants/personball_abc-1.22.1e/test_e.jpg: Predicted in 22.346818 seconds.
+sports ball: 100%
+Bounding Box: Left=68, Top=343, Right=136, Bottom=411
+person: 100%
+Bounding Box: Left=250, Top=62, Right=406, Bottom=356
+person: 100%
+Bounding Box: Left=455, Top=55, Right=600, Bottom=392
+person: 100%
+Bounding Box: Left=9, Top=53, Right=165, Bottom=311
+person: 98%
+Bounding Box: Left=23, Top=6, Right=98, Bottom=130
+Enter Image Path: 

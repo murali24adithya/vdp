@@ -1,0 +1,65 @@
+Enter Image Path: /home/adithya/Synthesis/variants/umbrella_abc-245e/test_2.jpg: Predicted in 22.858516 seconds.
+baseball glove: 100%
+Bounding Box: Left=106, Top=203, Right=136, Bottom=231
+baseball bat: 84%
+Bounding Box: Left=4, Top=77, Right=57, Bottom=138
+sports ball: 95%
+Bounding Box: Left=261, Top=133, Right=279, Bottom=146
+person: 99%
+Bounding Box: Left=0, Top=124, Right=73, Bottom=310
+person: 98%
+Bounding Box: Left=502, Top=3, Right=613, Bottom=116
+person: 97%
+Bounding Box: Left=294, Top=0, Right=326, Bottom=48
+person: 96%
+Bounding Box: Left=20, Top=185, Right=133, Bottom=309
+person: 88%
+Bounding Box: Left=47, Top=92, Right=108, Bottom=195
+Enter Image Path: /home/adithya/Synthesis/variants/umbrella_abc-245e/test_4.jpg: Predicted in 23.709168 seconds.
+skateboard: 99%
+Bounding Box: Left=170, Top=249, Right=245, Bottom=291
+car: 97%
+Bounding Box: Left=0, Top=213, Right=57, Bottom=230
+car: 74%
+Bounding Box: Left=57, Top=216, Right=138, Bottom=234
+person: 100%
+Bounding Box: Left=381, Top=103, Right=444, Bottom=283
+person: 100%
+Bounding Box: Left=245, Top=176, Right=383, Bottom=365
+person: 100%
+Bounding Box: Left=230, Top=111, Right=286, Bottom=290
+person: 99%
+Bounding Box: Left=108, Top=181, Right=180, Bottom=342
+person: 87%
+Bounding Box: Left=386, Top=199, Right=511, Bottom=301
+person: 65%
+Bounding Box: Left=426, Top=204, Right=557, Bottom=322
+Enter Image Path: /home/adithya/Synthesis/variants/umbrella_abc-245e/test_5.jpg: Predicted in 24.008487 seconds.
+handbag: 78%
+Bounding Box: Left=288, Top=89, Right=332, Bottom=208
+traffic light: 96%
+Bounding Box: Left=59, Top=12, Right=79, Bottom=52
+car: 98%
+Bounding Box: Left=31, Top=116, Right=59, Bottom=142
+person: 100%
+Bounding Box: Left=304, Top=28, Right=399, Bottom=303
+person: 100%
+Bounding Box: Left=225, Top=41, Right=324, Bottom=393
+person: 100%
+Bounding Box: Left=426, Top=44, Right=507, Bottom=236
+person: 99%
+Bounding Box: Left=171, Top=107, Right=187, Bottom=159
+Enter Image Path: /home/adithya/Synthesis/variants/umbrella_abc-245e/test_e.jpg: Predicted in 23.945602 seconds.
+laptop: 96%
+Bounding Box: Left=312, Top=189, Right=399, Bottom=248
+tie: 63%
+Bounding Box: Left=332, Top=154, Right=347, Bottom=191
+umbrella: 73%
+Bounding Box: Left=239, Top=64, Right=466, Bottom=145
+backpack: 76%
+Bounding Box: Left=421, Top=231, Right=477, Bottom=310
+person: 100%
+Bounding Box: Left=275, Top=94, Right=427, Bottom=390
+person: 61%
+Bounding Box: Left=487, Top=0, Right=599, Bottom=226
+Enter Image Path: 

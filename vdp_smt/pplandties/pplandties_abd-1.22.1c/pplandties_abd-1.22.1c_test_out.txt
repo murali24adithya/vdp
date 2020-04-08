@@ -1,0 +1,32 @@
+Enter Image Path: /home/adithya/Synthesis/variants/pplandties_abd-1.22.1c/test_1.2.jpg: Predicted in 21.416248 seconds.
+skateboard: 99%
+Bounding Box: Left=267, Top=374, Right=354, Bottom=602
+person: 100%
+Bounding Box: Left=389, Top=72, Right=528, Bottom=380
+person: 100%
+Bounding Box: Left=488, Top=143, Right=634, Bottom=502
+person: 100%
+Bounding Box: Left=688, Top=101, Right=798, Bottom=599
+person: 100%
+Bounding Box: Left=764, Top=38, Right=912, Bottom=625
+person: 99%
+Bounding Box: Left=273, Top=82, Right=405, Bottom=562
+person: 99%
+Bounding Box: Left=555, Top=335, Right=753, Bottom=634
+person: 98%
+Bounding Box: Left=343, Top=301, Right=616, Bottom=673
+person: 89%
+Bounding Box: Left=589, Top=139, Right=717, Bottom=435
+Enter Image Path: /home/adithya/Synthesis/variants/pplandties_abd-1.22.1c/test_2.1.jpg: Predicted in 21.179265 seconds.
+tie: 94%
+Bounding Box: Left=83, Top=123, Right=148, Bottom=265
+dog: 98%
+Bounding Box: Left=64, Top=50, Right=210, Bottom=272
+Enter Image Path: /home/adithya/Synthesis/variants/pplandties_abd-1.22.1c/test_c.jpg: Predicted in 21.256991 seconds.
+tie: 99%
+Bounding Box: Left=616, Top=1668, Right=937, Bottom=2938
+person: 100%
+Bounding Box: Left=1595, Top=0, Right=3977, Bottom=2980
+person: 100%
+Bounding Box: Left=85, Top=198, Right=2152, Bottom=2917
+Enter Image Path: 

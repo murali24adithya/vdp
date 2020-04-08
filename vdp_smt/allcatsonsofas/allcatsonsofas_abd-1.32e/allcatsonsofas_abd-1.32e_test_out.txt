@@ -1,0 +1,23 @@
+Enter Image Path: /home/adithya/Synthesis/variants/allcatsonsofas_abd-1.32e/test_1.3.jpg: Predicted in 25.745689 seconds.
+cat: 100%
+Bounding Box: Left=261, Top=119, Right=580, Bottom=283
+cat: 97%
+Bounding Box: Left=46, Top=245, Right=272, Bottom=390
+Enter Image Path: /home/adithya/Synthesis/variants/allcatsonsofas_abd-1.32e/test_2.jpg: Predicted in 26.034408 seconds.
+sofa: 64%
+Bounding Box: Left=136, Top=109, Right=295, Bottom=245
+cat: 99%
+Bounding Box: Left=62, Top=192, Right=132, Bottom=248
+cat: 91%
+Bounding Box: Left=181, Top=164, Right=230, Bottom=232
+Enter Image Path: /home/adithya/Synthesis/variants/allcatsonsofas_abd-1.32e/test_e.jpg: Predicted in 25.618090 seconds.
+chair: 86%
+sofa: 56%
+Bounding Box: Left=975, Top=209, Right=1682, Bottom=577
+chair: 87%
+Bounding Box: Left=123, Top=200, Right=801, Bottom=581
+cat: 98%
+Bounding Box: Left=255, Top=268, Right=737, Bottom=519
+cat: 98%
+Bounding Box: Left=1134, Top=269, Right=1594, Bottom=521
+Enter Image Path: 

@@ -1,0 +1,69 @@
+Candidate 1:
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 2:
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 3:
+
+Solution number 1
+Exists x1. Exists x2. 
+(and
+[Not within(x2,x2)]
+[within(x1,x2)])
+++++++++++++++
+
+Solution number 2
+Exists x1. Exists x2. 
+(and
+[Not above(x2,x2)]
+[within(x1,x2)])
+++++++++++++++
+
+Solution number 3
+Exists x1. Exists x2. 
+(and
+[Not neq(x2,x2)]
+[within(x1,x2)])
+++++++++++++++
+
+Solution number 4
+Exists x1. Exists x2. 
+(and
+[Not toLeft(x2,x2)]
+[within(x1,x2)])
+++++++++++++++
+
+Solution number 5
+Exists x1. Exists x2. 
+(and
+[Not below(x2,x2)]
+[within(x1,x2)])
+++++++++++++++
+
+Solution number 6
+Exists x1. Exists x2. 
+(and
+[Not toRight(x2,x2)]
+[within(x1,x2)])
+++++++++++++++
+
+Solution number 7
+Exists x1. Exists x2. 
+(and
+[Not within(backpack,x2)]
+[within(x2,x1)])
+++++++++++++++
+
+Solution number 8
+Exists x1. Exists x2. 
+(and
+[neq(x2,car)]
+[within(x2,x1)])
+++++++++++++++
+
+-----------------------------
+
+!!!Solved in 23.620885849 seconds.

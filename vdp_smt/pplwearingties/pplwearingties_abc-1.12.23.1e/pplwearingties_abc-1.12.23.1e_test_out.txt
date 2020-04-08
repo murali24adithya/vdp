@@ -1,0 +1,119 @@
+Enter Image Path: /home/adithya/Synthesis/variants/pplwearingties_abc-1.12.23.1e/test_1.1.jpg: Predicted in 23.022838 seconds.
+handbag: 98%
+Bounding Box: Left=2271, Top=651, Right=2745, Bottom=1217
+handbag: 93%
+Bounding Box: Left=62, Top=435, Right=785, Bottom=1863
+handbag: 64%
+Bounding Box: Left=667, Top=408, Right=894, Bottom=1111
+person: 100%
+Bounding Box: Left=644, Top=50, Right=1096, Bottom=2083
+person: 99%
+Bounding Box: Left=1371, Top=0, Right=1792, Bottom=2083
+person: 99%
+Bounding Box: Left=1704, Top=86, Right=2186, Bottom=2060
+person: 99%
+Bounding Box: Left=1051, Top=100, Right=1452, Bottom=2066
+person: 99%
+Bounding Box: Left=2125, Top=212, Right=2651, Bottom=2063
+person: 87%
+Bounding Box: Left=0, Top=151, Right=198, Bottom=512
+person: 77%
+Bounding Box: Left=0, Top=0, Right=896, Bottom=2083
+Enter Image Path: /home/adithya/Synthesis/variants/pplwearingties_abc-1.12.23.1e/test_2.2.jpg: Predicted in 22.776543 seconds.
+teddy bear: 53%
+Bounding Box: Left=5, Top=0, Right=214, Bottom=242
+tie: 100%
+Bounding Box: Left=89, Top=121, Right=133, Bottom=216
+Enter Image Path: /home/adithya/Synthesis/variants/pplwearingties_abc-1.12.23.1e/test_3.1.jpg: Predicted in 22.796851 seconds.
+tie: 86%
+Bounding Box: Left=526, Top=77, Right=571, Bottom=382
+tie: 86%
+Bounding Box: Left=834, Top=116, Right=870, Bottom=365
+tie: 84%
+Bounding Box: Left=750, Top=99, Right=805, Bottom=358
+tie: 77%
+Bounding Box: Left=372, Top=80, Right=422, Bottom=340
+tie: 77%
+Bounding Box: Left=678, Top=105, Right=730, Bottom=353
+tie: 77%
+Bounding Box: Left=902, Top=104, Right=955, Bottom=373
+tie: 76%
+Bounding Box: Left=457, Top=109, Right=491, Bottom=352
+tie: 67%
+Bounding Box: Left=599, Top=92, Right=648, Bottom=380
+person: 100%
+Bounding Box: Left=69, Top=85, Right=387, Bottom=757
+Enter Image Path: /home/adithya/Synthesis/variants/pplwearingties_abc-1.12.23.1e/test_e.jpg: Predicted in 22.647386 seconds.
+tie: 99%
+Bounding Box: Left=192, Top=230, Right=248, Bottom=464
+tie: 89%
+Bounding Box: Left=275, Top=130, Right=288, Bottom=184
+tie: 60%
+Bounding Box: Left=384, Top=10, Right=389, Bottom=26
+tie: 60%
+Bounding Box: Left=247, Top=10, Right=252, Bottom=39
+person: 100%
+Bounding Box: Left=18, Top=34, Right=375, Bottom=468
+person: 100%
+Bounding Box: Left=320, Top=133, Right=424, Bottom=472
+person: 100%
+Bounding Box: Left=496, Top=94, Right=595, Bottom=475
+person: 100%
+Bounding Box: Left=229, Top=78, Right=336, Bottom=234
+person: 100%
+Bounding Box: Left=36, Top=74, Right=135, Bottom=221
+person: 100%
+Bounding Box: Left=411, Top=133, Right=532, Bottom=476
+person: 100%
+Bounding Box: Left=403, Top=76, Right=476, Bottom=204
+person: 99%
+Bounding Box: Left=576, Top=81, Right=720, Bottom=479
+person: 97%
+Bounding Box: Left=322, Top=79, Right=379, Bottom=182
+person: 97%
+Bounding Box: Left=517, Top=35, Right=580, Bottom=154
+person: 96%
+Bounding Box: Left=565, Top=97, Right=623, Bottom=178
+person: 96%
+Bounding Box: Left=294, Top=49, Right=336, Bottom=133
+person: 94%
+Bounding Box: Left=0, Top=33, Right=28, Bottom=94
+person: 94%
+Bounding Box: Left=471, Top=70, Right=530, Bottom=173
+person: 94%
+Bounding Box: Left=16, Top=58, Right=56, Bottom=131
+person: 93%
+Bounding Box: Left=626, Top=4, Right=687, Bottom=107
+person: 91%
+Bounding Box: Left=236, Top=49, Right=275, Bottom=132
+person: 89%
+Bounding Box: Left=579, Top=6, Right=626, Bottom=65
+person: 89%
+Bounding Box: Left=455, Top=66, Right=500, Bottom=133
+person: 84%
+Bounding Box: Left=83, Top=32, Right=123, Bottom=127
+person: 83%
+Bounding Box: Left=592, Top=48, Right=635, Bottom=106
+person: 73%
+Bounding Box: Left=256, Top=1, Right=307, Bottom=50
+person: 71%
+Bounding Box: Left=322, Top=36, Right=355, Bottom=87
+person: 70%
+Bounding Box: Left=543, Top=9, Right=585, Bottom=70
+person: 68%
+Bounding Box: Left=21, Top=27, Right=62, Bottom=83
+person: 62%
+Bounding Box: Left=370, Top=73, Right=415, Bottom=150
+person: 61%
+Bounding Box: Left=0, Top=117, Right=68, Bottom=262
+person: 60%
+Bounding Box: Left=100, Top=21, Right=132, Bottom=129
+person: 58%
+Bounding Box: Left=193, Top=2, Right=231, Bottom=52
+person: 52%
+Bounding Box: Left=272, Top=42, Right=305, Bottom=80
+person: 51%
+Bounding Box: Left=1, Top=122, Right=27, Bottom=479
+person: 51%
+Bounding Box: Left=39, Top=1, Right=80, Bottom=66
+Enter Image Path: 

@@ -1,0 +1,35 @@
+Candidate 1:
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 2:
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 3:
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 4:
+
+Solution number 1
+Exists x1. Exists x2. Exists x3. 
+(and
+[toLeft(x2,x3)]
+(and
+[within(x2,x1)]
+[labelOf(x1,sofa)]))
+++++++++++++++
+
+Solution number 2
+Exists x1. Exists x2. Exists x3. 
+(and
+[labelOf(x2,sofa)]
+(and
+[toRight(x3,x1)]
+[within(x1,x2)]))
+++++++++++++++
+
+-----------------------------
+
+!!!Solved in 28.8245251179 seconds.

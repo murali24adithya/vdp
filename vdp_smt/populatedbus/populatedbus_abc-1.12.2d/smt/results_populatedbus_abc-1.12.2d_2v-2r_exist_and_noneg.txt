@@ -1,0 +1,97 @@
+Candidate 1:
+
+Solution number 1
+Exists x1. Exists x2. 
+(and
+[neq(x2,nullobj)]
+[above(x1,x2)])
+++++++++++++++
+
+Solution number 2
+Exists x1. Exists x2. 
+(and
+[above(x1,x2)]
+[neq(suitcase,x2)])
+++++++++++++++
+
+Solution number 3
+Exists x1. Exists x2. 
+(and
+[above(x1,x2)]
+[neq(bus,x2)])
+++++++++++++++
+
+Solution number 4
+Exists x1. Exists x2. 
+(and
+[above(x1,x2)]
+[Not below(nullobj,x2)])
+++++++++++++++
+
+Solution number 5
+Exists x1. Exists x2. 
+(and
+[above(x2,x1)]
+[neq(truck,x2)])
+++++++++++++++
+
+Solution number 6
+Exists x1. Exists x2. 
+(and
+[above(x2,x1)]
+[neq(backpack,x2)])
+++++++++++++++
+
+Solution number 7
+Exists x1. Exists x2. 
+(and
+[above(x2,x1)]
+[neq(car,x2)])
+++++++++++++++
+
+Solution number 8
+Exists x1. Exists x2. 
+(and
+[above(x2,x1)]
+[neq(handbag,x2)])
+++++++++++++++
+
+-----------------------------
+Candidate 2:
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 3:
+
+Solution number 1
+Exists x1. Exists x2. 
+(and
+[labelOf(x2,person)]
+[within(x2,x1)])
+++++++++++++++
+
+Solution number 2
+Exists x1. Exists x2. 
+(and
+[within(x2,x1)]
+[labelOf(x2,person)])
+++++++++++++++
+
+Solution number 3
+Exists x1. Exists x2. 
+(and
+[within(x1,x2)]
+[labelOf(x1,person)])
+++++++++++++++
+
+Solution number 4
+Exists x1. Exists x2. 
+(and
+[labelOf(x1,person)]
+[within(x1,x2)])
+++++++++++++++
+
+Unsat:No more formulae.
+-----------------------------
+
+!!!Solved in 91.9746389389 seconds.

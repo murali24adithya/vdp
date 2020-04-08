@@ -1,0 +1,48 @@
+Enter Image Path: /home/adithya/Synthesis/variants/kitchen_abd-1.22.1e/test_1.2.jpg: Predicted in 21.430843 seconds.
+book: 85%
+Bounding Box: Left=80, Top=185, Right=132, Bottom=197
+book: 79%
+Bounding Box: Left=81, Top=177, Right=128, Bottom=191
+book: 70%
+Bounding Box: Left=469, Top=114, Right=483, Bottom=141
+book: 66%
+Bounding Box: Left=490, Top=64, Right=495, Bottom=84
+book: 65%
+Bounding Box: Left=481, Top=64, Right=486, Bottom=85
+book: 65%
+Bounding Box: Left=474, Top=63, Right=478, Bottom=86
+book: 61%
+Bounding Box: Left=507, Top=63, Right=512, Bottom=84
+book: 61%
+Bounding Box: Left=516, Top=63, Right=520, Bottom=83
+book: 58%
+Bounding Box: Left=498, Top=64, Right=503, Bottom=84
+book: 51%
+Bounding Box: Left=524, Top=62, Right=528, Bottom=82
+laptop: 98%
+Bounding Box: Left=57, Top=98, Right=129, Bottom=146
+diningtable: 91%
+Bounding Box: Left=484, Top=104, Right=539, Bottom=207
+pottedplant: 100%
+Bounding Box: Left=183, Top=78, Right=339, Bottom=225
+sofa: 100%
+Bounding Box: Left=4, Top=176, Right=387, Bottom=459
+chair: 53%
+Bounding Box: Left=495, Top=131, Right=535, Bottom=206
+Enter Image Path: /home/adithya/Synthesis/variants/kitchen_abd-1.22.1e/test_2.1.jpg: Predicted in 21.196611 seconds.
+sink: 86%
+Bounding Box: Left=175, Top=295, Right=269, Bottom=321
+toilet: 97%
+Bounding Box: Left=359, Top=425, Right=426, Bottom=541
+bowl: 78%
+Bounding Box: Left=179, Top=63, Right=258, Bottom=109
+bowl: 59%
+Bounding Box: Left=260, Top=295, Right=310, Bottom=322
+Enter Image Path: /home/adithya/Synthesis/variants/kitchen_abd-1.22.1e/test_e.jpg: Predicted in 21.164877 seconds.
+refrigerator: 100%
+Bounding Box: Left=176, Top=90, Right=279, Bottom=264
+sink: 86%
+Bounding Box: Left=68, Top=216, Right=189, Bottom=283
+oven: 98%
+Bounding Box: Left=365, Top=152, Right=504, Bottom=347
+Enter Image Path: 

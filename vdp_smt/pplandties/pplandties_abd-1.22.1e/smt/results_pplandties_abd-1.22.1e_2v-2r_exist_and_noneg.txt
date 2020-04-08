@@ -1,0 +1,97 @@
+Candidate 1:
+
+Unsat:No more formulae.
+-----------------------------
+Candidate 2:
+
+Solution number 1
+Exists x1. Exists x2. 
+(and
+[neq(x2,tie)]
+[within(x2,x1)])
+++++++++++++++
+
+Solution number 2
+Exists x1. Exists x2. 
+(and
+[sameLabel(x2,x2)]
+[within(x1,x2)])
+++++++++++++++
+
+Solution number 3
+Exists x1. Exists x2. 
+(and
+[neq(x2,skateboard)]
+[within(x1,x2)])
+++++++++++++++
+
+Solution number 4
+Exists x1. Exists x2. 
+(and
+[neq(x2,dog)]
+[within(x1,x2)])
+++++++++++++++
+
+Solution number 5
+Exists x1. Exists x2. 
+(and
+[neq(x2,nullobj)]
+[within(x1,x2)])
+++++++++++++++
+
+Solution number 6
+Exists x1. Exists x2. 
+(and
+[Not below(x2,x2)]
+[within(x1,x2)])
+++++++++++++++
+
+Solution number 7
+Exists x1. Exists x2. 
+(and
+[within(x1,x2)]
+[Not above(nullobj,dog)])
+++++++++++++++
+
+Solution number 8
+Exists x1. Exists x2. 
+(and
+[Not above(x2,x2)]
+[within(x1,x2)])
+++++++++++++++
+
+-----------------------------
+Candidate 3:
+
+Solution number 1
+Exists x1. Exists x2. 
+(and
+[labelOf(x1,tie)]
+[labelOf(x2,person)])
+++++++++++++++
+
+Solution number 2
+Exists x1. Exists x2. 
+(and
+[labelOf(x2,person)]
+[labelOf(x1,tie)])
+++++++++++++++
+
+Solution number 3
+Exists x1. Exists x2. 
+(and
+[labelOf(x1,person)]
+[labelOf(x2,tie)])
+++++++++++++++
+
+Solution number 4
+Exists x1. Exists x2. 
+(and
+[labelOf(x2,tie)]
+[labelOf(x1,person)])
+++++++++++++++
+
+Unsat:No more formulae.
+-----------------------------
+
+!!!Solved in 8.70153808594 seconds.
