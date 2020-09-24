@@ -1,4 +1,4 @@
-(set-logic ALL)
+(set-logic ALL )
 (declare-datatypes ((Obj 0))
 ((
 (t1o1)(t1o2)(t1o3)(t1o4)(t1o5)(t1o6)(t1o7)(t1o8)(t2o1)(t2o2)(t2o3)(t3o1)(t3o2)(t3o3)(c1o1)(c1o2)(c1o3)(c1o4)(c1o5)(c1o6)(c2o1)(c2o2)(c2o3)(c2o4)(c2o5)(c3o1)(c3o2)(c3o3)(c3o4)(c3o5)
