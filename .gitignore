@@ -1,0 +1,13 @@
+**/.idea/**
+**/__pycache__/**
+**/.vscode/**
+
+# Old method of specifying. **/<pattern> works to ignore the pattern recursively everywhere.
+#.idea/**
+#vdp/.idea/**
+#test/.idea/**
+#vdp/.vscode/**
+#test/.vscode/**
+#vdp/__pycache__/**
+#test/__pycache__/**
+

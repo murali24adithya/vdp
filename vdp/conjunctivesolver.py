@@ -1,9 +1,9 @@
 from z3 import *
-from vdppuzzle import *
+from vdp.vdppuzzle import *
 
 
-class VDPConjunctiveSolver:
-    __doc__ = """
+class ConjunctiveSolver:
+    """
     This is a solver that looks for an FO formula in prenex form. The matrix is a conjunction of 
     relations over objects and the number of quantifiers is predetermined. 
     """
@@ -20,5 +20,8 @@ class VDPConjunctiveSolver:
     def __set_num_conjuncts(self, num_conjuncts):
         self.num_conjuncts = num_conjuncts
 
-    
+    def solve(self, vdppuzzle):
+        """
+        This represents the core functionality of the ConjunctiveSolver class. It takes a VDPPuzzle
+        """
 
