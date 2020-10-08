@@ -1,4 +1,4 @@
-class VDPSymbol:
+class Symbol:
     """
     This class defines the concept of a generic 'symbol'. Symbols have a 'name' which is a string and a 'symbol_type'
     which denotes what part of the vocabulary they constitute, say object, relation, or label.
@@ -19,7 +19,7 @@ class VDPSymbol:
     #  VDPFOModel objects.
     def __eq__(self, other):
         """Overrides the default implementation"""
-        if isinstance(other, VDPSymbol):
+        if isinstance(other, Symbol):
             return self.name == other.name
         return NotImplemented
 
@@ -41,7 +41,7 @@ class VDPSymbol:
     # No setter methods as we want Symbols to be immutable
 
 
-class FOSort(VDPSymbol):
+class FOSort(Symbol):
     """
     This class defines a 'sort' in the sense of multi-sorted FO. Each sort is simply a distinct name.
     """
@@ -49,20 +49,18 @@ class FOSort(VDPSymbol):
     def __init__(self, name):
         super().__init__(name, 'FOSort')
 
+
 # TODO (medium-low): Create classes that inherit from FOSort to create specialised sorts with interpreted functions.
 #  One example is booleans.
 
 
-class FOFunction(VDPSymbol):
+class FOFunction(Symbol):
     """
     This class defines a function. Each function has a name and a signature.
     The signature is a tuple of FOSort objects representing the type of the arguments.
     Singleton tuples denote constants and tuples with the final component as 'Bool' denote predicates.
     """
 
-    # TODO (very low): replace strings in signature with
-    #  or another symbol that denotes what kinds of arguments these are: object, label, etc.
-    #  Important: these must be immutable entities or custom hashing for symbol ids will not work.
     def __init__(self, name, signature):
         self.signature = signature
         super().__init__(name, 'FOFunction')
@@ -73,4 +71,4 @@ class FOFunction(VDPSymbol):
 
 
 # NOTE: classes representing the actual label-type or object-type elements
-#  of a VDP FO model are present in vdpfomodel.py
+#  of an FO model are present in fomodel.py

@@ -1,7 +1,7 @@
 class VDPPuzzle:
     """
     This class represents a single VDP Puzzle. It contains the vocabulary of the problem,
-    and a list of training and candidate model objects. Each model object is an instance of the VDPFOModel class.
+    and a list of training and candidate model objects. Each model object is an instance of the FOModel class.
     """
 
     def __init__(self, vocabulary=None, training_models=None, candidate_models=None):
