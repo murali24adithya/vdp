@@ -10,7 +10,20 @@ class Symbol:
         self.symbol_type = symbol_type
 
     def symbol_is_instance(self, instance):
-        return self.symbol_type == instance
+        """
+        Function to check whether the current Symbol object is an instance of another Symbol kind
+        higher in the hierarchy.
+        It takes either a string or another Symbol object to check against the current object. If the argument is of
+        neither type, it returns None.
+        NOTE: The Symbol object to be compared against must be the object that represents the symbol_type class of
+        objects, not another object whose symbol_type is the same as the current object.
+        :param instance: string or Symbol
+        :return: bool or None
+        """
+        if isinstance(instance, str):
+            return self.symbol_type == instance
+        elif isinstance(instance, Symbol):
+            return self.symbol_type == instance.get_name()
 
     # Symbols with the same name must be considered equal.
     # To enforce symbol equality only when BOTH name and signature are equal, change __eq__ and __hash__ appropriately.

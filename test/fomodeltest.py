@@ -30,8 +30,9 @@ class FOModelTest(unittest.TestCase):
         on = FOFunction('On', (vdpobject, vdpobject, vdpbool))
         labelof = FOFunction('LabelOf', (vdpobject, vdplabel, vdpbool))
         # No functions in this signature.
-        # Make the vocabulary as a pair: ([list of sorts],[list of constants/functions/relations]).
-        vocabulary = ([vdpobject, vdplabel], {cat, sofa, on, labelof})
+        # Make the vocabulary as a pair: ({set of sorts},{set of constants/functions/relations}).
+        # VDPBool is
+        vocabulary = ({vdpobject, vdplabel}, {cat, sofa, on, labelof})
 
         # Create the elements of each sort
         o1 = FOElement('o1', vdpobject)
