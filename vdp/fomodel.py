@@ -26,7 +26,7 @@ class FOModel:
     """
 
     def __init__(self, vocabulary, elements, interpretation):
-        # Vocabulary is a pair (fosorts, fofunctions) where 'fosorts' is a list of FOSort objects, and 'fofunctions'
+        # Vocabulary is a pair (fosorts, fofunctions) where 'fosorts' is a set of FOSort objects, and 'fofunctions'
         # is a set of FOFunction objects.
         self.vocabulary = vocabulary
         # Elements is a dictionary fosort -> set_of_elements, where fosort is an FOSort object in self.vocabulary and
@@ -60,6 +60,7 @@ class FOModel:
         return self.interpretation
 
     # Lookup a single entry in the interpretation.
+    # TODO (medium-low): consider improving design by not having two interpretation functions
     def lookup_interpretation(self, function, arguments, interpretation_extension=None):
         original_valuation = self.interpretation.get(function, None)
         extended_valuation = interpretation_extension.get(function, None) if interpretation_extension is not None else None
