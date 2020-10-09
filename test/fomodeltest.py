@@ -3,9 +3,10 @@ import unittest
 # This file defines a first-order model as an FOModel object and performs various tests on it
 # The model is as follows:
 # Sorts: Object, Label
-# Functions: On:(Object,Object,Bool), LabelOf:(Object,Label,Bool)
-# Elements: Object-> {o1,o2,o3}, Label -> {cat, sofa}
-# Interpretation: [LabelOf(o1,cat), LabelOf(o2,cat), LabelOf(o3,sofa), On(o1,o3)]. Tuples not specified are false
+# Functions: cat: (Label), sofa: (Label), On:(Object,Object,Bool), LabelOf:(Object,Label,Bool)
+# Elements: Object-> {o1,o2,o3}, Label -> {cat_label, sofa_label}
+# Interpretation: [LabelOf(o1,cat_label), LabelOf(o2,cat_label), LabelOf(o3,sofa_label), On(o1,o3), On(o2,o3)].
+# Tuples not specified are false
 
 
 from vdp.vocabulary import FOSort, FOFunction
