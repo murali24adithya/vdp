@@ -1,0 +1,15 @@
+{
+    "name"  : "test",
+    "train" : ["./data/raw/1.jpg", "./data/raw/2.jpg", "./data/raw/3.jpg"],
+    "test"  : ["./data/raw/4.jpg", "./data/raw/5.jpg", "./data/raw/6.jpg"],
+    "sg_config"  : {
+        "output_dir" : "./data/sg_processed",
+        "glove_path" : "./../checkpoints/glove",
+        "model_path" : "./../checkpoints/model",
+        "sg_tools_rel_path" : "./../sg/tools/relation_test_net.py",
+        "sg_config_path" : "./../sg/configs/e2e_relation_X_101_32_8_FPN_1x.yaml",
+        "cuda_device_port" : "0",
+        "n_proc" : "1"
+    }
+}
+
