@@ -93,4 +93,3 @@ def run_sg(input_path, output_path, glove_path, model_path, log_path, sg_tools_r
     print(cmd)
     if not dry:
         os.system(cmd)
-
