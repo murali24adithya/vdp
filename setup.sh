@@ -1,7 +1,7 @@
 # /bin/bash
 cd cocoapi/PythonAPI
 python setup.py build_ext install
-cd ..
+cd ../..
 cd apex
 python setup.py install --cuda_ext --cpp_ext
 cd ..
