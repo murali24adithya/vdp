@@ -6,4 +6,4 @@
 	url = https://github.com/NVIDIA/apex.git
 [submodule "sg"]
 	path = sg
-	url = https://github.com/KaihuaTang/Scene-Graph-Benchmark.pytorch.git
+	url = https://github.com/atharvas/Scene-Graph-Benchmark.pytorch.git
