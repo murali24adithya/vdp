@@ -77,16 +77,22 @@ def construct_fo(image_idx = 0, box_topk = 20, rel_topk = 20, sg_output_dir="./d
         else:
             relations[r].append((str(xi) + "_" + x, str(yi) + "_" + y))
 
-    relations['has label'] = var_const_map
+    relation_signatures = relations.copy()
+
+    for key in relation_signatures.keys():
+        relation_signatures[key] = "(object, object)"
+
+    relation_signatures['has label'] = "(object, label)"
+
+    relations['has label'] = [list(item) for item in var_const_map.items()]
     fo_model = {
-        'syntax' : {
-            'constants' : list(constants),
-            'variables' : list(variables),
-            'predicates' : list(relations.keys())
-        },
-        'semantics' : relations,
+        'sorts': ['object', 'label'],
+        'predicates': relation_signatures,
+        'elements': {'object' : list(variables), 'label' : list(constants)},
+        'interpretation': relations,
         'raw' : rel_labels
     }
+
     return fo_model
 
 
