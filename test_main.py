@@ -16,9 +16,9 @@ for vdp_config_json in glob.glob("./test_config.json"):
     if 'sg_config' in vdp_params:
         sg_params = vdp_params['sg_config']
         sg_output_dir = sg_params['output_dir']
+        os.chdir("./sg")
         os.makedirs(sg_output_dir + f"/{name}/train", exist_ok=True)
         os.makedirs(sg_output_dir + f"/{name}/test", exist_ok=True)
-        os.chdir("./sg")
 
         for batch_dir in ['train', 'test']:
                 vdp.utils.run_sg(input_path=f"./../data/interim/{name}/{batch_dir}",
