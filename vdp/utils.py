@@ -44,54 +44,59 @@ def make_set(params):
             json.dump(params, fp)  
     return normalized_name
     
-def construct_fo(image_idx = 0, box_topk = 20, rel_topk = 20, sg_output_dir="./data/sg_processed/test/"):
-    custom_prediction = json.load(open(f'{sg_output_dir}custom_prediction.json'))
-    custom_data_info = json.load(open(f'{sg_output_dir}custom_data_info.json'))
+def construct_fo(sg_input_dir, fo_output_dir, box_topk = 20, rel_topk = 20):
+    custom_prediction = json.load(open(f'{sg_input_dir}/custom_prediction.json'))
+    custom_data_info = json.load(open(f'{sg_input_dir}/custom_data_info.json'))
     ind_to_classes = custom_data_info['ind_to_classes']
     ind_to_predicates = custom_data_info['ind_to_predicates']
-    box_labels = custom_prediction[str(image_idx)]['bbox_labels'][:box_topk]
-    all_rel_labels = custom_prediction[str(image_idx)]['rel_labels']
-    all_rel_scores = custom_prediction[str(image_idx)]['rel_scores']
-    all_rel_pairs = custom_prediction[str(image_idx)]['rel_pairs']
 
-    for i in range(len(box_labels)):
-        box_labels[i] = ind_to_classes[box_labels[i]]
+    for image_idx in custom_prediction.keys():
+        box_labels = custom_prediction[str(image_idx)]['bbox_labels'][:box_topk]
+        all_rel_labels = custom_prediction[str(image_idx)]['rel_labels']
+        all_rel_scores = custom_prediction[str(image_idx)]['rel_scores']
+        all_rel_pairs = custom_prediction[str(image_idx)]['rel_pairs']
 
-    rel_labels = []
-    rel_scores = []
-    for i in range(len(all_rel_pairs)):
-        if all_rel_pairs[i][0] < box_topk and all_rel_pairs[i][1] < box_topk:
-            rel_scores.append(all_rel_scores[i])
-            label = (all_rel_pairs[i][0], box_labels[all_rel_pairs[i][0]], all_rel_pairs[i][1], box_labels[all_rel_pairs[i][1]],  ind_to_predicates[all_rel_labels[i]], all_rel_scores[i])
-            rel_labels.append(label)
+        for i in range(len(box_labels)):
+            box_labels[i] = ind_to_classes[box_labels[i]]
 
-    rel_labels = rel_labels[:rel_topk]
-    rel_labels = rel_labels[:rel_topk]
-    constants = {lab[1] for lab in rel_labels}.union({lab[3] for lab in rel_labels})
-    variables = {str(lab[0]) + "_" + lab[1] for lab in rel_labels}.union({ str(lab[2]) + "_" + lab[3] for lab in rel_labels})
-    var_const_map = {**{str(lab[0]) + "_" + lab[1] : lab[1] for lab in rel_labels}, **{ str(lab[2]) + "_" + lab[3] : lab[3] for lab in rel_labels}}
-    relations = dict()
-    for xi, x, yi, y, r, s in rel_labels:
-        if r not in relations:
-            relations[r] = [(str(xi) + "_" + x, str(yi) + "_" + y)]
-        else:
-            relations[r].append((str(xi) + "_" + x, str(yi) + "_" + y))
+        rel_labels = []
+        rel_scores = []
+        for i in range(len(all_rel_pairs)):
+            if all_rel_pairs[i][0] < box_topk and all_rel_pairs[i][1] < box_topk:
+                rel_scores.append(all_rel_scores[i])
+                label = (all_rel_pairs[i][0], box_labels[all_rel_pairs[i][0]], all_rel_pairs[i][1], box_labels[all_rel_pairs[i][1]],  ind_to_predicates[all_rel_labels[i]], all_rel_scores[i])
+                rel_labels.append(label)
 
-    relation_signatures = relations.copy()
+        rel_labels = rel_labels[:rel_topk]
+        rel_labels = rel_labels[:rel_topk]
+        constants = {lab[1] for lab in rel_labels}.union({lab[3] for lab in rel_labels})
+        variables = {str(lab[0]) + "_" + lab[1] for lab in rel_labels}.union({ str(lab[2]) + "_" + lab[3] for lab in rel_labels})
+        var_const_map = {**{str(lab[0]) + "_" + lab[1] : lab[1] for lab in rel_labels}, **{ str(lab[2]) + "_" + lab[3] : lab[3] for lab in rel_labels}}
+        relations = dict()
+        for xi, x, yi, y, r, s in rel_labels:
+            if r not in relations:
+                relations[r] = [(str(xi) + "_" + x, str(yi) + "_" + y)]
+            else:
+                relations[r].append((str(xi) + "_" + x, str(yi) + "_" + y))
 
-    for key in relation_signatures.keys():
-        relation_signatures[key] = "(object, object)"
+        relation_signatures = relations.copy()
 
-    relation_signatures['has label'] = "(object, label)"
+        for key in relation_signatures.keys():
+            relation_signatures[key] = "(object, object)"
 
-    relations['has label'] = [list(item) for item in var_const_map.items()]
-    fo_model = {
-        'sorts': ['object', 'label'],
-        'predicates': relation_signatures,
-        'elements': {'object' : list(variables), 'label' : list(constants)},
-        'interpretation': relations,
-        'raw' : rel_labels
-    }
+        relation_signatures['has label'] = "(object, label)"
+
+        relations['has label'] = [list(item) for item in var_const_map.items()]
+        fo_model = {
+            'sorts': ['object', 'label'],
+            'predicates': relation_signatures,
+            'elements': {'object' : list(variables), 'label' : list(constants)},
+            'interpretation': relations,
+            'raw' : rel_labels
+        }
+        with open(fo_output_dir, 'w') as f:
+            json.dump(fo_model, f)
+
 
     return fo_model
 
