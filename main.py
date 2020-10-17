@@ -33,7 +33,7 @@ for vdp_config_json in glob.glob("./config/*"):
                         dry=dry)
         os.chdir("./..")
 
-    if 'fo_config' in vdp_params:
+    if 'fo_config' in vdp_params and not dry:
         fo_params = vdp_params['fo_config']
         for batch_dir in ['train', 'test']:
             sg_input_dir = fo_params['input_dir'] + f"/{name}/{batch_dir}"

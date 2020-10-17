@@ -5,7 +5,7 @@ if os.path.basename(parent_path) == 'vdp':
     os.chdir(parent_path)
 import vdp
 
-dry=True
+dry=False
 
 for vdp_config_json in glob.glob("./test_config.json"):
     print("running:", vdp_config_json)
