@@ -1,0 +1,15 @@
+{
+    "name"  : "catontv_ab-1.22.1c",
+    "train" : ["./data/raw/catontv_ab-1.22.1c/train_a.jpg",
+        "./data/raw/catontv_ab-1.22.1c/train_b.jpg"],
+    "test"  : ["./data/raw/catontv_ab-1.22.1c/test_1.2.jpg",
+        "./data/raw/catontv_ab-1.22.1c/test_2.1.jpg",
+        "./data/raw/catontv_ab-1.22.1c/test_c.jpg"],
+    "fo_config" : {
+        "input_dir" : "./data/sg_processed",
+        "output_dir" : "./data/fo_models",
+        "rel_topk" : 20,
+        "box_topk" : 20
+    }
+}
+
