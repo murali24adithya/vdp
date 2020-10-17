@@ -13,5 +13,4 @@
 #
 # End of embedded SBATCH options
 #
-conda activate vdp
 python main.py
