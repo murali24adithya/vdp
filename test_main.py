@@ -44,9 +44,9 @@ for vdp_config_json in glob.glob("./test_config.json"):
             os.makedirs(fo_output_dir, exist_ok=True)
             fo_models = vdp.utils.get_sgg_fo_models(sg_input_dir, box_topk=fo_params['box_topk'], rel_topk=fo_params['rel_topk'], raw_img_dir=os.path.dirname(test_imgs[0]))
 
-            for loc, model in fo_models:
-                print(loc)
-                # with open(loc, 'w') as fp:
-                #     json.dump(model, fp)
+            for img_path, fo_model in fo_models:
+                output_json = f"{fo_output_dir}/{os.path.basename(img_path).replace('.jpg', '_model.json')}"
+                with open(output_json, 'w') as fp:
+                    json.dump(fo_model, fp)
 
     print("Done!")

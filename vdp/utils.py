@@ -129,7 +129,7 @@ def _clean_image_paths(img_list, raw_directory="./data/raw/"):
         anon: list
             corrected list of image paths.
     """
-    return [raw_directory + os.path.basename(img_path) for img_path in img_list]
+    return [raw_directory + "/" + os.path.basename(img_path) for img_path in img_list]
 
 def get_sgg_fo_models(sg_input_dir, box_topk = 20, rel_topk = 20, raw_img_dir = "./data/raw/"):
     custom_prediction = json.load(open(f'{sg_input_dir}/custom_prediction.json'))
