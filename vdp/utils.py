@@ -1,12 +1,8 @@
 import os
 import shutil
 import json
-
-def conf(config_path):
-    with open(config_path) as f:
-        return json.load(f)
     
-def make_set(params):
+def make_sets(params):
     """
     Inputs: 
     vdp_params: dict
@@ -44,13 +40,65 @@ def make_set(params):
             json.dump(params, fp)  
     return normalized_name
     
-def construct_fo(sg_input_dir, fo_output_dir, box_topk = 20, rel_topk = 20):
+
+
+def _construct_normalized_model(rel_labels):
+    constants = {lab[1] for lab in rel_labels}.union({lab[3] for lab in rel_labels})
+    scores = [lab[5] for lab in rel_labels]
+    variables = {str(lab[0]) + "_" + lab[1] for lab in rel_labels}.union({ str(lab[2]) + "_" + lab[3] for lab in rel_labels})
+    var_const_map = {**{str(lab[0]) + "_" + lab[1] : lab[1] for lab in rel_labels}, **{ str(lab[2]) + "_" + lab[3] : lab[3] for lab in rel_labels}}
+    relations = dict()
+    for xi, x, yi, y, r, s in rel_labels:
+        if r not in relations:
+            relations[r] = [(str(xi) + "_" + x, str(yi) + "_" + y)]
+        else:
+            relations[r].append((str(xi) + "_" + x, str(yi) + "_" + y))
+
+    relation_signatures = relations.copy()
+
+    for key in relation_signatures.keys():
+        relation_signatures[key] = "(object, object)"
+
+    relation_signatures['has label'] = "(object, label)"
+    relation_signatures['has score'] = "(object, object, score)"
+
+    relations['has label'] = [tuple(item) for item in var_const_map.items()]
+    relations['has score'] = [(str(xi) + "_" + x, str(yi) + "_" + y, s)  for xi, x, yi, y, r, s in rel_labels]
+    fo_model = {
+        'sorts': ['object', 'label', 'scores'],
+        'predicates': relation_signatures,
+        'elements': {'object' : list(variables), 'label' : list(constants), 'scores' : list(scores)},
+        'interpretation': relations,
+        'raw' : rel_labels
+    }
+    return fo_model
+
+def _clean_image_paths(img_list, raw_directory="./data/raw/"):
+    """
+    A helped function that corrects the image locations stored by the scene graph generator.
+
+    Inputs:
+        img_list: list
+            This is the image list stored inside custom_data_info['idx_to_files']
+        raw_directory: str
+            The folder contaning the 'correct' image
+
+    Outputs:
+        anon: list
+            corrected list of image paths.
+    """
+    return [raw_directory + os.path.basename(img_path) for img_path in img_list]
+
+def get_sgg_fo_models(sg_input_dir, box_topk = 20, rel_topk = 20, raw_img_dir = "./data/raw/"):
     custom_prediction = json.load(open(f'{sg_input_dir}/custom_prediction.json'))
     custom_data_info = json.load(open(f'{sg_input_dir}/custom_data_info.json'))
+    image_paths = _clean_image_paths(custom_data_info['idx_to_files'], raw_directory=raw_img_dir)
     ind_to_classes = custom_data_info['ind_to_classes']
     ind_to_predicates = custom_data_info['ind_to_predicates']
 
+    fo_models = list()
     for image_idx in custom_prediction.keys():
+        img_path = image_paths[image_idx]
         box_labels = custom_prediction[str(image_idx)]['bbox_labels'][:box_topk]
         all_rel_labels = custom_prediction[str(image_idx)]['rel_labels']
         all_rel_scores = custom_prediction[str(image_idx)]['rel_scores']
@@ -60,45 +108,17 @@ def construct_fo(sg_input_dir, fo_output_dir, box_topk = 20, rel_topk = 20):
             box_labels[i] = ind_to_classes[box_labels[i]]
 
         rel_labels = []
-        rel_scores = []
         for i in range(len(all_rel_pairs)):
             if all_rel_pairs[i][0] < box_topk and all_rel_pairs[i][1] < box_topk:
-                rel_scores.append(all_rel_scores[i])
                 label = (all_rel_pairs[i][0], box_labels[all_rel_pairs[i][0]], all_rel_pairs[i][1], box_labels[all_rel_pairs[i][1]],  ind_to_predicates[all_rel_labels[i]], all_rel_scores[i])
                 rel_labels.append(label)
 
         rel_labels = rel_labels[:rel_topk]
-        rel_labels = rel_labels[:rel_topk]
-        constants = {lab[1] for lab in rel_labels}.union({lab[3] for lab in rel_labels})
-        variables = {str(lab[0]) + "_" + lab[1] for lab in rel_labels}.union({ str(lab[2]) + "_" + lab[3] for lab in rel_labels})
-        var_const_map = {**{str(lab[0]) + "_" + lab[1] : lab[1] for lab in rel_labels}, **{ str(lab[2]) + "_" + lab[3] : lab[3] for lab in rel_labels}}
-        relations = dict()
-        for xi, x, yi, y, r, s in rel_labels:
-            if r not in relations:
-                relations[r] = [(str(xi) + "_" + x, str(yi) + "_" + y)]
-            else:
-                relations[r].append((str(xi) + "_" + x, str(yi) + "_" + y))
 
-        relation_signatures = relations.copy()
+        fo_model = _construct_normalized_model(rel_labels)
+        fo_models.append((img_path, fo_model))
 
-        for key in relation_signatures.keys():
-            relation_signatures[key] = "(object, object)"
-
-        relation_signatures['has label'] = "(object, label)"
-
-        relations['has label'] = [list(item) for item in var_const_map.items()]
-        fo_model = {
-            'sorts': ['object', 'label'],
-            'predicates': relation_signatures,
-            'elements': {'object' : list(variables), 'label' : list(constants)},
-            'interpretation': relations,
-            'raw' : rel_labels
-        }
-        with open(fo_output_dir, 'w') as f:
-            json.dump(fo_model, f)
-
-
-    return fo_model
+    return fo_models
 
 
 def run_sg(input_path, output_path, glove_path, model_path, log_path, sg_tools_rel_path="tools/relation_test_net.py", sg_config_path="configs/e2e_relation_X_101_32_8_FPN_1x.yaml", cuda_device_port=0, n_proc=1, dry=True):

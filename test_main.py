@@ -4,14 +4,18 @@ parent_path = os.path.abspath("./../")
 if os.path.basename(parent_path) == 'vdp':
     os.chdir(parent_path)
 import vdp
+import json
 
-dry=False
+dry=True
 
 for vdp_config_json in glob.glob("./test_config.json"):
     print("running:", vdp_config_json)
-    vdp_params = vdp.utils.conf(vdp_config_json)
-    vdp.utils.make_set(vdp_params)
+    with open(vdp_config_json) as f:
+        vdp_params = json.load(f)
+    vdp.utils.make_sets(vdp_params)
     name = vdp_params['name']
+    test_imgs = vdp_params['test']
+    train_imgs = vdp_params['train']
 
     if 'sg_config' in vdp_params:
         sg_params = vdp_params['sg_config']
@@ -39,6 +43,10 @@ for vdp_config_json in glob.glob("./test_config.json"):
             sg_input_dir = fo_params['input_dir'] + f"/{name}/{batch_dir}"
             fo_output_dir = fo_params['output_dir'] + f"/{name}/{batch_dir}"
             os.makedirs(fo_output_dir, exist_ok=True)
-            vdp.utils.construct_fo(sg_input_dir, fo_output_dir, box_topk=fo_params['box_topk'], rel_topk=fo_params['rel_topk'])
+            fo_models = vdp.utils.get_sgg_fo_models(sg_input_dir, box_topk=fo_params['box_topk'], rel_topk=fo_params['rel_topk'], raw_img_dir=os.path.dirname(test_imgs[0]))
+
+            for loc, model in fo_models:
+                with open(loc, 'w') as fp:
+                    json.dump(model, fp)
 
     print("Done!")
