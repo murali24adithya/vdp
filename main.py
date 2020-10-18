@@ -6,7 +6,7 @@ if os.path.basename(parent_path) == 'vdp':
 import vdp
 import json
 
-dry=True
+dry=False
 
 for vdp_config_json in glob.glob("./config/*"):
     print("running:", vdp_config_json)
@@ -36,7 +36,7 @@ for vdp_config_json in glob.glob("./config/*"):
                     dry=dry)
         os.chdir("./..")
 
-    if 'fo_config' in vdp_params and not dry:
+    if 'fo_config' in vdp_params:
         fo_params = vdp_params['fo_config']
         for batch_dir in ['train', 'test']:
             sg_input_dir = fo_params['input_dir'] + f"/{name}/{batch_dir}"
@@ -44,8 +44,9 @@ for vdp_config_json in glob.glob("./config/*"):
             os.makedirs(fo_output_dir, exist_ok=True)
             fo_models = vdp.utils.get_sgg_fo_models(sg_input_dir, box_topk=fo_params['box_topk'], rel_topk=fo_params['rel_topk'], raw_img_dir=os.path.dirname(test_imgs[0]))
 
-            for loc, model in fo_models:
-                with open(loc, 'w') as fp:
-                    json.dump(model, fp)
+            for img_path, fo_model in fo_models:
+                output_json = f"{fo_output_dir}/{os.path.basename(img_path).replace('.jpg', '_model.json')}"
+                with open(output_json, 'w') as fp:
+                    json.dump(fo_model, fp)
 
     print("Done!")
