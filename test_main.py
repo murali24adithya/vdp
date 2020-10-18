@@ -21,23 +21,22 @@ for vdp_config_json in glob.glob("./test_config.json"):
         sg_params = vdp_params['sg_config']
         sg_output_dir = sg_params['output_dir']
         os.chdir("./sg")
-        os.makedirs(sg_output_dir + f"/{name}/train", exist_ok=True)
-        os.makedirs(sg_output_dir + f"/{name}/test", exist_ok=True)
 
         for batch_dir in ['train', 'test']:
-                vdp.utils.run_sg(input_path=f"./../data/interim/{name}/{batch_dir}",
-                        output_path=f"{sg_output_dir}/{name}/{batch_dir}",
-                        glove_path=f"{sg_params['glove_path']}",
-                        model_path=f"{sg_params['model_path']}",
-                        log_path=f"{sg_output_dir}/{name}/{batch_dir}/run.log",
-                        sg_tools_rel_path=sg_params['sg_tools_rel_path'],
-                        sg_config_path=sg_params['sg_config_path'],
-                        cuda_device_port=sg_params['cuda_device_port'],
-                        n_proc=sg_params['n_proc'],
-                        dry=dry)
+            os.makedirs(sg_output_dir + f"/{name}/{batch_dir}", exist_ok=True)
+            vdp.utils.run_sg(input_path=f"./../data/interim/{name}/{batch_dir}",
+                    output_path=f"{sg_output_dir}/{name}/{batch_dir}",
+                    glove_path=f"{sg_params['glove_path']}",
+                    model_path=f"{sg_params['model_path']}",
+                    log_path=f"{sg_output_dir}/{name}/{batch_dir}/run.log",
+                    sg_tools_rel_path=sg_params['sg_tools_rel_path'],
+                    sg_config_path=sg_params['sg_config_path'],
+                    cuda_device_port=sg_params['cuda_device_port'],
+                    n_proc=sg_params['n_proc'],
+                    dry=dry)
         os.chdir("./..")
 
-    if 'fo_config' in vdp_params:
+    if 'fo_config' in vdp_params and not dry:
         fo_params = vdp_params['fo_config']
         for batch_dir in ['train', 'test']:
             sg_input_dir = fo_params['input_dir'] + f"/{name}/{batch_dir}"
