@@ -1,5 +1,5 @@
-2020-10-18 02:45:19,237 maskrcnn_benchmark INFO: Using 1 GPUs
-2020-10-18 02:45:19,237 maskrcnn_benchmark INFO: AMP_VERBOSE: False
+2020-10-18 04:49:46,081 maskrcnn_benchmark INFO: Using 1 GPUs
+2020-10-18 04:49:46,081 maskrcnn_benchmark INFO: AMP_VERBOSE: False
 DATALOADER:
   ASPECT_RATIO_GROUPING: True
   NUM_WORKERS: 4
@@ -271,8 +271,8 @@ TEST:
     REQUIRE_OVERLAP: False
     SYNC_GATHER: True
   SAVE_PROPOSALS: False
-2020-10-18 02:45:19,241 maskrcnn_benchmark INFO: Collecting env info (might take some time)
-2020-10-18 02:45:28,071 maskrcnn_benchmark INFO: 
+2020-10-18 04:49:46,085 maskrcnn_benchmark INFO: Collecting env info (might take some time)
+2020-10-18 04:49:54,655 maskrcnn_benchmark INFO: 
 PyTorch version: 1.4.0
 Is debug build: No
 CUDA used to build PyTorch: 10.0
@@ -300,19 +300,19 @@ Versions of relevant libraries:
 [conda] pytorch                   1.4.0           py3.8_cuda10.0.130_cudnn7.6.3_0    pytorch
 [conda] torchvision               0.5.0                py38_cu100    pytorch
         Pillow (7.2.0)
-2020-10-18 02:45:31,613 maskrcnn_benchmark.data.build INFO: ----------------------------------------------------------------------------------------------------
-2020-10-18 02:45:31,613 maskrcnn_benchmark.data.build INFO: get dataset statistics...
-2020-10-18 02:45:31,614 maskrcnn_benchmark.data.build INFO: Loading data statistics from: ./../../checkpoints/model/VG_stanford_filtered_with_attribute_train_statistics.cache
-2020-10-18 02:45:31,614 maskrcnn_benchmark.data.build INFO: ----------------------------------------------------------------------------------------------------
+2020-10-18 04:49:58,447 maskrcnn_benchmark.data.build INFO: ----------------------------------------------------------------------------------------------------
+2020-10-18 04:49:58,447 maskrcnn_benchmark.data.build INFO: get dataset statistics...
+2020-10-18 04:49:58,448 maskrcnn_benchmark.data.build INFO: Loading data statistics from: ./../../checkpoints/model/VG_stanford_filtered_with_attribute_train_statistics.cache
+2020-10-18 04:49:58,448 maskrcnn_benchmark.data.build INFO: ----------------------------------------------------------------------------------------------------
 loading word vectors from ./../../checkpoints/glove/glove.6B.200d.pt
 __background__ -> __background__ 
 fail on __background__
 loading word vectors from ./../../checkpoints/glove/glove.6B.200d.pt
 __background__ -> __background__ 
 fail on __background__
-2020-10-18 02:45:34,374 maskrcnn_benchmark.utils.checkpoint INFO: Loading checkpoint from /home/atharva2/scratch/checkpoints/model/model_0028000.pth
+2020-10-18 04:50:01,125 maskrcnn_benchmark.utils.checkpoint INFO: Loading checkpoint from /home/atharva2/scratch/checkpoints/model/model_0028000.pth
 =====> ./../data/sg_processed/catontv_ab-1.22.1c/test/custom_data_info.json SAVED !
-2020-10-18 02:45:35,738 maskrcnn_benchmark.inference INFO: Start evaluation on VG_stanford_filtered_with_attribute_test dataset(3 images).
-2020-10-18 02:45:44,600 maskrcnn_benchmark.inference INFO: Total run time: 0:00:08.861684 (2.95389453570048 s / img per device, on 1 devices)
-2020-10-18 02:45:44,600 maskrcnn_benchmark.inference INFO: Model inference time: 0:00:08.046063 (2.682020902633667 s / img per device, on 1 devices)
+2020-10-18 04:50:02,372 maskrcnn_benchmark.inference INFO: Start evaluation on VG_stanford_filtered_with_attribute_test dataset(3 images).
+2020-10-18 04:50:11,441 maskrcnn_benchmark.inference INFO: Total run time: 0:00:09.069427 (3.023142417271932 s / img per device, on 1 devices)
+2020-10-18 04:50:11,441 maskrcnn_benchmark.inference INFO: Model inference time: 0:00:08.270732 (2.756910721460978 s / img per device, on 1 devices)
 =====> ./../data/sg_processed/catontv_ab-1.22.1c/test/custom_prediction.json SAVED !
