@@ -1,0 +1,7 @@
+This folder contains all the puzzles that were subjects for the tool reported in the paper.
+The first level of directories denotes the groups in the paper.
+The second level of directories contain each puzzle. 
+In each such directory, you will find the training images as train*.jpg files and the candidate images as test*.jpg files.
+
+The raw output of our tool can be found in the smt/ subdirectories in the results* files. 
+Note that the concepts reported include unfiltered concepts (these, as described in the paper, are ignored) as well as output discriminators. 

@@ -1,6 +1,48 @@
 import os
 import shutil
 import json
+import re
+rx_dict = {
+    'start' : re.compile(r"Enter Image Path: .+\/(?P<name>[^/]+).jpg: Predicted in \d*\.?\d* seconds.\n"),
+    'obj' : re.compile(r"(?P<obj>\w+): (?P<score>\d+)%\n"),
+    'bb' : re.compile(r"Bounding Box: Left=(?P<left>\d+), Top=(?P<top>\d+), Right=(?P<right>\d+), Bottom=(?P<bottom>\d+)")
+}
+
+
+def _parse_line(line):
+    for key, rx in rx_dict.items():
+        match = rx.search(line)
+        if match:
+            return (key, match)
+    return (None, None)
+
+
+def _parse_file(file_path):
+    data = list()
+    
+    with open(file_path, 'r') as fp:
+        line = fp.readline()
+        while 'Predicted' in line:
+            key, match = _parse_line(line)
+            name = match.group('name')
+            img_line = fp.readline()
+            img_data = dict()
+            objs = list()
+            while img_line and 'Predicted' not in img_line:       
+                key, match = _parse_line(img_line)
+                if key == 'obj':
+                    objs.append((match.group('obj'), float(match.group('score'))))
+
+                if key == 'bb':
+                    bb = (match.group('left'), match.group('top'), match.group('bottom'), match.group('right'))
+                    img_data = {**img_data, **{obj : {'score' : score, 'bb' : bb} for obj, score in objs}}
+                    objs = list()
+                
+                img_line = fp.readline()
+            
+            data.append((name, img_data))
+            line = img_line
+    return data
     
 def make_sets(params):
     """
@@ -98,7 +140,7 @@ def get_sgg_fo_models(sg_input_dir, box_topk = 20, rel_topk = 20, raw_img_dir = 
 
     fo_models = list()
     for image_idx in custom_prediction.keys():
-        img_path = image_paths[image_idx]
+        img_path = image_paths[int(image_idx)]
         box_labels = custom_prediction[str(image_idx)]['bbox_labels'][:box_topk]
         all_rel_labels = custom_prediction[str(image_idx)]['rel_labels']
         all_rel_scores = custom_prediction[str(image_idx)]['rel_scores']
@@ -120,6 +162,34 @@ def get_sgg_fo_models(sg_input_dir, box_topk = 20, rel_topk = 20, raw_img_dir = 
 
     return fo_models
 
+def get_yolo_fo_models(yolo_input_dir):
+    print(yolo_input_dir)
+    fo_models = list()
+    dir_prefix = yolo_input_dir + f"/{os.path.basename(yolo_input_dir)}"
+    train_path = dir_prefix + "_train_out.txt"
+    test_path = dir_prefix + "_test_out.txt"
+    data = [*_parse_file(train_path), *_parse_file(test_path)]
+    
+    centroid = lambda bb : ((int(bb[0]) + int(bb[2])) / 2, (int(bb[1]) + int(bb[3])) / 2)
+    # dist = lambda c1, c2 : ((c1[0] - c2[0])**2 + (c1[1] - c2[1])**2)**0.5
+    relate = lambda c1, c2 : ["right" if c1[0] >= c2[0] else "left", "above" if c1[1] >= c2[1] else "below"]
+
+    for img_name, img_data in data:
+        batch = img_name.split("_")[0]
+        os.makedirs(f"{dir_prefix}/{batch}", exist_ok=True)
+        rel_labels = list()
+        for obj1, obj_data1 in img_data.items():
+            for obj2, obj_data2 in img_data.items():
+                if obj1 != obj2:
+                    c1 = centroid(obj_data1['bb'])
+                    c2 = centroid(obj_data2['bb'])
+                    rel_labels.append(['obj', obj1, 'obj', obj2, "_".join(relate(c1, c2)), obj_data1['score'] * obj_data2['score'] * 1e-4])
+
+        fo_model = _construct_normalized_model(rel_labels)
+        img_path =  yolo_input_dir + f"/{img_name}.jpg"
+        fo_models.append((img_path, fo_model))
+    
+    return fo_models
 
 def run_sg(input_path, output_path, glove_path, model_path, log_path, sg_tools_rel_path="tools/relation_test_net.py", sg_config_path="configs/e2e_relation_X_101_32_8_FPN_1x.yaml", cuda_device_port=0, n_proc=1, dry=True):
     """
