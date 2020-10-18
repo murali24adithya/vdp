@@ -1,9 +1,9 @@
 #!/bin/bash
 #
-#SBATCH -t 01:00:00
+#SBATCH -t 00:30:00
 #SBATCH -N 1
 #SBATCH -n 16
-#SBATCH -J vdp_test_run
+#SBATCH -J vdp_run
 #SBATCH -p secondary
 #SBATCH -o batch_logs.o%j
 #SBATCH --gpus=K80:2
@@ -13,4 +13,5 @@
 #
 # End of embedded SBATCH options
 #
+source activate vdp
 python main.py
