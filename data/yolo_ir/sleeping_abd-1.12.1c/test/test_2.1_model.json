@@ -1,0 +1,1 @@
+{"sorts": ["object", "label"], "predicates": {"has label": "(object, label)"}, "elements": {"object": ["obj_bench"], "label": []}, "interpretation": {"has label": [["obj_bench", "bench"]]}, "raw": {"rel_labels": [], "var_const_map": {"obj_bench": "bench"}, "scores": []}}

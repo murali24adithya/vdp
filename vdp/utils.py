@@ -84,11 +84,13 @@ def make_sets(params):
     
 
 
-def _construct_normalized_model(rel_labels):
+def _construct_normalized_model(rel_labels, var_const_map=None):
+    if not var_const_map:
+        var_const_map = {**{str(lab[0]) + "_" + lab[1] : lab[1] for lab in rel_labels}, **{ str(lab[2]) + "_" + lab[3] : lab[3] for lab in rel_labels}}
     constants = {lab[1] for lab in rel_labels}.union({lab[3] for lab in rel_labels})
     scores = [lab[5] for lab in rel_labels]
-    variables = {str(lab[0]) + "_" + lab[1] for lab in rel_labels}.union({ str(lab[2]) + "_" + lab[3] for lab in rel_labels})
-    var_const_map = {**{str(lab[0]) + "_" + lab[1] : lab[1] for lab in rel_labels}, **{ str(lab[2]) + "_" + lab[3] : lab[3] for lab in rel_labels}}
+    rel_scores = [(str(xi) + "_" + x, str(yi) + "_" + y, s)  for xi, x, yi, y, r, s in rel_labels]
+    variables = set(var_const_map.keys())
     relations = dict()
     for xi, x, yi, y, r, s in rel_labels:
         if r not in relations:
@@ -102,16 +104,18 @@ def _construct_normalized_model(rel_labels):
         relation_signatures[key] = "(object, object)"
 
     relation_signatures['has label'] = "(object, label)"
-    relation_signatures['has score'] = "(object, object, score)"
-
     relations['has label'] = [tuple(item) for item in var_const_map.items()]
-    relations['has score'] = [(str(xi) + "_" + x, str(yi) + "_" + y, s)  for xi, x, yi, y, r, s in rel_labels]
+
     fo_model = {
-        'sorts': ['object', 'label', 'scores'],
+        'sorts': ['object', 'label'],
         'predicates': relation_signatures,
-        'elements': {'object' : list(variables), 'label' : list(constants), 'scores' : list(scores)},
+        'elements': {'object' : list(variables), 'label' : list(constants)},
         'interpretation': relations,
-        'raw' : rel_labels
+        'raw' : {
+            'rel_labels' : rel_labels,
+            'var_const_map' : var_const_map,
+            'scores' : rel_scores,
+        }
     }
     return fo_model
 
@@ -151,8 +155,9 @@ def get_sgg_fo_models(sg_input_dir, box_topk = 20, rel_topk = 20, raw_img_dir = 
 
         rel_labels = []
         for i in range(len(all_rel_pairs)):
-            if all_rel_pairs[i][0] < box_topk and all_rel_pairs[i][1] < box_topk:
-                label = (all_rel_pairs[i][0], box_labels[all_rel_pairs[i][0]], all_rel_pairs[i][1], box_labels[all_rel_pairs[i][1]],  ind_to_predicates[all_rel_labels[i]], all_rel_scores[i])
+            idx1, idx2 = all_rel_pairs[i]
+            if idx1 < box_topk and idx2 < box_topk:
+                label = (idx1, box_labels[idx1], idx2, box_labels[idx2], ind_to_predicates[all_rel_labels[i]], str(all_rel_scores[i]))
                 rel_labels.append(label)
 
         rel_labels = rel_labels[:rel_topk]
@@ -163,7 +168,6 @@ def get_sgg_fo_models(sg_input_dir, box_topk = 20, rel_topk = 20, raw_img_dir = 
     return fo_models
 
 def get_yolo_fo_models(yolo_input_dir):
-    print(yolo_input_dir)
     fo_models = list()
     dir_prefix = yolo_input_dir + f"/{os.path.basename(yolo_input_dir)}"
     train_path = dir_prefix + "_train_out.txt"
@@ -178,14 +182,18 @@ def get_yolo_fo_models(yolo_input_dir):
         batch = img_name.split("_")[0]
         os.makedirs(f"{dir_prefix}/{batch}", exist_ok=True)
         rel_labels = list()
+        var_const_map = dict()
         for obj1, obj_data1 in img_data.items():
             for obj2, obj_data2 in img_data.items():
                 if obj1 != obj2:
                     c1 = centroid(obj_data1['bb'])
                     c2 = centroid(obj_data2['bb'])
-                    rel_labels.append(['obj', obj1, 'obj', obj2, "_".join(relate(c1, c2)), obj_data1['score'] * obj_data2['score'] * 1e-4])
+                    score = obj_data1['score'] * obj_data2['score'] * 1e-4
+                    relation = relate(c1, c2)
+                    rel_labels.append(['obj', obj1, 'obj', obj2, "_".join(relation), str(score)])
+            var_const_map['obj_' + obj1] = obj1
 
-        fo_model = _construct_normalized_model(rel_labels)
+        fo_model = _construct_normalized_model(rel_labels, var_const_map)
         img_path =  yolo_input_dir + f"/{img_name}.jpg"
         fo_models.append((img_path, fo_model))
     

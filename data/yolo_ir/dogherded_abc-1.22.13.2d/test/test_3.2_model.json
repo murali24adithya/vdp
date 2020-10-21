@@ -1,0 +1,1 @@
+{"sorts": ["object", "label"], "predicates": {"has label": "(object, label)"}, "elements": {"object": ["obj_sheep"], "label": []}, "interpretation": {"has label": [["obj_sheep", "sheep"]]}, "raw": {"rel_labels": [], "var_const_map": {"obj_sheep": "sheep"}, "scores": []}}
