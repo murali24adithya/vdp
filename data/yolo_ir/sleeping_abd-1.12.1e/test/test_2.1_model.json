@@ -1,1 +1,1 @@
-{"sorts": ["object", "label"], "predicates": {"has label": "(object, label)"}, "elements": {"object": ["obj_bench"], "label": []}, "interpretation": {"has label": [["obj_bench", "bench"]]}, "raw": {"rel_labels": [], "var_const_map": {"obj_bench": "bench"}, "scores": []}}
+{"sorts": ["object", "label"], "predicates": {"has_label": "(object, label)"}, "elements": {"object": ["obj_bench"], "label": []}, "interpretation": {"has_label": [["obj_bench", "bench"]]}, "raw": {"rel_labels": [], "var_const_map": {"obj_bench": "bench"}, "scores": []}}

@@ -103,8 +103,8 @@ def _construct_normalized_model(rel_labels, var_const_map=None):
     for key in relation_signatures.keys():
         relation_signatures[key] = "(object, object)"
 
-    relation_signatures['has label'] = "(object, label)"
-    relations['has label'] = [tuple(item) for item in var_const_map.items()]
+    relation_signatures['has_label'] = "(object, label)"
+    relations['has_label'] = [tuple(item) for item in var_const_map.items()]
 
     fo_model = {
         'sorts': ['object', 'label'],
@@ -176,7 +176,11 @@ def get_yolo_fo_models(yolo_input_dir):
     
     centroid = lambda bb : ((int(bb[0]) + int(bb[2])) / 2, (int(bb[1]) + int(bb[3])) / 2)
     # dist = lambda c1, c2 : ((c1[0] - c2[0])**2 + (c1[1] - c2[1])**2)**0.5
-    relate = lambda c1, c2 : ["right" if c1[0] >= c2[0] else "left", "above" if c1[1] >= c2[1] else "below"]
+
+    relate = lambda c1, c2 : ["right" if c1[0] >= c2[0] else "left", "above" if c1[1] >= c2[1] else "below",]
+    is_within = lambda bb1, bb2 : (bb1[0] >= bb2[0]) and (bb1[2] <= bb2[2]) and (bb1[1] >= bb2[1]) and (bb1[3] <= bb2[3])
+
+    
 
     for img_name, img_data in data:
         batch = img_name.split("_")[0]
@@ -189,8 +193,11 @@ def get_yolo_fo_models(yolo_input_dir):
                     c1 = centroid(obj_data1['bb'])
                     c2 = centroid(obj_data2['bb'])
                     score = obj_data1['score'] * obj_data2['score'] * 1e-4
-                    relation = relate(c1, c2)
-                    rel_labels.append(['obj', obj1, 'obj', obj2, "_".join(relation), str(score)])
+                    relations = relate(c1, c2)
+                    if is_within(obj_data1['bb'], obj_data2['bb']):
+                        relations.append('within')
+                    for rel in relations:
+                        rel_labels.append(['obj', obj1, 'obj', obj2, rel, str(score)])
             var_const_map['obj_' + obj1] = obj1
 
         fo_model = _construct_normalized_model(rel_labels, var_const_map)

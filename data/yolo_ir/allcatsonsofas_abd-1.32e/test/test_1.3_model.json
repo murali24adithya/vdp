@@ -1,1 +1,1 @@
-{"sorts": ["object", "label"], "predicates": {"has label": "(object, label)"}, "elements": {"object": ["obj_cat"], "label": []}, "interpretation": {"has label": [["obj_cat", "cat"]]}, "raw": {"rel_labels": [], "var_const_map": {"obj_cat": "cat"}, "scores": []}}
+{"sorts": ["object", "label"], "predicates": {"has_label": "(object, label)"}, "elements": {"object": ["obj_cat"], "label": []}, "interpretation": {"has_label": [["obj_cat", "cat"]]}, "raw": {"rel_labels": [], "var_const_map": {"obj_cat": "cat"}, "scores": []}}
