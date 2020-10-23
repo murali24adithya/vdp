@@ -4,42 +4,54 @@
     "label"
   ],
   "predicates": {
-    "has": "(object, object)",
-    "wearing": "(object, object)",
-    "of": "(object, object)",
-    "has_label": "(object, label)"
+    "has": [
+      "object",
+      "object"
+    ],
+    "wearing": [
+      "object",
+      "object"
+    ],
+    "of": [
+      "object",
+      "object"
+    ],
+    "has_label": [
+      "object",
+      "label"
+    ]
   },
   "elements": {
     "object": [
-      "19_eye",
-      "6_nose",
-      "15_finger",
-      "3_hand",
-      "14_finger",
-      "0_man",
-      "9_head",
-      "18_arm",
-      "8_eye",
-      "4_ear",
-      "16_eye",
-      "13_neck",
       "7_shirt",
+      "9_head",
+      "19_eye",
+      "16_eye",
+      "8_eye",
+      "14_finger",
+      "18_arm",
       "10_face",
-      "11_mouth"
+      "13_neck",
+      "15_finger",
+      "11_mouth",
+      "4_ear",
+      "3_hand",
+      "6_nose",
+      "0_man"
     ],
     "label": [
-      "mouth",
       "man",
-      "arm",
-      "head",
-      "hand",
-      "face",
-      "eye",
       "nose",
+      "face",
       "finger",
-      "ear",
       "shirt",
-      "neck"
+      "head",
+      "mouth",
+      "neck",
+      "arm",
+      "ear",
+      "eye",
+      "hand"
     ]
   },
   "interpretation": {

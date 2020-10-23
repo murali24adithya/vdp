@@ -4,37 +4,55 @@
     "label"
   ],
   "predicates": {
-    "under": "(object, object)",
-    "with": "(object, object)",
-    "in": "(object, object)",
-    "has": "(object, object)",
-    "sitting on": "(object, object)",
-    "has_label": "(object, label)"
+    "under": [
+      "object",
+      "object"
+    ],
+    "with": [
+      "object",
+      "object"
+    ],
+    "in": [
+      "object",
+      "object"
+    ],
+    "has": [
+      "object",
+      "object"
+    ],
+    "sitting on": [
+      "object",
+      "object"
+    ],
+    "has_label": [
+      "object",
+      "label"
+    ]
   },
   "elements": {
     "object": [
-      "2_orange",
-      "11_leaf",
-      "10_fruit",
       "1_orange",
-      "16_fruit",
-      "13_fruit",
-      "14_light",
-      "4_table",
-      "0_orange",
-      "9_light",
       "15_orange",
-      "5_fruit",
+      "2_orange",
+      "9_light",
+      "11_leaf",
+      "0_orange",
+      "16_fruit",
       "18_light",
       "8_light",
-      "3_fruit"
+      "3_fruit",
+      "14_light",
+      "4_table",
+      "5_fruit",
+      "13_fruit",
+      "10_fruit"
     ],
     "label": [
-      "orange",
+      "table",
       "fruit",
-      "light",
+      "orange",
       "leaf",
-      "table"
+      "light"
     ]
   },
   "interpretation": {

@@ -101,9 +101,9 @@ def _construct_normalized_model(rel_labels, var_const_map=None):
     relation_signatures = relations.copy()
 
     for key in relation_signatures.keys():
-        relation_signatures[key] = "(object, object)"
+        relation_signatures[key] = ['object', 'object']
 
-    relation_signatures['has_label'] = "(object, label)"
+    relation_signatures['has_label'] = ['object', 'label']
     relations['has_label'] = [tuple(item) for item in var_const_map.items()]
 
     fo_model = {

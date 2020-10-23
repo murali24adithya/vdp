@@ -4,34 +4,49 @@
     "label"
   ],
   "predicates": {
-    "under": "(object, object)",
-    "at": "(object, object)",
-    "above": "(object, object)",
-    "sitting on": "(object, object)",
-    "has_label": "(object, label)"
+    "under": [
+      "object",
+      "object"
+    ],
+    "at": [
+      "object",
+      "object"
+    ],
+    "above": [
+      "object",
+      "object"
+    ],
+    "sitting on": [
+      "object",
+      "object"
+    ],
+    "has_label": [
+      "object",
+      "label"
+    ]
   },
   "elements": {
     "object": [
       "0_chair",
-      "14_shelf",
-      "9_chair",
-      "11_cup",
       "1_desk",
+      "11_cup",
       "17_box",
-      "6_shelf",
-      "12_book",
       "4_box",
+      "9_chair",
+      "12_book",
       "15_book",
+      "8_shelf",
       "19_shelf",
-      "8_shelf"
+      "14_shelf",
+      "6_shelf"
     ],
     "label": [
-      "shelf",
-      "book",
-      "cup",
+      "desk",
       "chair",
+      "shelf",
       "box",
-      "desk"
+      "cup",
+      "book"
     ]
   },
   "interpretation": {

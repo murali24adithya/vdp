@@ -4,41 +4,50 @@
     "label"
   ],
   "predicates": {
-    "has": "(object, object)",
-    "in": "(object, object)",
-    "has_label": "(object, label)"
+    "has": [
+      "object",
+      "object"
+    ],
+    "in": [
+      "object",
+      "object"
+    ],
+    "has_label": [
+      "object",
+      "label"
+    ]
   },
   "elements": {
     "object": [
-      "10_room",
+      "3_cat",
       "7_arm",
-      "6_seat",
-      "15_head",
-      "18_head",
       "5_leg",
+      "6_seat",
+      "0_cat",
+      "14_bed",
       "13_pillow",
       "4_chair",
-      "3_cat",
-      "0_cat",
-      "17_leg",
-      "2_tail",
-      "12_leg",
       "8_arm",
-      "14_bed",
+      "17_leg",
       "1_cat",
+      "10_room",
+      "2_tail",
+      "15_head",
+      "18_head",
+      "12_leg",
       "16_tail"
     ],
     "label": [
-      "cat",
-      "arm",
-      "head",
-      "seat",
-      "pillow",
-      "bed",
-      "tail",
       "chair",
+      "pillow",
+      "cat",
+      "room",
+      "seat",
+      "tail",
+      "bed",
+      "head",
       "leg",
-      "room"
+      "arm"
     ]
   },
   "interpretation": {

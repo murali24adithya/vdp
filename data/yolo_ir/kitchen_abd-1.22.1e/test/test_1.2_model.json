@@ -4,29 +4,47 @@
     "label"
   ],
   "predicates": {
-    "right": "(object, object)",
-    "above": "(object, object)",
-    "left": "(object, object)",
-    "below": "(object, object)",
-    "within": "(object, object)",
-    "has_label": "(object, label)"
+    "right": [
+      "object",
+      "object"
+    ],
+    "above": [
+      "object",
+      "object"
+    ],
+    "left": [
+      "object",
+      "object"
+    ],
+    "below": [
+      "object",
+      "object"
+    ],
+    "within": [
+      "object",
+      "object"
+    ],
+    "has_label": [
+      "object",
+      "label"
+    ]
   },
   "elements": {
     "object": [
-      "3_pottedplant",
       "1_laptop",
-      "5_chair",
-      "2_diningtable",
+      "3_pottedplant",
+      "0_book",
       "4_sofa",
-      "0_book"
+      "5_chair",
+      "2_diningtable"
     ],
     "label": [
-      "sofa",
-      "book",
-      "pottedplant",
+      "diningtable",
       "chair",
+      "pottedplant",
       "laptop",
-      "diningtable"
+      "sofa",
+      "book"
     ]
   },
   "interpretation": {

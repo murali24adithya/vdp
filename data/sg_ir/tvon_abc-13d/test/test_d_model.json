@@ -4,30 +4,39 @@
     "label"
   ],
   "predicates": {
-    "has": "(object, object)",
-    "wearing": "(object, object)",
-    "has_label": "(object, label)"
+    "has": [
+      "object",
+      "object"
+    ],
+    "wearing": [
+      "object",
+      "object"
+    ],
+    "has_label": [
+      "object",
+      "label"
+    ]
   },
   "elements": {
     "object": [
-      "16_shirt",
       "4_sock",
-      "15_head",
-      "0_girl",
       "6_man",
       "13_woman",
-      "2_man",
-      "10_shirt",
-      "14_shirt",
+      "16_shirt",
       "19_man",
-      "17_girl",
+      "2_man",
+      "14_shirt",
       "8_shirt",
-      "12_woman"
+      "17_girl",
+      "12_woman",
+      "15_head",
+      "0_girl",
+      "10_shirt"
     ],
     "label": [
       "woman",
-      "man",
       "head",
+      "man",
       "girl",
       "sock",
       "shirt"

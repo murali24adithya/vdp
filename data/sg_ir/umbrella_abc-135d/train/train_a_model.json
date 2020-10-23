@@ -4,37 +4,55 @@
     "label"
   ],
   "predicates": {
-    "carrying": "(object, object)",
-    "under": "(object, object)",
-    "walking on": "(object, object)",
-    "wearing": "(object, object)",
-    "watching": "(object, object)",
-    "has_label": "(object, label)"
+    "carrying": [
+      "object",
+      "object"
+    ],
+    "under": [
+      "object",
+      "object"
+    ],
+    "walking on": [
+      "object",
+      "object"
+    ],
+    "wearing": [
+      "object",
+      "object"
+    ],
+    "watching": [
+      "object",
+      "object"
+    ],
+    "has_label": [
+      "object",
+      "label"
+    ]
   },
   "elements": {
     "object": [
-      "4_bag",
-      "1_umbrella",
-      "5_pant",
-      "3_umbrella",
-      "6_woman",
       "2_woman",
-      "16_person",
-      "9_woman",
-      "14_sidewalk",
+      "6_woman",
       "15_bag",
-      "7_woman",
       "17_street",
-      "0_umbrella"
+      "5_pant",
+      "1_umbrella",
+      "16_person",
+      "14_sidewalk",
+      "7_woman",
+      "4_bag",
+      "0_umbrella",
+      "3_umbrella",
+      "9_woman"
     ],
     "label": [
-      "bag",
-      "street",
-      "woman",
-      "sidewalk",
-      "person",
       "umbrella",
-      "pant"
+      "woman",
+      "person",
+      "bag",
+      "sidewalk",
+      "pant",
+      "street"
     ]
   },
   "interpretation": {

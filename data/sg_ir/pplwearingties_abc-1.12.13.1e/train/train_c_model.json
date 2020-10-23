@@ -4,43 +4,64 @@
     "label"
   ],
   "predicates": {
-    "at": "(object, object)",
-    "holding": "(object, object)",
-    "has": "(object, object)",
-    "in": "(object, object)",
-    "wearing": "(object, object)",
-    "under": "(object, object)",
-    "has_label": "(object, label)"
+    "at": [
+      "object",
+      "object"
+    ],
+    "holding": [
+      "object",
+      "object"
+    ],
+    "has": [
+      "object",
+      "object"
+    ],
+    "in": [
+      "object",
+      "object"
+    ],
+    "wearing": [
+      "object",
+      "object"
+    ],
+    "under": [
+      "object",
+      "object"
+    ],
+    "has_label": [
+      "object",
+      "label"
+    ]
   },
   "elements": {
     "object": [
-      "12_table",
-      "18_head",
-      "0_man",
-      "10_hand",
-      "13_hand",
-      "15_shirt",
-      "19_handle",
-      "17_jacket",
-      "8_hand",
-      "11_paper",
-      "7_woman",
       "14_paper",
       "9_shirt",
+      "3_man",
+      "15_shirt",
+      "19_handle",
       "16_people",
-      "3_man"
+      "13_hand",
+      "12_table",
+      "10_hand",
+      "11_paper",
+      "7_woman",
+      "8_hand",
+      "17_jacket",
+      "18_head",
+      "0_man"
     ],
     "label": [
-      "woman",
       "man",
       "handle",
+      "jacket",
+      "shirt",
+      "woman",
       "head",
+      "table",
       "paper",
       "hand",
-      "table",
-      "jacket",
-      "people",
-      "shirt"
+      "people"
     ]
   },
   "interpretation": {

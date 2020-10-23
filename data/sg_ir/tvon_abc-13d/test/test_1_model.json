@@ -4,43 +4,58 @@
     "label"
   ],
   "predicates": {
-    "in": "(object, object)",
-    "has": "(object, object)",
-    "under": "(object, object)",
-    "above": "(object, object)",
-    "has_label": "(object, label)"
+    "in": [
+      "object",
+      "object"
+    ],
+    "has": [
+      "object",
+      "object"
+    ],
+    "under": [
+      "object",
+      "object"
+    ],
+    "above": [
+      "object",
+      "object"
+    ],
+    "has_label": [
+      "object",
+      "label"
+    ]
   },
   "elements": {
     "object": [
-      "7_room",
+      "15_handle",
       "18_plant",
       "19_phone",
-      "10_light",
-      "3_desk",
-      "15_handle",
       "1_flower",
-      "11_handle",
-      "6_wire",
       "9_flower",
+      "11_handle",
+      "3_desk",
+      "2_screen",
+      "10_light",
       "5_table",
       "13_box",
+      "6_wire",
+      "7_room",
       "16_wire",
-      "0_vase",
-      "2_screen"
+      "0_vase"
     ],
     "label": [
-      "plant",
-      "vase",
+      "wire",
+      "room",
       "handle",
-      "box",
-      "table",
       "screen",
       "phone",
-      "light",
-      "wire",
+      "box",
+      "table",
+      "vase",
       "flower",
-      "room",
-      "desk"
+      "plant",
+      "desk",
+      "light"
     ]
   },
   "interpretation": {

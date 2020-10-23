@@ -4,30 +4,45 @@
     "label"
   ],
   "predicates": {
-    "right": "(object, object)",
-    "above": "(object, object)",
-    "left": "(object, object)",
-    "below": "(object, object)",
-    "has_label": "(object, label)"
+    "right": [
+      "object",
+      "object"
+    ],
+    "above": [
+      "object",
+      "object"
+    ],
+    "left": [
+      "object",
+      "object"
+    ],
+    "below": [
+      "object",
+      "object"
+    ],
+    "has_label": [
+      "object",
+      "label"
+    ]
   },
   "elements": {
     "object": [
-      "3_bowl",
-      "2_oven",
       "1_sink",
-      "4_cup",
       "5_spoon",
+      "4_cup",
+      "3_bowl",
       "0_refrigerator",
-      "6_bottle"
+      "6_bottle",
+      "2_oven"
     ],
     "label": [
-      "bowl",
-      "cup",
-      "refrigerator",
-      "spoon",
       "sink",
       "bottle",
-      "oven"
+      "oven",
+      "refrigerator",
+      "bowl",
+      "cup",
+      "spoon"
     ]
   },
   "interpretation": {

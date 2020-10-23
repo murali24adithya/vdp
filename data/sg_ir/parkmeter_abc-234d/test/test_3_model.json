@@ -4,32 +4,44 @@
     "label"
   ],
   "predicates": {
-    "in front of": "(object, object)",
-    "parked on": "(object, object)",
-    "behind": "(object, object)",
-    "has_label": "(object, label)"
+    "in front of": [
+      "object",
+      "object"
+    ],
+    "parked on": [
+      "object",
+      "object"
+    ],
+    "behind": [
+      "object",
+      "object"
+    ],
+    "has_label": [
+      "object",
+      "label"
+    ]
   },
   "elements": {
     "object": [
-      "3_house",
-      "0_car",
+      "17_house",
+      "12_pole",
+      "7_street",
+      "1_tree",
+      "10_tree",
       "15_pole",
       "16_building",
+      "3_house",
+      "0_car",
       "11_house",
-      "12_pole",
-      "1_tree",
-      "17_house",
-      "13_pole",
-      "10_tree",
-      "7_street"
+      "13_pole"
     ],
     "label": [
-      "street",
-      "pole",
-      "building",
       "tree",
+      "house",
+      "building",
       "car",
-      "house"
+      "pole",
+      "street"
     ]
   },
   "interpretation": {

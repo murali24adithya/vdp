@@ -4,48 +4,69 @@
     "label"
   ],
   "predicates": {
-    "in": "(object, object)",
-    "behind": "(object, object)",
-    "has": "(object, object)",
-    "at": "(object, object)",
-    "above": "(object, object)",
-    "looking at": "(object, object)",
-    "has_label": "(object, label)"
+    "in": [
+      "object",
+      "object"
+    ],
+    "behind": [
+      "object",
+      "object"
+    ],
+    "has": [
+      "object",
+      "object"
+    ],
+    "at": [
+      "object",
+      "object"
+    ],
+    "above": [
+      "object",
+      "object"
+    ],
+    "looking at": [
+      "object",
+      "object"
+    ],
+    "has_label": [
+      "object",
+      "label"
+    ]
   },
   "elements": {
     "object": [
-      "18_box",
       "2_laptop",
-      "7_shelf",
-      "12_shelf",
-      "17_chair",
-      "9_window",
-      "4_stand",
       "14_table",
-      "10_bottle",
       "0_cat",
-      "5_table",
-      "13_head",
-      "19_bottle",
-      "15_window",
+      "16_book",
+      "7_shelf",
+      "10_bottle",
       "1_dog",
+      "5_table",
+      "4_stand",
+      "13_head",
       "11_room",
-      "16_book"
+      "19_bottle",
+      "12_shelf",
+      "15_window",
+      "9_window",
+      "18_box",
+      "17_chair"
     ],
     "label": [
-      "cat",
-      "bottle",
-      "stand",
-      "laptop",
-      "head",
-      "table",
-      "shelf",
-      "dog",
-      "book",
       "chair",
+      "dog",
+      "cat",
       "room",
+      "stand",
       "box",
-      "window"
+      "table",
+      "head",
+      "bottle",
+      "shelf",
+      "laptop",
+      "window",
+      "book"
     ]
   },
   "interpretation": {

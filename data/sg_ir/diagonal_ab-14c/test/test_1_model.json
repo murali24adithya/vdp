@@ -4,37 +4,49 @@
     "label"
   ],
   "predicates": {
-    "has": "(object, object)",
-    "near": "(object, object)",
-    "with": "(object, object)",
-    "has_label": "(object, label)"
+    "has": [
+      "object",
+      "object"
+    ],
+    "near": [
+      "object",
+      "object"
+    ],
+    "with": [
+      "object",
+      "object"
+    ],
+    "has_label": [
+      "object",
+      "label"
+    ]
   },
   "elements": {
     "object": [
-      "2_orange",
-      "10_fruit",
-      "13_glass",
-      "12_window",
-      "16_light",
       "1_orange",
-      "5_light",
       "18_room",
-      "6_table",
-      "0_orange",
-      "3_orange",
-      "8_fruit",
       "17_light",
+      "3_orange",
+      "16_light",
+      "13_glass",
       "19_light",
-      "9_fruit"
+      "9_fruit",
+      "0_orange",
+      "5_light",
+      "6_table",
+      "8_fruit",
+      "2_orange",
+      "12_window",
+      "10_fruit"
     ],
     "label": [
-      "orange",
-      "fruit",
-      "light",
-      "room",
+      "glass",
       "table",
+      "room",
+      "fruit",
+      "orange",
       "window",
-      "glass"
+      "light"
     ]
   },
   "interpretation": {

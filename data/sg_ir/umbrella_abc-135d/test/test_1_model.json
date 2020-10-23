@@ -4,44 +4,62 @@
     "label"
   ],
   "predicates": {
-    "behind": "(object, object)",
-    "has": "(object, object)",
-    "wearing": "(object, object)",
-    "in front of": "(object, object)",
-    "under": "(object, object)",
-    "has_label": "(object, label)"
+    "behind": [
+      "object",
+      "object"
+    ],
+    "has": [
+      "object",
+      "object"
+    ],
+    "wearing": [
+      "object",
+      "object"
+    ],
+    "in front of": [
+      "object",
+      "object"
+    ],
+    "under": [
+      "object",
+      "object"
+    ],
+    "has_label": [
+      "object",
+      "label"
+    ]
   },
   "elements": {
     "object": [
-      "9_tree",
-      "16_tree",
-      "2_short",
-      "6_skateboard",
-      "3_shoe",
-      "15_tree",
-      "1_man",
-      "0_bench",
-      "11_hand",
-      "7_pole",
-      "18_fence",
-      "5_sign",
       "14_tree",
+      "18_fence",
+      "7_pole",
+      "2_short",
+      "3_shoe",
+      "9_tree",
       "10_face",
-      "19_sneaker"
+      "5_sign",
+      "15_tree",
+      "0_bench",
+      "16_tree",
+      "1_man",
+      "11_hand",
+      "19_sneaker",
+      "6_skateboard"
     ],
     "label": [
-      "sign",
-      "bench",
-      "shoe",
       "man",
+      "bench",
+      "face",
+      "shoe",
+      "pole",
       "tree",
+      "sneaker",
       "skateboard",
       "hand",
-      "face",
+      "sign",
       "fence",
-      "pole",
-      "short",
-      "sneaker"
+      "short"
     ]
   },
   "interpretation": {

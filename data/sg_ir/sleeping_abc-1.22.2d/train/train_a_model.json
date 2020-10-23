@@ -4,40 +4,55 @@
     "label"
   ],
   "predicates": {
-    "behind": "(object, object)",
-    "has": "(object, object)",
-    "sitting on": "(object, object)",
-    "wearing": "(object, object)",
-    "has_label": "(object, label)"
+    "behind": [
+      "object",
+      "object"
+    ],
+    "has": [
+      "object",
+      "object"
+    ],
+    "sitting on": [
+      "object",
+      "object"
+    ],
+    "wearing": [
+      "object",
+      "object"
+    ],
+    "has_label": [
+      "object",
+      "label"
+    ]
   },
   "elements": {
     "object": [
-      "15_man",
-      "19_tree",
-      "8_bench",
-      "10_pant",
-      "0_bench",
-      "1_head",
-      "2_paper",
-      "13_glove",
+      "5_tree",
       "17_arm",
-      "18_pant",
-      "12_jean",
       "3_boy",
+      "8_bench",
       "7_paper",
-      "5_tree"
+      "19_tree",
+      "15_man",
+      "13_glove",
+      "18_pant",
+      "1_head",
+      "0_bench",
+      "10_pant",
+      "2_paper",
+      "12_jean"
     ],
     "label": [
-      "bench",
       "man",
-      "arm",
-      "head",
-      "tree",
-      "paper",
-      "glove",
+      "boy",
+      "bench",
       "jean",
       "pant",
-      "boy"
+      "tree",
+      "head",
+      "arm",
+      "paper",
+      "glove"
     ]
   },
   "interpretation": {

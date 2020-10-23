@@ -4,37 +4,43 @@
     "label"
   ],
   "predicates": {
-    "has": "(object, object)",
-    "has_label": "(object, label)"
+    "has": [
+      "object",
+      "object"
+    ],
+    "has_label": [
+      "object",
+      "label"
+    ]
   },
   "elements": {
     "object": [
-      "12_paw",
-      "7_ear",
-      "3_head",
-      "13_leg",
-      "1_tail",
-      "6_cat",
-      "8_head",
-      "10_bed",
-      "0_cat",
       "19_face",
-      "4_ear",
-      "2_ear",
-      "17_nose",
-      "15_ear",
-      "11_ear",
+      "10_bed",
+      "1_tail",
       "5_tail",
-      "16_ear"
+      "0_cat",
+      "16_ear",
+      "17_nose",
+      "11_ear",
+      "4_ear",
+      "7_ear",
+      "15_ear",
+      "2_ear",
+      "13_leg",
+      "3_head",
+      "8_head",
+      "6_cat",
+      "12_paw"
     ],
     "label": [
-      "cat",
-      "head",
-      "face",
       "paw",
-      "bed",
       "nose",
+      "cat",
+      "face",
       "tail",
+      "bed",
+      "head",
       "leg",
       "ear"
     ]

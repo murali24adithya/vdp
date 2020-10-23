@@ -4,23 +4,41 @@
     "label"
   ],
   "predicates": {
-    "right": "(object, object)",
-    "above": "(object, object)",
-    "within": "(object, object)",
-    "below": "(object, object)",
-    "left": "(object, object)",
-    "has_label": "(object, label)"
+    "right": [
+      "object",
+      "object"
+    ],
+    "above": [
+      "object",
+      "object"
+    ],
+    "within": [
+      "object",
+      "object"
+    ],
+    "below": [
+      "object",
+      "object"
+    ],
+    "left": [
+      "object",
+      "object"
+    ],
+    "has_label": [
+      "object",
+      "label"
+    ]
   },
   "elements": {
     "object": [
-      "0_bench",
       "2_cat",
-      "1_chair"
+      "1_chair",
+      "0_bench"
     ],
     "label": [
-      "cat",
+      "chair",
       "bench",
-      "chair"
+      "cat"
     ]
   },
   "interpretation": {

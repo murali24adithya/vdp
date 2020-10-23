@@ -4,33 +4,51 @@
     "label"
   ],
   "predicates": {
-    "right": "(object, object)",
-    "above": "(object, object)",
-    "left": "(object, object)",
-    "below": "(object, object)",
-    "within": "(object, object)",
-    "has_label": "(object, label)"
+    "right": [
+      "object",
+      "object"
+    ],
+    "above": [
+      "object",
+      "object"
+    ],
+    "left": [
+      "object",
+      "object"
+    ],
+    "below": [
+      "object",
+      "object"
+    ],
+    "within": [
+      "object",
+      "object"
+    ],
+    "has_label": [
+      "object",
+      "label"
+    ]
   },
   "elements": {
     "object": [
-      "6_dog",
-      "2_tvmonitor",
-      "3_sofa",
-      "7_cat",
-      "1_book",
-      "4_bowl",
       "5_cup",
-      "0_vase"
+      "6_dog",
+      "3_sofa",
+      "0_vase",
+      "2_tvmonitor",
+      "4_bowl",
+      "1_book",
+      "7_cat"
     ],
     "label": [
+      "dog",
       "cat",
+      "sofa",
+      "cup",
       "vase",
       "tvmonitor",
-      "cup",
-      "sofa",
-      "dog",
-      "book",
-      "bowl"
+      "bowl",
+      "book"
     ]
   },
   "interpretation": {

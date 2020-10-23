@@ -4,46 +4,61 @@
     "label"
   ],
   "predicates": {
-    "has": "(object, object)",
-    "behind": "(object, object)",
-    "in front of": "(object, object)",
-    "parked on": "(object, object)",
-    "has_label": "(object, label)"
+    "has": [
+      "object",
+      "object"
+    ],
+    "behind": [
+      "object",
+      "object"
+    ],
+    "in front of": [
+      "object",
+      "object"
+    ],
+    "parked on": [
+      "object",
+      "object"
+    ],
+    "has_label": [
+      "object",
+      "label"
+    ]
   },
   "elements": {
     "object": [
-      "8_tire",
-      "0_car",
+      "5_sidewalk",
       "13_car",
+      "7_street",
+      "1_tree",
+      "12_fence",
       "17_light",
       "3_tire",
-      "12_fence",
-      "10_door",
-      "18_trunk",
-      "14_window",
-      "1_tree",
       "9_windshield",
-      "15_window",
-      "4_building",
-      "7_street",
-      "5_sidewalk",
+      "10_door",
+      "16_door",
       "11_wheel",
-      "16_door"
+      "0_car",
+      "14_window",
+      "15_window",
+      "8_tire",
+      "18_trunk",
+      "4_building"
     ],
     "label": [
       "building",
-      "wheel",
-      "tree",
-      "window",
-      "door",
-      "fence",
-      "tire",
-      "street",
-      "windshield",
-      "light",
       "sidewalk",
+      "door",
+      "street",
+      "tire",
+      "tree",
+      "wheel",
+      "windshield",
+      "fence",
+      "trunk",
+      "window",
       "car",
-      "trunk"
+      "light"
     ]
   },
   "interpretation": {

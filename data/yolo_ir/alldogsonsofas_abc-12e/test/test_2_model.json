@@ -4,17 +4,35 @@
     "label"
   ],
   "predicates": {
-    "right": "(object, object)",
-    "below": "(object, object)",
-    "left": "(object, object)",
-    "above": "(object, object)",
-    "within": "(object, object)",
-    "has_label": "(object, label)"
+    "right": [
+      "object",
+      "object"
+    ],
+    "below": [
+      "object",
+      "object"
+    ],
+    "left": [
+      "object",
+      "object"
+    ],
+    "above": [
+      "object",
+      "object"
+    ],
+    "within": [
+      "object",
+      "object"
+    ],
+    "has_label": [
+      "object",
+      "label"
+    ]
   },
   "elements": {
     "object": [
-      "3_dog",
       "2_bowl",
+      "3_dog",
       "0_book",
       "1_sofa"
     ],

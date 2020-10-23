@@ -4,35 +4,47 @@
     "label"
   ],
   "predicates": {
-    "under": "(object, object)",
-    "sitting on": "(object, object)",
-    "above": "(object, object)",
-    "has_label": "(object, label)"
+    "under": [
+      "object",
+      "object"
+    ],
+    "sitting on": [
+      "object",
+      "object"
+    ],
+    "above": [
+      "object",
+      "object"
+    ],
+    "has_label": [
+      "object",
+      "label"
+    ]
   },
   "elements": {
     "object": [
-      "16_tile",
-      "10_table",
-      "2_bottle",
-      "17_paper",
-      "9_book",
-      "0_stand",
-      "7_book",
-      "1_book",
-      "3_paper",
-      "19_board",
       "14_paper",
+      "3_paper",
+      "7_book",
+      "0_stand",
+      "10_table",
+      "9_book",
+      "2_bottle",
+      "1_book",
+      "17_paper",
+      "19_board",
+      "16_tile",
       "6_desk"
     ],
     "label": [
-      "desk",
-      "board",
-      "paper",
-      "table",
-      "book",
-      "stand",
       "tile",
-      "bottle"
+      "stand",
+      "table",
+      "bottle",
+      "paper",
+      "board",
+      "desk",
+      "book"
     ]
   },
   "interpretation": {

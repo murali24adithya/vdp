@@ -4,38 +4,56 @@
     "label"
   ],
   "predicates": {
-    "at": "(object, object)",
-    "has": "(object, object)",
-    "under": "(object, object)",
-    "sitting on": "(object, object)",
-    "behind": "(object, object)",
-    "has_label": "(object, label)"
+    "at": [
+      "object",
+      "object"
+    ],
+    "has": [
+      "object",
+      "object"
+    ],
+    "under": [
+      "object",
+      "object"
+    ],
+    "sitting on": [
+      "object",
+      "object"
+    ],
+    "behind": [
+      "object",
+      "object"
+    ],
+    "has_label": [
+      "object",
+      "label"
+    ]
   },
   "elements": {
     "object": [
-      "16_wheel",
-      "18_head",
-      "9_table",
-      "5_chair",
-      "19_lamp",
-      "14_wheel",
-      "4_dog",
       "10_chair",
-      "17_table",
-      "13_ear",
-      "1_plate",
       "0_dog",
-      "8_table"
+      "1_plate",
+      "14_wheel",
+      "9_table",
+      "19_lamp",
+      "5_chair",
+      "16_wheel",
+      "8_table",
+      "4_dog",
+      "13_ear",
+      "18_head",
+      "17_table"
     ],
     "label": [
-      "wheel",
-      "head",
-      "lamp",
-      "table",
-      "dog",
       "chair",
+      "dog",
       "plate",
-      "ear"
+      "wheel",
+      "table",
+      "head",
+      "ear",
+      "lamp"
     ]
   },
   "interpretation": {

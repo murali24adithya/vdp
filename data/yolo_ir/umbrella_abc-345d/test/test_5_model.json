@@ -4,24 +4,39 @@
     "label"
   ],
   "predicates": {
-    "right": "(object, object)",
-    "above": "(object, object)",
-    "left": "(object, object)",
-    "below": "(object, object)",
-    "has_label": "(object, label)"
+    "right": [
+      "object",
+      "object"
+    ],
+    "above": [
+      "object",
+      "object"
+    ],
+    "left": [
+      "object",
+      "object"
+    ],
+    "below": [
+      "object",
+      "object"
+    ],
+    "has_label": [
+      "object",
+      "label"
+    ]
   },
   "elements": {
     "object": [
-      "2_car",
-      "0_handbag",
       "3_person",
-      "1_light"
+      "1_light",
+      "0_handbag",
+      "2_car"
     ],
     "label": [
-      "car",
       "person",
-      "light",
-      "handbag"
+      "car",
+      "handbag",
+      "light"
     ]
   },
   "interpretation": {

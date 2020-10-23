@@ -4,38 +4,47 @@
     "label"
   ],
   "predicates": {
-    "has": "(object, object)",
-    "under": "(object, object)",
-    "has_label": "(object, label)"
+    "has": [
+      "object",
+      "object"
+    ],
+    "under": [
+      "object",
+      "object"
+    ],
+    "has_label": [
+      "object",
+      "label"
+    ]
   },
   "elements": {
     "object": [
-      "18_leg",
       "8_beach",
+      "9_boat",
+      "6_umbrella",
       "13_seat",
+      "4_pole",
+      "18_leg",
+      "16_leg",
+      "3_beach",
+      "7_leg",
+      "1_chair",
+      "14_seat",
+      "10_leg",
+      "19_post",
       "5_beach",
       "15_leg",
-      "2_umbrella",
-      "19_post",
-      "4_pole",
-      "1_chair",
-      "10_leg",
-      "14_seat",
-      "6_umbrella",
-      "9_boat",
-      "7_leg",
-      "16_leg",
-      "3_beach"
+      "2_umbrella"
     ],
     "label": [
-      "beach",
-      "seat",
       "umbrella",
-      "pole",
-      "post",
       "chair",
+      "post",
+      "seat",
+      "pole",
+      "leg",
       "boat",
-      "leg"
+      "beach"
     ]
   },
   "interpretation": {

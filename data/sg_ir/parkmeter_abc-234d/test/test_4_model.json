@@ -4,44 +4,62 @@
     "label"
   ],
   "predicates": {
-    "behind": "(object, object)",
-    "has": "(object, object)",
-    "under": "(object, object)",
-    "riding": "(object, object)",
-    "parked on": "(object, object)",
-    "has_label": "(object, label)"
+    "behind": [
+      "object",
+      "object"
+    ],
+    "has": [
+      "object",
+      "object"
+    ],
+    "under": [
+      "object",
+      "object"
+    ],
+    "riding": [
+      "object",
+      "object"
+    ],
+    "parked on": [
+      "object",
+      "object"
+    ],
+    "has_label": [
+      "object",
+      "label"
+    ]
   },
   "elements": {
     "object": [
       "8_tree",
-      "7_car",
+      "6_street",
+      "0_skateboard",
+      "17_window",
+      "3_tree",
+      "10_plate",
+      "1_car",
       "5_man",
       "18_arm",
-      "12_tree",
-      "0_skateboard",
-      "6_street",
-      "2_car",
-      "10_plate",
-      "17_window",
-      "14_boy",
-      "15_window",
-      "3_tree",
-      "1_car",
       "19_tire",
-      "4_building"
+      "12_tree",
+      "2_car",
+      "15_window",
+      "7_car",
+      "4_building",
+      "14_boy"
     ],
     "label": [
-      "man",
       "building",
-      "arm",
-      "tree",
-      "skateboard",
-      "window",
+      "man",
+      "boy",
+      "plate",
       "tire",
       "street",
-      "car",
-      "plate",
-      "boy"
+      "tree",
+      "skateboard",
+      "arm",
+      "window",
+      "car"
     ]
   },
   "interpretation": {

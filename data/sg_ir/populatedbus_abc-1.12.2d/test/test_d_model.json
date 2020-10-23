@@ -4,44 +4,53 @@
     "label"
   ],
   "predicates": {
-    "has": "(object, object)",
-    "under": "(object, object)",
-    "has_label": "(object, label)"
+    "has": [
+      "object",
+      "object"
+    ],
+    "under": [
+      "object",
+      "object"
+    ],
+    "has_label": [
+      "object",
+      "label"
+    ]
   },
   "elements": {
     "object": [
-      "2_tire",
-      "0_bus",
-      "4_window",
-      "7_windshield",
-      "11_tire",
-      "12_plate",
-      "17_pole",
       "13_window",
-      "19_sign",
-      "8_logo",
-      "10_street",
-      "5_wheel",
       "9_number",
-      "15_letter",
+      "7_windshield",
       "14_roof",
-      "18_light"
+      "8_logo",
+      "2_tire",
+      "11_tire",
+      "10_street",
+      "17_pole",
+      "19_sign",
+      "12_plate",
+      "18_light",
+      "4_window",
+      "5_wheel",
+      "15_letter",
+      "0_bus"
     ],
     "label": [
-      "sign",
-      "number",
-      "wheel",
       "logo",
-      "window",
-      "bus",
-      "street",
-      "windshield",
-      "letter",
-      "pole",
-      "roof",
-      "light",
+      "number",
       "plate",
-      "tire"
+      "pole",
+      "tire",
+      "wheel",
+      "street",
+      "roof",
+      "bus",
+      "letter",
+      "sign",
+      "windshield",
+      "window",
+      "light"
     ]
   },
   "interpretation": {

@@ -4,40 +4,52 @@
     "label"
   ],
   "predicates": {
-    "in front of": "(object, object)",
-    "has": "(object, object)",
-    "parked on": "(object, object)",
-    "has_label": "(object, label)"
+    "in front of": [
+      "object",
+      "object"
+    ],
+    "has": [
+      "object",
+      "object"
+    ],
+    "parked on": [
+      "object",
+      "object"
+    ],
+    "has_label": [
+      "object",
+      "label"
+    ]
   },
   "elements": {
     "object": [
-      "0_building",
+      "8_wheel",
+      "16_tire",
       "7_wheel",
-      "2_street",
-      "12_car",
+      "0_building",
+      "1_car",
       "9_wheel",
       "4_tire",
-      "17_tree",
-      "5_truck",
-      "14_sidewalk",
-      "16_tire",
-      "18_door",
-      "13_tire",
-      "1_car",
-      "8_wheel",
       "6_door",
-      "3_car"
+      "18_door",
+      "14_sidewalk",
+      "13_tire",
+      "12_car",
+      "2_street",
+      "3_car",
+      "5_truck",
+      "17_tree"
     ],
     "label": [
       "building",
-      "wheel",
-      "tree",
+      "sidewalk",
       "truck",
       "door",
       "street",
-      "sidewalk",
-      "car",
-      "tire"
+      "wheel",
+      "tree",
+      "tire",
+      "car"
     ]
   },
   "interpretation": {

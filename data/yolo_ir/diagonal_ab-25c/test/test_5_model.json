@@ -4,7 +4,10 @@
     "label"
   ],
   "predicates": {
-    "has_label": "(object, label)"
+    "has_label": [
+      "object",
+      "label"
+    ]
   },
   "elements": {
     "object": [

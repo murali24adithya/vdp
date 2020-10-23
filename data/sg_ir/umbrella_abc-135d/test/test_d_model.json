@@ -4,47 +4,65 @@
     "label"
   ],
   "predicates": {
-    "behind": "(object, object)",
-    "holding": "(object, object)",
-    "has": "(object, object)",
-    "under": "(object, object)",
-    "over": "(object, object)",
-    "has_label": "(object, label)"
+    "behind": [
+      "object",
+      "object"
+    ],
+    "holding": [
+      "object",
+      "object"
+    ],
+    "has": [
+      "object",
+      "object"
+    ],
+    "under": [
+      "object",
+      "object"
+    ],
+    "over": [
+      "object",
+      "object"
+    ],
+    "has_label": [
+      "object",
+      "label"
+    ]
   },
   "elements": {
     "object": [
-      "4_woman",
-      "3_shirt",
-      "15_head",
-      "16_head",
-      "9_hand",
       "14_coat",
-      "8_building",
-      "1_man",
       "10_jean",
-      "12_hand",
       "19_handle",
-      "5_jacket",
+      "4_woman",
+      "16_head",
+      "3_shirt",
+      "8_building",
       "13_people",
+      "15_head",
+      "11_window",
+      "5_jacket",
       "2_chair",
+      "9_hand",
       "0_umbrella",
-      "11_window"
+      "1_man",
+      "12_hand"
     ],
     "label": [
-      "coat",
-      "woman",
+      "umbrella",
       "man",
       "building",
-      "handle",
-      "head",
-      "window",
-      "hand",
-      "umbrella",
-      "jean",
-      "jacket",
-      "people",
       "chair",
-      "shirt"
+      "jean",
+      "handle",
+      "jacket",
+      "coat",
+      "shirt",
+      "woman",
+      "head",
+      "hand",
+      "people",
+      "window"
     ]
   },
   "interpretation": {

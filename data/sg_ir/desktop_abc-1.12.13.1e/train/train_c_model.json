@@ -4,36 +4,48 @@
     "label"
   ],
   "predicates": {
-    "at": "(object, object)",
-    "has": "(object, object)",
-    "under": "(object, object)",
-    "has_label": "(object, label)"
+    "at": [
+      "object",
+      "object"
+    ],
+    "has": [
+      "object",
+      "object"
+    ],
+    "under": [
+      "object",
+      "object"
+    ],
+    "has_label": [
+      "object",
+      "label"
+    ]
   },
   "elements": {
     "object": [
       "13_table",
-      "14_handle",
-      "4_wire",
-      "5_box",
-      "19_room",
-      "9_table",
-      "3_table",
       "1_desk",
-      "6_chair",
-      "10_handle",
+      "5_box",
+      "9_table",
       "15_lamp",
+      "6_chair",
+      "3_table",
+      "19_room",
+      "4_wire",
+      "16_table",
       "17_drawer",
-      "16_table"
+      "14_handle",
+      "10_handle"
     ],
     "label": [
-      "handle",
-      "box",
-      "lamp",
-      "table",
-      "drawer",
       "chair",
       "wire",
       "room",
+      "handle",
+      "drawer",
+      "box",
+      "table",
+      "lamp",
       "desk"
     ]
   },

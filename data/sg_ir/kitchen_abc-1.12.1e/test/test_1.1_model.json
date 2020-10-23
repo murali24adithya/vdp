@@ -4,45 +4,60 @@
     "label"
   ],
   "predicates": {
-    "in": "(object, object)",
-    "has": "(object, object)",
-    "behind": "(object, object)",
-    "near": "(object, object)",
-    "has_label": "(object, label)"
+    "in": [
+      "object",
+      "object"
+    ],
+    "has": [
+      "object",
+      "object"
+    ],
+    "behind": [
+      "object",
+      "object"
+    ],
+    "near": [
+      "object",
+      "object"
+    ],
+    "has_label": [
+      "object",
+      "label"
+    ]
   },
   "elements": {
     "object": [
-      "16_box",
-      "0_chair",
-      "19_door",
-      "12_paper",
-      "7_bag",
       "14_bag",
-      "4_flower",
-      "8_book",
-      "3_shoe",
-      "17_pillow",
       "9_light",
-      "13_box",
-      "1_box",
-      "10_box",
-      "6_room",
+      "0_chair",
+      "4_flower",
+      "17_pillow",
       "5_bed",
-      "15_shoe"
+      "12_paper",
+      "3_shoe",
+      "10_box",
+      "7_bag",
+      "13_box",
+      "15_shoe",
+      "19_door",
+      "16_box",
+      "8_book",
+      "1_box",
+      "6_room"
     ],
     "label": [
-      "shoe",
-      "paper",
-      "door",
-      "light",
+      "chair",
       "pillow",
+      "room",
+      "door",
+      "shoe",
+      "box",
       "bed",
       "bag",
       "book",
-      "chair",
+      "paper",
       "flower",
-      "room",
-      "box"
+      "light"
     ]
   },
   "interpretation": {

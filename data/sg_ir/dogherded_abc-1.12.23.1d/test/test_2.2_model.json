@@ -4,39 +4,51 @@
     "label"
   ],
   "predicates": {
-    "behind": "(object, object)",
-    "has": "(object, object)",
-    "of": "(object, object)",
-    "has_label": "(object, label)"
+    "behind": [
+      "object",
+      "object"
+    ],
+    "has": [
+      "object",
+      "object"
+    ],
+    "of": [
+      "object",
+      "object"
+    ],
+    "has_label": [
+      "object",
+      "label"
+    ]
   },
   "elements": {
     "object": [
-      "14_head",
-      "15_sheep",
-      "7_sheep",
-      "18_sheep",
-      "2_man",
       "5_sheep",
-      "16_rock",
       "10_sheep",
-      "4_sheep",
+      "16_rock",
+      "8_sheep",
+      "15_sheep",
       "13_tree",
-      "3_sheep",
+      "18_sheep",
       "1_sheep",
+      "7_sheep",
+      "2_man",
       "19_hill",
+      "4_sheep",
       "0_cow",
       "17_fence",
-      "8_sheep"
+      "3_sheep",
+      "14_head"
     ],
     "label": [
-      "cow",
-      "rock",
-      "hill",
       "man",
+      "sheep",
+      "hill",
       "head",
       "tree",
+      "rock",
       "fence",
-      "sheep"
+      "cow"
     ]
   },
   "interpretation": {

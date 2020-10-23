@@ -4,41 +4,56 @@
     "label"
   ],
   "predicates": {
-    "under": "(object, object)",
-    "has": "(object, object)",
-    "at": "(object, object)",
-    "above": "(object, object)",
-    "has_label": "(object, label)"
+    "under": [
+      "object",
+      "object"
+    ],
+    "has": [
+      "object",
+      "object"
+    ],
+    "at": [
+      "object",
+      "object"
+    ],
+    "above": [
+      "object",
+      "object"
+    ],
+    "has_label": [
+      "object",
+      "label"
+    ]
   },
   "elements": {
     "object": [
-      "17_tile",
-      "18_tile",
-      "14_tile",
-      "8_tile",
-      "9_tile",
-      "4_handle",
-      "11_cabinet",
-      "15_tile",
-      "5_sink",
-      "0_sink",
-      "1_table",
-      "10_door",
       "7_cabinet",
-      "2_chair",
+      "17_tile",
+      "16_handle",
       "6_light",
-      "13_tile",
-      "16_handle"
+      "8_tile",
+      "1_table",
+      "11_cabinet",
+      "4_handle",
+      "10_door",
+      "18_tile",
+      "5_sink",
+      "15_tile",
+      "2_chair",
+      "0_sink",
+      "9_tile",
+      "14_tile",
+      "13_tile"
     ],
     "label": [
+      "tile",
+      "sink",
+      "chair",
       "handle",
       "door",
-      "table",
-      "chair",
       "cabinet",
-      "light",
-      "sink",
-      "tile"
+      "table",
+      "light"
     ]
   },
   "interpretation": {
