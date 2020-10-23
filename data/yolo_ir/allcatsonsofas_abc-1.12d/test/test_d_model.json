@@ -1,1 +1,121 @@
-{"sorts": ["object", "label"], "predicates": {"left": "(object, object)", "below": "(object, object)", "right": "(object, object)", "above": "(object, object)", "has_label": "(object, label)"}, "elements": {"object": ["1_cat", "0_sofa"], "label": ["cat", "sofa"]}, "interpretation": {"left": [["0_sofa", "1_cat"]], "below": [["0_sofa", "1_cat"]], "right": [["1_cat", "0_sofa"]], "above": [["1_cat", "0_sofa"]], "has_label": [["0_sofa", "sofa"], ["1_cat", "cat"]]}, "raw": {"rel_labels": [["0", "sofa", "1", "cat", "left", "0.9504"], ["0", "sofa", "1", "cat", "below", "0.9504"], ["1", "cat", "0", "sofa", "right", "0.9504"], ["1", "cat", "0", "sofa", "above", "0.9504"]], "var_const_map": {"0_sofa": "sofa", "1_cat": "cat"}, "scores": [["0_sofa", "1_cat", "0.9504"], ["0_sofa", "1_cat", "0.9504"], ["1_cat", "0_sofa", "0.9504"], ["1_cat", "0_sofa", "0.9504"]]}}
+{
+  "sorts": [
+    "object",
+    "label"
+  ],
+  "predicates": {
+    "left": "(object, object)",
+    "below": "(object, object)",
+    "right": "(object, object)",
+    "above": "(object, object)",
+    "has_label": "(object, label)"
+  },
+  "elements": {
+    "object": [
+      "1_cat",
+      "0_sofa"
+    ],
+    "label": [
+      "cat",
+      "sofa"
+    ]
+  },
+  "interpretation": {
+    "left": [
+      [
+        "0_sofa",
+        "1_cat"
+      ]
+    ],
+    "below": [
+      [
+        "0_sofa",
+        "1_cat"
+      ]
+    ],
+    "right": [
+      [
+        "1_cat",
+        "0_sofa"
+      ]
+    ],
+    "above": [
+      [
+        "1_cat",
+        "0_sofa"
+      ]
+    ],
+    "has_label": [
+      [
+        "0_sofa",
+        "sofa"
+      ],
+      [
+        "1_cat",
+        "cat"
+      ]
+    ]
+  },
+  "raw": {
+    "rel_labels": [
+      [
+        "0",
+        "sofa",
+        "1",
+        "cat",
+        "left",
+        "0.9504"
+      ],
+      [
+        "0",
+        "sofa",
+        "1",
+        "cat",
+        "below",
+        "0.9504"
+      ],
+      [
+        "1",
+        "cat",
+        "0",
+        "sofa",
+        "right",
+        "0.9504"
+      ],
+      [
+        "1",
+        "cat",
+        "0",
+        "sofa",
+        "above",
+        "0.9504"
+      ]
+    ],
+    "var_const_map": {
+      "0_sofa": "sofa",
+      "1_cat": "cat"
+    },
+    "scores": [
+      [
+        "0_sofa",
+        "1_cat",
+        "0.9504"
+      ],
+      [
+        "0_sofa",
+        "1_cat",
+        "0.9504"
+      ],
+      [
+        "1_cat",
+        "0_sofa",
+        "0.9504"
+      ],
+      [
+        "1_cat",
+        "0_sofa",
+        "0.9504"
+      ]
+    ]
+  }
+}

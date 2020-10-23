@@ -1,1 +1,496 @@
-{"sorts": ["object", "label"], "predicates": {"walking on": "(object, object)", "under": "(object, object)", "has": "(object, object)", "parked on": "(object, object)", "in front of": "(object, object)", "behind": "(object, object)", "has_label": "(object, label)"}, "elements": {"object": ["13_sidewalk", "5_street", "11_car", "12_car", "9_light", "2_tree", "4_building", "7_tree", "17_car", "19_window", "0_car", "8_girl", "1_car", "18_sign", "15_sidewalk", "3_building", "6_car"], "label": ["street", "car", "sign", "light", "girl", "building", "tree", "window", "sidewalk"]}, "interpretation": {"walking on": [["8_girl", "13_sidewalk"], ["8_girl", "15_sidewalk"], ["8_girl", "5_street"]], "under": [["13_sidewalk", "9_light"], ["15_sidewalk", "9_light"]], "has": [["1_car", "19_window"]], "parked on": [["11_car", "5_street"], ["12_car", "5_street"], ["0_car", "5_street"], ["6_car", "5_street"], ["1_car", "5_street"], ["17_car", "5_street"], ["6_car", "15_sidewalk"], ["11_car", "15_sidewalk"], ["12_car", "15_sidewalk"]], "in front of": [["7_tree", "4_building"], ["15_sidewalk", "4_building"], ["2_tree", "4_building"], ["18_sign", "4_building"]], "behind": [["3_building", "8_girl"]], "has_label": [["8_girl", "girl"], ["13_sidewalk", "sidewalk"], ["1_car", "car"], ["11_car", "car"], ["12_car", "car"], ["0_car", "car"], ["6_car", "car"], ["7_tree", "tree"], ["15_sidewalk", "sidewalk"], ["3_building", "building"], ["17_car", "car"], ["2_tree", "tree"], ["18_sign", "sign"], ["9_light", "light"], ["19_window", "window"], ["5_street", "street"], ["4_building", "building"]]}, "raw": {"rel_labels": [[8, "girl", 13, "sidewalk", "walking on", "0.8425275087356567"], [13, "sidewalk", 9, "light", "under", "0.8350820541381836"], [8, "girl", 15, "sidewalk", "walking on", "0.8127799034118652"], [1, "car", 19, "window", "has", "0.807752251625061"], [11, "car", 5, "street", "parked on", "0.7619129419326782"], [8, "girl", 5, "street", "walking on", "0.7449783086776733"], [12, "car", 5, "street", "parked on", "0.7387210726737976"], [0, "car", 5, "street", "parked on", "0.73702073097229"], [6, "car", 5, "street", "parked on", "0.727135956287384"], [7, "tree", 4, "building", "in front of", "0.709884762763977"], [15, "sidewalk", 4, "building", "in front of", "0.6817412376403809"], [1, "car", 5, "street", "parked on", "0.6815191507339478"], [15, "sidewalk", 9, "light", "under", "0.6760516166687012"], [3, "building", 8, "girl", "behind", "0.6546592116355896"], [17, "car", 5, "street", "parked on", "0.6402871608734131"], [6, "car", 15, "sidewalk", "parked on", "0.6250718235969543"], [11, "car", 15, "sidewalk", "parked on", "0.623377799987793"], [2, "tree", 4, "building", "in front of", "0.6203929781913757"], [18, "sign", 4, "building", "in front of", "0.6185104250907898"], [12, "car", 15, "sidewalk", "parked on", "0.6126787066459656"]], "var_const_map": {"8_girl": "girl", "13_sidewalk": "sidewalk", "1_car": "car", "11_car": "car", "12_car": "car", "0_car": "car", "6_car": "car", "7_tree": "tree", "15_sidewalk": "sidewalk", "3_building": "building", "17_car": "car", "2_tree": "tree", "18_sign": "sign", "9_light": "light", "19_window": "window", "5_street": "street", "4_building": "building"}, "scores": [["8_girl", "13_sidewalk", "0.8425275087356567"], ["13_sidewalk", "9_light", "0.8350820541381836"], ["8_girl", "15_sidewalk", "0.8127799034118652"], ["1_car", "19_window", "0.807752251625061"], ["11_car", "5_street", "0.7619129419326782"], ["8_girl", "5_street", "0.7449783086776733"], ["12_car", "5_street", "0.7387210726737976"], ["0_car", "5_street", "0.73702073097229"], ["6_car", "5_street", "0.727135956287384"], ["7_tree", "4_building", "0.709884762763977"], ["15_sidewalk", "4_building", "0.6817412376403809"], ["1_car", "5_street", "0.6815191507339478"], ["15_sidewalk", "9_light", "0.6760516166687012"], ["3_building", "8_girl", "0.6546592116355896"], ["17_car", "5_street", "0.6402871608734131"], ["6_car", "15_sidewalk", "0.6250718235969543"], ["11_car", "15_sidewalk", "0.623377799987793"], ["2_tree", "4_building", "0.6203929781913757"], ["18_sign", "4_building", "0.6185104250907898"], ["12_car", "15_sidewalk", "0.6126787066459656"]]}}
+{
+  "sorts": [
+    "object",
+    "label"
+  ],
+  "predicates": {
+    "walking on": "(object, object)",
+    "under": "(object, object)",
+    "has": "(object, object)",
+    "parked on": "(object, object)",
+    "in front of": "(object, object)",
+    "behind": "(object, object)",
+    "has_label": "(object, label)"
+  },
+  "elements": {
+    "object": [
+      "0_car",
+      "6_car",
+      "2_tree",
+      "3_building",
+      "19_window",
+      "13_sidewalk",
+      "12_car",
+      "15_sidewalk",
+      "8_girl",
+      "18_sign",
+      "9_light",
+      "7_tree",
+      "11_car",
+      "1_car",
+      "17_car",
+      "5_street",
+      "4_building"
+    ],
+    "label": [
+      "sign",
+      "building",
+      "girl",
+      "tree",
+      "street",
+      "light",
+      "sidewalk",
+      "car",
+      "window"
+    ]
+  },
+  "interpretation": {
+    "walking on": [
+      [
+        "8_girl",
+        "13_sidewalk"
+      ],
+      [
+        "8_girl",
+        "15_sidewalk"
+      ],
+      [
+        "8_girl",
+        "5_street"
+      ]
+    ],
+    "under": [
+      [
+        "13_sidewalk",
+        "9_light"
+      ],
+      [
+        "15_sidewalk",
+        "9_light"
+      ]
+    ],
+    "has": [
+      [
+        "1_car",
+        "19_window"
+      ]
+    ],
+    "parked on": [
+      [
+        "11_car",
+        "5_street"
+      ],
+      [
+        "12_car",
+        "5_street"
+      ],
+      [
+        "0_car",
+        "5_street"
+      ],
+      [
+        "6_car",
+        "5_street"
+      ],
+      [
+        "1_car",
+        "5_street"
+      ],
+      [
+        "17_car",
+        "5_street"
+      ],
+      [
+        "6_car",
+        "15_sidewalk"
+      ],
+      [
+        "11_car",
+        "15_sidewalk"
+      ],
+      [
+        "12_car",
+        "15_sidewalk"
+      ]
+    ],
+    "in front of": [
+      [
+        "7_tree",
+        "4_building"
+      ],
+      [
+        "15_sidewalk",
+        "4_building"
+      ],
+      [
+        "2_tree",
+        "4_building"
+      ],
+      [
+        "18_sign",
+        "4_building"
+      ]
+    ],
+    "behind": [
+      [
+        "3_building",
+        "8_girl"
+      ]
+    ],
+    "has_label": [
+      [
+        "8_girl",
+        "girl"
+      ],
+      [
+        "13_sidewalk",
+        "sidewalk"
+      ],
+      [
+        "1_car",
+        "car"
+      ],
+      [
+        "11_car",
+        "car"
+      ],
+      [
+        "12_car",
+        "car"
+      ],
+      [
+        "0_car",
+        "car"
+      ],
+      [
+        "6_car",
+        "car"
+      ],
+      [
+        "7_tree",
+        "tree"
+      ],
+      [
+        "15_sidewalk",
+        "sidewalk"
+      ],
+      [
+        "3_building",
+        "building"
+      ],
+      [
+        "17_car",
+        "car"
+      ],
+      [
+        "2_tree",
+        "tree"
+      ],
+      [
+        "18_sign",
+        "sign"
+      ],
+      [
+        "9_light",
+        "light"
+      ],
+      [
+        "19_window",
+        "window"
+      ],
+      [
+        "5_street",
+        "street"
+      ],
+      [
+        "4_building",
+        "building"
+      ]
+    ]
+  },
+  "raw": {
+    "rel_labels": [
+      [
+        8,
+        "girl",
+        13,
+        "sidewalk",
+        "walking on",
+        "0.8425275087356567"
+      ],
+      [
+        13,
+        "sidewalk",
+        9,
+        "light",
+        "under",
+        "0.8350820541381836"
+      ],
+      [
+        8,
+        "girl",
+        15,
+        "sidewalk",
+        "walking on",
+        "0.8127799034118652"
+      ],
+      [
+        1,
+        "car",
+        19,
+        "window",
+        "has",
+        "0.807752251625061"
+      ],
+      [
+        11,
+        "car",
+        5,
+        "street",
+        "parked on",
+        "0.7619129419326782"
+      ],
+      [
+        8,
+        "girl",
+        5,
+        "street",
+        "walking on",
+        "0.7449783086776733"
+      ],
+      [
+        12,
+        "car",
+        5,
+        "street",
+        "parked on",
+        "0.7387210726737976"
+      ],
+      [
+        0,
+        "car",
+        5,
+        "street",
+        "parked on",
+        "0.73702073097229"
+      ],
+      [
+        6,
+        "car",
+        5,
+        "street",
+        "parked on",
+        "0.727135956287384"
+      ],
+      [
+        7,
+        "tree",
+        4,
+        "building",
+        "in front of",
+        "0.709884762763977"
+      ],
+      [
+        15,
+        "sidewalk",
+        4,
+        "building",
+        "in front of",
+        "0.6817412376403809"
+      ],
+      [
+        1,
+        "car",
+        5,
+        "street",
+        "parked on",
+        "0.6815191507339478"
+      ],
+      [
+        15,
+        "sidewalk",
+        9,
+        "light",
+        "under",
+        "0.6760516166687012"
+      ],
+      [
+        3,
+        "building",
+        8,
+        "girl",
+        "behind",
+        "0.6546592116355896"
+      ],
+      [
+        17,
+        "car",
+        5,
+        "street",
+        "parked on",
+        "0.6402871608734131"
+      ],
+      [
+        6,
+        "car",
+        15,
+        "sidewalk",
+        "parked on",
+        "0.6250718235969543"
+      ],
+      [
+        11,
+        "car",
+        15,
+        "sidewalk",
+        "parked on",
+        "0.623377799987793"
+      ],
+      [
+        2,
+        "tree",
+        4,
+        "building",
+        "in front of",
+        "0.6203929781913757"
+      ],
+      [
+        18,
+        "sign",
+        4,
+        "building",
+        "in front of",
+        "0.6185104250907898"
+      ],
+      [
+        12,
+        "car",
+        15,
+        "sidewalk",
+        "parked on",
+        "0.6126787066459656"
+      ]
+    ],
+    "var_const_map": {
+      "8_girl": "girl",
+      "13_sidewalk": "sidewalk",
+      "1_car": "car",
+      "11_car": "car",
+      "12_car": "car",
+      "0_car": "car",
+      "6_car": "car",
+      "7_tree": "tree",
+      "15_sidewalk": "sidewalk",
+      "3_building": "building",
+      "17_car": "car",
+      "2_tree": "tree",
+      "18_sign": "sign",
+      "9_light": "light",
+      "19_window": "window",
+      "5_street": "street",
+      "4_building": "building"
+    },
+    "scores": [
+      [
+        "8_girl",
+        "13_sidewalk",
+        "0.8425275087356567"
+      ],
+      [
+        "13_sidewalk",
+        "9_light",
+        "0.8350820541381836"
+      ],
+      [
+        "8_girl",
+        "15_sidewalk",
+        "0.8127799034118652"
+      ],
+      [
+        "1_car",
+        "19_window",
+        "0.807752251625061"
+      ],
+      [
+        "11_car",
+        "5_street",
+        "0.7619129419326782"
+      ],
+      [
+        "8_girl",
+        "5_street",
+        "0.7449783086776733"
+      ],
+      [
+        "12_car",
+        "5_street",
+        "0.7387210726737976"
+      ],
+      [
+        "0_car",
+        "5_street",
+        "0.73702073097229"
+      ],
+      [
+        "6_car",
+        "5_street",
+        "0.727135956287384"
+      ],
+      [
+        "7_tree",
+        "4_building",
+        "0.709884762763977"
+      ],
+      [
+        "15_sidewalk",
+        "4_building",
+        "0.6817412376403809"
+      ],
+      [
+        "1_car",
+        "5_street",
+        "0.6815191507339478"
+      ],
+      [
+        "15_sidewalk",
+        "9_light",
+        "0.6760516166687012"
+      ],
+      [
+        "3_building",
+        "8_girl",
+        "0.6546592116355896"
+      ],
+      [
+        "17_car",
+        "5_street",
+        "0.6402871608734131"
+      ],
+      [
+        "6_car",
+        "15_sidewalk",
+        "0.6250718235969543"
+      ],
+      [
+        "11_car",
+        "15_sidewalk",
+        "0.623377799987793"
+      ],
+      [
+        "2_tree",
+        "4_building",
+        "0.6203929781913757"
+      ],
+      [
+        "18_sign",
+        "4_building",
+        "0.6185104250907898"
+      ],
+      [
+        "12_car",
+        "15_sidewalk",
+        "0.6126787066459656"
+      ]
+    ]
+  }
+}

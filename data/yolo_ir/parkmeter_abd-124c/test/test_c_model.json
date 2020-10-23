@@ -1,1 +1,264 @@
-{"sorts": ["object", "label"], "predicates": {"left": "(object, object)", "below": "(object, object)", "above": "(object, object)", "right": "(object, object)", "has_label": "(object, label)"}, "elements": {"object": ["1_truck", "0_meter", "2_car"], "label": ["truck", "car", "meter"]}, "interpretation": {"left": [["0_meter", "1_truck"], ["0_meter", "2_car"], ["2_car", "1_truck"]], "below": [["0_meter", "1_truck"], ["2_car", "0_meter"], ["2_car", "1_truck"]], "above": [["0_meter", "2_car"], ["1_truck", "0_meter"], ["1_truck", "2_car"]], "right": [["1_truck", "0_meter"], ["1_truck", "2_car"], ["2_car", "0_meter"]], "has_label": [["0_meter", "meter"], ["1_truck", "truck"], ["2_car", "car"]]}, "raw": {"rel_labels": [["0", "meter", "1", "truck", "left", "0.8455"], ["0", "meter", "1", "truck", "below", "0.8455"], ["0", "meter", "2", "car", "left", "0.608"], ["0", "meter", "2", "car", "above", "0.608"], ["1", "truck", "0", "meter", "right", "0.8455"], ["1", "truck", "0", "meter", "above", "0.8455"], ["1", "truck", "2", "car", "right", "0.5696"], ["1", "truck", "2", "car", "above", "0.5696"], ["2", "car", "0", "meter", "right", "0.608"], ["2", "car", "0", "meter", "below", "0.608"], ["2", "car", "1", "truck", "left", "0.5696"], ["2", "car", "1", "truck", "below", "0.5696"]], "var_const_map": {"0_meter": "meter", "1_truck": "truck", "2_car": "car"}, "scores": [["0_meter", "1_truck", "0.8455"], ["0_meter", "1_truck", "0.8455"], ["0_meter", "2_car", "0.608"], ["0_meter", "2_car", "0.608"], ["1_truck", "0_meter", "0.8455"], ["1_truck", "0_meter", "0.8455"], ["1_truck", "2_car", "0.5696"], ["1_truck", "2_car", "0.5696"], ["2_car", "0_meter", "0.608"], ["2_car", "0_meter", "0.608"], ["2_car", "1_truck", "0.5696"], ["2_car", "1_truck", "0.5696"]]}}
+{
+  "sorts": [
+    "object",
+    "label"
+  ],
+  "predicates": {
+    "left": "(object, object)",
+    "below": "(object, object)",
+    "above": "(object, object)",
+    "right": "(object, object)",
+    "has_label": "(object, label)"
+  },
+  "elements": {
+    "object": [
+      "1_truck",
+      "0_meter",
+      "2_car"
+    ],
+    "label": [
+      "truck",
+      "car",
+      "meter"
+    ]
+  },
+  "interpretation": {
+    "left": [
+      [
+        "0_meter",
+        "1_truck"
+      ],
+      [
+        "0_meter",
+        "2_car"
+      ],
+      [
+        "2_car",
+        "1_truck"
+      ]
+    ],
+    "below": [
+      [
+        "0_meter",
+        "1_truck"
+      ],
+      [
+        "2_car",
+        "0_meter"
+      ],
+      [
+        "2_car",
+        "1_truck"
+      ]
+    ],
+    "above": [
+      [
+        "0_meter",
+        "2_car"
+      ],
+      [
+        "1_truck",
+        "0_meter"
+      ],
+      [
+        "1_truck",
+        "2_car"
+      ]
+    ],
+    "right": [
+      [
+        "1_truck",
+        "0_meter"
+      ],
+      [
+        "1_truck",
+        "2_car"
+      ],
+      [
+        "2_car",
+        "0_meter"
+      ]
+    ],
+    "has_label": [
+      [
+        "0_meter",
+        "meter"
+      ],
+      [
+        "1_truck",
+        "truck"
+      ],
+      [
+        "2_car",
+        "car"
+      ]
+    ]
+  },
+  "raw": {
+    "rel_labels": [
+      [
+        "0",
+        "meter",
+        "1",
+        "truck",
+        "left",
+        "0.8455"
+      ],
+      [
+        "0",
+        "meter",
+        "1",
+        "truck",
+        "below",
+        "0.8455"
+      ],
+      [
+        "0",
+        "meter",
+        "2",
+        "car",
+        "left",
+        "0.608"
+      ],
+      [
+        "0",
+        "meter",
+        "2",
+        "car",
+        "above",
+        "0.608"
+      ],
+      [
+        "1",
+        "truck",
+        "0",
+        "meter",
+        "right",
+        "0.8455"
+      ],
+      [
+        "1",
+        "truck",
+        "0",
+        "meter",
+        "above",
+        "0.8455"
+      ],
+      [
+        "1",
+        "truck",
+        "2",
+        "car",
+        "right",
+        "0.5696"
+      ],
+      [
+        "1",
+        "truck",
+        "2",
+        "car",
+        "above",
+        "0.5696"
+      ],
+      [
+        "2",
+        "car",
+        "0",
+        "meter",
+        "right",
+        "0.608"
+      ],
+      [
+        "2",
+        "car",
+        "0",
+        "meter",
+        "below",
+        "0.608"
+      ],
+      [
+        "2",
+        "car",
+        "1",
+        "truck",
+        "left",
+        "0.5696"
+      ],
+      [
+        "2",
+        "car",
+        "1",
+        "truck",
+        "below",
+        "0.5696"
+      ]
+    ],
+    "var_const_map": {
+      "0_meter": "meter",
+      "1_truck": "truck",
+      "2_car": "car"
+    },
+    "scores": [
+      [
+        "0_meter",
+        "1_truck",
+        "0.8455"
+      ],
+      [
+        "0_meter",
+        "1_truck",
+        "0.8455"
+      ],
+      [
+        "0_meter",
+        "2_car",
+        "0.608"
+      ],
+      [
+        "0_meter",
+        "2_car",
+        "0.608"
+      ],
+      [
+        "1_truck",
+        "0_meter",
+        "0.8455"
+      ],
+      [
+        "1_truck",
+        "0_meter",
+        "0.8455"
+      ],
+      [
+        "1_truck",
+        "2_car",
+        "0.5696"
+      ],
+      [
+        "1_truck",
+        "2_car",
+        "0.5696"
+      ],
+      [
+        "2_car",
+        "0_meter",
+        "0.608"
+      ],
+      [
+        "2_car",
+        "0_meter",
+        "0.608"
+      ],
+      [
+        "2_car",
+        "1_truck",
+        "0.5696"
+      ],
+      [
+        "2_car",
+        "1_truck",
+        "0.5696"
+      ]
+    ]
+  }
+}

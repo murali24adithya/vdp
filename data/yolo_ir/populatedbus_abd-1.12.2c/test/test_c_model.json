@@ -1,1 +1,264 @@
-{"sorts": ["object", "label"], "predicates": {"right": "(object, object)", "above": "(object, object)", "left": "(object, object)", "below": "(object, object)", "has_label": "(object, label)"}, "elements": {"object": ["1_car", "2_person", "0_bus"], "label": ["car", "person", "bus"]}, "interpretation": {"right": [["0_bus", "1_car"], ["0_bus", "2_person"], ["2_person", "1_car"]], "above": [["0_bus", "1_car"], ["0_bus", "2_person"], ["2_person", "1_car"]], "left": [["1_car", "0_bus"], ["1_car", "2_person"], ["2_person", "0_bus"]], "below": [["1_car", "0_bus"], ["1_car", "2_person"], ["2_person", "0_bus"]], "has_label": [["0_bus", "bus"], ["1_car", "car"], ["2_person", "person"]]}, "raw": {"rel_labels": [["0", "bus", "1", "car", "right", "0.52"], ["0", "bus", "1", "car", "above", "0.52"], ["0", "bus", "2", "person", "right", "0.75"], ["0", "bus", "2", "person", "above", "0.75"], ["1", "car", "0", "bus", "left", "0.52"], ["1", "car", "0", "bus", "below", "0.52"], ["1", "car", "2", "person", "left", "0.39"], ["1", "car", "2", "person", "below", "0.39"], ["2", "person", "0", "bus", "left", "0.75"], ["2", "person", "0", "bus", "below", "0.75"], ["2", "person", "1", "car", "right", "0.39"], ["2", "person", "1", "car", "above", "0.39"]], "var_const_map": {"0_bus": "bus", "1_car": "car", "2_person": "person"}, "scores": [["0_bus", "1_car", "0.52"], ["0_bus", "1_car", "0.52"], ["0_bus", "2_person", "0.75"], ["0_bus", "2_person", "0.75"], ["1_car", "0_bus", "0.52"], ["1_car", "0_bus", "0.52"], ["1_car", "2_person", "0.39"], ["1_car", "2_person", "0.39"], ["2_person", "0_bus", "0.75"], ["2_person", "0_bus", "0.75"], ["2_person", "1_car", "0.39"], ["2_person", "1_car", "0.39"]]}}
+{
+  "sorts": [
+    "object",
+    "label"
+  ],
+  "predicates": {
+    "right": "(object, object)",
+    "above": "(object, object)",
+    "left": "(object, object)",
+    "below": "(object, object)",
+    "has_label": "(object, label)"
+  },
+  "elements": {
+    "object": [
+      "1_car",
+      "2_person",
+      "0_bus"
+    ],
+    "label": [
+      "car",
+      "person",
+      "bus"
+    ]
+  },
+  "interpretation": {
+    "right": [
+      [
+        "0_bus",
+        "1_car"
+      ],
+      [
+        "0_bus",
+        "2_person"
+      ],
+      [
+        "2_person",
+        "1_car"
+      ]
+    ],
+    "above": [
+      [
+        "0_bus",
+        "1_car"
+      ],
+      [
+        "0_bus",
+        "2_person"
+      ],
+      [
+        "2_person",
+        "1_car"
+      ]
+    ],
+    "left": [
+      [
+        "1_car",
+        "0_bus"
+      ],
+      [
+        "1_car",
+        "2_person"
+      ],
+      [
+        "2_person",
+        "0_bus"
+      ]
+    ],
+    "below": [
+      [
+        "1_car",
+        "0_bus"
+      ],
+      [
+        "1_car",
+        "2_person"
+      ],
+      [
+        "2_person",
+        "0_bus"
+      ]
+    ],
+    "has_label": [
+      [
+        "0_bus",
+        "bus"
+      ],
+      [
+        "1_car",
+        "car"
+      ],
+      [
+        "2_person",
+        "person"
+      ]
+    ]
+  },
+  "raw": {
+    "rel_labels": [
+      [
+        "0",
+        "bus",
+        "1",
+        "car",
+        "right",
+        "0.52"
+      ],
+      [
+        "0",
+        "bus",
+        "1",
+        "car",
+        "above",
+        "0.52"
+      ],
+      [
+        "0",
+        "bus",
+        "2",
+        "person",
+        "right",
+        "0.75"
+      ],
+      [
+        "0",
+        "bus",
+        "2",
+        "person",
+        "above",
+        "0.75"
+      ],
+      [
+        "1",
+        "car",
+        "0",
+        "bus",
+        "left",
+        "0.52"
+      ],
+      [
+        "1",
+        "car",
+        "0",
+        "bus",
+        "below",
+        "0.52"
+      ],
+      [
+        "1",
+        "car",
+        "2",
+        "person",
+        "left",
+        "0.39"
+      ],
+      [
+        "1",
+        "car",
+        "2",
+        "person",
+        "below",
+        "0.39"
+      ],
+      [
+        "2",
+        "person",
+        "0",
+        "bus",
+        "left",
+        "0.75"
+      ],
+      [
+        "2",
+        "person",
+        "0",
+        "bus",
+        "below",
+        "0.75"
+      ],
+      [
+        "2",
+        "person",
+        "1",
+        "car",
+        "right",
+        "0.39"
+      ],
+      [
+        "2",
+        "person",
+        "1",
+        "car",
+        "above",
+        "0.39"
+      ]
+    ],
+    "var_const_map": {
+      "0_bus": "bus",
+      "1_car": "car",
+      "2_person": "person"
+    },
+    "scores": [
+      [
+        "0_bus",
+        "1_car",
+        "0.52"
+      ],
+      [
+        "0_bus",
+        "1_car",
+        "0.52"
+      ],
+      [
+        "0_bus",
+        "2_person",
+        "0.75"
+      ],
+      [
+        "0_bus",
+        "2_person",
+        "0.75"
+      ],
+      [
+        "1_car",
+        "0_bus",
+        "0.52"
+      ],
+      [
+        "1_car",
+        "0_bus",
+        "0.52"
+      ],
+      [
+        "1_car",
+        "2_person",
+        "0.39"
+      ],
+      [
+        "1_car",
+        "2_person",
+        "0.39"
+      ],
+      [
+        "2_person",
+        "0_bus",
+        "0.75"
+      ],
+      [
+        "2_person",
+        "0_bus",
+        "0.75"
+      ],
+      [
+        "2_person",
+        "1_car",
+        "0.39"
+      ],
+      [
+        "2_person",
+        "1_car",
+        "0.39"
+      ]
+    ]
+  }
+}

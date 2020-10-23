@@ -1,1 +1,121 @@
-{"sorts": ["object", "label"], "predicates": {"left": "(object, object)", "below": "(object, object)", "right": "(object, object)", "above": "(object, object)", "has_label": "(object, label)"}, "elements": {"object": ["0_refrigerator", "1_sink"], "label": ["refrigerator", "sink"]}, "interpretation": {"left": [["0_refrigerator", "1_sink"]], "below": [["0_refrigerator", "1_sink"]], "right": [["1_sink", "0_refrigerator"]], "above": [["1_sink", "0_refrigerator"]], "has_label": [["0_refrigerator", "refrigerator"], ["1_sink", "sink"]]}, "raw": {"rel_labels": [["0", "refrigerator", "1", "sink", "left", "0.9700000000000001"], ["0", "refrigerator", "1", "sink", "below", "0.9700000000000001"], ["1", "sink", "0", "refrigerator", "right", "0.9700000000000001"], ["1", "sink", "0", "refrigerator", "above", "0.9700000000000001"]], "var_const_map": {"0_refrigerator": "refrigerator", "1_sink": "sink"}, "scores": [["0_refrigerator", "1_sink", "0.9700000000000001"], ["0_refrigerator", "1_sink", "0.9700000000000001"], ["1_sink", "0_refrigerator", "0.9700000000000001"], ["1_sink", "0_refrigerator", "0.9700000000000001"]]}}
+{
+  "sorts": [
+    "object",
+    "label"
+  ],
+  "predicates": {
+    "left": "(object, object)",
+    "below": "(object, object)",
+    "right": "(object, object)",
+    "above": "(object, object)",
+    "has_label": "(object, label)"
+  },
+  "elements": {
+    "object": [
+      "0_refrigerator",
+      "1_sink"
+    ],
+    "label": [
+      "refrigerator",
+      "sink"
+    ]
+  },
+  "interpretation": {
+    "left": [
+      [
+        "0_refrigerator",
+        "1_sink"
+      ]
+    ],
+    "below": [
+      [
+        "0_refrigerator",
+        "1_sink"
+      ]
+    ],
+    "right": [
+      [
+        "1_sink",
+        "0_refrigerator"
+      ]
+    ],
+    "above": [
+      [
+        "1_sink",
+        "0_refrigerator"
+      ]
+    ],
+    "has_label": [
+      [
+        "0_refrigerator",
+        "refrigerator"
+      ],
+      [
+        "1_sink",
+        "sink"
+      ]
+    ]
+  },
+  "raw": {
+    "rel_labels": [
+      [
+        "0",
+        "refrigerator",
+        "1",
+        "sink",
+        "left",
+        "0.9700000000000001"
+      ],
+      [
+        "0",
+        "refrigerator",
+        "1",
+        "sink",
+        "below",
+        "0.9700000000000001"
+      ],
+      [
+        "1",
+        "sink",
+        "0",
+        "refrigerator",
+        "right",
+        "0.9700000000000001"
+      ],
+      [
+        "1",
+        "sink",
+        "0",
+        "refrigerator",
+        "above",
+        "0.9700000000000001"
+      ]
+    ],
+    "var_const_map": {
+      "0_refrigerator": "refrigerator",
+      "1_sink": "sink"
+    },
+    "scores": [
+      [
+        "0_refrigerator",
+        "1_sink",
+        "0.9700000000000001"
+      ],
+      [
+        "0_refrigerator",
+        "1_sink",
+        "0.9700000000000001"
+      ],
+      [
+        "1_sink",
+        "0_refrigerator",
+        "0.9700000000000001"
+      ],
+      [
+        "1_sink",
+        "0_refrigerator",
+        "0.9700000000000001"
+      ]
+    ]
+  }
+}

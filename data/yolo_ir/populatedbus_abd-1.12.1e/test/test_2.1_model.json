@@ -1,1 +1,121 @@
-{"sorts": ["object", "label"], "predicates": {"left": "(object, object)", "below": "(object, object)", "right": "(object, object)", "above": "(object, object)", "has_label": "(object, label)"}, "elements": {"object": ["1_car", "0_bus"], "label": ["car", "bus"]}, "interpretation": {"left": [["0_bus", "1_car"]], "below": [["0_bus", "1_car"]], "right": [["1_car", "0_bus"]], "above": [["1_car", "0_bus"]], "has_label": [["0_bus", "bus"], ["1_car", "car"]]}, "raw": {"rel_labels": [["0", "bus", "1", "car", "left", "1.0"], ["0", "bus", "1", "car", "below", "1.0"], ["1", "car", "0", "bus", "right", "1.0"], ["1", "car", "0", "bus", "above", "1.0"]], "var_const_map": {"0_bus": "bus", "1_car": "car"}, "scores": [["0_bus", "1_car", "1.0"], ["0_bus", "1_car", "1.0"], ["1_car", "0_bus", "1.0"], ["1_car", "0_bus", "1.0"]]}}
+{
+  "sorts": [
+    "object",
+    "label"
+  ],
+  "predicates": {
+    "left": "(object, object)",
+    "below": "(object, object)",
+    "right": "(object, object)",
+    "above": "(object, object)",
+    "has_label": "(object, label)"
+  },
+  "elements": {
+    "object": [
+      "1_car",
+      "0_bus"
+    ],
+    "label": [
+      "car",
+      "bus"
+    ]
+  },
+  "interpretation": {
+    "left": [
+      [
+        "0_bus",
+        "1_car"
+      ]
+    ],
+    "below": [
+      [
+        "0_bus",
+        "1_car"
+      ]
+    ],
+    "right": [
+      [
+        "1_car",
+        "0_bus"
+      ]
+    ],
+    "above": [
+      [
+        "1_car",
+        "0_bus"
+      ]
+    ],
+    "has_label": [
+      [
+        "0_bus",
+        "bus"
+      ],
+      [
+        "1_car",
+        "car"
+      ]
+    ]
+  },
+  "raw": {
+    "rel_labels": [
+      [
+        "0",
+        "bus",
+        "1",
+        "car",
+        "left",
+        "1.0"
+      ],
+      [
+        "0",
+        "bus",
+        "1",
+        "car",
+        "below",
+        "1.0"
+      ],
+      [
+        "1",
+        "car",
+        "0",
+        "bus",
+        "right",
+        "1.0"
+      ],
+      [
+        "1",
+        "car",
+        "0",
+        "bus",
+        "above",
+        "1.0"
+      ]
+    ],
+    "var_const_map": {
+      "0_bus": "bus",
+      "1_car": "car"
+    },
+    "scores": [
+      [
+        "0_bus",
+        "1_car",
+        "1.0"
+      ],
+      [
+        "0_bus",
+        "1_car",
+        "1.0"
+      ],
+      [
+        "1_car",
+        "0_bus",
+        "1.0"
+      ],
+      [
+        "1_car",
+        "0_bus",
+        "1.0"
+      ]
+    ]
+  }
+}

@@ -1,1 +1,138 @@
-{"sorts": ["object", "label"], "predicates": {"right": "(object, object)", "below": "(object, object)", "within": "(object, object)", "above": "(object, object)", "has_label": "(object, label)"}, "elements": {"object": ["1_bench", "0_cat"], "label": ["cat", "bench"]}, "interpretation": {"right": [["0_cat", "1_bench"], ["1_bench", "0_cat"]], "below": [["0_cat", "1_bench"]], "within": [["0_cat", "1_bench"]], "above": [["1_bench", "0_cat"]], "has_label": [["0_cat", "cat"], ["1_bench", "bench"]]}, "raw": {"rel_labels": [["0", "cat", "1", "bench", "right", "0.8722000000000001"], ["0", "cat", "1", "bench", "below", "0.8722000000000001"], ["0", "cat", "1", "bench", "within", "0.8722000000000001"], ["1", "bench", "0", "cat", "right", "0.8722000000000001"], ["1", "bench", "0", "cat", "above", "0.8722000000000001"]], "var_const_map": {"0_cat": "cat", "1_bench": "bench"}, "scores": [["0_cat", "1_bench", "0.8722000000000001"], ["0_cat", "1_bench", "0.8722000000000001"], ["0_cat", "1_bench", "0.8722000000000001"], ["1_bench", "0_cat", "0.8722000000000001"], ["1_bench", "0_cat", "0.8722000000000001"]]}}
+{
+  "sorts": [
+    "object",
+    "label"
+  ],
+  "predicates": {
+    "right": "(object, object)",
+    "below": "(object, object)",
+    "within": "(object, object)",
+    "above": "(object, object)",
+    "has_label": "(object, label)"
+  },
+  "elements": {
+    "object": [
+      "1_bench",
+      "0_cat"
+    ],
+    "label": [
+      "cat",
+      "bench"
+    ]
+  },
+  "interpretation": {
+    "right": [
+      [
+        "0_cat",
+        "1_bench"
+      ],
+      [
+        "1_bench",
+        "0_cat"
+      ]
+    ],
+    "below": [
+      [
+        "0_cat",
+        "1_bench"
+      ]
+    ],
+    "within": [
+      [
+        "0_cat",
+        "1_bench"
+      ]
+    ],
+    "above": [
+      [
+        "1_bench",
+        "0_cat"
+      ]
+    ],
+    "has_label": [
+      [
+        "0_cat",
+        "cat"
+      ],
+      [
+        "1_bench",
+        "bench"
+      ]
+    ]
+  },
+  "raw": {
+    "rel_labels": [
+      [
+        "0",
+        "cat",
+        "1",
+        "bench",
+        "right",
+        "0.8722000000000001"
+      ],
+      [
+        "0",
+        "cat",
+        "1",
+        "bench",
+        "below",
+        "0.8722000000000001"
+      ],
+      [
+        "0",
+        "cat",
+        "1",
+        "bench",
+        "within",
+        "0.8722000000000001"
+      ],
+      [
+        "1",
+        "bench",
+        "0",
+        "cat",
+        "right",
+        "0.8722000000000001"
+      ],
+      [
+        "1",
+        "bench",
+        "0",
+        "cat",
+        "above",
+        "0.8722000000000001"
+      ]
+    ],
+    "var_const_map": {
+      "0_cat": "cat",
+      "1_bench": "bench"
+    },
+    "scores": [
+      [
+        "0_cat",
+        "1_bench",
+        "0.8722000000000001"
+      ],
+      [
+        "0_cat",
+        "1_bench",
+        "0.8722000000000001"
+      ],
+      [
+        "0_cat",
+        "1_bench",
+        "0.8722000000000001"
+      ],
+      [
+        "1_bench",
+        "0_cat",
+        "0.8722000000000001"
+      ],
+      [
+        "1_bench",
+        "0_cat",
+        "0.8722000000000001"
+      ]
+    ]
+  }
+}

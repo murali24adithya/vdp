@@ -1,1 +1,284 @@
-{"sorts": ["object", "label"], "predicates": {"right": "(object, object)", "above": "(object, object)", "left": "(object, object)", "below": "(object, object)", "within": "(object, object)", "has_label": "(object, label)"}, "elements": {"object": ["1_car", "2_person", "0_skateboard"], "label": ["skateboard", "person", "car"]}, "interpretation": {"right": [["0_skateboard", "1_car"], ["2_person", "0_skateboard"], ["2_person", "1_car"]], "above": [["0_skateboard", "1_car"], ["2_person", "0_skateboard"], ["2_person", "1_car"]], "left": [["0_skateboard", "2_person"], ["1_car", "0_skateboard"], ["1_car", "2_person"]], "below": [["0_skateboard", "2_person"], ["1_car", "0_skateboard"], ["1_car", "2_person"]], "within": [["1_car", "2_person"]], "has_label": [["0_skateboard", "skateboard"], ["1_car", "car"], ["2_person", "person"]]}, "raw": {"rel_labels": [["0", "skateboard", "1", "car", "right", "0.7326"], ["0", "skateboard", "1", "car", "above", "0.7326"], ["0", "skateboard", "2", "person", "left", "0.6435000000000001"], ["0", "skateboard", "2", "person", "below", "0.6435000000000001"], ["1", "car", "0", "skateboard", "left", "0.7326"], ["1", "car", "0", "skateboard", "below", "0.7326"], ["1", "car", "2", "person", "left", "0.48100000000000004"], ["1", "car", "2", "person", "below", "0.48100000000000004"], ["1", "car", "2", "person", "within", "0.48100000000000004"], ["2", "person", "0", "skateboard", "right", "0.6435000000000001"], ["2", "person", "0", "skateboard", "above", "0.6435000000000001"], ["2", "person", "1", "car", "right", "0.48100000000000004"], ["2", "person", "1", "car", "above", "0.48100000000000004"]], "var_const_map": {"0_skateboard": "skateboard", "1_car": "car", "2_person": "person"}, "scores": [["0_skateboard", "1_car", "0.7326"], ["0_skateboard", "1_car", "0.7326"], ["0_skateboard", "2_person", "0.6435000000000001"], ["0_skateboard", "2_person", "0.6435000000000001"], ["1_car", "0_skateboard", "0.7326"], ["1_car", "0_skateboard", "0.7326"], ["1_car", "2_person", "0.48100000000000004"], ["1_car", "2_person", "0.48100000000000004"], ["1_car", "2_person", "0.48100000000000004"], ["2_person", "0_skateboard", "0.6435000000000001"], ["2_person", "0_skateboard", "0.6435000000000001"], ["2_person", "1_car", "0.48100000000000004"], ["2_person", "1_car", "0.48100000000000004"]]}}
+{
+  "sorts": [
+    "object",
+    "label"
+  ],
+  "predicates": {
+    "right": "(object, object)",
+    "above": "(object, object)",
+    "left": "(object, object)",
+    "below": "(object, object)",
+    "within": "(object, object)",
+    "has_label": "(object, label)"
+  },
+  "elements": {
+    "object": [
+      "1_car",
+      "2_person",
+      "0_skateboard"
+    ],
+    "label": [
+      "skateboard",
+      "person",
+      "car"
+    ]
+  },
+  "interpretation": {
+    "right": [
+      [
+        "0_skateboard",
+        "1_car"
+      ],
+      [
+        "2_person",
+        "0_skateboard"
+      ],
+      [
+        "2_person",
+        "1_car"
+      ]
+    ],
+    "above": [
+      [
+        "0_skateboard",
+        "1_car"
+      ],
+      [
+        "2_person",
+        "0_skateboard"
+      ],
+      [
+        "2_person",
+        "1_car"
+      ]
+    ],
+    "left": [
+      [
+        "0_skateboard",
+        "2_person"
+      ],
+      [
+        "1_car",
+        "0_skateboard"
+      ],
+      [
+        "1_car",
+        "2_person"
+      ]
+    ],
+    "below": [
+      [
+        "0_skateboard",
+        "2_person"
+      ],
+      [
+        "1_car",
+        "0_skateboard"
+      ],
+      [
+        "1_car",
+        "2_person"
+      ]
+    ],
+    "within": [
+      [
+        "1_car",
+        "2_person"
+      ]
+    ],
+    "has_label": [
+      [
+        "0_skateboard",
+        "skateboard"
+      ],
+      [
+        "1_car",
+        "car"
+      ],
+      [
+        "2_person",
+        "person"
+      ]
+    ]
+  },
+  "raw": {
+    "rel_labels": [
+      [
+        "0",
+        "skateboard",
+        "1",
+        "car",
+        "right",
+        "0.7326"
+      ],
+      [
+        "0",
+        "skateboard",
+        "1",
+        "car",
+        "above",
+        "0.7326"
+      ],
+      [
+        "0",
+        "skateboard",
+        "2",
+        "person",
+        "left",
+        "0.6435000000000001"
+      ],
+      [
+        "0",
+        "skateboard",
+        "2",
+        "person",
+        "below",
+        "0.6435000000000001"
+      ],
+      [
+        "1",
+        "car",
+        "0",
+        "skateboard",
+        "left",
+        "0.7326"
+      ],
+      [
+        "1",
+        "car",
+        "0",
+        "skateboard",
+        "below",
+        "0.7326"
+      ],
+      [
+        "1",
+        "car",
+        "2",
+        "person",
+        "left",
+        "0.48100000000000004"
+      ],
+      [
+        "1",
+        "car",
+        "2",
+        "person",
+        "below",
+        "0.48100000000000004"
+      ],
+      [
+        "1",
+        "car",
+        "2",
+        "person",
+        "within",
+        "0.48100000000000004"
+      ],
+      [
+        "2",
+        "person",
+        "0",
+        "skateboard",
+        "right",
+        "0.6435000000000001"
+      ],
+      [
+        "2",
+        "person",
+        "0",
+        "skateboard",
+        "above",
+        "0.6435000000000001"
+      ],
+      [
+        "2",
+        "person",
+        "1",
+        "car",
+        "right",
+        "0.48100000000000004"
+      ],
+      [
+        "2",
+        "person",
+        "1",
+        "car",
+        "above",
+        "0.48100000000000004"
+      ]
+    ],
+    "var_const_map": {
+      "0_skateboard": "skateboard",
+      "1_car": "car",
+      "2_person": "person"
+    },
+    "scores": [
+      [
+        "0_skateboard",
+        "1_car",
+        "0.7326"
+      ],
+      [
+        "0_skateboard",
+        "1_car",
+        "0.7326"
+      ],
+      [
+        "0_skateboard",
+        "2_person",
+        "0.6435000000000001"
+      ],
+      [
+        "0_skateboard",
+        "2_person",
+        "0.6435000000000001"
+      ],
+      [
+        "1_car",
+        "0_skateboard",
+        "0.7326"
+      ],
+      [
+        "1_car",
+        "0_skateboard",
+        "0.7326"
+      ],
+      [
+        "1_car",
+        "2_person",
+        "0.48100000000000004"
+      ],
+      [
+        "1_car",
+        "2_person",
+        "0.48100000000000004"
+      ],
+      [
+        "1_car",
+        "2_person",
+        "0.48100000000000004"
+      ],
+      [
+        "2_person",
+        "0_skateboard",
+        "0.6435000000000001"
+      ],
+      [
+        "2_person",
+        "0_skateboard",
+        "0.6435000000000001"
+      ],
+      [
+        "2_person",
+        "1_car",
+        "0.48100000000000004"
+      ],
+      [
+        "2_person",
+        "1_car",
+        "0.48100000000000004"
+      ]
+    ]
+  }
+}

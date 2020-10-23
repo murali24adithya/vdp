@@ -1,1 +1,264 @@
-{"sorts": ["object", "label"], "predicates": {"left": "(object, object)", "below": "(object, object)", "right": "(object, object)", "above": "(object, object)", "has_label": "(object, label)"}, "elements": {"object": ["0_sink", "2_bowl", "1_toilet"], "label": ["bowl", "toilet", "sink"]}, "interpretation": {"left": [["0_sink", "1_toilet"], ["0_sink", "2_bowl"], ["2_bowl", "1_toilet"]], "below": [["0_sink", "1_toilet"], ["0_sink", "2_bowl"], ["2_bowl", "1_toilet"]], "right": [["1_toilet", "0_sink"], ["1_toilet", "2_bowl"], ["2_bowl", "0_sink"]], "above": [["1_toilet", "0_sink"], ["1_toilet", "2_bowl"], ["2_bowl", "0_sink"]], "has_label": [["0_sink", "sink"], ["1_toilet", "toilet"], ["2_bowl", "bowl"]]}, "raw": {"rel_labels": [["0", "sink", "1", "toilet", "left", "0.8342"], ["0", "sink", "1", "toilet", "below", "0.8342"], ["0", "sink", "2", "bowl", "left", "0.5074000000000001"], ["0", "sink", "2", "bowl", "below", "0.5074000000000001"], ["1", "toilet", "0", "sink", "right", "0.8342"], ["1", "toilet", "0", "sink", "above", "0.8342"], ["1", "toilet", "2", "bowl", "right", "0.5723"], ["1", "toilet", "2", "bowl", "above", "0.5723"], ["2", "bowl", "0", "sink", "right", "0.5074000000000001"], ["2", "bowl", "0", "sink", "above", "0.5074000000000001"], ["2", "bowl", "1", "toilet", "left", "0.5723"], ["2", "bowl", "1", "toilet", "below", "0.5723"]], "var_const_map": {"0_sink": "sink", "1_toilet": "toilet", "2_bowl": "bowl"}, "scores": [["0_sink", "1_toilet", "0.8342"], ["0_sink", "1_toilet", "0.8342"], ["0_sink", "2_bowl", "0.5074000000000001"], ["0_sink", "2_bowl", "0.5074000000000001"], ["1_toilet", "0_sink", "0.8342"], ["1_toilet", "0_sink", "0.8342"], ["1_toilet", "2_bowl", "0.5723"], ["1_toilet", "2_bowl", "0.5723"], ["2_bowl", "0_sink", "0.5074000000000001"], ["2_bowl", "0_sink", "0.5074000000000001"], ["2_bowl", "1_toilet", "0.5723"], ["2_bowl", "1_toilet", "0.5723"]]}}
+{
+  "sorts": [
+    "object",
+    "label"
+  ],
+  "predicates": {
+    "left": "(object, object)",
+    "below": "(object, object)",
+    "right": "(object, object)",
+    "above": "(object, object)",
+    "has_label": "(object, label)"
+  },
+  "elements": {
+    "object": [
+      "0_sink",
+      "2_bowl",
+      "1_toilet"
+    ],
+    "label": [
+      "bowl",
+      "toilet",
+      "sink"
+    ]
+  },
+  "interpretation": {
+    "left": [
+      [
+        "0_sink",
+        "1_toilet"
+      ],
+      [
+        "0_sink",
+        "2_bowl"
+      ],
+      [
+        "2_bowl",
+        "1_toilet"
+      ]
+    ],
+    "below": [
+      [
+        "0_sink",
+        "1_toilet"
+      ],
+      [
+        "0_sink",
+        "2_bowl"
+      ],
+      [
+        "2_bowl",
+        "1_toilet"
+      ]
+    ],
+    "right": [
+      [
+        "1_toilet",
+        "0_sink"
+      ],
+      [
+        "1_toilet",
+        "2_bowl"
+      ],
+      [
+        "2_bowl",
+        "0_sink"
+      ]
+    ],
+    "above": [
+      [
+        "1_toilet",
+        "0_sink"
+      ],
+      [
+        "1_toilet",
+        "2_bowl"
+      ],
+      [
+        "2_bowl",
+        "0_sink"
+      ]
+    ],
+    "has_label": [
+      [
+        "0_sink",
+        "sink"
+      ],
+      [
+        "1_toilet",
+        "toilet"
+      ],
+      [
+        "2_bowl",
+        "bowl"
+      ]
+    ]
+  },
+  "raw": {
+    "rel_labels": [
+      [
+        "0",
+        "sink",
+        "1",
+        "toilet",
+        "left",
+        "0.8342"
+      ],
+      [
+        "0",
+        "sink",
+        "1",
+        "toilet",
+        "below",
+        "0.8342"
+      ],
+      [
+        "0",
+        "sink",
+        "2",
+        "bowl",
+        "left",
+        "0.5074000000000001"
+      ],
+      [
+        "0",
+        "sink",
+        "2",
+        "bowl",
+        "below",
+        "0.5074000000000001"
+      ],
+      [
+        "1",
+        "toilet",
+        "0",
+        "sink",
+        "right",
+        "0.8342"
+      ],
+      [
+        "1",
+        "toilet",
+        "0",
+        "sink",
+        "above",
+        "0.8342"
+      ],
+      [
+        "1",
+        "toilet",
+        "2",
+        "bowl",
+        "right",
+        "0.5723"
+      ],
+      [
+        "1",
+        "toilet",
+        "2",
+        "bowl",
+        "above",
+        "0.5723"
+      ],
+      [
+        "2",
+        "bowl",
+        "0",
+        "sink",
+        "right",
+        "0.5074000000000001"
+      ],
+      [
+        "2",
+        "bowl",
+        "0",
+        "sink",
+        "above",
+        "0.5074000000000001"
+      ],
+      [
+        "2",
+        "bowl",
+        "1",
+        "toilet",
+        "left",
+        "0.5723"
+      ],
+      [
+        "2",
+        "bowl",
+        "1",
+        "toilet",
+        "below",
+        "0.5723"
+      ]
+    ],
+    "var_const_map": {
+      "0_sink": "sink",
+      "1_toilet": "toilet",
+      "2_bowl": "bowl"
+    },
+    "scores": [
+      [
+        "0_sink",
+        "1_toilet",
+        "0.8342"
+      ],
+      [
+        "0_sink",
+        "1_toilet",
+        "0.8342"
+      ],
+      [
+        "0_sink",
+        "2_bowl",
+        "0.5074000000000001"
+      ],
+      [
+        "0_sink",
+        "2_bowl",
+        "0.5074000000000001"
+      ],
+      [
+        "1_toilet",
+        "0_sink",
+        "0.8342"
+      ],
+      [
+        "1_toilet",
+        "0_sink",
+        "0.8342"
+      ],
+      [
+        "1_toilet",
+        "2_bowl",
+        "0.5723"
+      ],
+      [
+        "1_toilet",
+        "2_bowl",
+        "0.5723"
+      ],
+      [
+        "2_bowl",
+        "0_sink",
+        "0.5074000000000001"
+      ],
+      [
+        "2_bowl",
+        "0_sink",
+        "0.5074000000000001"
+      ],
+      [
+        "2_bowl",
+        "1_toilet",
+        "0.5723"
+      ],
+      [
+        "2_bowl",
+        "1_toilet",
+        "0.5723"
+      ]
+    ]
+  }
+}

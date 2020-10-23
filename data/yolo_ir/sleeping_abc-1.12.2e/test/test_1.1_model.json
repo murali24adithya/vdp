@@ -1,1 +1,141 @@
-{"sorts": ["object", "label"], "predicates": {"left": "(object, object)", "below": "(object, object)", "within": "(object, object)", "right": "(object, object)", "above": "(object, object)", "has_label": "(object, label)"}, "elements": {"object": ["0_dog", "1_bench"], "label": ["dog", "bench"]}, "interpretation": {"left": [["0_dog", "1_bench"]], "below": [["0_dog", "1_bench"]], "within": [["0_dog", "1_bench"]], "right": [["1_bench", "0_dog"]], "above": [["1_bench", "0_dog"]], "has_label": [["0_dog", "dog"], ["1_bench", "bench"]]}, "raw": {"rel_labels": [["0", "dog", "1", "bench", "left", "0.7100000000000001"], ["0", "dog", "1", "bench", "below", "0.7100000000000001"], ["0", "dog", "1", "bench", "within", "0.7100000000000001"], ["1", "bench", "0", "dog", "right", "0.7100000000000001"], ["1", "bench", "0", "dog", "above", "0.7100000000000001"]], "var_const_map": {"0_dog": "dog", "1_bench": "bench"}, "scores": [["0_dog", "1_bench", "0.7100000000000001"], ["0_dog", "1_bench", "0.7100000000000001"], ["0_dog", "1_bench", "0.7100000000000001"], ["1_bench", "0_dog", "0.7100000000000001"], ["1_bench", "0_dog", "0.7100000000000001"]]}}
+{
+  "sorts": [
+    "object",
+    "label"
+  ],
+  "predicates": {
+    "left": "(object, object)",
+    "below": "(object, object)",
+    "within": "(object, object)",
+    "right": "(object, object)",
+    "above": "(object, object)",
+    "has_label": "(object, label)"
+  },
+  "elements": {
+    "object": [
+      "0_dog",
+      "1_bench"
+    ],
+    "label": [
+      "dog",
+      "bench"
+    ]
+  },
+  "interpretation": {
+    "left": [
+      [
+        "0_dog",
+        "1_bench"
+      ]
+    ],
+    "below": [
+      [
+        "0_dog",
+        "1_bench"
+      ]
+    ],
+    "within": [
+      [
+        "0_dog",
+        "1_bench"
+      ]
+    ],
+    "right": [
+      [
+        "1_bench",
+        "0_dog"
+      ]
+    ],
+    "above": [
+      [
+        "1_bench",
+        "0_dog"
+      ]
+    ],
+    "has_label": [
+      [
+        "0_dog",
+        "dog"
+      ],
+      [
+        "1_bench",
+        "bench"
+      ]
+    ]
+  },
+  "raw": {
+    "rel_labels": [
+      [
+        "0",
+        "dog",
+        "1",
+        "bench",
+        "left",
+        "0.7100000000000001"
+      ],
+      [
+        "0",
+        "dog",
+        "1",
+        "bench",
+        "below",
+        "0.7100000000000001"
+      ],
+      [
+        "0",
+        "dog",
+        "1",
+        "bench",
+        "within",
+        "0.7100000000000001"
+      ],
+      [
+        "1",
+        "bench",
+        "0",
+        "dog",
+        "right",
+        "0.7100000000000001"
+      ],
+      [
+        "1",
+        "bench",
+        "0",
+        "dog",
+        "above",
+        "0.7100000000000001"
+      ]
+    ],
+    "var_const_map": {
+      "0_dog": "dog",
+      "1_bench": "bench"
+    },
+    "scores": [
+      [
+        "0_dog",
+        "1_bench",
+        "0.7100000000000001"
+      ],
+      [
+        "0_dog",
+        "1_bench",
+        "0.7100000000000001"
+      ],
+      [
+        "0_dog",
+        "1_bench",
+        "0.7100000000000001"
+      ],
+      [
+        "1_bench",
+        "0_dog",
+        "0.7100000000000001"
+      ],
+      [
+        "1_bench",
+        "0_dog",
+        "0.7100000000000001"
+      ]
+    ]
+  }
+}

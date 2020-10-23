@@ -79,7 +79,7 @@ def make_sets(params):
     if len(params):
         config_path = (os.path.join(folder_path, "config.json"))
         with open(config_path, 'w') as fp:
-            json.dump(params, fp)  
+            json.dump(params, fp, indent=4)  
     return normalized_name
     
 
@@ -187,6 +187,7 @@ def get_yolo_fo_models(yolo_input_dir):
         os.makedirs(f"{dir_prefix}/{batch}", exist_ok=True)
         rel_labels = list()
         var_const_map = dict()
+        object_id = {obj : str(idx) for idx, obj in enumerate(img_data.keys())}
         for obj1, obj_data1 in img_data.items():
             for obj2, obj_data2 in img_data.items():
                 if obj1 != obj2:
@@ -197,8 +198,8 @@ def get_yolo_fo_models(yolo_input_dir):
                     if is_within(obj_data1['bb'], obj_data2['bb']):
                         relations.append('within')
                     for rel in relations:
-                        rel_labels.append(['obj', obj1, 'obj', obj2, rel, str(score)])
-            var_const_map['obj_' + obj1] = obj1
+                        rel_labels.append([object_id[obj1], obj1, object_id[obj2], obj2, rel, str(score)])
+            var_const_map[object_id[obj1] + "_" + obj1] = obj1
 
         fo_model = _construct_normalized_model(rel_labels, var_const_map)
         img_path =  yolo_input_dir + f"/{img_name}.jpg"

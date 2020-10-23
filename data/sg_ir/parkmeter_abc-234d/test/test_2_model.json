@@ -1,1 +1,494 @@
-{"sorts": ["object", "label"], "predicates": {"has": "(object, object)", "walking on": "(object, object)", "parked on": "(object, object)", "behind": "(object, object)", "in front of": "(object, object)", "has_label": "(object, label)"}, "elements": {"object": ["15_car", "3_car", "0_dog", "4_car", "5_street", "17_wheel", "2_man", "19_car", "16_tree", "11_building", "7_tire", "14_person", "8_building", "1_car", "12_windshield", "6_car", "10_car"], "label": ["wheel", "street", "car", "person", "tire", "building", "tree", "man", "dog", "windshield"]}, "interpretation": {"has": [["1_car", "17_wheel"], ["1_car", "7_tire"], ["1_car", "12_windshield"]], "walking on": [["2_man", "5_street"], ["14_person", "5_street"]], "parked on": [["1_car", "5_street"], ["4_car", "5_street"], ["19_car", "5_street"], ["6_car", "5_street"], ["10_car", "5_street"]], "behind": [["11_building", "15_car"], ["6_car", "2_man"], ["11_building", "0_dog"], ["11_building", "2_man"], ["11_building", "1_car"], ["16_tree", "2_man"], ["8_building", "3_car"], ["6_car", "14_person"]], "in front of": [["15_car", "11_building"], ["3_car", "8_building"]], "has_label": [["1_car", "car"], ["2_man", "man"], ["14_person", "person"], ["11_building", "building"], ["6_car", "car"], ["4_car", "car"], ["15_car", "car"], ["19_car", "car"], ["3_car", "car"], ["16_tree", "tree"], ["10_car", "car"], ["8_building", "building"], ["17_wheel", "wheel"], ["7_tire", "tire"], ["12_windshield", "windshield"], ["5_street", "street"], ["0_dog", "dog"]]}, "raw": {"rel_labels": [[1, "car", 17, "wheel", "has", "0.9016647338867188"], [1, "car", 7, "tire", "has", "0.8978790044784546"], [1, "car", 12, "windshield", "has", "0.8694061636924744"], [2, "man", 5, "street", "walking on", "0.8300254940986633"], [14, "person", 5, "street", "walking on", "0.8239396810531616"], [1, "car", 5, "street", "parked on", "0.8152139186859131"], [11, "building", 15, "car", "behind", "0.7673494815826416"], [6, "car", 2, "man", "behind", "0.762862503528595"], [11, "building", 0, "dog", "behind", "0.7506071925163269"], [4, "car", 5, "street", "parked on", "0.7496520280838013"], [11, "building", 2, "man", "behind", "0.7264650464057922"], [15, "car", 11, "building", "in front of", "0.7194257974624634"], [19, "car", 5, "street", "parked on", "0.7157722115516663"], [3, "car", 8, "building", "in front of", "0.7125009298324585"], [11, "building", 1, "car", "behind", "0.7019740343093872"], [6, "car", 5, "street", "parked on", "0.7012102007865906"], [16, "tree", 2, "man", "behind", "0.6954414248466492"], [10, "car", 5, "street", "parked on", "0.6866201162338257"], [8, "building", 3, "car", "behind", "0.6865019798278809"], [6, "car", 14, "person", "behind", "0.682879626750946"]], "var_const_map": {"1_car": "car", "2_man": "man", "14_person": "person", "11_building": "building", "6_car": "car", "4_car": "car", "15_car": "car", "19_car": "car", "3_car": "car", "16_tree": "tree", "10_car": "car", "8_building": "building", "17_wheel": "wheel", "7_tire": "tire", "12_windshield": "windshield", "5_street": "street", "0_dog": "dog"}, "scores": [["1_car", "17_wheel", "0.9016647338867188"], ["1_car", "7_tire", "0.8978790044784546"], ["1_car", "12_windshield", "0.8694061636924744"], ["2_man", "5_street", "0.8300254940986633"], ["14_person", "5_street", "0.8239396810531616"], ["1_car", "5_street", "0.8152139186859131"], ["11_building", "15_car", "0.7673494815826416"], ["6_car", "2_man", "0.762862503528595"], ["11_building", "0_dog", "0.7506071925163269"], ["4_car", "5_street", "0.7496520280838013"], ["11_building", "2_man", "0.7264650464057922"], ["15_car", "11_building", "0.7194257974624634"], ["19_car", "5_street", "0.7157722115516663"], ["3_car", "8_building", "0.7125009298324585"], ["11_building", "1_car", "0.7019740343093872"], ["6_car", "5_street", "0.7012102007865906"], ["16_tree", "2_man", "0.6954414248466492"], ["10_car", "5_street", "0.6866201162338257"], ["8_building", "3_car", "0.6865019798278809"], ["6_car", "14_person", "0.682879626750946"]]}}
+{
+  "sorts": [
+    "object",
+    "label"
+  ],
+  "predicates": {
+    "has": "(object, object)",
+    "walking on": "(object, object)",
+    "parked on": "(object, object)",
+    "behind": "(object, object)",
+    "in front of": "(object, object)",
+    "has_label": "(object, label)"
+  },
+  "elements": {
+    "object": [
+      "6_car",
+      "16_tree",
+      "0_dog",
+      "14_person",
+      "11_building",
+      "19_car",
+      "7_tire",
+      "17_wheel",
+      "2_man",
+      "4_car",
+      "8_building",
+      "10_car",
+      "15_car",
+      "1_car",
+      "5_street",
+      "12_windshield",
+      "3_car"
+    ],
+    "label": [
+      "building",
+      "man",
+      "wheel",
+      "tree",
+      "person",
+      "windshield",
+      "street",
+      "dog",
+      "car",
+      "tire"
+    ]
+  },
+  "interpretation": {
+    "has": [
+      [
+        "1_car",
+        "17_wheel"
+      ],
+      [
+        "1_car",
+        "7_tire"
+      ],
+      [
+        "1_car",
+        "12_windshield"
+      ]
+    ],
+    "walking on": [
+      [
+        "2_man",
+        "5_street"
+      ],
+      [
+        "14_person",
+        "5_street"
+      ]
+    ],
+    "parked on": [
+      [
+        "1_car",
+        "5_street"
+      ],
+      [
+        "4_car",
+        "5_street"
+      ],
+      [
+        "19_car",
+        "5_street"
+      ],
+      [
+        "6_car",
+        "5_street"
+      ],
+      [
+        "10_car",
+        "5_street"
+      ]
+    ],
+    "behind": [
+      [
+        "11_building",
+        "15_car"
+      ],
+      [
+        "6_car",
+        "2_man"
+      ],
+      [
+        "11_building",
+        "0_dog"
+      ],
+      [
+        "11_building",
+        "2_man"
+      ],
+      [
+        "11_building",
+        "1_car"
+      ],
+      [
+        "16_tree",
+        "2_man"
+      ],
+      [
+        "8_building",
+        "3_car"
+      ],
+      [
+        "6_car",
+        "14_person"
+      ]
+    ],
+    "in front of": [
+      [
+        "15_car",
+        "11_building"
+      ],
+      [
+        "3_car",
+        "8_building"
+      ]
+    ],
+    "has_label": [
+      [
+        "1_car",
+        "car"
+      ],
+      [
+        "2_man",
+        "man"
+      ],
+      [
+        "14_person",
+        "person"
+      ],
+      [
+        "11_building",
+        "building"
+      ],
+      [
+        "6_car",
+        "car"
+      ],
+      [
+        "4_car",
+        "car"
+      ],
+      [
+        "15_car",
+        "car"
+      ],
+      [
+        "19_car",
+        "car"
+      ],
+      [
+        "3_car",
+        "car"
+      ],
+      [
+        "16_tree",
+        "tree"
+      ],
+      [
+        "10_car",
+        "car"
+      ],
+      [
+        "8_building",
+        "building"
+      ],
+      [
+        "17_wheel",
+        "wheel"
+      ],
+      [
+        "7_tire",
+        "tire"
+      ],
+      [
+        "12_windshield",
+        "windshield"
+      ],
+      [
+        "5_street",
+        "street"
+      ],
+      [
+        "0_dog",
+        "dog"
+      ]
+    ]
+  },
+  "raw": {
+    "rel_labels": [
+      [
+        1,
+        "car",
+        17,
+        "wheel",
+        "has",
+        "0.9016647338867188"
+      ],
+      [
+        1,
+        "car",
+        7,
+        "tire",
+        "has",
+        "0.8978790044784546"
+      ],
+      [
+        1,
+        "car",
+        12,
+        "windshield",
+        "has",
+        "0.8694061636924744"
+      ],
+      [
+        2,
+        "man",
+        5,
+        "street",
+        "walking on",
+        "0.8300254940986633"
+      ],
+      [
+        14,
+        "person",
+        5,
+        "street",
+        "walking on",
+        "0.8239396810531616"
+      ],
+      [
+        1,
+        "car",
+        5,
+        "street",
+        "parked on",
+        "0.8152139186859131"
+      ],
+      [
+        11,
+        "building",
+        15,
+        "car",
+        "behind",
+        "0.7673494815826416"
+      ],
+      [
+        6,
+        "car",
+        2,
+        "man",
+        "behind",
+        "0.762862503528595"
+      ],
+      [
+        11,
+        "building",
+        0,
+        "dog",
+        "behind",
+        "0.7506071925163269"
+      ],
+      [
+        4,
+        "car",
+        5,
+        "street",
+        "parked on",
+        "0.7496520280838013"
+      ],
+      [
+        11,
+        "building",
+        2,
+        "man",
+        "behind",
+        "0.7264650464057922"
+      ],
+      [
+        15,
+        "car",
+        11,
+        "building",
+        "in front of",
+        "0.7194257974624634"
+      ],
+      [
+        19,
+        "car",
+        5,
+        "street",
+        "parked on",
+        "0.7157722115516663"
+      ],
+      [
+        3,
+        "car",
+        8,
+        "building",
+        "in front of",
+        "0.7125009298324585"
+      ],
+      [
+        11,
+        "building",
+        1,
+        "car",
+        "behind",
+        "0.7019740343093872"
+      ],
+      [
+        6,
+        "car",
+        5,
+        "street",
+        "parked on",
+        "0.7012102007865906"
+      ],
+      [
+        16,
+        "tree",
+        2,
+        "man",
+        "behind",
+        "0.6954414248466492"
+      ],
+      [
+        10,
+        "car",
+        5,
+        "street",
+        "parked on",
+        "0.6866201162338257"
+      ],
+      [
+        8,
+        "building",
+        3,
+        "car",
+        "behind",
+        "0.6865019798278809"
+      ],
+      [
+        6,
+        "car",
+        14,
+        "person",
+        "behind",
+        "0.682879626750946"
+      ]
+    ],
+    "var_const_map": {
+      "1_car": "car",
+      "2_man": "man",
+      "14_person": "person",
+      "11_building": "building",
+      "6_car": "car",
+      "4_car": "car",
+      "15_car": "car",
+      "19_car": "car",
+      "3_car": "car",
+      "16_tree": "tree",
+      "10_car": "car",
+      "8_building": "building",
+      "17_wheel": "wheel",
+      "7_tire": "tire",
+      "12_windshield": "windshield",
+      "5_street": "street",
+      "0_dog": "dog"
+    },
+    "scores": [
+      [
+        "1_car",
+        "17_wheel",
+        "0.9016647338867188"
+      ],
+      [
+        "1_car",
+        "7_tire",
+        "0.8978790044784546"
+      ],
+      [
+        "1_car",
+        "12_windshield",
+        "0.8694061636924744"
+      ],
+      [
+        "2_man",
+        "5_street",
+        "0.8300254940986633"
+      ],
+      [
+        "14_person",
+        "5_street",
+        "0.8239396810531616"
+      ],
+      [
+        "1_car",
+        "5_street",
+        "0.8152139186859131"
+      ],
+      [
+        "11_building",
+        "15_car",
+        "0.7673494815826416"
+      ],
+      [
+        "6_car",
+        "2_man",
+        "0.762862503528595"
+      ],
+      [
+        "11_building",
+        "0_dog",
+        "0.7506071925163269"
+      ],
+      [
+        "4_car",
+        "5_street",
+        "0.7496520280838013"
+      ],
+      [
+        "11_building",
+        "2_man",
+        "0.7264650464057922"
+      ],
+      [
+        "15_car",
+        "11_building",
+        "0.7194257974624634"
+      ],
+      [
+        "19_car",
+        "5_street",
+        "0.7157722115516663"
+      ],
+      [
+        "3_car",
+        "8_building",
+        "0.7125009298324585"
+      ],
+      [
+        "11_building",
+        "1_car",
+        "0.7019740343093872"
+      ],
+      [
+        "6_car",
+        "5_street",
+        "0.7012102007865906"
+      ],
+      [
+        "16_tree",
+        "2_man",
+        "0.6954414248466492"
+      ],
+      [
+        "10_car",
+        "5_street",
+        "0.6866201162338257"
+      ],
+      [
+        "8_building",
+        "3_car",
+        "0.6865019798278809"
+      ],
+      [
+        "6_car",
+        "14_person",
+        "0.682879626750946"
+      ]
+    ]
+  }
+}

@@ -1,1 +1,121 @@
-{"sorts": ["object", "label"], "predicates": {"left": "(object, object)", "below": "(object, object)", "right": "(object, object)", "above": "(object, object)", "has_label": "(object, label)"}, "elements": {"object": ["0_bus", "1_person"], "label": ["person", "bus"]}, "interpretation": {"left": [["0_bus", "1_person"]], "below": [["0_bus", "1_person"]], "right": [["1_person", "0_bus"]], "above": [["1_person", "0_bus"]], "has_label": [["0_bus", "bus"], ["1_person", "person"]]}, "raw": {"rel_labels": [["0", "bus", "1", "person", "left", "0.6566000000000001"], ["0", "bus", "1", "person", "below", "0.6566000000000001"], ["1", "person", "0", "bus", "right", "0.6566000000000001"], ["1", "person", "0", "bus", "above", "0.6566000000000001"]], "var_const_map": {"0_bus": "bus", "1_person": "person"}, "scores": [["0_bus", "1_person", "0.6566000000000001"], ["0_bus", "1_person", "0.6566000000000001"], ["1_person", "0_bus", "0.6566000000000001"], ["1_person", "0_bus", "0.6566000000000001"]]}}
+{
+  "sorts": [
+    "object",
+    "label"
+  ],
+  "predicates": {
+    "left": "(object, object)",
+    "below": "(object, object)",
+    "right": "(object, object)",
+    "above": "(object, object)",
+    "has_label": "(object, label)"
+  },
+  "elements": {
+    "object": [
+      "0_bus",
+      "1_person"
+    ],
+    "label": [
+      "person",
+      "bus"
+    ]
+  },
+  "interpretation": {
+    "left": [
+      [
+        "0_bus",
+        "1_person"
+      ]
+    ],
+    "below": [
+      [
+        "0_bus",
+        "1_person"
+      ]
+    ],
+    "right": [
+      [
+        "1_person",
+        "0_bus"
+      ]
+    ],
+    "above": [
+      [
+        "1_person",
+        "0_bus"
+      ]
+    ],
+    "has_label": [
+      [
+        "0_bus",
+        "bus"
+      ],
+      [
+        "1_person",
+        "person"
+      ]
+    ]
+  },
+  "raw": {
+    "rel_labels": [
+      [
+        "0",
+        "bus",
+        "1",
+        "person",
+        "left",
+        "0.6566000000000001"
+      ],
+      [
+        "0",
+        "bus",
+        "1",
+        "person",
+        "below",
+        "0.6566000000000001"
+      ],
+      [
+        "1",
+        "person",
+        "0",
+        "bus",
+        "right",
+        "0.6566000000000001"
+      ],
+      [
+        "1",
+        "person",
+        "0",
+        "bus",
+        "above",
+        "0.6566000000000001"
+      ]
+    ],
+    "var_const_map": {
+      "0_bus": "bus",
+      "1_person": "person"
+    },
+    "scores": [
+      [
+        "0_bus",
+        "1_person",
+        "0.6566000000000001"
+      ],
+      [
+        "0_bus",
+        "1_person",
+        "0.6566000000000001"
+      ],
+      [
+        "1_person",
+        "0_bus",
+        "0.6566000000000001"
+      ],
+      [
+        "1_person",
+        "0_bus",
+        "0.6566000000000001"
+      ]
+    ]
+  }
+}
