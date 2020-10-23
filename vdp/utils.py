@@ -87,7 +87,7 @@ def make_sets(params):
 def _construct_normalized_model(rel_labels, var_const_map=None):
     if not var_const_map:
         var_const_map = {**{str(lab[0]) + "_" + lab[1] : lab[1] for lab in rel_labels}, **{ str(lab[2]) + "_" + lab[3] : lab[3] for lab in rel_labels}}
-    constants = {lab[1] for lab in rel_labels}.union({lab[3] for lab in rel_labels})
+    constants = set({lab for lab in var_const_map.values()})
     scores = [lab[5] for lab in rel_labels]
     rel_scores = [(str(xi) + "_" + x, str(yi) + "_" + y, s)  for xi, x, yi, y, r, s in rel_labels]
     variables = set(var_const_map.keys())

@@ -1,1 +1,1 @@
-{"sorts": ["object", "label"], "predicates": {"has_label": "(object, label)"}, "elements": {"object": ["obj_dog"], "label": []}, "interpretation": {"has_label": [["obj_dog", "dog"]]}, "raw": {"rel_labels": [], "var_const_map": {"obj_dog": "dog"}, "scores": []}}
+{"sorts": ["object", "label"], "predicates": {"has_label": "(object, label)"}, "elements": {"object": ["obj_dog"], "label": ["dog"]}, "interpretation": {"has_label": [["obj_dog", "dog"]]}, "raw": {"rel_labels": [], "var_const_map": {"obj_dog": "dog"}, "scores": []}}

@@ -1,1 +1,1 @@
-{"sorts": ["object", "label"], "predicates": {"has_label": "(object, label)"}, "elements": {"object": ["obj_sink"], "label": []}, "interpretation": {"has_label": [["obj_sink", "sink"]]}, "raw": {"rel_labels": [], "var_const_map": {"obj_sink": "sink"}, "scores": []}}
+{"sorts": ["object", "label"], "predicates": {"has_label": "(object, label)"}, "elements": {"object": ["obj_sink"], "label": ["sink"]}, "interpretation": {"has_label": [["obj_sink", "sink"]]}, "raw": {"rel_labels": [], "var_const_map": {"obj_sink": "sink"}, "scores": []}}
