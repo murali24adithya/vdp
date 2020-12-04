@@ -1,0 +1,4 @@
+good:
+fn:
+plate-GT1 - on - counter-GT1
+shit:

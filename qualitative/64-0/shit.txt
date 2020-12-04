@@ -1,0 +1,8 @@
+good:
+fn:
+woman-GT1 - sitting on - desk-GT1
+woman-GT1 - wearing - pant-GT1
+woman-GT2 - has - hand-GT1
+woman-GT1 - at - table-GT1
+bowl-GT1 - sitting on - desk-GT2
+shit:

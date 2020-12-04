@@ -1,0 +1,62 @@
+cd lib/draw_rectangles; python setup.py build_ext --inplace
+running build_ext
+cd lib/fpn/box_intersections_cpu; python setup.py build_ext --inplace
+running build_ext
+cd lib/fpn/nms; make
+make[1]: Entering directory '/home/atharvas/motifs_cc/lib/fpn/nms'
+python build.py
+Including CUDA code.
+/home/atharvas/motifs_cc/lib/fpn/nms
+generating /tmp/tmpv1d_eh5o/_nms.c
+setting the current directory to '/tmp/tmpv1d_eh5o'
+running build_ext
+building '_nms' extension
+creating home
+creating home/atharvas
+creating home/atharvas/motifs_cc
+creating home/atharvas/motifs_cc/lib
+creating home/atharvas/motifs_cc/lib/fpn
+creating home/atharvas/motifs_cc/lib/fpn/nms
+creating home/atharvas/motifs_cc/lib/fpn/nms/src
+gcc -pthread -B /opt/conda/envs/motifs/compiler_compat -Wl,--sysroot=/ -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -DWITH_CUDA -I/opt/conda/envs/motifs/lib/python3.6/site-packages/torch/utils/ffi/../../lib/include -I/opt/conda/envs/motifs/lib/python3.6/site-packages/torch/utils/ffi/../../lib/include/TH -I/opt/conda/envs/motifs/lib/python3.6/site-packages/torch/utils/ffi/../../lib/include/THC -I/usr/local/cuda/include -I/opt/conda/envs/motifs/include/python3.6m -c _nms.c -o ./_nms.o
+gcc -pthread -B /opt/conda/envs/motifs/compiler_compat -Wl,--sysroot=/ -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -DWITH_CUDA -I/opt/conda/envs/motifs/lib/python3.6/site-packages/torch/utils/ffi/../../lib/include -I/opt/conda/envs/motifs/lib/python3.6/site-packages/torch/utils/ffi/../../lib/include/TH -I/opt/conda/envs/motifs/lib/python3.6/site-packages/torch/utils/ffi/../../lib/include/THC -I/usr/local/cuda/include -I/opt/conda/envs/motifs/include/python3.6m -c /home/atharvas/motifs_cc/lib/fpn/nms/src/nms_cuda.c -o ./home/atharvas/motifs_cc/lib/fpn/nms/src/nms_cuda.o
+gcc -pthread -shared -B /opt/conda/envs/motifs/compiler_compat -L/opt/conda/envs/motifs/lib -Wl,-rpath=/opt/conda/envs/motifs/lib -Wl,--no-as-needed -Wl,--sysroot=/ ./_nms.o ./home/atharvas/motifs_cc/lib/fpn/nms/src/nms_cuda.o /home/atharvas/motifs_cc/lib/fpn/nms/src/cuda/nms.cu.o -o ./_nms.so
+make[1]: Leaving directory '/home/atharvas/motifs_cc/lib/fpn/nms'
+cd lib/fpn/roi_align; make
+make[1]: Entering directory '/home/atharvas/motifs_cc/lib/fpn/roi_align'
+python build.py
+Including CUDA code.
+/home/atharvas/motifs_cc/lib/fpn/roi_align
+generating /tmp/tmpmllwa2to/_roi_align.c
+setting the current directory to '/tmp/tmpmllwa2to'
+running build_ext
+building '_roi_align' extension
+creating home
+creating home/atharvas
+creating home/atharvas/motifs_cc
+creating home/atharvas/motifs_cc/lib
+creating home/atharvas/motifs_cc/lib/fpn
+creating home/atharvas/motifs_cc/lib/fpn/roi_align
+creating home/atharvas/motifs_cc/lib/fpn/roi_align/src
+gcc -pthread -B /opt/conda/envs/motifs/compiler_compat -Wl,--sysroot=/ -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -DWITH_CUDA -I/opt/conda/envs/motifs/lib/python3.6/site-packages/torch/utils/ffi/../../lib/include -I/opt/conda/envs/motifs/lib/python3.6/site-packages/torch/utils/ffi/../../lib/include/TH -I/opt/conda/envs/motifs/lib/python3.6/site-packages/torch/utils/ffi/../../lib/include/THC -I/usr/local/cuda/include -I/opt/conda/envs/motifs/include/python3.6m -c _roi_align.c -o ./_roi_align.o
+gcc -pthread -B /opt/conda/envs/motifs/compiler_compat -Wl,--sysroot=/ -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -DWITH_CUDA -I/opt/conda/envs/motifs/lib/python3.6/site-packages/torch/utils/ffi/../../lib/include -I/opt/conda/envs/motifs/lib/python3.6/site-packages/torch/utils/ffi/../../lib/include/TH -I/opt/conda/envs/motifs/lib/python3.6/site-packages/torch/utils/ffi/../../lib/include/THC -I/usr/local/cuda/include -I/opt/conda/envs/motifs/include/python3.6m -c /home/atharvas/motifs_cc/lib/fpn/roi_align/src/roi_align_cuda.c -o ./home/atharvas/motifs_cc/lib/fpn/roi_align/src/roi_align_cuda.o
+gcc -pthread -shared -B /opt/conda/envs/motifs/compiler_compat -L/opt/conda/envs/motifs/lib -Wl,-rpath=/opt/conda/envs/motifs/lib -Wl,--no-as-needed -Wl,--sysroot=/ ./_roi_align.o ./home/atharvas/motifs_cc/lib/fpn/roi_align/src/roi_align_cuda.o /home/atharvas/motifs_cc/lib/fpn/roi_align/src/cuda/roi_align.cu.o -o ./_roi_align.so
+make[1]: Leaving directory '/home/atharvas/motifs_cc/lib/fpn/roi_align'
+cd lib/lstm/highway_lstm_cuda; ./make.sh
+Building kernel for following target architectures: 
+-gencode arch=compute_37,code=sm_37
+Compiling kernel
+generating /tmp/tmpym9wv9p8/_highway_lstm_layer.c
+setting the current directory to '/tmp/tmpym9wv9p8'
+running build_ext
+building '_highway_lstm_layer' extension
+creating home
+creating home/atharvas
+creating home/atharvas/motifs_cc
+creating home/atharvas/motifs_cc/lib
+creating home/atharvas/motifs_cc/lib/lstm
+creating home/atharvas/motifs_cc/lib/lstm/highway_lstm_cuda
+creating home/atharvas/motifs_cc/lib/lstm/highway_lstm_cuda/src
+gcc -pthread -B /opt/conda/envs/motifs/compiler_compat -Wl,--sysroot=/ -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -DWITH_CUDA -I/opt/conda/envs/motifs/lib/python3.6/site-packages/torch/utils/ffi/../../lib/include -I/opt/conda/envs/motifs/lib/python3.6/site-packages/torch/utils/ffi/../../lib/include/TH -I/opt/conda/envs/motifs/lib/python3.6/site-packages/torch/utils/ffi/../../lib/include/THC -I/usr/local/cuda/include -I/opt/conda/envs/motifs/include/python3.6m -c _highway_lstm_layer.c -o ./_highway_lstm_layer.o
+gcc -pthread -B /opt/conda/envs/motifs/compiler_compat -Wl,--sysroot=/ -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -DWITH_CUDA -I/opt/conda/envs/motifs/lib/python3.6/site-packages/torch/utils/ffi/../../lib/include -I/opt/conda/envs/motifs/lib/python3.6/site-packages/torch/utils/ffi/../../lib/include/TH -I/opt/conda/envs/motifs/lib/python3.6/site-packages/torch/utils/ffi/../../lib/include/THC -I/usr/local/cuda/include -I/opt/conda/envs/motifs/include/python3.6m -c /home/atharvas/motifs_cc/lib/lstm/highway_lstm_cuda/src/highway_lstm_cuda.c -o ./home/atharvas/motifs_cc/lib/lstm/highway_lstm_cuda/src/highway_lstm_cuda.o
+gcc -pthread -shared -B /opt/conda/envs/motifs/compiler_compat -L/opt/conda/envs/motifs/lib -Wl,-rpath=/opt/conda/envs/motifs/lib -Wl,--no-as-needed -Wl,--sysroot=/ ./_highway_lstm_layer.o ./home/atharvas/motifs_cc/lib/lstm/highway_lstm_cuda/src/highway_lstm_cuda.o /home/atharvas/motifs_cc/lib/lstm/highway_lstm_cuda/src/highway_lstm_kernel.cu.o -o ./_highway_lstm_layer.so

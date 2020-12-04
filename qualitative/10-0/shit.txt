@@ -1,0 +1,16 @@
+good:
+fn:
+man-GT1 - has - coat-GT1
+coat-GT1 - on back of - chair-GT1
+paper-GT1 - under - shelf-GT1
+paper-GT1 - on - shelf-GT2
+paper-GT2 - under - shelf-GT2
+paper-GT2 - on - shelf-GT3
+paper-GT3 - under - shelf-GT3
+paper-GT3 - on - shelf-GT4
+cup-GT1 - on - desk-GT1
+paper-GT4 - lying on - desk-GT1
+shelf-GT1 - has - book-GT1
+man-GT1 - wearing - shirt-GT1
+book-GT1 - on - shelf-GT1
+shit:

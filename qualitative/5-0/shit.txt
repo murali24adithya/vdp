@@ -1,0 +1,5 @@
+good:
+fn:
+book-GT1 - on - shelf-GT1
+chair-GT1 - near - desk-GT1
+shit:

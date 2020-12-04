@@ -1,0 +1,13 @@
+good:
+fn:
+building-GT1 - with - window-GT1
+building-GT1 - with - window-GT2
+building-GT1 - with - window-GT3
+building-GT1 - with - window-GT4
+building-GT1 - with - window-GT5
+railing-GT1 - near - building-GT1
+person-GT1 - on - street-GT1
+bike-GT1 - on - pole-GT1
+door-GT1 - has - window-GT6
+tree-GT1 - in front of - building-GT2
+shit:

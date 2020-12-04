@@ -1,0 +1,9 @@
+good:
+fn:
+building-GT1 - has - window-1
+building-GT1 - has - window-2
+building-GT1 - has - window-GT1
+building-GT1 - has - window-GT2
+building-GT1 - has - window-3
+bike-GT1 - near - car-GT1
+shit:

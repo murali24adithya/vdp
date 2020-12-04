@@ -1,0 +1,9 @@
+good:
+fn:
+car-GT1 - behind - girl-GT1
+girl-GT1 - near - car-GT1
+girl-GT2 - near - car-GT1
+girl-GT3 - near - car-GT1
+man-GT1 - in - car-GT2
+car-GT1 - has - tire-GT1
+shit:

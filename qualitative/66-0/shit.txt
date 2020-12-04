@@ -1,0 +1,20 @@
+good:
+fn:
+leg-GT1 - of - chair-GT1
+man-GT1 - with - glass-GT1
+woman-GT1 - wearing - shirt-GT1
+woman-GT2 - sitting on - chair-GT2
+man-GT2 - sitting on - chair-GT3
+woman-GT3 - sitting on - chair-GT4
+hand-GT1 - of - woman-GT2
+man-GT2 - with - hair-GT1
+woman-GT3 - with - hair-GT2
+table-GT1 - in front of - woman-GT2
+hair-GT3 - at - table-GT1
+man-GT2 - wearing - tie-GT1
+glass-GT2 - on - table-GT1
+man-GT1 - wearing - shirt-GT2
+bottle-GT1 - on - table-GT1
+woman-GT2 - with - jacket-GT1
+fork-GT1 - in front of - woman-GT2
+shit:

@@ -1,0 +1,21 @@
+good:
+fn:
+man-GT1 - wears - sneaker-GT1
+sign-GT1 - on - building-GT1
+man-GT1 - in - shirt-GT1
+sidewalk-GT1 - near - street-GT1
+man-GT1 - wearing - glass-GT1
+man-GT2 - wearing - shoe-GT1
+man-GT1 - wearing - pant-GT1
+man-GT2 - wearing - shirt-GT2
+man-GT2 - has - pant-GT2
+bike-GT1 - parked on - sidewalk-GT1
+bike-GT2 - on - sidewalk-GT1
+car-GT1 - parked on - street-GT1
+bike-GT3 - near - tree-GT1
+shirt-GT1 - on - man-GT1
+tree-GT1 - near - street-GT1
+bike-GT3 - behind - man-GT1
+tree-GT1 - near - sidewalk-GT1
+building-GT1 - with - window-GT1
+shit:

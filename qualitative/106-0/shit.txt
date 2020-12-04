@@ -1,0 +1,4 @@
+good:
+fn:
+book-GT1 - on - shelf-GT1
+shit:

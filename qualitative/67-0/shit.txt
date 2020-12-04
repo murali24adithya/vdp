@@ -1,0 +1,11 @@
+good:
+fn:
+chair-GT1 - near - table-GT1
+chair-GT2 - near - table-GT2
+chair-GT3 - near - table-GT2
+chair-GT4 - near - table-GT1
+chair-GT5 - near - table-GT1
+people-GT1 - on - screen-GT1
+woman-GT1 - on - screen-GT1
+chair-GT6 - near - table-GT2
+shit:

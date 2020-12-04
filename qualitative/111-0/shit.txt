@@ -1,0 +1,14 @@
+good:
+fn:
+person-GT1 - walking in - street-GT1
+person-GT2 - walking in - street-GT1
+person-GT3 - in - street-GT1
+person-GT4 - in - street-GT2
+person-GT5 - in - street-GT2
+man-GT1 - carrying - bag-GT1
+man-GT1 - in - coat-GT1
+flag-GT1 - on - building-GT1
+flag-GT2 - on - building-GT2
+people-GT1 - across - street-GT1
+man-GT2 - wearing - coat-GT2
+shit:

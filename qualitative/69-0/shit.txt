@@ -1,0 +1,7 @@
+good:
+fn:
+light-GT1 - over - table-1
+table-1 - and - chair-GT1
+window-GT1 - with - curtain-GT1
+chair-GT1 - at - table-1
+shit:

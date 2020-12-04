@@ -1,0 +1,6 @@
+good:
+fn:
+man-GT1 - has - hair-GT1
+bag-GT1 - on - table-GT1
+helmet-GT1 - on - shelf-GT1
+shit:

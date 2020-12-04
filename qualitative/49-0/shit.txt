@@ -1,0 +1,14 @@
+good:
+fn:
+book-GT1 - on - desk-GT1
+book-GT2 - on - desk-GT1
+book-GT3 - on - desk-GT1
+book-GT4 - on - desk-GT1
+book-GT4 - on - paper-GT1
+paper-GT1 - above - table-GT1
+cup-GT1 - above - table-GT1
+lamp-GT1 - above - table-GT1
+book-GT5 - above - table-GT1
+paper-GT1 - above - desk-GT1
+book-GT5 - above - desk-GT1
+shit:

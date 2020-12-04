@@ -1,0 +1,6 @@
+good:
+fn:
+sign-GT1 - with - letter-GT1
+man-GT1 - wearing - shirt-GT1
+chair-GT1 - near - building-GT1
+shit:

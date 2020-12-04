@@ -1,0 +1,6 @@
+good:
+fn:
+curtain-GT1 - on - window-GT1
+curtain-GT2 - on - window-GT1
+chair-GT1 - on - table-GT1
+shit:

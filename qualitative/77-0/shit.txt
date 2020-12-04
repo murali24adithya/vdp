@@ -1,0 +1,6 @@
+good:
+fn:
+pillow-GT1 - on - chair-GT1
+window-GT1 - on - window-GT2
+table-GT1 - in front of - window-GT2
+shit:

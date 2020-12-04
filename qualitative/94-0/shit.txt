@@ -1,0 +1,8 @@
+good:
+fn:
+building-GT1 - on - street-GT1
+window-GT1 - of - building-GT2
+window-GT2 - of - building-GT3
+window-GT3 - of - building-GT4
+window-GT4 - of - building-GT5
+shit:

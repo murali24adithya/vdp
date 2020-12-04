@@ -1,0 +1,4 @@
+good:
+fn:
+chair-GT1 - in front of - desk-GT1
+shit:

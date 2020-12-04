@@ -1,0 +1,8 @@
+good:
+fn:
+people-GT1 - on - street-1
+car-GT1 - in - street-1
+sign-GT1 - hanging from - building-1
+shit:
+building-1 - near - street-1
+street-1 - near - building-1

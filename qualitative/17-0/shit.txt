@@ -1,0 +1,7 @@
+good:
+fn:
+laptop-GT1 - on - desk-GT1
+cabinet-GT1 - has - door-GT1
+chair-GT1 - has - wheel-GT1
+laptop-GT1 - on - stand-GT1
+shit:

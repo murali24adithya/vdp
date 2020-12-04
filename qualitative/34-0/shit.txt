@@ -1,0 +1,9 @@
+good:
+fn:
+chair-GT1 - in - desk-GT1
+lamp-GT1 - on - desk-GT1
+lamp-GT2 - on - stand-GT1
+book-GT1 - on - desk-GT2
+chair-GT1 - has - wheel-GT1
+drawer-GT1 - near - chair-GT1
+shit:

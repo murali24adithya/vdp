@@ -1,0 +1,11 @@
+good:
+fn:
+room-1 - has - light-GT1
+bottle-GT1 - on - desk-GT1
+light-GT1 - in - room-1
+light-GT2 - in - room-1
+tower-GT1 - under - desk-GT2
+book-GT1 - on - shelf-GT1
+book-GT2 - on - desk-GT3
+book-GT2 - with - paper-GT1
+shit:

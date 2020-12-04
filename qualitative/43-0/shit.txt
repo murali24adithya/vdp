@@ -1,0 +1,14 @@
+good:
+fn:
+table-GT1 - has - leg-GT1
+board-GT1 - has - stand-GT1
+stand-GT2 - has - arm-GT1
+stand-GT2 - has - table-GT2
+stand-GT2 - has - board-GT1
+chair-GT1 - has - chair-GT2
+table-GT2 - in - room-GT1
+chair-GT3 - in - room-GT1
+table-GT3 - in - room-GT1
+light-GT1 - on - table-GT3
+leg-GT2 - on - chair-GT4
+shit:

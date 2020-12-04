@@ -1,0 +1,9 @@
+good:
+fn:
+chair-GT1 - at - table-GT1
+chair-GT2 - at - table-GT1
+chair-GT3 - at - table-GT1
+chair-GT4 - at - table-GT1
+lamp-GT1 - on - table-GT1
+flower-GT1 - on - table-GT1
+shit:

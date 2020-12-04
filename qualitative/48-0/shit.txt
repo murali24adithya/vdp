@@ -1,0 +1,12 @@
+good:
+fn:
+girl-GT1 - in - coat-GT1
+woman-GT1 - with - shirt-GT1
+man-GT1 - wearing - jacket-GT1
+man-GT1 - has - bag-GT1
+woman-GT1 - has - bag-GT2
+man-GT2 - carrying - bag-GT3
+street-GT1 - has - sign-GT1
+sign-GT1 - on - building-GT1
+window-GT1 - on - building-GT2
+shit:

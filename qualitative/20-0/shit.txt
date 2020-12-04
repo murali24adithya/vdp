@@ -1,0 +1,8 @@
+good:
+fn:
+book-GT1 - on - shelf-GT1
+desk-GT1 - made of - book-GT2
+man-GT1 - wearing - shirt-GT1
+bottle-GT1 - above - table-GT1
+book-GT3 - above - table-GT1
+shit:

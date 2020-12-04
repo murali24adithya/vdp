@@ -1,0 +1,4 @@
+good:
+fn:
+lamp-GT1 - has - stand-GT1
+shit:

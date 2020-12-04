@@ -1,0 +1,6 @@
+good:
+fn:
+chair-GT1 - in - room-GT1
+door-GT1 - in - room-GT1
+chair-GT1 - near - table-1
+shit:

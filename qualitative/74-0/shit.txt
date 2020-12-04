@@ -1,0 +1,5 @@
+good:
+fn:
+flower-GT1 - in - pot-GT1
+lamp-GT1 - on - table-GT1
+shit:

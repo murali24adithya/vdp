@@ -1,0 +1,6 @@
+good:
+fn:
+window-GT1 - on - building-GT1
+window-GT2 - on - building-GT1
+window-GT3 - on - building-GT1
+shit:

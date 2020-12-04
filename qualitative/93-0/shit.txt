@@ -1,0 +1,15 @@
+good:
+fn:
+door-GT1 - on - car-GT1
+tree-GT1 - on - street-GT1
+person-GT1 - on - sidewalk-GT1
+car-GT2 - on - street-GT1
+car-GT1 - with - door-GT1
+tree-GT2 - behind - building-GT1
+tree-GT3 - behind - building-GT1
+tree-GT4 - behind - building-GT1
+person-GT1 - across - street-GT1
+building-GT2 - on - street-GT1
+car-GT2 - near - truck-GT1
+building-GT2 - with - window-GT1
+shit:

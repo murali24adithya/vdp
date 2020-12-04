@@ -1,0 +1,6 @@
+good:
+fn:
+chair-GT1 - near - table-GT1
+vegetable-GT1 - in - bowl-GT1
+bowl-GT1 - on - counter-GT1
+shit:

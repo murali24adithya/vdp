@@ -1,0 +1,8 @@
+good:
+fn:
+window-GT1 - near - vehicle-GT1
+car-GT1 - on - street-GT1
+logo-GT1 - on - building-GT1
+window-GT2 - in - building-GT2
+window-GT2 - on - building-GT1
+shit:

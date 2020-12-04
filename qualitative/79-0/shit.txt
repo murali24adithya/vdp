@@ -1,0 +1,6 @@
+good:
+fn:
+cabinet-GT1 - under - sink-GT1
+chair-GT1 - at - table-GT1
+window-1 - above - sink-GT2
+shit:

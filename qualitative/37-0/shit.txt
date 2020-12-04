@@ -1,0 +1,8 @@
+good:
+fn:
+table-GT1 - has - plant-GT1
+pot-GT1 - has - flower-1
+basket-GT1 - with - flower-1
+plant-GT1 - above - table-GT1
+chair-GT1 - near - table-GT1
+shit:

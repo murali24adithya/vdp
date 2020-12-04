@@ -1,0 +1,7 @@
+good:
+fn:
+woman-GT1 - wearing - jacket-GT1
+woman-GT1 - on - sidewalk-GT1
+pole-GT1 - near - street-1
+building-GT1 - has - window-GT1
+shit:

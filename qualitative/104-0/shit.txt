@@ -1,0 +1,5 @@
+good:
+fn:
+flower-GT1 - on - window-GT1
+window-GT2 - on - building-GT1
+shit:

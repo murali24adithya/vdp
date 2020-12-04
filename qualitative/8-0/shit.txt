@@ -1,0 +1,14 @@
+good:
+fn:
+cup-GT1 - on - desk-GT1
+man-GT1 - has - shirt-GT1
+bag-GT1 - on - paper-GT1
+drawer-GT1 - of - desk-GT1
+cup-GT2 - on - shelf-GT1
+paper-GT1 - on - desk-GT2
+man-GT1 - has - hand-GT1
+book-GT1 - on - shelf-GT1
+book-GT2 - on - shelf-GT1
+man-GT1 - wearing - pant-GT1
+shelf-GT2 - of - book-GT1
+shit:

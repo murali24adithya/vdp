@@ -1,0 +1,7 @@
+good:
+fn:
+book-GT1 - on - desk-GT1
+bottle-GT1 - on - desk-GT1
+lamp-GT1 - on - desk-GT1
+people-GT1 - on - desk-GT1
+shit:

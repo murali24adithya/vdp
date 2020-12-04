@@ -1,0 +1,7 @@
+good:
+fn:
+car-GT1 - has - window-GT1
+car-GT1 - has - window-GT2
+car-GT1 - has - tire-GT1
+car-GT1 - has - roof-GT1
+shit:

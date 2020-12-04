@@ -1,0 +1,13 @@
+good:
+fn:
+flower-GT1 - in - vase-GT1
+shelf-GT1 - under - table-GT1
+book-GT1 - on - shelf-GT2
+book-GT2 - on - shelf-GT2
+book-GT3 - on - shelf-GT2
+book-GT4 - on - shelf-GT2
+book-GT5 - on - shelf-GT2
+vase-GT1 - in front of - lamp-GT1
+curtain-GT1 - behind - lamp-GT1
+pillow-GT1 - on - seat-GT1
+shit:

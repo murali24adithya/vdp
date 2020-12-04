@@ -1,0 +1,6 @@
+good:
+fn:
+fruit-GT1 - on - plate-GT1
+plate-GT1 - on - table-GT1
+orange-GT1 - on - plate-GT1
+shit:

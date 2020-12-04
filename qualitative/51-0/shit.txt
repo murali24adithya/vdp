@@ -1,0 +1,21 @@
+good:
+fn:
+building-GT1 - has - window-GT1
+building-GT1 - has - window-GT2
+building-GT1 - has - window-GT3
+person-GT1 - has - leg-GT1
+person-GT2 - has - leg-GT2
+person-GT3 - has - leg-GT3
+person-GT3 - has - leg-GT4
+person-GT2 - has - leg-GT5
+car-GT1 - has - wheel-GT1
+car-GT1 - has - wheel-GT2
+car-GT1 - has - windshield-GT1
+car-GT1 - has - window-GT4
+building-GT2 - has - window-GT5
+bike-GT1 - has - tire-GT1
+person-GT2 - wearing - shirt-GT1
+person-GT3 - wearing - jacket-GT1
+car-GT1 - has - door-GT1
+person-GT3 - wearing - pant-GT1
+shit:

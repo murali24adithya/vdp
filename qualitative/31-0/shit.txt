@@ -1,0 +1,4 @@
+good:
+fn:
+plant-GT1 - has - flower-GT1
+shit:

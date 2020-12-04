@@ -1,0 +1,11 @@
+good:
+fn:
+person-GT1 - sitting on - train-GT1
+man-GT1 - sitting on - train-GT1
+person-GT2 - sitting on - train-GT1
+person-GT3 - sitting on - train-GT1
+window-GT1 - behind - woman-GT1
+man-GT1 - wearing - pant-GT1
+person-GT4 - wearing - hat-GT1
+person-GT5 - wearing - hat-GT1
+shit:

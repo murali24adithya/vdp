@@ -1,0 +1,19 @@
+good:
+fn:
+car-GT1 - above - street-GT1
+car-GT2 - above - street-GT1
+car-GT3 - above - street-GT1
+car-GT4 - above - street-GT1
+car-GT5 - above - street-GT1
+truck-GT1 - parked on - street-GT1
+car-GT6 - on - street-GT1
+vehicle-GT1 - parked on - street-GT1
+vehicle-GT2 - parked on - street-GT1
+vehicle-GT3 - parked on - street-GT1
+vehicle-GT4 - parked on - street-GT1
+vehicle-GT5 - parked on - street-GT1
+man-GT1 - walking on - street-GT1
+man-GT1 - wearing - coat-GT1
+building-GT1 - near - street-GT1
+pole-GT1 - near - truck-GT1
+shit:

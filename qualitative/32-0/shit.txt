@@ -1,0 +1,5 @@
+good:
+fn:
+cabinet-GT1 - has - glass-GT1
+shelf-GT1 - has - cup-GT1
+shit:

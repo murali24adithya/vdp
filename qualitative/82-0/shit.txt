@@ -1,0 +1,6 @@
+good:
+fn:
+glass-GT1 - on - table-1
+glass-GT2 - on - table-1
+glass-GT3 - on - table-1
+shit:
