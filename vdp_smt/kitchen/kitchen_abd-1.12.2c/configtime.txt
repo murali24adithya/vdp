@@ -1,1 +1,0 @@
-The entire config file took 21.6784861088 seconds.

@@ -1,3 +1,0 @@
-/home/adithya/Synthesis/variants/umbrella_abc-245e/train_a.jpg
-/home/adithya/Synthesis/variants/umbrella_abc-245e/train_b.jpg
-/home/adithya/Synthesis/variants/umbrella_abc-245e/train_c.jpg

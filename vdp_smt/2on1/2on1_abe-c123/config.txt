@@ -1,3 +1,0 @@
-3 3 existential=yes conjuncts=yes num_solutions=2 labelconstraint=noneg
-2 3
-3 2

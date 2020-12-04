@@ -1,3 +1,0 @@
-/home/adithya/Synthesis/variants/dogherded_abd-1.12.13.2c/train_a.jpg
-/home/adithya/Synthesis/variants/dogherded_abd-1.12.13.2c/train_b.jpg
-/home/adithya/Synthesis/variants/dogherded_abd-1.12.13.2c/train_d.jpg

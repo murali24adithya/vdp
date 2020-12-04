@@ -1,3 +1,0 @@
-/home/adithya/Synthesis/variants/pplandties_abc-1.22.2d/test_1.2.jpg
-/home/adithya/Synthesis/variants/pplandties_abc-1.22.2d/test_2.2.jpg
-/home/adithya/Synthesis/variants/pplandties_abc-1.22.2d/test_d.jpg

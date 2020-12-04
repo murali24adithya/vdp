@@ -1,3 +1,0 @@
-/home/adithya/Synthesis/variants/2on1_bcd-a123/train_b.jpg
-/home/adithya/Synthesis/variants/2on1_bcd-a123/train_c.jpg
-/home/adithya/Synthesis/variants/2on1_bcd-a123/train_d.jpg

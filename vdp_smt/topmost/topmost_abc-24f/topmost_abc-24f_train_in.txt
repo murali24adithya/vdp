@@ -1,3 +1,0 @@
-/home/adithya/Synthesis/variants/topmost_abc-24f/train_a.jpg
-/home/adithya/Synthesis/variants/topmost_abc-24f/train_b.jpg
-/home/adithya/Synthesis/variants/topmost_abc-24f/train_c.jpg

@@ -1,3 +1,0 @@
-/home/adithya/Synthesis/variants/sleeping_abc-1.22.1e/train_a.jpg
-/home/adithya/Synthesis/variants/sleeping_abc-1.22.1e/train_b.jpg
-/home/adithya/Synthesis/variants/sleeping_abc-1.22.1e/train_c.jpg

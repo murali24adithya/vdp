@@ -1,3 +1,0 @@
-/home/adithya/Synthesis/variants/alldogsonsofas_abd-13c/train_a.jpg
-/home/adithya/Synthesis/variants/alldogsonsofas_abd-13c/train_b.jpg
-/home/adithya/Synthesis/variants/alldogsonsofas_abd-13c/train_d.jpg

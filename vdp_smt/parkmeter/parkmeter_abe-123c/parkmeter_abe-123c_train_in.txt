@@ -1,3 +1,0 @@
-/home/adithya/Synthesis/variants/parkmeter_abe-123c/train_a.jpg
-/home/adithya/Synthesis/variants/parkmeter_abe-123c/train_b.jpg
-/home/adithya/Synthesis/variants/parkmeter_abe-123c/train_e.jpg

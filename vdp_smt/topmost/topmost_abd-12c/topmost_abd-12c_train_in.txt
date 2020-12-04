@@ -1,3 +1,0 @@
-/home/adithya/Synthesis/variants/topmost_abd-12c/train_a.jpg
-/home/adithya/Synthesis/variants/topmost_abd-12c/train_b.jpg
-/home/adithya/Synthesis/variants/topmost_abd-12c/train_d.jpg

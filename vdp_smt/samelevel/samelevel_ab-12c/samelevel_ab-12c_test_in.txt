@@ -1,3 +1,0 @@
-/home/adithya/Synthesis/variants/samelevel_ab-12c/test_1.jpg
-/home/adithya/Synthesis/variants/samelevel_ab-12c/test_2.jpg
-/home/adithya/Synthesis/variants/samelevel_ab-12c/test_c.jpg
