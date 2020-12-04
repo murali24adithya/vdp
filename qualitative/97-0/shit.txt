@@ -1,4 +1,0 @@
-good:
-fn:
-seat-GT1 - of - chair-GT1
-shit:

@@ -1,9 +1,0 @@
-good:
-fn:
-man-GT1 - wears - shirt-GT1
-leaf-GT1 - on - tree-GT1
-leaf-GT2 - on - tree-GT2
-building-GT1 - has - window-GT1
-window-GT1 - near - street-GT1
-tree-GT1 - has - leaf-GT1
-shit:

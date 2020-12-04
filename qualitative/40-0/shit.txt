@@ -1,6 +1,0 @@
-good:
-fn:
-cabinet-GT1 - has - handle-GT1
-cabinet-GT1 - has - handle-GT2
-bowl-GT1 - on - stand-GT1
-shit:

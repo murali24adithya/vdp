@@ -1,9 +1,0 @@
-good:
-fn:
-pillow-GT1 - above - seat-GT1
-pillow-GT2 - above - seat-GT1
-pillow-GT3 - above - seat-GT1
-pillow-GT4 - above - seat-GT1
-pillow-GT5 - above - seat-GT1
-room-GT1 - has - window-GT1
-shit:

@@ -1,9 +1,0 @@
-good:
-fn:
-building-GT1 - on - beach-GT1
-boat-GT1 - above - beach-GT1
-woman-GT1 - wearing - short-GT1
-pole-GT1 - above - beach-GT1
-house-GT1 - above - beach-GT1
-woman-GT1 - above - beach-GT1
-shit:

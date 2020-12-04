@@ -1,7 +1,0 @@
-good:
-fn:
-box-GT1 - under - table-GT1
-chair-GT1 - has - leg-GT1
-paper-GT1 - on - table-GT1
-book-GT1 - on - table-GT1
-shit:

@@ -1,7 +1,0 @@
-good:
-fn:
-girl-GT1 - near - woman-GT1
-woman-GT1 - with - girl-GT1
-person-GT1 - has - hair-GT1
-person-GT1 - wearing - shirt-GT1
-shit:

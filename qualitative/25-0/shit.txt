@@ -1,7 +1,0 @@
-good:
-fn:
-person-GT1 - on - chair-GT1
-car-GT1 - near - sidewalk-GT1
-car-GT2 - near - sidewalk-GT1
-car-GT3 - near - sidewalk-GT1
-shit:

@@ -1,8 +1,0 @@
-good:
-fn:
-book-GT1 - on - desk-GT1
-lady-GT1 - with - hair-GT1
-woman-GT1 - wearing - pant-GT1
-laptop-GT1 - above - desk-GT1
-woman-GT1 - sitting on - chair-GT1
-shit:

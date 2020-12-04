@@ -1,7 +1,0 @@
-good:
-fn:
-building-GT1 - has - window-GT1
-tree-GT1 - has - branch-GT1
-window-GT1 - on - building-GT1
-man-GT1 - on - sidewalk-GT1
-shit:

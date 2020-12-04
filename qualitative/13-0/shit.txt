@@ -1,6 +1,0 @@
-good:
-fn:
-book-GT1 - on - desk-GT1
-cup-GT1 - on - desk-GT1
-chair-1 - in front of - desk-GT1
-shit:

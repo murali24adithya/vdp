@@ -1,7 +1,0 @@
-good:
-fn:
-phone-GT1 - on - desk-GT1
-lamp-GT1 - on - building-GT1
-bed-GT1 - in - room-1
-bed-GT2 - in - room-1
-shit:

@@ -1,4 +1,0 @@
-good:
-fn:
-paper-GT1 - on - counter-GT1
-shit:

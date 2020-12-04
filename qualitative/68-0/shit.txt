@@ -1,7 +1,0 @@
-good:
-fn:
-man-GT1 - wearing - shirt-GT1
-man-GT2 - wearing - shirt-GT2
-man-GT2 - in - room-GT1
-window-GT1 - on - building-GT1
-shit:

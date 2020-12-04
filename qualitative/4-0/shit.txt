@@ -1,4 +1,0 @@
-good:
-fn:
-chair-GT1 - near - table-GT1
-shit:

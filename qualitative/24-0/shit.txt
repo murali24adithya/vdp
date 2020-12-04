@@ -1,7 +1,0 @@
-good:
-fn:
-tree-GT1 - along - street-GT1
-man-GT1 - near - bike-GT1
-bike-GT2 - on - street-GT1
-building-GT1 - on - street-GT2
-shit:

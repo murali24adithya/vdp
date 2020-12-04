@@ -1,7 +1,0 @@
-good:
-fn:
-pole-GT1 - attached to - building-GT1
-pole-GT2 - on - building-GT1
-tire-GT1 - on - bike-GT1
-building-GT1 - has - window-GT1
-shit:

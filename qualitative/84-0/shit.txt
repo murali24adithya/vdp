@@ -1,4 +1,0 @@
-good:
-fn:
-bag-GT1 - on - table-1
-shit:

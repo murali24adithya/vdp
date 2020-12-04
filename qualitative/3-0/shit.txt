@@ -1,6 +1,0 @@
-good:
-fn:
-girl-GT1 - with - hair-GT1
-bag-GT1 - on - table-GT1
-drawer-GT1 - has - handle-GT1
-shit:

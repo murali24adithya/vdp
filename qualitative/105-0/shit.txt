@@ -1,6 +1,0 @@
-good:
-fn:
-window-GT1 - on - building-GT1
-lamp-GT1 - on - table-GT1
-table-GT2 - near - chair-GT1
-shit:

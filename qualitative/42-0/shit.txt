@@ -1,7 +1,0 @@
-good:
-fn:
-plate-GT1 - on - table-GT1
-plate-GT2 - on - table-GT1
-cabinet-GT1 - under - table-GT1
-stand-GT1 - on - table-GT1
-shit:

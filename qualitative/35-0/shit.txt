@@ -1,9 +1,0 @@
-good:
-fn:
-light-1 - from - window-GT1
-food-GT1 - near - sink-GT1
-bowl-GT1 - on - table-GT1
-bowl-GT1 - of - fruit-GT1
-plate-GT1 - on - drawer-GT1
-sink-GT1 - on - table-GT1
-shit:

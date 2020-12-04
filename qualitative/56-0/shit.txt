@@ -1,8 +1,0 @@
-good:
-fn:
-truck-GT1 - on - street-1
-man-GT1 - has - shirt-GT1
-car-GT1 - has - light-GT1
-person-GT1 - wearing - shirt-GT1
-sign-GT1 - on - building-GT1
-shit:

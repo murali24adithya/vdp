@@ -1,5 +1,0 @@
-good:
-fn:
-table-GT1 - with - chair-GT1
-curtain-GT1 - near - window-GT1
-shit:

@@ -1,5 +1,0 @@
-good:
-fn:
-man-GT1 - walking on - street-GT1
-sign-GT1 - on - building-GT1
-shit:

@@ -1,7 +1,0 @@
-good:
-fn:
-book-GT1 - above - table-1
-tower-GT1 - above - table-1
-lamp-GT1 - on - table-1
-chair-GT1 - at - table-1
-shit:

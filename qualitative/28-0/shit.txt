@@ -1,9 +1,0 @@
-good:
-fn:
-bowl-GT1 - on - table-GT1
-vase-GT1 - of - flower-GT1
-vase-GT1 - on - table-GT1
-book-GT1 - on - table-GT1
-flower-GT1 - on - table-GT1
-pillow-GT1 - in - room-1
-shit:
