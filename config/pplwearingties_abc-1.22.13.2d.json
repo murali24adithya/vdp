@@ -1,0 +1,1 @@
+{"name": "pplwearingties_abc-1.22.13.2d", "train": ["./data/raw/146.jpg", "./data/raw/147.jpg", "./data/raw/148.jpg"], "test": ["./data/raw/156.jpg", "./data/raw/150.jpg", "./data/raw/154.jpg", "./data/raw/152.jpg"]}

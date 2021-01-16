@@ -1,0 +1,1 @@
+{"name": "catontv_ac-1.32.1b", "train": ["./data/raw/39.jpg", "./data/raw/48.jpg"], "test": ["./data/raw/46.jpg", "./data/raw/42.jpg", "./data/raw/49.jpg"]}

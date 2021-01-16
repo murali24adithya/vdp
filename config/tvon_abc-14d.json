@@ -1,0 +1,1 @@
+{"name": "tvon_abc-14d", "train": ["./data/raw/192.jpg", "./data/raw/193.jpg", "./data/raw/194.jpg"], "test": ["./data/raw/195.jpg", "./data/raw/200.jpg", "./data/raw/197.jpg"]}

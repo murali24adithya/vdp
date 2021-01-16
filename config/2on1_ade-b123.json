@@ -1,0 +1,1 @@
+{"name": "2on1_ade-b123", "train": ["./data/raw/0.jpg", "./data/raw/7.jpg", "./data/raw/9.jpg"], "test": ["./data/raw/3.jpg", "./data/raw/4.jpg", "./data/raw/5.jpg", "./data/raw/11.jpg"]}

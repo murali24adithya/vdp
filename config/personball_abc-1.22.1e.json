@@ -1,0 +1,1 @@
+{"name": "personball_abc-1.22.1e", "train": ["./data/raw/110.jpg", "./data/raw/111.jpg", "./data/raw/112.jpg"], "test": ["./data/raw/118.jpg", "./data/raw/114.jpg", "./data/raw/116.jpg"]}

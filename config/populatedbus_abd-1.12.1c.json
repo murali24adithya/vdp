@@ -1,0 +1,1 @@
+{"name": "populatedbus_abd-1.12.1c", "train": ["./data/raw/122.jpg", "./data/raw/123.jpg", "./data/raw/131.jpg"], "test": ["./data/raw/125.jpg", "./data/raw/126.jpg", "./data/raw/132.jpg"]}

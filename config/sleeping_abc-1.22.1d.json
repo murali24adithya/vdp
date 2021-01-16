@@ -1,0 +1,1 @@
+{"name": "sleeping_abc-1.22.1d", "train": ["./data/raw/168.jpg", "./data/raw/169.jpg", "./data/raw/170.jpg"], "test": ["./data/raw/176.jpg", "./data/raw/172.jpg", "./data/raw/173.jpg"]}

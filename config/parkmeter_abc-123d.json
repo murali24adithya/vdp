@@ -1,0 +1,1 @@
+{"name": "parkmeter_abc-123d", "train": ["./data/raw/98.jpg", "./data/raw/99.jpg", "./data/raw/100.jpg"], "test": ["./data/raw/101.jpg", "./data/raw/102.jpg", "./data/raw/103.jpg", "./data/raw/104.jpg"]}

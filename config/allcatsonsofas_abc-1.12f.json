@@ -1,0 +1,1 @@
+{"name": "allcatsonsofas_abc-1.12f", "train": ["./data/raw/14.jpg", "./data/raw/15.jpg", "./data/raw/16.jpg"], "test": ["./data/raw/17.jpg", "./data/raw/18.jpg", "./data/raw/21.jpg"]}

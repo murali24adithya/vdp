@@ -1,0 +1,1 @@
+{"name": "pplandties_abc-1.22.2e", "train": ["./data/raw/134.jpg", "./data/raw/135.jpg", "./data/raw/136.jpg"], "test": ["./data/raw/142.jpg", "./data/raw/141.jpg", "./data/raw/140.jpg"]}

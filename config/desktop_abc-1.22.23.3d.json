@@ -1,0 +1,1 @@
+{"name": "desktop_abc-1.22.23.3d", "train": ["./data/raw/51.jpg", "./data/raw/52.jpg", "./data/raw/53.jpg"], "test": ["./data/raw/62.jpg", "./data/raw/61.jpg", "./data/raw/60.jpg", "./data/raw/57.jpg"]}

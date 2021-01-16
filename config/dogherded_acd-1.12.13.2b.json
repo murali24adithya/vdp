@@ -1,0 +1,1 @@
+{"name": "dogherded_acd-1.12.13.2b", "train": ["./data/raw/73.jpg", "./data/raw/75.jpg", "./data/raw/83.jpg"], "test": ["./data/raw/76.jpg", "./data/raw/77.jpg", "./data/raw/80.jpg", "./data/raw/85.jpg"]}

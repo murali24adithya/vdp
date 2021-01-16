@@ -1,0 +1,1 @@
+{"name": "topmost_abc-13f", "train": ["./data/raw/180.jpg", "./data/raw/181.jpg", "./data/raw/182.jpg"], "test": ["./data/raw/183.jpg", "./data/raw/188.jpg", "./data/raw/187.jpg"]}

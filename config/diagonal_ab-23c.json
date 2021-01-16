@@ -1,0 +1,1 @@
+{"name": "diagonal_ab-23c", "train": ["./data/raw/63.jpg", "./data/raw/64.jpg"], "test": ["./data/raw/66.jpg", "./data/raw/68.jpg", "./data/raw/67.jpg"]}

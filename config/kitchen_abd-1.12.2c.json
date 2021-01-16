@@ -1,0 +1,1 @@
+{"name": "kitchen_abd-1.12.2c", "train": ["./data/raw/86.jpg", "./data/raw/87.jpg", "./data/raw/96.jpg"], "test": ["./data/raw/89.jpg", "./data/raw/93.jpg", "./data/raw/97.jpg"]}
