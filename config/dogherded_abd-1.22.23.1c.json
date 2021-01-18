@@ -1,1 +1,1 @@
-{"name": "dogherded_abd-1.22.23.1c", "train": ["./data/raw/73.jpg", "./data/raw/74.jpg", "./data/raw/83.jpg"], "test": ["./data/raw/82.jpg", "./data/raw/81.jpg", "./data/raw/78.jpg", "./data/raw/84.jpg"]}
+{"name": "dogherded_abd-1.22.23.1c", "train": ["./data/images/73.jpg", "./data/images/74.jpg", "./data/images/83.jpg"], "test": ["./data/images/82.jpg", "./data/images/81.jpg", "./data/images/78.jpg", "./data/images/84.jpg"]}

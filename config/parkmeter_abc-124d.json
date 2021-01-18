@@ -1,1 +1,1 @@
-{"name": "parkmeter_abc-124d", "train": ["./data/raw/98.jpg", "./data/raw/99.jpg", "./data/raw/100.jpg"], "test": ["./data/raw/101.jpg", "./data/raw/102.jpg", "./data/raw/106.jpg", "./data/raw/104.jpg"]}
+{"name": "parkmeter_abc-124d", "train": ["./data/images/98.jpg", "./data/images/99.jpg", "./data/images/100.jpg"], "test": ["./data/images/101.jpg", "./data/images/102.jpg", "./data/images/106.jpg", "./data/images/104.jpg"]}

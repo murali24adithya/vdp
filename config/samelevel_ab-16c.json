@@ -1,1 +1,1 @@
-{"name": "samelevel_ab-16c", "train": ["./data/raw/158.jpg", "./data/raw/159.jpg"], "test": ["./data/raw/160.jpg", "./data/raw/166.jpg", "./data/raw/162.jpg"]}
+{"name": "samelevel_ab-16c", "train": ["./data/images/158.jpg", "./data/images/159.jpg"], "test": ["./data/images/160.jpg", "./data/images/166.jpg", "./data/images/162.jpg"]}

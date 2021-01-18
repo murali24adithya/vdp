@@ -1,1 +1,1 @@
-{"name": "2on1_aef-c123", "train": ["./data/raw/0.jpg", "./data/raw/9.jpg", "./data/raw/10.jpg"], "test": ["./data/raw/3.jpg", "./data/raw/4.jpg", "./data/raw/5.jpg", "./data/raw/8.jpg"]}
+{"name": "2on1_aef-c123", "train": ["./data/images/0.jpg", "./data/images/9.jpg", "./data/images/10.jpg"], "test": ["./data/images/3.jpg", "./data/images/4.jpg", "./data/images/5.jpg", "./data/images/8.jpg"]}

@@ -1,1 +1,1 @@
-{"name": "tvon_abc-15e", "train": ["./data/raw/192.jpg", "./data/raw/193.jpg", "./data/raw/194.jpg"], "test": ["./data/raw/195.jpg", "./data/raw/201.jpg", "./data/raw/198.jpg"]}
+{"name": "tvon_abc-15e", "train": ["./data/images/192.jpg", "./data/images/193.jpg", "./data/images/194.jpg"], "test": ["./data/images/195.jpg", "./data/images/201.jpg", "./data/images/198.jpg"]}

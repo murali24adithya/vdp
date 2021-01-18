@@ -11,13 +11,13 @@ dist/
 #*.ipynb
 **/.ipynb_checkpoints/
 
+*.zip
 # checkpoint
 checkpoint/
 
 # dataset
-data/raw
-data/interim
-*.png
+data
+*.jpg
 
 # Editor temporaries
 *.swn

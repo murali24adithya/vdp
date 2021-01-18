@@ -1,1 +1,1 @@
-{"name": "pplwearingties_abc-1.22.23.1d", "train": ["./data/raw/146.jpg", "./data/raw/147.jpg", "./data/raw/148.jpg"], "test": ["./data/raw/156.jpg", "./data/raw/155.jpg", "./data/raw/151.jpg", "./data/raw/152.jpg"]}
+{"name": "pplwearingties_abc-1.22.23.1d", "train": ["./data/images/146.jpg", "./data/images/147.jpg", "./data/images/148.jpg"], "test": ["./data/images/156.jpg", "./data/images/155.jpg", "./data/images/151.jpg", "./data/images/152.jpg"]}

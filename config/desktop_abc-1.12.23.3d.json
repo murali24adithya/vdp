@@ -1,1 +1,1 @@
-{"name": "desktop_abc-1.12.23.3d", "train": ["./data/raw/51.jpg", "./data/raw/52.jpg", "./data/raw/53.jpg"], "test": ["./data/raw/54.jpg", "./data/raw/61.jpg", "./data/raw/60.jpg", "./data/raw/57.jpg"]}
+{"name": "desktop_abc-1.12.23.3d", "train": ["./data/images/51.jpg", "./data/images/52.jpg", "./data/images/53.jpg"], "test": ["./data/images/54.jpg", "./data/images/61.jpg", "./data/images/60.jpg", "./data/images/57.jpg"]}

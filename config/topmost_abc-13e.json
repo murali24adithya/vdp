@@ -1,1 +1,1 @@
-{"name": "topmost_abc-13e", "train": ["./data/raw/180.jpg", "./data/raw/181.jpg", "./data/raw/182.jpg"], "test": ["./data/raw/183.jpg", "./data/raw/188.jpg", "./data/raw/186.jpg"]}
+{"name": "topmost_abc-13e", "train": ["./data/images/180.jpg", "./data/images/181.jpg", "./data/images/182.jpg"], "test": ["./data/images/183.jpg", "./data/images/188.jpg", "./data/images/186.jpg"]}

@@ -1,1 +1,1 @@
-{"name": "allcatsonsofas_abd-1.12e", "train": ["./data/raw/14.jpg", "./data/raw/15.jpg", "./data/raw/24.jpg"], "test": ["./data/raw/17.jpg", "./data/raw/18.jpg", "./data/raw/20.jpg"]}
+{"name": "allcatsonsofas_abd-1.12e", "train": ["./data/images/14.jpg", "./data/images/15.jpg", "./data/images/24.jpg"], "test": ["./data/images/17.jpg", "./data/images/18.jpg", "./data/images/20.jpg"]}

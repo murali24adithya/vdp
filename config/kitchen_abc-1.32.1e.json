@@ -1,1 +1,1 @@
-{"name": "kitchen_abc-1.32.1e", "train": ["./data/raw/86.jpg", "./data/raw/87.jpg", "./data/raw/88.jpg"], "test": ["./data/raw/95.jpg", "./data/raw/90.jpg", "./data/raw/92.jpg"]}
+{"name": "kitchen_abc-1.32.1e", "train": ["./data/images/86.jpg", "./data/images/87.jpg", "./data/images/88.jpg"], "test": ["./data/images/95.jpg", "./data/images/90.jpg", "./data/images/92.jpg"]}

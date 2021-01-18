@@ -1,1 +1,1 @@
-{"name": "alldogsonsofas_acd-13b", "train": ["./data/raw/27.jpg", "./data/raw/29.jpg", "./data/raw/35.jpg"], "test": ["./data/raw/30.jpg", "./data/raw/34.jpg", "./data/raw/38.jpg"]}
+{"name": "alldogsonsofas_acd-13b", "train": ["./data/images/27.jpg", "./data/images/29.jpg", "./data/images/35.jpg"], "test": ["./data/images/30.jpg", "./data/images/34.jpg", "./data/images/38.jpg"]}

@@ -61,3 +61,18 @@ def _read_pickle(path):
 def _to_pickle(obj, path):
     with open(path, 'wb') as fh:
         return pickle.dump(obj, fh, protocol=4)
+
+def _read_txt(path):
+    with open(path, 'r') as fh:
+        return fh.read().splitlines()
+
+def _write_txt(obj, path):
+    # if list, seperate by newlines
+    with open(path, 'w') as fh:
+        if isinstance(obj, list):
+            fh.write("\n".join(obj))
+        elif isinstance(obj, str):
+            fh.write(obj)
+        else:
+            print("obj is not of type list or str")
+            exit(1)

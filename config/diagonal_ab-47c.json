@@ -1,1 +1,1 @@
-{"name": "diagonal_ab-47c", "train": ["./data/raw/63.jpg", "./data/raw/64.jpg"], "test": ["./data/raw/69.jpg", "./data/raw/72.jpg", "./data/raw/67.jpg"]}
+{"name": "diagonal_ab-47c", "train": ["./data/images/63.jpg", "./data/images/64.jpg"], "test": ["./data/images/69.jpg", "./data/images/72.jpg", "./data/images/67.jpg"]}

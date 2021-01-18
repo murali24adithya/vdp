@@ -1,1 +1,1 @@
-{"name": "2on1_bcd-a123", "train": ["./data/raw/1.jpg", "./data/raw/2.jpg", "./data/raw/7.jpg"], "test": ["./data/raw/3.jpg", "./data/raw/4.jpg", "./data/raw/5.jpg", "./data/raw/12.jpg"]}
+{"name": "2on1_bcd-a123", "train": ["./data/images/1.jpg", "./data/images/2.jpg", "./data/images/7.jpg"], "test": ["./data/images/3.jpg", "./data/images/4.jpg", "./data/images/5.jpg", "./data/images/12.jpg"]}

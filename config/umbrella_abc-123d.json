@@ -1,1 +1,1 @@
-{"name": "umbrella_abc-123d", "train": ["./data/raw/202.jpg", "./data/raw/203.jpg", "./data/raw/204.jpg"], "test": ["./data/raw/205.jpg", "./data/raw/206.jpg", "./data/raw/207.jpg", "./data/raw/208.jpg"]}
+{"name": "umbrella_abc-123d", "train": ["./data/images/202.jpg", "./data/images/203.jpg", "./data/images/204.jpg"], "test": ["./data/images/205.jpg", "./data/images/206.jpg", "./data/images/207.jpg", "./data/images/208.jpg"]}

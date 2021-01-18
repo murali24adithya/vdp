@@ -1,1 +1,1 @@
-{"name": "populatedbus_abd-1.22.2c", "train": ["./data/raw/122.jpg", "./data/raw/123.jpg", "./data/raw/131.jpg"], "test": ["./data/raw/130.jpg", "./data/raw/129.jpg", "./data/raw/132.jpg"]}
+{"name": "populatedbus_abd-1.22.2c", "train": ["./data/images/122.jpg", "./data/images/123.jpg", "./data/images/131.jpg"], "test": ["./data/images/130.jpg", "./data/images/129.jpg", "./data/images/132.jpg"]}

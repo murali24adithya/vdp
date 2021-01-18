@@ -1,1 +1,1 @@
-{"name": "personball_abc-1.12.2e", "train": ["./data/raw/110.jpg", "./data/raw/111.jpg", "./data/raw/112.jpg"], "test": ["./data/raw/113.jpg", "./data/raw/117.jpg", "./data/raw/116.jpg"]}
+{"name": "personball_abc-1.12.2e", "train": ["./data/images/110.jpg", "./data/images/111.jpg", "./data/images/112.jpg"], "test": ["./data/images/113.jpg", "./data/images/117.jpg", "./data/images/116.jpg"]}

@@ -1,1 +1,1 @@
-{"name": "sleeping_abd-1.32.2c", "train": ["./data/raw/168.jpg", "./data/raw/169.jpg", "./data/raw/178.jpg"], "test": ["./data/raw/177.jpg", "./data/raw/175.jpg", "./data/raw/179.jpg"]}
+{"name": "sleeping_abd-1.32.2c", "train": ["./data/images/168.jpg", "./data/images/169.jpg", "./data/images/178.jpg"], "test": ["./data/images/177.jpg", "./data/images/175.jpg", "./data/images/179.jpg"]}

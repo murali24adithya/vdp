@@ -1,1 +1,1 @@
-{"name": "pplandties_abc-1.22.1d", "train": ["./data/raw/134.jpg", "./data/raw/135.jpg", "./data/raw/136.jpg"], "test": ["./data/raw/142.jpg", "./data/raw/138.jpg", "./data/raw/139.jpg"]}
+{"name": "pplandties_abc-1.22.1d", "train": ["./data/images/134.jpg", "./data/images/135.jpg", "./data/images/136.jpg"], "test": ["./data/images/142.jpg", "./data/images/138.jpg", "./data/images/139.jpg"]}

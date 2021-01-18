@@ -1,1 +1,1 @@
-{"name": "kitchen_abd-1.22.2c", "train": ["./data/raw/86.jpg", "./data/raw/87.jpg", "./data/raw/96.jpg"], "test": ["./data/raw/94.jpg", "./data/raw/93.jpg", "./data/raw/97.jpg"]}
+{"name": "kitchen_abd-1.22.2c", "train": ["./data/images/86.jpg", "./data/images/87.jpg", "./data/images/96.jpg"], "test": ["./data/images/94.jpg", "./data/images/93.jpg", "./data/images/97.jpg"]}
