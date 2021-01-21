@@ -60,23 +60,23 @@ class SGGenerate(Pipe):
     def __call__(self, params):
         super().__call__(self)
         self.config = params
-        sg_processed_dir = os.path.join(self.sg_config.output_dir, os.path.basename(self.config.interim_path))
-        log_path = os.path.join(sg_processed_dir, "run.log")
-        os.makedirs(sg_processed_dir, exist_ok=True)
+        processed_path = os.path.join(self.sg_config.output_dir, os.path.basename(self.config.interim_path))
+        log_path = os.path.join(processed_path, "run.log")
+        os.makedirs(processed_path, exist_ok=True)
 
         # (self.config.interim_path)
         self.run_sg(input_path=self.config.interim_path,
-            output_path = sg_processed_dir,
+            output_path = processed_path,
             glove_path=self.sg_config.glove_path, 
             model_path=self.sg_config.model_path,
             log_path=log_path,
-            sg_tools_rel_path=self.sg_config.sg_tools_rel_path,
-            sg_config_path=self.sg_config.sg_config_path,
+            sg_tools_rel_path=self.sg_config.launch_script_path,
+            sg_config_path=self.sg_config.maskrcnn_config_path,
             cuda_device_port=self.sg_config.cuda_device_port,
             n_proc=self.sg_config.n_proc, 
             dry=self.config.dry)
         
-        self.config.sg_processed_dir = sg_processed_dir            
+        self.config.processed_path = processed_path            
 
         return self.config
 
@@ -100,7 +100,6 @@ class YOLOGenerate(Pipe):
         input_path = os.path.relpath(input_path, pth)
         output_path = os.path.relpath(output_path, pth)
         model_path = os.path.relpath(model_path, pth)
-        log_path = os.path.relpath(log_path, pth)
         parent_path = os.path.relpath(".", pth)
         
         os.chdir(pth)

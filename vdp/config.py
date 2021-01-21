@@ -16,6 +16,7 @@ class Config:
 @dataclass
 class SceneGraphConfig:
     """Class for keeping track of variables needed by scene graph detector"""
+    output_dir: str = './data/sg_processed'                                      # Path of pretrained model. defaults to {project dir}/darknet/yolov4.weights
     glove_path: str = './../checkpoints/glove'                                      # Path of GLOVE word vectors. defaults to {project dir}/../checkpoints/glove
     model_path: str = './../checkpoints/model'                                      # Path of pretrained model. If folder is empty, word embeddings will be downloaded to location. defaults to {project dir}/../checkpoints/model
     launch_script_path: str =    "./sg/tools/relation_test_net.py"                  # Path to `relation_test_net.py`. defaults to {project dir}/sg/
@@ -41,7 +42,7 @@ FOConfig = namedtuple("FOConfig", ['raw_img_dir', 'output_dir'])
 
 DEFAULT_SG_CONFIG = SceneGraphConfig()
 DEFAULT_YOLO_CONFIG = YOLOConfig()
-DEFUALT_YOLO_IR_CONFIG = dict(output_path='./data/yolo_ir')
+DEFAULT_YOLO_IR_CONFIG = dict(output_path='./data/yolo_ir')
 DEFAULT_SG_IR_CONFIG = dict(output_path='./data/sg_ir')
 
 
@@ -59,7 +60,7 @@ class InputConfig:
     fo_models: str = None
 
 
-DEFUALT_IR_CONFIG = FOConfig(**{
+DEFAULT_IR_CONFIG = FOConfig(**{
     "output_dir": "./data/sg_ir",
     "raw_img_dir": "./data/raw"
     })

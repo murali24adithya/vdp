@@ -87,12 +87,13 @@ class SGIR(Pipe):
     def __call__(self, params):
         super().__call__(self)
         self.config = params
+        fo_models = list()
         if not self.config.dry:
-            fo_models = self.get_sgg_fo_models(self.config.processed_path, self.config.raw_path)
+            fo_models = self.get_sgg_fo_models(sg_input_dir=self.config.processed_path, raw_img_dir=self.config.raw_path)
 
-        self.config.fo_models = list()
         if self.use_cache and (not self.config.dry):
-            for (img, model) in fo_models:
+            for (pth, model) in fo_models:
+                    img = os.path.basename(pth)
                     self.cache[img]['sg_ir'] = model
 
         self.config.fo_models = fo_models
@@ -101,30 +102,31 @@ class SGIR(Pipe):
 
     def __save__(self):
         images_processed = list()
-        for (img, model) in self.config.fo_models:
+        for (pth, model) in self.config.fo_models:
+            img = os.path.basename(pth)
             images_processed.append(img)
-            partition = 'train' if os.path.basename(img) in self.config.train else 'test'
+            partition = 'train' if img in list(map(os.path.basename, self.config.train)) else 'test'
             output_dir = os.path.join(self.output_path, self.config.name, partition)
             os.makedirs(output_dir, exist_ok=True)
-            _to_json(model, os.path.join(output_dir, os.path.basename(img)) + ".json")
+            _to_json(model, os.path.join(output_dir, img) + ".json")
 
-        all_images = map(lambda pth: os.path.basename(pth), self.config.train + self.config.test)
-        remaining_images = list(set(images_processed) - set(all_images)) if self.use_cache else []
+        all_images = list(map(os.path.basename, self.config.train + self.config.test))
+        remaining_images = list(set(all_images) - set(images_processed)) if self.use_cache else []
 
-        for img in remaining_images:
-            partition = 'train' if os.path.basename(img) in self.config.train else 'test'
+        for pth in remaining_images:
+            img = os.path.basename(pth)
+            partition = 'train' if img in list(map(os.path.basename, self.config.train)) else 'test'
             output_dir = os.path.join(self.output_path, self.config.name, partition)
             os.makedirs(output_dir, exist_ok=True)
             _to_json(self.cache[img]['sg_ir'] , os.path.join(output_dir, os.path.basename(img)) + ".json")
 
-        print(f"IR outputs written to @ `{os.path.dirname(output_dir)}`")
+        print(f"IR outputs written to @ `{self.output_path}`")
 
         if self.use_cache: 
             _to_pickle(self.cache, "./data/cache.pkl")
         else:
             os.makedirs("./data", exist_ok=True)
             _to_pickle(self.cache, "./data/temp.pkl")
-
 
 
 
@@ -147,13 +149,13 @@ class YOLOIR(Pipe):
         up    = rc['center_y'] + 0.5*  rc['height']
         right = rc['center_x'] + 0.5*  rc['width']
         down  = rc['center_y'] - 0.5 * rc['height']
-        return (left, up, right, down) # Following YOLO syntax
+        return [left, up, right, down] # Following YOLO syntax
 
     def relate(self, c1, c2):
         """Relate position of c1 w.r.t c2. `c1 is to the ___ of c2`"""
         x_rel = "right" if c1[0] >= c2[0] else "left"
         y_rel = "above" if c1[1] >= c2[1] else "below"
-        return (x_rel, y_rel)
+        return [x_rel, y_rel]
         
     def is_within(self, bb1, bb2):
         """Whether bb1 is within bb2."""
@@ -285,6 +287,6 @@ if __name__ == "__main__":
     obj2 = SGGenerate(config=DEFAULT_SG_CONFIG, use_cache=True)
     params2 = obj2.__call__(params)
     obj2.__save__()
-    obj3 = SGIR(config=DEFUALT_IR_CONFIG, use_cache=True)
+    obj3 = SGIR(config=DEFAULT_IR_CONFIG, use_cache=True)
     obj3.__call__(params2)
     obj3.__save__()

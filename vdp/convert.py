@@ -40,7 +40,7 @@ class SGConvert(Pipe):
     def __call__(self, params):
         # transfer all the "new" images into an interim folder.
         super().__call__(self)
-        self.config = InputConfig(**params)
+        self.config = Config(**params)
         imgs_to_run = self.filter_images(self.config)
         interim_path = self.make_sg_set(imgs_to_run)
         self.config.dry = len(os.listdir(interim_path)) == 0
